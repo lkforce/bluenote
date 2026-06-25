@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bud Powell · The Amazing Bud Powell Vol.2 BLP 1504 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f2ede4; --bg2: #e9e3d8; --ink: #1a1510;
+  --red: #8c2215; --red-lt: rgba(140,34,21,.1);
+  --gold: #b07c1a; --gold-lt: rgba(176,124,26,.1);
+  --slate: #2c4260; --slate-lt: rgba(44,66,96,.1);
+  --muted: #7a6f5e; --border: rgba(26,21,16,.14);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:13.5px;line-height:1.78}
+.hdr{background:linear-gradient(135deg,#1a1510 0%,#2d1a12 60%,#1f2a3c 100%);color:var(--bg);padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::before{content:'';position:absolute;top:-50%;right:-10%;width:55%;height:200%;background:radial-gradient(ellipse,rgba(140,34,21,.18) 0%,transparent 70%);pointer-events:none}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold),var(--slate))}
+.hdr-in{max-width:900px;margin:0 auto;position:relative}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(176,124,26,.5);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(22px,5vw,42px);font-weight:700;line-height:1.05;color:#fff;margin-bottom:.3rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(242,237,228,.5);font-size:clamp(13px,2.2vw,17px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(242,237,228,.4)}
+.meta span::before{content:'· ';color:var(--gold)}
+.nav{background:var(--bg2);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:900px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.65rem .95rem;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.04em;color:var(--muted);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;transition:color .18s,border-color .18s}
+.nb:hover{color:var(--ink)}
+.nb.on{color:var(--red);border-bottom-color:var(--red)}
+.main{max-width:900px;margin:0 auto;padding:2rem 1.4rem 4rem}
+.sec{display:none;animation:fi .27s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.4rem;padding-bottom:.9rem;border-bottom:1px solid var(--border)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--gold)}
+.st{font-family:'Playfair Display',serif;font-size:19px;color:var(--ink)}
+.p{margin-bottom:.85rem}.p:last-child{margin-bottom:0}
+b,strong{font-weight:500}
+.hl{border-left:3px solid var(--slate);padding:.8rem 1.1rem;background:var(--slate-lt);margin:.9rem 0;border-radius:0 2px 2px 0;font-size:13px;line-height:1.78}
+.hl p{margin-bottom:.5rem}.hl p:last-child{margin-bottom:0}
+.qt{border-left:3px solid var(--red);padding:.8rem 1.1rem;background:var(--red-lt);margin:.9rem 0;border-radius:0 2px 2px 0}
+.qt p{font-size:13px;line-height:1.78;font-style:italic;color:#4a3020}
+.src{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);margin-top:.4rem;font-style:normal}
+.warn{border-left:3px solid var(--gold);padding:.8rem 1.1rem;background:var(--gold-lt);margin:.9rem 0;border-radius:0 2px 2px 0;font-size:13px;line-height:1.75}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:11px;margin:.4rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:.9rem 1rem;position:relative}
+.card::before{content:'';position:absolute;top:0;left:0;width:2px;height:100%}
+.card.red::before{background:var(--red)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--slate)}
+.cn{font-weight:500;font-size:13px;margin-bottom:2px}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--red);letter-spacing:.07em;margin-bottom:7px}
+.cb{font-size:12px;line-height:1.65;color:var(--muted)}
+.ib{border:1px solid var(--border);border-radius:2px;overflow:hidden;margin-bottom:.75rem}
+.ih{display:flex;align-items:center;gap:10px;padding:.65rem 1rem;background:var(--bg2);border-bottom:1px solid var(--border)}
+.ii{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0}
+.iname{font-weight:500;font-size:13px}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.06em}
+.ibody{padding:.85rem 1rem;font-size:13px;line-height:1.78}
+.tg{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:11px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:.9rem 1rem}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:5px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:14px;color:var(--ink)}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--muted)}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--slate);letter-spacing:.06em;margin-bottom:6px}
+.tdesc{font-size:12px;line-height:1.65;color:var(--muted)}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:11px}
+.pc{border:1px solid var(--border);border-radius:2px;overflow:hidden}
+.ph{padding:.55rem 1rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:500}
+.pbody{padding:.85rem 1rem;background:var(--bg2)}
+.pbody p{font-size:12px;line-height:1.72;margin-bottom:.45rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:500;color:var(--ink)}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.1rem;margin-bottom:.9rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--gold);min-width:42px;padding-top:2px;font-weight:500}
+.tlb{font-size:13px;line-height:1.72}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:1.1rem 1.3rem;margin-bottom:.85rem}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--red);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.6rem}
+.lnb{font-size:13px;line-height:1.82}
+.rv{border:1px solid var(--border);border-radius:2px;padding:.8rem 1rem;margin-bottom:.65rem}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.05em;margin-bottom:4px}
+.rvb{font-size:12.5px;line-height:1.72;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:1rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:.8rem 1rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--slate);letter-spacing:.08em;margin-bottom:5px}
+.pos-title{font-weight:500;font-size:12.5px;color:var(--ink);margin-bottom:4px}
+.pos-desc{font-size:11.5px;line-height:1.62;color:var(--muted)}
+@media(max-width:520px){.hdr{padding:2rem 1rem 1.8rem}.main{padding:1.4rem .9rem 2.5rem}.pg,.cg{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="tag">Blue Note · BLP 1504 · 1956</div>
+    <h1 class="title">Bud Powell — The Amazing Bud Powell, Vol. 2</h1>
+    <div class="sub">"Glass Enclosure" — 천재의 정신 속으로의 여행</div>
+    <div class="meta">
+      <span>1953.8.14 녹음 (+1949·1951 보충 트랙)</span>
+      <span>WOR Studios, New York</span>
+      <span>Producer: Alfred Lion</span>
+      <span>Bass: George Duvivier · Drums: Art Taylor</span>
+    </div>
+  </div>
+</header>
+
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<!-- 01 -->
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+
+  <p class="p">BLP 1504는 1953년 8월 14일 단 하루의 트리오 세션을 중심으로 구성된 앨범으로, 더 재즈 톰(The Jazz Tome)이 인용하는 비평가들의 평가에 따르면 <strong>"이 사이드들은 파월이 평생 녹음한 것 중 최고의 작품들로 평가받는다."</strong> 1953년이라는 시점은 파월의 경력에서 정신적·신체적 위기가 가장 깊어가던 때였지만, 동시에 음악적으로는 가장 완성된 형태의 결과물을 낳은 역설적인 시기였다.</p>
+
+  <div class="hl">
+    <p><strong>"Glass Enclosure"는 비밥 피아노가 작곡으로서 도달한 가장 높은 지점 중 하나로 꼽힌다.</strong> 라이너 노트가 직접 설명하듯, 이 곡은 사전에 작곡된 4악장 구조를 가진 작품이다 — 장엄한(maestoso) 첫 악장, 두 개의 10마디 프레이즈로 이루어진 스윙하는 단편, 인상적인 보우드 베이스(bowed-bass) 선율이 흐르는 사색적인 악장, 그리고 첫 악장을 상기시키는 마무리. 이는 즉흥연주자로서의 파월과 작곡가로서의 파월이 가장 정교하게 결합된 사례로 평가된다.</p>
+  </div>
+
+  <p class="p">아마존 리뷰어가 강조하듯, 이 앨범에서 파월의 피아노는 "유럽 클래식과 라틴/스페인 스타일 사이의 핵심적인 중간 지점을 찾아내며, 두 음악적 스타일 모두에 내재된 악기적 정밀함의 핵심을 발견한다." 이는 파월이 단순한 비밥 연주자가 아니라, 서로 다른 음악 전통을 자신의 언어로 통합할 수 있는 작곡가적 종합력을 지녔음을 보여준다.</p>
+
+  <p class="p">더 재즈 톰이 인용하는 원본 라이너 노트는 이 앨범 전체를 "버드 파월의 마음을 통과하는 여정에서 거두어들인 수확물"로 묘사하며, "아름다움과 어둠, 기쁨과 슬픔이 그 길을 따라 모여 있다 — 이 마음은 천재의 광채로 가득하지만 동시에 질병과 결핍에 시달리는 낯선 땅이기 때문"이라고 적었다. 이는 음악 자체의 완성도뿐 아니라, 그 완성도가 만들어진 인간적 배경까지 함께 응시하는 드문 라이너 노트다.</p>
+</section>
+
+<!-- 02 -->
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 버드 파월 — 생애 및 약력</h2></div>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1924</span><span class="tlb"><strong>출생.</strong> 얼 루돌프 "버드" 파월, 9월 27일 뉴욕 할렘 출생.</span></li>
+    <li class="tli"><span class="tly">1945</span><span class="tlb">경찰의 두부 구타로 평생 지속될 정신 질환의 씨앗이 됨.</span></li>
+    <li class="tli"><span class="tly">1947</span><span class="tlb">전기충격치료(ECT) 수행. 라이너 노트가 직접 언급하듯 "52번가에서의 사교적인 몇 달과 병원에서의 외로운 몇 달이 교차하는 불규칙한 경력"이 시작된다.</span></li>
+    <li class="tli"><span class="tly">1949–51</span><span class="tlb">BLP 1503에 수록된 두 세션 녹음(페이츠 나바로·소니 롤린스와의 퀸텟, 맥스 로치와의 트리오 — "Un Poco Loco" 탄생).</span></li>
+    <li class="tli"><span class="tly">1953.8.14</span><span class="tlb"><strong>BLP 1504의 핵심 세션 녹음.</strong> 조지 듀비비에·아트 테일러와의 트리오. 단 하루 동안 최소 27곡 이상을 녹음했다는 증거가 있으며("Kind of Powell" 박스셋 라이너에 따름), 이 중 일부는 현재까지 디스코그래피에 등재되지 않은 상태다. "Glass Enclosure", "I Want to Be Happy" 등 파월 최고작들이 이날 탄생했다.</span></li>
+    <li class="tli"><span class="tly">1954</span><span class="tlb">10인치 LP 《The Amazing Bud Powell, Vol.2》(BLP 5041)로 8곡 첫 발매. 같은 해 "I Want to Be Happy c/w The Glass Enclosure"(BN 1628), "Sure Thing c/w Collard Greens and Black-Eye Peas"(BN 1629) 78회전 싱글로도 발매.</span></li>
+    <li class="tli"><span class="tly">1955</span><span class="tlb">블루노트가 10인치 포맷 폐기.</span></li>
+    <li class="tli"><span class="tly">1956</span><span class="tlb"><strong>BLP 1504(12인치) 발매.</strong> 1949·1951년 세션의 알터네이트 마스터("Ornithology", "It Could Happen to You", "Over the Rainbow", "You Go to My Head")를 추가하여 BLP 1503과 짝을 이루는 형태로 재구성.</span></li>
+    <li class="tli"><span class="tly">1957–58</span><span class="tlb">BLP 1571(Vol.3 "Bud!"), BLP 1598(Vol.4 "Time Waits") 발매. 미국에서의 마지막 전성기 지속.</span></li>
+    <li class="tli"><span class="tly">1959</span><span class="tlb">파리로 이주. 비운의 재즈 뮤지션 생활.</span></li>
+    <li class="tli"><span class="tly">1966</span><span class="tlb"><strong>사망.</strong> 7월 31일 결핵·영양실조 합병증으로 41세에 사망.</span></li>
+  </ul>
+
+  <div class="qt">
+    <p>"이 표지들 사이에는 버드 파월의 마음을 통과하는 여정의 수확물이 담겨 있다. 아름다움과 어둠, 기쁨과 슬픔이 그 길을 따라 모일 것이다 — 이 마음은 천재의 광채로 가득하지만 동시에 질병과 결핍에 시달리는 낯선 땅이기 때문이다." — 오리지널 라이너 노트</p>
+    <div class="src">— The Amazing Bud Powell, Vol. 2 (BLP 1504) 라이너 노트</div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>1953년 8월 14일 세션</strong> (앨범의 핵심)</div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Bud Powell</div>
+      <div class="cr">PIANO · LEADER</div>
+      <div class="cb">29세. 정신적 위기 속에서도 음악적으로 가장 완성된 형태의 작품들을 쏟아낸 시기.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">George Duvivier</div>
+      <div class="cr">BASS · 1920–1985</div>
+      <div class="cb">다작의 세션 베이시스트로 1950~60년대 재즈계 최정상급 연주자들을 두루 뒷받침했다. "Glass Enclosure"의 작곡 과정에 직접 참여하여 파월의 아이디어를 악보로 정리하는 역할을 맡았다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Art Taylor</div>
+      <div class="cr">DRUMS · 1929–1995</div>
+      <div class="cb">1950~60년대 최고의 하드밥 세션 드러머 중 한 명. 듀비비에와 함께 "파월의 모든 음을 예견하는 듀오"로 평가받았다.</div>
+    </div>
+  </div>
+
+  <p class="p" style="font-size:12px;color:var(--muted);margin-top:.8rem"><strong>보충 트랙 (1949·1951년 세션의 알터네이트 마스터)</strong> — BLP 1503과 같은 멤버: 페이츠 나바로(트럼펫)·소니 롤린스(테너)·토미 포터(베이스)·로이 헤인즈(드럼) [1949], 맥스 로치(드럼) [1951].</p>
+
+  <div class="hl" style="margin-top:.6rem">
+    <p>아마존 리뷰가 강조하듯, 듀비비에와 테일러는 "둘 다 50~60년대 가장 큰 이름들을 뒷받침한 다작의 세션 뮤지션들로, 위대한 리듬 섹션이 어떻게 들려야 하는지를 그 자체로 보여주는 연구 사례다." 그들은 "버드의 모든 음을 예견하는 듯한" 견고함을 보여주었다.</p>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--red-lt);color:var(--red)">🎹</div>
+      <div><div class="iname">피아노 — Bud Powell</div><div class="ipl" style="color:var(--red)">오케스트랄한 복잡성의 정점</div></div>
+    </div>
+    <div class="ibody">
+      아마존 리뷰가 분석하듯, "Autumn in New York", "Reets and I", "Sure Thing", "Polka Dots and Moonbeams"에서 파월의 연주는 "화성적 멜로디시즘의 물결이 마치 악기적 화산처럼 분출하는 매우 복잡한 오케스트랄 스타일"을 취한다. "I Want to Be Happy"와 "Audrey"에서는 트리오가 "조금 더 강하게 스윙하고 조금 더 경쾌하게 연주"한다. 이 앨범 전체에서 파월의 피아노는 유럽 클래식 음악의 화성적 정교함과 라틴/스페인 음악의 리드믹 감각 사이의 핵심적 중간 지점을 찾아낸다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--gold)">🎸</div>
+      <div><div class="iname">베이스 — George Duvivier</div><div class="ipl" style="color:var(--gold)">작곡 파트너로서의 베이시스트</div></div>
+    </div>
+    <div class="ibody">
+      듀비비에의 역할은 단순한 리듬 지지를 넘어선다. 라이너 노트가 상세히 기록하듯, "Glass Enclosure"의 작곡 과정에서 듀비비에는 파월이 며칠에 걸쳐 발전시킨 아이디어를 직접 악보로 받아 적는 역할을 했다 — "며칠 후 그는 더 발전된 아이디어를 들었고, 다음번에는 파월이 패턴을 완성한 상태였으며 듀비비에가 그 부분들을 글로 정리했다." 또한 "Glass Enclosure"의 세 번째 악장에서 그의 보우드 베이스(활로 연주하는 베이스)가 "인상적인 언더라인"을 형성하며 곡 전체의 사색적인 분위기를 이끈다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--slate-lt);color:var(--slate)">🥁</div>
+      <div><div class="iname">드럼 — Art Taylor</div><div class="ipl" style="color:var(--slate)">견고한 동반자</div></div>
+    </div>
+    <div class="ibody">
+      아트 테일러의 드러밍은 화려한 자기 주장보다 파월의 복잡한 즉흥을 충실히 떠받치는 데 집중한다. 오스카 페티포드의 "Collard Greens and Black-Eye Peas"(블루스 인 더 클로젯으로도 알려짐)에서는 파월·듀비비에와 함께 스윙하는 애드립 블루스를 펼치며, 견고하고 안정적인 타임키핑으로 트리오의 균형을 맞춘다.
+    </div>
+  </div>
+</section>
+
+<!-- 05 -->
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+
+  <p class="p"><strong>비밥과 클래식 작곡 어법의 종합:</strong> "Glass Enclosure"가 보여주는 4악장 구조는 비밥 즉흥연주의 전형적 형식(테마-즉흥-테마)을 넘어, 클래식 음악의 다악장 구성 원리를 흡수한 사례다. 아마존 리뷰가 정확히 짚어내듯, 파월은 "유럽 클래식과 라틴/스페인 스타일 사이의 핵심적인 중간 지점"을 발견하며 두 전통 모두에 내재된 정밀함을 결합한다.</p>
+
+  <div class="hl">
+    <p><strong>오스카 페티포드의 하드밥 블루스:</strong> "Collard Greens and Black-Eye Peas"(블루스 인 더 클로젯)는 베니 해리스, 오스카 페티포드 등 동시대 작곡가들의 곡을 파월의 트리오가 재해석하는 방식을 보여준다. 더 재즈 톰의 평가처럼 이는 "스윙하는 애드립 블루스"로, 비밥의 화성적 복잡성과 블루스의 직접성이 공존하는 사례다.</p>
+  </div>
+
+  <p class="p"><strong>발라드 해석의 두 가지 방식:</strong> "Over the Rainbow"와 "You Go to My Head"는 비슷한 양식을 따르는 발라드 해석으로, "Audrey"는 까다롭게 구성된 12마디 오리지널로 대조를 이룬다. 또한 "Ornithology"는 BLP 1503에 수록된 같은 곡의 즉흥과 "largely different"한, 더 길고 느린 테이크로 수록되어 같은 코드 진행 위에서 전혀 다른 즉흥이 가능함을 보여주는 흥미로운 대조를 형성한다.</p>
+</section>
+
+<!-- 06 -->
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 장르적 특색</h2></div>
+  <p style="font-size:11px;color:var(--muted);margin-bottom:1rem;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">표기 없으면 1953년 트리오 세션 · * 표시는 1949/51년 세션 알터네이트 마스터</p>
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Reets and I</span><span class="ttime">A-1 · 3:21</span></div>
+      <div class="ttag">버드 파월 오리지널 · 오케스트랄 비밥</div>
+      <div class="tdesc">앨범 오프너. 화성적 멜로디시즘이 "악기적 화산처럼 분출"하는 복잡한 스타일로 트리오 세션의 수준을 즉시 드러낸다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Autumn in New York</span><span class="ttime">A-2 · 2:54</span></div>
+      <div class="ttag">버논 듀크 작곡 · 발라드</div>
+      <div class="tdesc">클래식 스탠다드의 재해석. 파월의 화성적 정교함이 가장 풍부하게 드러나는 발라드 트랙 중 하나.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">I Want to Be Happy</span><span class="ttime">A-3 · 2:51</span></div>
+      <div class="ttag">빈센트 유먼스 작곡 · 78회전 싱글 발매곡</div>
+      <div class="tdesc">"Glass Enclosure"와 짝을 이뤄 1954년 78회전 싱글(BN 1628)로 먼저 발매된 곡. 트리오가 "조금 더 강하게 스윙하고 조금 더 경쾌하게" 연주하는 곡으로 꼽힌다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">It Could Happen to You</span><span class="ttime">A-4 · 3:13</span></div>
+      <div class="ttag">반 휴센/버크 작곡</div>
+      <div class="tdesc">1953년 트리오 버전. BLP 1503의 솔로 버전과 대비되는 트리오 편성의 해석.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Sure Thing</span><span class="ttime">A-5 · 2:41</span></div>
+      <div class="ttag">제롬 컨 작곡 · 78회전 싱글 발매곡</div>
+      <div class="tdesc">"Collard Greens and Black-Eye Peas"와 짝을 이뤄 1954년 싱글(BN 1629)로 발매. 오케스트랄한 화성적 복잡성이 두드러진다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Polka Dots and Moonbeams</span><span class="ttime">A-6 · 4:03</span></div>
+      <div class="ttag">반 휴센/버크 작곡 · 발라드</div>
+      <div class="tdesc">아마존 리뷰가 "악기적 화산처럼 분출하는 화성적 물결"의 사례로 꼽은 트랙 중 하나. A면을 마무리하는 깊이 있는 발라드.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Glass Enclosure</span><span class="ttime">B-1 · 2:22 · 앨범의 정점</span></div>
+      <div class="ttag">버드 파월 오리지널 · 4악장 구조 작곡</div>
+      <div class="tdesc">라이너 노트: "거의 4악장으로 구성되어 있다 — 다소 장엄한 첫 악장, 두 개의 10마디 프레이즈로 이루어진 스윙하는 단편, 인상적인 보우드 베이스 언더라인이 흐르는 사색적이면서도 유려한 악장, 그리고 첫 악장을 상기시키는 마무리." 아마존 리뷰: "멜로디적으로도 화성적으로도… 그냥 명백히 훌륭하다."</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Collard Greens and Black-Eye Peas</span><span class="ttime">B-2 · 3:03</span></div>
+      <div class="ttag">오스카 페티포드 작곡 (a.k.a. Blues in the Closet) · 블루스</div>
+      <div class="tdesc">라이너 노트: "스윙하는 애드립 블루스로 버드, 듀비비에, 드러머 아트 테일러 모두가 피처링된다." 오스카 페티포드가 작곡한 블루스를 파월 트리오가 재해석.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Over the Rainbow</span><span class="ttime">B-3 · 2:57</span></div>
+      <div class="ttag">해롤드 알렌 작곡 · 발라드</div>
+      <div class="tdesc">라이너 노트: "다른 발라드들과 유사한 패턴을 따른다." BLP 1503의 솔로 버전과 비교 청취가 가능한 트리오 해석.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Audrey</span><span class="ttime">B-4 · 2:56</span></div>
+      <div class="ttag">버드 파월 오리지널 · 12마디 구조</div>
+      <div class="tdesc">라이너 노트: "까다롭게 구성된 12마디 오리지널." 블루스 형식을 변형한 파월 특유의 구조적 실험.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">You Go to My Head</span><span class="ttime">B-5 · 3:15</span></div>
+      <div class="ttag">길레스피/쿠츠 작곡 · 발라드</div>
+      <div class="tdesc">다른 발라드들과 유사한 패턴의 해석. 트리오의 섬세한 다이나믹이 돋보인다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Ornithology (Alternate Master)</span><span class="ttime">B-6 *</span></div>
+      <div class="ttag">찰리 파커/벤 해리스 작곡 · 1949년 퀸텟</div>
+      <div class="tdesc">라이너 노트: "더 길고 느린 테이크로, BLP 1503에서의 이 코드 진행 주변의 largely 다른 즉흥과 가장 흥미로운 대조를 제공한다." 같은 곡, 다른 순간의 파월을 비교할 수 있는 귀한 기회.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 -->
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+
+  <div class="hl">
+    <p><strong>BLP 1503과 짝을 이루는 "분할된 형제 앨범".</strong> 1949·1951·1953년 세 세션의 자료를 BLP 1503과 1504가 나누어 담고 있어, 두 앨범을 모두 들어야 파월의 초기 블루노트 작업 전체를 이해할 수 있다. 그러나 BLP 1504의 핵심은 명백히 1953년 8월 14일 세션이며, 이는 비평가들로부터 "파월이 평생 녹음한 것 중 최고작들"로 평가받는다.</p>
+  </div>
+
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">BLP 1503</div>
+      <div class="pos-title">The Amazing Bud Powell, Vol.1 (1955)</div>
+      <div class="pos-desc">1949·1951년 세션 중심. "Un Poco Loco" 수록.</div>
+    </div>
+    <div class="pos-card" style="border:1.5px solid var(--red)">
+      <div class="pos-label" style="color:var(--red)">BLP 1504 ← 현재 앨범</div>
+      <div class="pos-title" style="color:var(--red)">The Amazing Bud Powell, Vol.2 (1956)</div>
+      <div class="pos-desc">1953년 트리오 세션 중심. "Glass Enclosure" 수록.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">선행 10인치</div>
+      <div class="pos-title">BLP 5041 (Vol.2, 1954)</div>
+      <div class="pos-desc">1953년 세션 8곡만 수록된 원본 10인치 발매.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">이후 시리즈</div>
+      <div class="pos-title">BLP 1571 / 1598</div>
+      <div class="pos-desc">Vol.3 "Bud!"(1957), Vol.4 "Time Waits"(1958)로 시리즈 지속.</div>
+    </div>
+  </div>
+
+  <p class="p">위키피디아가 설명하듯, 1989년 CD 재발매는 두 앨범을 세션 시간순으로 재배치하여 1951년 트랙 5곡을 Vol.2로 옮겼으며, 2001년 RVG 에디션은 반대로 1949·51년 두 세션을 Vol.1에, 1953년 세션을 Vol.2에 배치하여 원래의 10인치 발매 구조를 거울처럼 복원했다. 이는 같은 자료를 어떻게 편집하느냐에 따라 청취 경험이 달라지는 흥미로운 사례다.</p>
+</section>
+
+<!-- 08 -->
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치</h2></div>
+
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--ink);color:var(--bg)">🇺🇸 미국 오리지널반 (BLP 1504)</div>
+      <div class="pbody">
+        <p><span class="pl">1st 프레싱 식별:</span> 딥 그루브 블루/화이트 레이블, "767 Lexington Ave." 주소. RVG 각인 및 플라스틸라이트 마크.</p>
+        <p><span class="pl">사운드:</span> 1953년 WOR 스튜디오 트리오 세션 특유의 친밀하고 직접적인 사운드. "Glass Enclosure"의 다이나믹 레인지를 오리지널 압반에서 가장 풍부하게 느낄 수 있다는 평가.</p>
+        <p><span class="pl">시장가격:</span> BLP 1503과 비슷하거나 약간 낮은 수준. VG+ : $280–$650. "Glass Enclosure"의 음악사적 명성으로 컬렉터 수요는 꾸준하다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:#1e3a5f;color:#fff">🇯🇵 킹 레코드 (King Records)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 시기:</span> 1970년대 GXF/GXK 시리즈를 통한 재발매.</p>
+        <p><span class="pl">사운드:</span> 다이나믹하고 생동감 있는 컷팅. 1953년 트리오 세션의 친밀한 질감이 잘 보존된다.</p>
+        <p><span class="pl">시장가격:</span> VG+~M : $65–$150.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--red);color:#fff">🇯🇵 도시바 EMI (Toshiba EMI)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 시기:</span> 1983년 BLP 1500 시리즈 재발매. 일본어 라이너 노트와 OBI 포함 — 1983년판은 모노로 재발매되었으며, 일본 시장에서 BLP 1503과 함께 세트로 수집되는 경우가 많다.</p>
+        <p><span class="pl">사운드:</span> 조용한 바닥 소음. "Glass Enclosure"의 보우드 베이스 톤이 명료하게 재현된다.</p>
+        <p><span class="pl">시장가격:</span> VG+~M : $40–$100.</p>
+      </div>
+    </div>
+  </div>
+
+  <p style="font-size:11px;color:var(--muted);margin-top:.6rem;font-family:'IBM Plex Mono',monospace">* 1971년 BST 81504(의사 스테레오), 2001년 RVG Edition CD(반 겔더 리마스터링), 2014년 모자이크 셀렉트 박스셋 《Kind of Powell》(10disc, Disc 7에 수록)도 존재. RVG 에디션은 "1953년 기술로 만들어진 녹음을 현대적 사운드로 만들면서도 오리지널의 본질을 그대로 유지했다"는 평가를 받는다.</p>
+</section>
+
+<!-- 09 -->
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 (상세 정리)</h2></div>
+
+  <div class="hl" style="margin-bottom:1.1rem">
+    <p>이 앨범의 라이너 노트는 더 재즈 톰(The Jazz Tome)을 통해 비교적 상세히 확인 가능하며, 파월의 인간적 고뇌와 음악적 성취를 동시에 응시하는 드문 텍스트로 평가된다.</p>
+  </div>
+
+  <div class="ln">
+    <div class="lns">서두 — "마음을 통과하는 여정"</div>
+    <div class="lnb">
+      라이너는 이렇게 시작한다: <em>"이 표지들 사이에는 버드 파월의 마음을 통과하는 여정의 수확물이 담겨 있다. 그것은 아름다움과 어둠, 기쁨과 슬픔이 그 길을 따라 모이는 여정이다. 왜냐하면 이 마음은 천재의 광채로 가득하면서도 동시에 질병과 결핍에 시달리는 낯선 땅이기 때문이다. 버드 파월의 경력은 불규칙한 것이었다 — 52번가에서의 사교적인 몇 달이 병원에서의 외로운 몇 달과 교차해왔다."</em> 이는 단순한 음반 소개를 넘어, 한 예술가의 인간적 조건을 정직하게 마주하는 드문 라이너 노트의 사례다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">"Glass Enclosure"의 작곡 과정 — 가장 상세한 기록</div>
+    <div class="lnb">
+      라이너 노트는 이 곡이 어떻게 탄생했는지를 구체적으로 서술한다: <em>"며칠 후 그는 [듀비비에가] 그 아이디어가 더 발전된 것을 들었다. 그다음 번에는 파월이 그 패턴을 완성한 상태였고, 듀비비에가 그 부분들을 글로 적어 정리했다."</em> 이어 곡의 구조를 직접 분석한다: <em>"Glass Enclosure는 거의 4악장으로 구성되어 있다 — 첫 악장은 다소 장엄하고(maestoso), 다음은 두 개의 10마디 프레이즈로 이루어진 스윙하는 단편이며, 그다음은 인상적인 보우드 베이스 언더라인이 흐르는 사색적이면서도 유려한 악장이고, 마지막은 첫 악장을 상기시키는 마무리다."</em> 이 정도의 구체적인 작곡 분석은 1950년대 재즈 라이너 노트에서 매우 이례적이다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">나머지 트랙들에 대한 간결한 해설</div>
+    <div class="lnb">
+      라이너는 "오스카 페티포드의 Collard Greens and Black-Eye Peas는 버드, 듀비비에, 드러머 아트 테일러 모두가 피처링되는 스윙하는 애드립 블루스"라고 설명하며, "Over the Rainbow와 You Go to My Head는 다른 발라드들과 유사한 패턴을 따른다"고 간결하게 짚는다. "Audrey는 까다롭게 구성된 12마디 오리지널"이라는 짧은 설명이 덧붙는다. 마지막으로 "Ornithology는 더 길고 느린 테이크를 제공하며, BLP 1503에서의 이 코드 진행 주변의 largely 다른 즉흥과 가장 흥미로운 대조를 이룬다"고 마무리한다.
+    </div>
+  </div>
+
+  <div class="rv">
+    <div class="rvsrc">THE JAZZ TOME — 비평가 평가 종합</div>
+    <div class="rvb">"1953년에 녹음된 이 사이드들은 비평가들에 의해 파월이 평생 녹음한 것 중 최고작들로 평가받는다. 이 LP는 앞으로도 오랫동안 '필수' 인벤토리 항목이 될 것이다."</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">AMAZON 리뷰어 (RVG Edition에 대해)</div>
+    <div class="rvb">"사람들은 파월에게 좋은 시기와 쇠퇴기가 있었다고 말하지만, 나는 그것을 믿지 않는다. 설령 그것이 사실이라 해도, 이 앨범은 분명 '좋은' 시기에 포함되어야 할 것이다."</div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 에피소드</h2></div>
+
+  <p class="p"><strong>27곡 이상의 미지의 세션:</strong> 모자이크 셀렉트 박스셋 《Kind of Powell》의 라이너에 따르면, 1953년 8월 14일 단 하루의 세션에서 최소 27곡 이상이 녹음되었다는 증거가 존재한다. 그러나 같은 자료는 그중 사라진 곡들의 행방을 설명하지 못한다. 이는 파월의 창작력이 단 하루 만에 얼마나 폭발적으로 발산되었는지를 보여주는 동시에, 블루노트 아카이브에 여전히 미발굴된 보물이 남아 있을 가능성을 암시하는 흥미로운 미스터리다.</p>
+
+  <div class="hl">
+    <p><strong>작곡과 즉흥의 경계에서 — 며칠에 걸친 창작:</strong> 라이너 노트가 기록한 "Glass Enclosure"의 작곡 과정은 매우 드문 증언이다 — 파월이 단번에 완성한 것이 아니라, 며칠에 걸쳐 아이디어를 발전시키며 조지 듀비비에가 그 과정을 직접 옆에서 지켜보고 악보로 받아 적었다는 것이다. 이는 파월이 "천재적 즉흥연주자"라는 신화적 이미지를 넘어, 신중하고 점진적인 작곡 과정을 거치는 진지한 작곡가였음을 증언하는 귀중한 기록이다.</p>
+  </div>
+
+  <p class="p"><strong>두 장의 78회전 싱글:</strong> 이 세션에서 녹음된 곡들 중 절반이 1954년 두 장의 78회전 싱글로 먼저 발매되었다 — "I Want to Be Happy c/w The Glass Enclosure"(BN 1628)와 "Sure Thing c/w Collard Greens and Black-Eye Peas"(BN 1629). 흥미롭게도 "Glass Enclosure"라는 걸작이 발라드 "I Want to Be Happy"의 B면으로 발매되었다는 사실은, 당시에는 이 곡의 후대 평가를 예견하지 못했음을 보여준다.</p>
+
+  <p class="p"><strong>"Ornithology"의 두 얼굴:</strong> BLP 1503에 수록된 1949년 버전과 BLP 1504에 수록된 알터네이트 마스터는 같은 코드 진행 위에서 "largely 다른" 즉흥을 보여준다. 라이너 노트가 직접 이 대조를 "가장 흥미로운" 것으로 짚었다는 점은, 블루노트가 단순히 곡을 채우기 위해서가 아니라 의도적으로 비교 청취의 가치를 고려하여 트랙을 배치했음을 시사한다.</p>
+</section>
+
+<!-- 11 -->
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+
+  <p class="p"><strong>"Glass Enclosure"에 대한 특별한 경의:</strong> 한국 재즈 애호가 커뮤니티에서 이 곡은 종종 "재즈가 클래식 작곡 어법에 가장 가까이 다가간 순간"으로 소개된다. 4악장 구조라는 설명을 접한 청취자들은 단순한 즉흥 트랙을 기대했다가, 치밀하게 설계된 작품을 만나는 경험을 하게 된다는 후기가 많다.</p>
+
+  <div class="hl">
+    <p><strong>"비운의 천재"라는 서사의 정점:</strong> 라이너 노트의 "천재의 광채로 가득하지만 동시에 질병과 결핍에 시달리는 낯선 땅"이라는 표현은 한국 재즈 칼럼에서도 종종 인용된다. 음악적 완성도와 인간적 비극이 가장 첨예하게 교차하는 지점으로, 파월 입문자들에게 BLP 1503과 함께 가장 먼저 추천되는 앨범 중 하나다.</p>
+  </div>
+
+  <p class="p"><strong>BLP 1503과의 비교 감상:</strong> 국내 재즈 모임에서는 BLP 1503의 "Un Poco Loco"와 BLP 1504의 "Glass Enclosure"를 나란히 놓고 비교하는 감상법이 인기를 끈다 — 전자가 즉흥적·리드믹한 혁신이라면 후자는 사전 설계된 작곡적 정교함이라는 대조가 파월의 음악적 폭을 잘 보여준다는 평가다.</p>
+
+  <p class="p"><strong>수집 관점:</strong> 미국 오리지널반은 가격 부담이 있어, 국내 컬렉터들은 1970~80년대 일본 킹 레코드 또는 도시바 EMI 재발매반을 현실적 대안으로 선택한다. 2001년 RVG 에디션 CD는 음질 면에서 특히 좋은 평가를 받아, "Glass Enclosure"의 미묘한 다이나믹을 제대로 감상하고자 하는 국내 애호가들에게 추천된다.</p>
+
+  <p class="p"><strong>재즈 작곡 교육 자료로서의 가치:</strong> 국내 재즈 작곡·편곡 강의에서 "Glass Enclosure"는 종종 "비밥 시대에 이미 멀티 섹션 구조의 작곡이 가능했음을 보여주는 사례"로 분석 대상이 된다. 라이너 노트에 기록된 작곡 과정(며칠에 걸친 발전과 듀비비에의 악보화)은 재즈 창작 방법론을 가르치는 데도 유용한 사료로 활용된다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>

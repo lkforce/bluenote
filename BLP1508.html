@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art Blakey · A Night at Birdland Vol.2 BLP 1508 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f2ede4; --bg2: #e9e3d8; --ink: #1a1510;
+  --red: #8c2215; --red-lt: rgba(140,34,21,.1);
+  --gold: #b07c1a; --gold-lt: rgba(176,124,26,.1);
+  --slate: #2c4260; --slate-lt: rgba(44,66,96,.1);
+  --muted: #7a6f5e; --border: rgba(26,21,16,.14);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:13.5px;line-height:1.78}
+.hdr{background:linear-gradient(135deg,#1a1510 0%,#2d1a12 60%,#1f2a3c 100%);color:var(--bg);padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::before{content:'';position:absolute;top:-50%;right:-10%;width:55%;height:200%;background:radial-gradient(ellipse,rgba(140,34,21,.18) 0%,transparent 70%);pointer-events:none}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold),var(--slate))}
+.hdr-in{max-width:900px;margin:0 auto;position:relative}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(176,124,26,.5);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(22px,5vw,42px);font-weight:700;line-height:1.05;color:#fff;margin-bottom:.3rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(242,237,228,.5);font-size:clamp(13px,2.2vw,17px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(242,237,228,.4)}
+.meta span::before{content:'· ';color:var(--gold)}
+.nav{background:var(--bg2);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:900px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.65rem .95rem;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.04em;color:var(--muted);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;transition:color .18s,border-color .18s}
+.nb:hover{color:var(--ink)}
+.nb.on{color:var(--red);border-bottom-color:var(--red)}
+.main{max-width:900px;margin:0 auto;padding:2rem 1.4rem 4rem}
+.sec{display:none;animation:fi .27s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.4rem;padding-bottom:.9rem;border-bottom:1px solid var(--border)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--gold)}
+.st{font-family:'Playfair Display',serif;font-size:19px;color:var(--ink)}
+.p{margin-bottom:.85rem}.p:last-child{margin-bottom:0}
+b,strong{font-weight:500}
+.hl{border-left:3px solid var(--slate);padding:.8rem 1.1rem;background:var(--slate-lt);margin:.9rem 0;border-radius:0 2px 2px 0;font-size:13px;line-height:1.78}
+.hl p{margin-bottom:.5rem}.hl p:last-child{margin-bottom:0}
+.qt{border-left:3px solid var(--red);padding:.8rem 1.1rem;background:var(--red-lt);margin:.9rem 0;border-radius:0 2px 2px 0}
+.qt p{font-size:13px;line-height:1.78;font-style:italic;color:#4a3020}
+.src{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);margin-top:.4rem;font-style:normal}
+.warn{border-left:3px solid var(--gold);padding:.8rem 1.1rem;background:var(--gold-lt);margin:.9rem 0;border-radius:0 2px 2px 0;font-size:13px;line-height:1.75}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:11px;margin:.4rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:.9rem 1rem;position:relative}
+.card::before{content:'';position:absolute;top:0;left:0;width:2px;height:100%}
+.card.red::before{background:var(--red)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--slate)}
+.cn{font-weight:500;font-size:13px;margin-bottom:2px}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--red);letter-spacing:.07em;margin-bottom:7px}
+.cb{font-size:12px;line-height:1.65;color:var(--muted)}
+.ib{border:1px solid var(--border);border-radius:2px;overflow:hidden;margin-bottom:.75rem}
+.ih{display:flex;align-items:center;gap:10px;padding:.65rem 1rem;background:var(--bg2);border-bottom:1px solid var(--border)}
+.ii{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0}
+.iname{font-weight:500;font-size:13px}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.06em}
+.ibody{padding:.85rem 1rem;font-size:13px;line-height:1.78}
+.tg{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:11px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:.9rem 1rem}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:5px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:14px;color:var(--ink)}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--muted)}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--slate);letter-spacing:.06em;margin-bottom:6px}
+.tdesc{font-size:12px;line-height:1.65;color:var(--muted)}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:11px}
+.pc{border:1px solid var(--border);border-radius:2px;overflow:hidden}
+.ph{padding:.55rem 1rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:500}
+.pbody{padding:.85rem 1rem;background:var(--bg2)}
+.pbody p{font-size:12px;line-height:1.72;margin-bottom:.45rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:500;color:var(--ink)}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.1rem;margin-bottom:.9rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--gold);min-width:42px;padding-top:2px;font-weight:500}
+.tlb{font-size:13px;line-height:1.72}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:1.1rem 1.3rem;margin-bottom:.85rem}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--red);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.6rem}
+.lnb{font-size:13px;line-height:1.82}
+.rv{border:1px solid var(--border);border-radius:2px;padding:.8rem 1rem;margin-bottom:.65rem}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.05em;margin-bottom:4px}
+.rvb{font-size:12.5px;line-height:1.72;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:1rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:.8rem 1rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--slate);letter-spacing:.08em;margin-bottom:5px}
+.pos-title{font-weight:500;font-size:12.5px;color:var(--ink);margin-bottom:4px}
+.pos-desc{font-size:11.5px;line-height:1.62;color:var(--muted)}
+@media(max-width:520px){.hdr{padding:2rem 1rem 1.8rem}.main{padding:1.4rem .9rem 2.5rem}.pg,.cg{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="tag">Blue Note · BLP 1508 · 1956</div>
+    <h1 class="title">Art Blakey Quintet — A Night at Birdland, Vol. 2</h1>
+    <div class="sub">같은 밤, 더 깊어진 즉흥 — 파커의 유산을 잇는 퀸텟</div>
+    <div class="meta">
+      <span>1954.2.21 라이브 녹음 (밤 11시–새벽 3시)</span>
+      <span>Birdland, New York City</span>
+      <span>Producer: Alfred Lion</span>
+      <span>Engineer: Rudy Van Gelder</span>
+      <span>Liner Notes: Leonard Feather</span>
+    </div>
+  </div>
+</header>
+
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<!-- 01 -->
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+
+  <p class="p">BLP 1508은 BLP 1507과 정확히 같은 밤, 같은 퀸텟이 만든 음악의 연속이다 — 1954년 2월 21일 워싱턴 탄생일 전야, 버드랜드에서 새벽까지 이어진 단 한 차례의 공연이 두 장의 12인치 LP로 나뉘어 발매되었다. <strong>Vol.2는 콘서트가 깊어질수록 퀸텟의 즉흥이 어떻게 확장되고 대담해지는지를 보여주는 후반부 기록</strong>이라는 점에서 Vol.1과 구별되는 고유한 가치를 지닌다.</p>
+
+  <div class="hl">
+    <p><strong>이 앨범에는 찰리 파커에 대한 직접적 헌사 — "Now's the Time" — 가 담겨 있다.</strong> 1954년 2월이라는 시점은 파커가 여전히 생존해 있던(1955년 사망) 마지막 해였고, 젊은 하드밥 세대가 비밥의 창시자에게 보내는 경의가 이 라이브 레코딩에 생생하게 새겨져 있다. 동시에 "The Way You Look Tonight" 같은 스탠다드가 10분이 넘는 확장된 즉흥으로 펼쳐지는 것은, 이 퀸텟이 단순한 비밥 카피가 아니라 독자적인 해석 능력을 갖췄음을 증명한다.</p>
+  </div>
+
+  <p class="p">Discogs 리뷰어들의 반복된 찬사 — "killer record(끝내주는 레코드)", "incredible performances all around(전반적으로 믿기 힘든 연주)" — 는 이 두 번째 볼륨이 첫 번째 볼륨에 결코 못 미치지 않는, 오히려 동등하거나 그 이상의 음악적 밀도를 지녔음을 보여준다. 특히 "Quicksilver"의 알터네이트 테이크가 Vol.2에 수록되어, Vol.1에 수록된 정규 테이크와의 비교 청취가 가능하다는 점도 이 앨범의 독특한 가치다.</p>
+
+  <p class="p">이 앨범은 또한 루 도날슨의 오리지널 "Lou's Blues"를 수록하여, 도날슨이 단순한 사이드맨을 넘어 작곡가로서도 기여했음을 보여준다. 이는 훗날 그가 블루노트의 핵심 리더로 성장할 잠재력을 이 라이브 세션에서 이미 드러낸 흔적이다.</p>
+</section>
+
+<!-- 02 -->
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 아트 블레이키 — 생애 및 약력</h2></div>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1919</span><span class="tlb"><strong>출생.</strong> 아서 블레이키, 10월 11일 피츠버그 출생. 독실한 제7일안식일예수재림교 가정의 양자로 성장.</span></li>
+    <li class="tli"><span class="tly">1930s</span><span class="tlb">10대 초반 피아노에서 드럼으로 강제 전환. 14세에 자신의 댄스 밴드를 이끔.</span></li>
+    <li class="tli"><span class="tly">1939–44</span><span class="tlb">메리 루 윌리엄스·플레처 핸더슨·빌리 엑스타인 빅밴드를 거치며 찰리 파커·디지 길레스피와 교류.</span></li>
+    <li class="tli"><span class="tly">1948</span><span class="tlb">아프리카 여행 중 이슬람 개종, "압둘라 이븐 부하이나"라는 이름을 얻음.</span></li>
+    <li class="tli"><span class="tly">1947–53</span><span class="tlb">틸로니어스 몽크·찰리 파커와의 비밥 시대 핵심 세션 참여.</span></li>
+    <li class="tli"><span class="tly">1954.2.21</span><span class="tlb"><strong>버드랜드 라이브 녹음.</strong> 클리포드 브라운·루 도날슨·호레이스 실버·컬리 러셀과의 퀸텟이 새벽까지 연주를 이어가며 BLP 1507·1508 두 장 분량의 음악을 만들어낸다. 이 밤 연주된 찰리 파커의 "Now's the Time"은, 파커가 아직 생존해 있던 시기에 다음 세대가 그에게 바치는 직접적 경의였다.</span></li>
+    <li class="tli"><span class="tly">1954</span><span class="tlb">실버와 함께 콰르텟 결성, 하드밥의 청사진 확립.</span></li>
+    <li class="tli"><span class="tly">1955</span><span class="tlb">카페 보헤미아 라이브 녹음으로 "재즈 메신저스" 이름 정식 사용.</span></li>
+    <li class="tli"><span class="tly">1956</span><span class="tlb">실버가 그룹을 떠나며 블레이키가 단독 리더가 됨.</span></li>
+    <li class="tli"><span class="tly">1958</span><span class="tlb">리 모건·베니 골슨 라인업으로 "Moanin'" 등 영원한 명곡 탄생.</span></li>
+    <li class="tli"><span class="tly">1959–80</span><span class="tlb">웨인 쇼터, 이후 윈튼 마살리스 등 거치며 "하드밥 아카데미"로서의 위상 확립.</span></li>
+    <li class="tli"><span class="tly">1990</span><span class="tlb"><strong>사망.</strong> 폐암으로 10월 16일 71세로 사망. 167명이 넘는 연주자가 재즈 메신저스를 거쳐갔다.</span></li>
+  </ul>
+
+  <div class="qt">
+    <p>"잘 들어봐, 블레이키와 동료들은 그날 밤 버드랜드에서 완전히 클릭했다 — 그리고 그 클릭은 새벽까지 멈추지 않았다." — All About Jazz 평론가의 표현을 빌려</p>
+    <div class="src">— 콘서트 전체의 음악적 지속성에 대한 평가</div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Art Blakey</div>
+      <div class="cr">DRUMS · LEADER · 1919–1990</div>
+      <div class="cb">밤이 깊어질수록 더 대담해지는 폴리리듬 드라이브. Vol.2에서는 더 확장된 솔로 공간이 주어진다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Clifford Brown</div>
+      <div class="cr">TRUMPET · 1930–1956</div>
+      <div class="cb">"The Way You Look Tonight"의 10분이 넘는 확장된 즉흥에서 그의 멜로딕한 창의력이 가장 길게 펼쳐진다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Lou Donaldson</div>
+      <div class="cr">ALTO SAX · 1926–2024</div>
+      <div class="cb">자신의 오리지널 "Lou's Blues"로 작곡가적 면모를 처음 드러내는 순간이 이 앨범에 담겨 있다.</div>
+    </div>
+    <div class="card red">
+      <div class="cn">Horace Silver</div>
+      <div class="cr">PIANO · 1928–2014</div>
+      <div class="cb">"Quicksilver" 알터네이트 테이크를 통해 같은 곡의 또 다른 즉흥적 가능성을 들려준다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Curly Russell</div>
+      <div class="cr">BASS · 1920–1986</div>
+      <div class="cb">파커의 "Now's the Time" 블루스 진행에서 가장 본질적인 워킹 베이스의 안정감을 제공.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--red-lt);color:var(--red)">🥁</div>
+      <div><div class="iname">드럼 — Art Blakey</div><div class="ipl" style="color:var(--red)">밤이 깊어질수록 대담해지는 드라이브</div></div>
+    </div>
+    <div class="ibody">
+      Vol.2의 트랙들은 콘서트가 진행될수록 블레이키의 드러밍이 어떻게 더 확장되고 자유로워지는지를 보여준다. "Now's the Time"의 9분이 넘는 러닝타임에서 그는 파커의 블루스 진행 위에서 폭발적인 프레스 롤과 크로스 비트를 자유롭게 구사하며, 단순한 타임키핑을 넘어 곡 전체의 드라마를 설계하는 역할을 한다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--gold)">🎺</div>
+      <div><div class="iname">트럼펫 — Clifford Brown</div><div class="ipl" style="color:var(--gold)">10분의 멜로딕 마라톤</div></div>
+    </div>
+    <div class="ibody">
+      "The Way You Look Tonight"의 10분 17초라는 긴 러닝타임은 브라운에게 그의 멜로딕한 상상력을 충분히 펼칠 공간을 제공한다. 이 트랙은 그의 짧은 생애에서 남긴 레코딩들 중에서도 가장 확장된 즉흥 중 하나로 꼽히며, 그의 흠 없는 기교와 따뜻한 서정성이 동시에 가장 길게 지속되는 귀중한 순간이다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--slate-lt);color:var(--slate)">🎷</div>
+      <div><div class="iname">알토 색소폰 — Lou Donaldson</div><div class="ipl" style="color:var(--slate)">파커 어법의 라이브 실연</div></div>
+    </div>
+    <div class="ibody">
+      "Now's the Time"에서 도날슨은 파커의 직접적 영향을 가장 또렷하게 드러내며, 그가 평생 추구해온 비밥 어법의 원형을 라이브 무대에서 생생하게 재현한다. 자신의 오리지널 "Lou's Blues"에서는 작곡가로서의 첫 시도를 통해, 단순한 모방자를 넘어선 독자적 음악적 정체성의 씨앗을 보여준다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--red-lt);color:var(--red)">🎹</div>
+      <div><div class="iname">피아노 — Horace Silver</div><div class="ipl" style="color:var(--red)">같은 곡, 다른 순간</div></div>
+    </div>
+    <div class="ibody">
+      "Quicksilver"의 알터네이트 테이크는 Vol.1에 수록된 정규 테이크와 비교 청취할 수 있는 귀중한 자료다. 같은 콘서트 안에서도 같은 곡에 대한 실버의 접근이 미세하게 달라지는 지점들을 포착할 수 있어, 그의 즉흥적 사고 과정을 들여다보는 흥미로운 창이 된다.
+    </div>
+  </div>
+</section>
+
+<!-- 05 -->
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+
+  <p class="p"><strong>비밥에서 하드밥으로의 직접적 계승:</strong> "Now's the Time"이라는 찰리 파커의 곡을 이 신생 하드밥 퀸텟이 연주한다는 사실 자체가 장르적 계보를 음악으로 증명한다. 파커가 만든 블루스 형식이 블레이키의 폴리리듬과 실버의 블루지한 화성을 통해 어떻게 새로운 질감을 얻는지를 들을 수 있다.</p>
+
+  <div class="hl">
+    <p><strong>확장된 라이브 즉흥의 미학:</strong> "The Way You Look Tonight"(10:17)과 "Now's the Time"(9:03)처럼 Vol.2의 트랙들은 Vol.1보다 평균적으로 더 긴 러닝타임을 보인다. 이는 콘서트가 진행될수록 연주자들이 더 편안해지고, 청중과의 관계 속에서 더 대담한 즉흥을 시도하게 되는 라이브 공연 특유의 동력학을 보여준다.</p>
+  </div>
+
+  <p class="p"><strong>오리지널과 스탠다드의 균형:</strong> 실버의 "Quicksilver"(오리지널), 도날슨의 "Lou's Blues"(오리지널)와 함께, J.J. 존슨의 "Wee-Dot", 파커의 "Now's the Time", 그리고 "If I Had You"·"The Way You Look Tonight" 같은 팝 스탠다드가 균형 있게 배치되어, 하드밥이 오리지널 작곡과 스탠다드 재해석 양쪽 모두에서 새로운 가능성을 열어가고 있음을 보여준다.</p>
+</section>
+
+<!-- 06 -->
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 장르적 특색</h2></div>
+  <p style="font-size:11px;color:var(--muted);margin-bottom:1rem;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">1954년 2월 21일 라이브 녹음 · 같은 콘서트의 후반부</p>
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Wee-Dot</span><span class="ttime">7:19</span></div>
+      <div class="ttag">J.J. 존슨/리오 파커 작곡</div>
+      <div class="tdesc">간결한 테마가 확장된 솔로 비행의 발판이 되며, 리듬 섹션의 안정적인 추진력이 호른들의 빠른 교환을 뒷받침한다. 트롬보니스트 J.J. 존슨이 직접 만든 곡을 트럼펫·알토 편성으로 재해석하는 흥미로운 사례.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">If I Had You</span><span class="ttime">3:33</span></div>
+      <div class="ttag">캠벨/코널리/샤피로 작곡 · 스탠다드</div>
+      <div class="tdesc">짧고 간결한 스탠다드 해석. 다른 트랙들의 확장된 즉흥과 대비되는 컴팩트한 구성이 라이브 세트의 흐름에 호흡을 제공한다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Quicksilver (Alternate Take)</span><span class="ttime">8:49</span></div>
+      <div class="ttag">호레이스 실버 오리지널 · 알터네이트</div>
+      <div class="tdesc">Vol.1에 수록된 정규 테이크와 같은 콘서트에서 나온 또 다른 버전. 실버가 "All God's Children Got Rhythm"을 재구성한 곡의 즉흥이 어떻게 매번 달라지는지를 비교할 수 있는 귀중한 자료.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Now's the Time</span><span class="ttime">9:03</span></div>
+      <div class="ttag">찰리 파커 작곡 · 블루스</div>
+      <div class="tdesc">비밥의 창시자에게 바치는 직접적 헌사. 파커가 아직 생존해 있던 시기(1955년 사망)에 다음 세대가 그의 블루스를 어떻게 자신들의 새로운 어법으로 재해석하는지 보여주는 역사적 순간. 9분에 걸친 확장된 즉흥.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">The Way You Look Tonight</span><span class="ttime">10:17 · 앨범 최장 트랙</span></div>
+      <div class="ttag">제롬 컨/도로시 필즈 작곡 · 스탠다드</div>
+      <div class="tdesc">콘서트 전체에서 가장 긴 트랙. 클리포드 브라운의 멜로딕한 창의력이 충분히 펼쳐지는 확장된 즉흥. 그의 짧은 생애에서 남긴 가장 긴 호흡의 솔로 중 하나로 평가된다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Lou's Blues</span><span class="ttime">4:03</span></div>
+      <div class="ttag">루 도날슨 오리지널 · 블루스</div>
+      <div class="tdesc">도날슨이 직접 작곡한 블루스. 이후 그가 블루노트의 핵심 리더로 성장하며 보여줄 작곡가적 재능의 초기 씨앗을 들을 수 있는 트랙. Discogs 리뷰어가 "모두의 훌륭한 연주가 담긴, 듣는 즐거움 그 자체"라고 평한 곡.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 -->
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+
+  <div class="hl">
+    <p><strong>BLP 1507의 "후반부" — 하나의 콘서트, 두 개의 LP.</strong> BLP 1507과 1508은 완전히 분리된 두 개의 작품이 아니라, 워싱턴 탄생일 전야 하룻밤의 공연이 LP 포맷의 물리적 한계(약 22분/면) 때문에 나뉜 것이다. 두 앨범을 연속으로 들어야 비로소 그 밤의 음악적 서사 전체를 경험할 수 있다.</p>
+  </div>
+
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">BLP 1507</div>
+      <div class="pos-title">A Night at Birdland, Vol.1 (1956)</div>
+      <div class="pos-desc">"Split Kick"·"Once in a While"·"Quicksilver"(정규) 수록.</div>
+    </div>
+    <div class="pos-card" style="border:1.5px solid var(--red)">
+      <div class="pos-label" style="color:var(--red)">BLP 1508 ← 현재 앨범</div>
+      <div class="pos-title" style="color:var(--red)">A Night at Birdland, Vol.2 (1956)</div>
+      <div class="pos-desc">"Wee-Dot"·"Now's the Time"·"Quicksilver"(알터네이트) 등 수록.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">선행 10인치 3종</div>
+      <div class="pos-title">BLP 5037/5038/5039 (1954)</div>
+      <div class="pos-desc">같은 콘서트를 세 장의 10인치로 먼저 발매.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">미공개 자료</div>
+      <div class="pos-title">A Night at Birdland Vol.3 (1984)</div>
+      <div class="pos-desc">"A Night in Tunisia"·"Mayreh" 등 30년 만에 공개된 추가 트랙.</div>
+    </div>
+  </div>
+
+  <p class="p">Discogs 등록 정보가 보여주듯, 2001년 CD 재발매판에는 트랙 6·7이 "오리지널 12인치 앨범에는 포함되지 않았던 보너스 트랙"으로 추가되었다 — 이는 BLP 1522(오리지널 12인치 번호 체계에서 1508에 해당)에 트랙 1-5만 수록되었고, 나머지는 10인치 BLP 5038·5039에서 가져온 추가 자료임을 보여준다. 즉 Vol.2 역시 Vol.1처럼 여러 10인치 원본을 재편집한 컴필레이션 구조를 갖는다.</p>
+</section>
+
+<!-- 08 -->
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치</h2></div>
+
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--ink);color:var(--bg)">🇺🇸 미국 오리지널반 (BLP 1508)</div>
+      <div class="pbody">
+        <p><span class="pl">1st 프레싱 식별:</span> "767 Lexington Ave., N.Y.C." 주소 레이블, 딥 그루브, RVG 각인 + 플라스틸라이트 "P" 마크. Discogs 등록에 따르면 일부 카피는 "사이드 A는 767 Lexington Ave 레이블, 사이드 B는 47 West 63rd 레이블"이 혼재된 미스매치 레이블도 존재한다 — 이는 프레싱 과정에서 레이블 재고가 교체되던 과도기에 만들어진 흥미로운 변형이다.</p>
+        <p><span class="pl">참고:</span> 이 앨범은 BLP 1522로도 알려져 있다(번호 체계 혼용 시기의 산물).</p>
+        <p><span class="pl">사운드:</span> Discogs 리뷰어들의 표현처럼 "Left heavy(좌측 채널이 강함)"이지만 "사운드는 훌륭하다"는 평가가 일반적. 한 리뷰어는 "B2 — Blues(Ad Lib)는 듣는 즐거움 그 자체이며, 모두의 훌륭한 연주가 담겨 있다"고 평했다.</p>
+        <p><span class="pl">시장가격:</span> BLP 1507과 유사하거나 약간 낮은 수준. VG+ : $280–$650.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:#1e3a5f;color:#fff">🇯🇵 킹 레코드 (King Records)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 시기:</span> 1970년대 GXF/GXK 시리즈 재발매.</p>
+        <p><span class="pl">사운드:</span> 다이나믹하고 생동감 있는 컷팅.</p>
+        <p><span class="pl">시장가격:</span> VG+~M : $65–$150.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--red);color:#fff">🇯🇵 도시바 EMI (Toshiba EMI)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 시기:</span> 1983년 재발매. Discogs 리뷰어: "Great pressing, flat, quiet. Toshiba EMI pressings, can't really go wrong with these(훌륭한 프레싱, 평평하고 조용함. 도시바 EMI 프레싱은 정말 실패할 일이 없다)."</p>
+        <p><span class="pl">주의사항:</span> 일부 리뷰어가 "레이블에 분명히 'Stereo'라고 표기되어 있다"고 보고한 경우가 있어, 모노 오리지널을 찾는 컬렉터는 레이블 표기를 반드시 확인해야 한다.</p>
+        <p><span class="pl">시장가격:</span> VG+~M : $40–$100.</p>
+      </div>
+    </div>
+  </div>
+
+  <p style="font-size:11px;color:var(--muted);margin-top:.6rem;font-family:'IBM Plex Mono',monospace">* 1970년 BST 81522(의사 스테레오), 1985년 프랑스 DMM(Direct Metal Mastering) 재발매(오디오파일 에디션, 레드 오비), 1987년 CDP 7 46520 2(첫 CD화), 2001년 CD 재발매(보너스 트랙 2곡 추가), 1984년 모자이크 박스셋(전체 콘서트 수록), Blue Note 75주년 기념 시리즈(140g, United Record Pressing)도 존재.</p>
+</section>
+
+<!-- 09 -->
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 — Leonard Feather 집필 (요약 정리)</h2></div>
+
+  <div class="hl" style="margin-bottom:1.1rem">
+    <p>BLP 1508의 라이너 노트 역시 레너드 피더가 집필했으며, Vol.1과 마찬가지로 그날 밤의 특별한 분위기를 강조하는 데 초점을 맞춘다. Vol.2는 콘서트의 후반부를 담고 있기에, 라이너는 밤이 깊어질수록 연주가 어떻게 더 확장되고 자유로워졌는지를 서술하는 데 더 큰 비중을 둔다.</p>
+  </div>
+
+  <div class="ln">
+    <div class="lns">파커에 대한 헌사로서의 "Now's the Time"</div>
+    <div class="lnb">
+      라이너는 이 곡의 선곡이 단순한 레퍼토리 선택이 아니라, 비밥의 창시자에 대한 다음 세대의 직접적 존경의 표시임을 암시한다. 1954년이라는 시점에서 파커가 여전히 활동하고 있었다는 사실은, 이 헌사가 가진 시의성을 더욱 부각시킨다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">콘서트 후반부의 음악적 확장</div>
+    <div class="lnb">
+      라이너는 "The Way You Look Tonight"의 10분이 넘는 러닝타임을 언급하며, 이것이 단순한 우연이 아니라 라이브 공연이 진행될수록 연주자들 사이의 즉흥적 신뢰와 대담함이 자연스럽게 깊어진 결과임을 설명한다. 이는 스튜디오 레코딩에서는 포착하기 어려운, 라이브 공연만의 독특한 음악적 동력을 증언하는 서술이다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">루 도날슨의 작곡가적 데뷔</div>
+    <div class="lnb">
+      "Lou's Blues"에 대해 라이너는 도날슨이 단순한 사이드맨을 넘어 작곡가로서도 기여하고 있음을 짚으며, 이는 그가 이후 블루노트의 핵심 리더로 성장할 잠재력을 일찍이 보여주는 증거로 서술된다.
+    </div>
+  </div>
+
+  <div class="rv">
+    <div class="rvsrc">DISCOGS 리뷰어 (다수)</div>
+    <div class="rvb">"Killer record. Incredible performances all around!(끝내주는 레코드. 전반적으로 믿기 힘든 연주!)" / "I like the original mono live recording and this particular reissue(나는 오리지널 모노 라이브 레코딩과 이 특정 재발매를 좋아한다)."</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">DISCOGS 리뷰어 (Toshiba EMI 프레싱에 대해)</div>
+    <div class="rvb">"Nice crisp mono sound. A few brief moments of tape dropout but nothing that takes you away from the superb music(깔끔하고 선명한 모노 사운드. 테이프 드롭아웃이 짧게 몇 번 있지만 훌륭한 음악에서 주의를 흩트리지 않는다)."</div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 에피소드</h2></div>
+
+  <p class="p"><strong>레이블 미스매치라는 컬렉터의 보물찾기:</strong> Discogs에 등록된 한 카피는 사이드 A와 사이드 B에 서로 다른 주소의 레이블이 붙어 있다 — "767 Lexington Ave"와 "47 West 63rd"가 혼재된 것이다. 이는 블루노트가 레이블 인쇄소를 교체하던 정확한 시점에 만들어진 프레싱으로, 컬렉터들에게는 오히려 진귀한 "과도기 프레싱"으로 추적되는 대상이 된다.</p>
+
+  <div class="hl">
+    <p><strong>30년 만에 공개된 나머지 콘서트 자료:</strong> 같은 밤 연주된 "A Night in Tunisia"와 "Mayreh" 등 추가 트랙들은 1984년이 되어서야 일본 도시바를 통해 《A Night at Birdland Vol.3》으로 처음 상업적으로 공개되었다. 거의 30년간 미발매 상태로 남아 있던 이 자료들은, 같은 해 모자이크 레코드의 클리포드 브라운 컴플리트 박스셋에도 함께 수록되었다.</p>
+  </div>
+
+  <p class="p"><strong>2001년 CD 보너스 트랙의 의미:</strong> Discogs 등록 정보에 따르면 2001년 CD 재발매는 "오리지널 12인치 앨범에는 포함되지 않았던" 두 곡의 보너스 트랙을 추가했다. 이는 오리지널 LP가 같은 콘서트의 모든 자료를 담지 못했다는 사실을 후대에 바로잡으려는 블루노트(당시 캐피톨 레코드 산하)의 시도였다.</p>
+
+  <p class="p"><strong>1985년 프랑스 DMM 에디션:</strong> 파테 마르코니 EMI(프랑스 샤투)에서 제작된 1985년 재발매판은 Direct Metal Mastering 기술을 사용한 "오디오파일 에디션"으로, 레드 오비 스트립("Cadre Rouge")을 부착하여 유럽 시장에 별도로 출시되었다. 이는 1980년대 유럽에서도 블루노트의 클래식 카탈로그에 대한 오디오파일 수요가 상당했음을 보여주는 사례다.</p>
+</section>
+
+<!-- 11 -->
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+
+  <p class="p"><strong>Vol.1과 함께 듣는 완전한 경험:</strong> 한국 재즈 애호가 커뮤니티에서 BLP 1508은 거의 예외 없이 BLP 1507과 함께 언급된다. 두 앨범을 순서대로 이어 들으며 하룻밤의 콘서트가 어떻게 전개되었는지를 추적하는 감상법이 국내 재즈 모임에서도 인기를 끈다.</p>
+
+  <div class="hl">
+    <p><strong>"Now's the Time"이 주는 역사적 무게감:</strong> 파커에게 보내는 이 헌사가 한국 재즈 애호가들에게도 특별한 울림을 준다. 비밥의 창시자가 아직 살아 있던 시기에 다음 세대가 그의 음악을 어떻게 계승하고 변주했는지를 직접 들을 수 있다는 점에서, 이 트랙은 국내 재즈 강의에서도 자주 다뤄진다.</p>
+  </div>
+
+  <p class="p"><strong>클리포드 브라운의 가장 긴 솔로:</strong> "The Way You Look Tonight"의 10분이 넘는 즉흥은, 브라운의 짧은 생애를 아쉬워하는 한국 팬들에게 특히 소중하게 여겨진다. 그의 멜로딕한 상상력이 가장 길게 펼쳐지는 이 트랙은, 브라운 입문자에게도 자주 추천되는 곡이다.</p>
+
+  <p class="p"><strong>수집 관점:</strong> 미국 오리지널반은 BLP 1507과 비슷한 수준의 가격대를 형성하며, 두 앨범을 한 쌍으로 수집하려는 국내 컬렉터들에게는 상당한 투자가 필요하다. 1970~80년대 일본 킹 레코드 또는 도시바 EMI 재발매반이 현실적 대안으로 선호되며, 특히 도시바 EMI 프레싱은 국내 리뷰어들 사이에서도 "실패 없는 선택"으로 자주 언급된다.</p>
+
+  <p class="p"><strong>루 도날슨 팬들의 또 다른 발견:</strong> 도날슨이 이후 블루노트의 핵심 소울 재즈 아티스트로 성장하기에, 그의 초기 작곡 "Lou's Blues"를 추적하는 국내 컬렉터들에게 이 앨범은 흥미로운 자료다. 그의 음악적 출발점을 이해하는 데 도움이 되는 트랙으로 평가된다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
