@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sonny Clark · Cool Struttin' BLP 1588 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #0f1c3f; --blue-mid: #1d3557; --blue-light: #457b9d;
+  --cyan: #a8dadc; --cyan-lt: rgba(168,218,220,0.15);
+  --gold: #d4a373; --gold-lt: rgba(212,163,115,0.12);
+  --muted: #5c677d; --border: rgba(15,28,63,0.12);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0a1128 0%,#111e38 50%,#1d3557 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(168,218,220,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(24px,4.5vw,38px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(14px,2vw,18px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(15,28,63,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib{background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:1.4rem;box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ih{display:flex;align-items:center;gap:12px;padding:.8rem 1.2rem;background:rgba(15,28,63,0.03);border-bottom:1px solid var(--border)}
+.ii{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.iname{font-weight:700;font-size:14px;color:var(--blue-dark)}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em}
+.ibody{padding:1.2rem;font-size:13.5px;line-height:1.85;text-align:justify}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1588 · 1958</div>
+      <h1 class="title">Sonny Clark — Cool Struttin'</h1>
+      <div class="sub">단 하루의 세션이 빚어낸, 재즈사에서 가장 유명한 '걸음걸이'</div>
+      <div class="meta">
+        <span>1958.1.5 녹음</span>
+        <span>Van Gelder Studio, Hackensack, NJ</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: Reid Miles / Photography: Francis Wolff</span>
+      </div>
+    </div>
+    <div class="hdr-nav">
+      <a href="#" class="nav-arrow" title="이전 앨범 (BLP 1587)">←</a>
+      <a href="index.html" class="home-link" title="메인 인덱스로 가기">
+        <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+      </a>
+      <a href="#" class="nav-arrow" title="다음 앨범 (BLP 1589)">→</a>
+    </div>
+  </div>
+</header>
+
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">블루노트 1500번대 카탈로그의 정점에 위치한 《Cool Struttin'》(BLP 1588)은 피아니스트 소니 클락(Sonny Clark)이 리더로서 남긴 작업들 가운데 가장 완성도가 높은 단 한 장이며, 동시에 '하드 밥(Hard Bop)'이라는 장르가 도달할 수 있는 가장 이상적인 균형점을 들려주는 음반이다. 1958년 1월 5일, 단 하루의 세션에서 완성된 이 앨범은 트럼펫 아트 파머(Art Farmer)와 알토 색소폰 재키 맥클린(Jackie McLean)의 개성이 또렷하게 대비되는 두 호른, 그리고 당시 마일즈 데이비스 퀸텟의 리듬 섹션이었던 폴 챔버스(베이스)와 필리 조 존스(드럼)가 결합된, 종이 위의 명단만 보면 다소 의외였지만 실제로는 완벽한 화학 반응을 일으킨 조합으로 완성되었다.</p>
+
+  <div class="hl">
+    <p><strong>올뮤직(AllMusic)은 이 음반에 만점(5/5)을 부여하며 "그 소울(soul)의 매력 하나만으로도 이런 평가를 받을 자격이 있다"고 단언했고, 펭귄 재즈 가이드(The Penguin Guide to Jazz Recordings)는 가장 영예로운 등급인 '크라운(Crown)'을 수여하며 클락의 우아한 피아노와 퀸텟 전체의 응집력 있는 스윙을 높이 평가했다.</strong> 스테레오 타임스(The Stereo Times)는 이 음반이 골수 재즈 애호가들 사이에서 "거의 컬트적인 지위"를 누리고 있다고 평했으며, 뉴욕 타임스(The New York Times)는 이를 "오래도록 지속되는 하드 밥의 고전"이라 칭했다. 다만 롤링 스톤 재즈 레코드 가이드(The Rolling Stone Jazz Record Guide)는 비교적 보수적으로 5점 만점에 3점을 부여하기도 했는데, 이는 평론가들 사이에서도 평가의 결이 조금씩 다르다는 점을 보여준다.</p>
+  </div>
+
+  <p class="p">이 앨범의 제목 자체가 절묘한 모순어법이다. '쿨(Cool)'은 나른하고 무심한 태도를, '스트럿(Strut)'은 의기양양하게 걷는 걸음걸이를 뜻하는, 사실상 정반대의 단어다. 그러나 타이틀곡이 들려주는 절제된 미디엄 템포의 블루스 그루브는 바로 이 모순을 완벽하게 음악으로 구현해 낸다. 리드 마일스(Reid Miles)가 디자인하고 프랭크 울프(Francis Wolff)가 촬영한 표지 사진—한 여인의 다리와 하이힐만이 또렷하게 초점에 잡힌 채 도시의 거리를 걸어가는 그 이미지—은 이후 재즈 앨범 커버 역사상 가장 자주 인용되고 패러디되는 이미지 가운데 하나가 되었다.</p>
+  <p class="p">무엇보다 이 음반은 생전에는 충분히 인정받지 못했던 피아니스트 소니 클락의 음악적 유산을 사후(死後)에 복권시킨 결정적인 작품이다. 클락은 1963년 31세의 나이로 요절했지만, 1970년대 일본의 재즈 깃사(jazz kissa, 재즈 감상 카페) 문화를 중심으로 《Cool Struttin'》이 '환상의 명반'으로 재발굴되면서, 그의 이름은 다시 한번 하드 밥의 핵심 인물로 자리매김하게 되었다.</p>
+</section>
+
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 소니 클락 — 생애 및 약력</h2></div>
+  <p class="p" style="margin-bottom: 1.5rem;">하드 밥 피아노의 정수로 불리는 소니 클락(Sonny Clark)의 짧지만 강렬했던 음악적 여정과 연혁을 상세히 정리한 연표다.</p>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1931</span><span class="tlb"><strong>펜실베이니아 탄광촌에서의 탄생과 비극적인 가정사.</strong> 본명 콘래드 예이티스 클락(Conrad Yeatis Clark), 7월 21일 피츠버그 인근의 탄광촌 허미니(Herminie, Pennsylvania)에서 8남매 중 막내로 출생. 부모는 본래 조지아 주 스톤 마운틴 출신이었으며, 광부였던 아버지 에머리 클락(Emery Clark)은 그가 태어난 지 단 2주 만에 폐 질환으로 세상을 떠났다.</span></li>
+    <li class="tli"><span class="tly">1943</span><span class="tlb"><strong>피츠버그로의 이주와 음악적 각성.</strong> 12세 무렵 가족과 함께 피츠버그로 이주. 라디오에서 흘러나오던 아트 테이텀, 팻츠 월러, 카운트 베이시, 듀크 엘링턴의 연주를 들으며 재즈에 깊이 매료되었고, 학창 시절 동안 지역 클럽에서 피아노뿐 아니라 베이스와 비브라폰까지 연주하며 일찍부터 프로 연주자로 활동했다.</span></li>
+    <li class="tli"><span class="tly">1951</span><span class="tlb"><strong>캘리포니아로의 운명적인 방문.</strong> 20세에 캘리포니아의 이모를 방문했다가 그대로 정착을 결심하고, 색소포니스트 워델 그레이(Wardell Gray)의 밴드에 합류하며 본격적인 음악 인생을 시작함. 곧이어 베이시스트 오스카 페티포드(Oscar Pettiford)와 함께 샌프란시스코로 이동했다.</span></li>
+    <li class="tli"><span class="tly">1953</span><span class="tlb"><strong>버디 드프랑코와의 만남, 그리고 유럽 투어.</strong> 클라리네티스트 버디 드프랑코(Buddy DeFranco)의 밴드에 합류해 미국과 유럽을 순회하며 1956년 1월까지 함께함. 같은 시기 아트 페퍼, 세르주 샬로프, 프랭크 로솔리노, 소니 크리스 등 서해안 모던 재즈 거장들과도 교류하며 입지를 다졌다.</span></li>
+    <li class="tli"><span class="tly">1956</span><span class="tlb"><strong>라이트하우스 올스타스 합류.</strong> 1956년 1월, 베이시스트 하워드 럼지(Howard Rumsey)가 이끄는 서해안 쿨 재즈의 본산 '라이트하우스 올스타스(The Lighthouse All-Stars)'에 가입해 활동을 이어갔다.</span></li>
+    <li class="tli"><span class="tly">1957.2</span><span class="tlb"><strong>다이나 워싱턴과 함께 동부로 귀환.</strong> 동부로 돌아가기 위해 보컬리스트 다이나 워싱턴(Dinah Washington)의 반주자 자리를 맡아 뉴욕으로 이주. 이 시점부터 블루노트의 사실상의 '하우스 피아니스트'로 활동하며 행크 모블리, 도널드 버드, 커티스 풀러, 존 콜트레인 등 수많은 세션에 사이드맨으로 참여하게 된다.</span></li>
+    <li class="tli"><span class="tly">1957.6–7</span><span class="tlb"><strong>알프레드 라이언의 눈에 들다 — 첫 리더작 《Dial "S" for Sonny》.</strong> 1957년 6월 행크 모블리의 블루노트 세션에 사이드맨으로 참여해 깊은 인상을 남긴 끝에, 프로듀서 알프레드 라이언(Alfred Lion)으로부터 곧바로 리더작 기회를 얻음. 같은 해 7월, 아트 파머·커티스 풀러·행크 모블리·윌버 웨어·루이 헤이즈와 함께 데뷔작 《Dial "S" for Sonny》를 녹음했다.</span></li>
+    <li class="tli"><span class="tly">1957.9–10</span><span class="tlb"><strong>《Sonny's Crib》와 《Sonny Clark Trio》.</strong> 9월에는 도널드 버드, 커티스 풀러, 존 콜트레인이 참여한 섹스텟 앨범 《Sonny's Crib》을 녹음하고, 10월 13일에는 폴 챔버스·필리 조 존스와 함께 트리오 앨범 《Sonny Clark Trio》를 완성하며 리더로서의 입지를 빠르게 넓혀 나갔다.</span></li>
+    <li class="tli"><span class="tly">1957.12.8</span><span class="tlb"><strong>발매되지 못한 세션.</strong> 클리포드 조던(테너 색소폰)과 케니 버렐(기타)을 더한 퀸텟으로 또 한 번의 리더 세션을 녹음했으나, 블루노트는 이 음반(카탈로그 번호 BLP 1592로 예정)의 완성을 보류했고, 해당 트랙들은 클락 생전에는 발매되지 않았다.</span></li>
+    <li class="tli"><span class="tly">1958.1.5</span><span class="tlb"><strong>《Cool Struttin'》 녹음 — 클락의 다섯 번째 블루노트 리더작.</strong> 캘리포니아 시절부터 알고 지낸 아트 파머(트럼펫), 그리고 같은 뉴욕 출신의 재키 맥클린(알토 색소폰)을 호른 듀오로 세우고, 폴 챔버스와 필리 조 존스를 다시 불러들여 단 하루 만에 자신의 대표작을 완성했다. 이 음반은 1958년 8월(혹은 10월) 정식 발매되었다.</span></li>
+    <li class="tli"><span class="tly">1959–61</span><span class="tlb"><strong>《My Conception》과 《Leapin' and Lopin'》.</strong> 1959년 도널드 버드·행크 모블리와 함께 《My Conception》을 녹음했지만 이 역시 클락 생전에는 빛을 보지 못해 1979년에야 정식 발매되었다. 1961년 11월에는 토미 터렌타인, 찰리 라우즈, 부치 워런, 빌리 히긴스와 함께 《Leapin' and Lopin'》을 녹음했는데, 이는 그의 마지막 블루노트 리더작이 되었다.</span></li>
+    <li class="tli"><span class="tly">1963.1.13</span><span class="tlb"><strong>요절, 그리고 사후에 시작된 재발견.</strong> 뉴욕에서 31세의 나이로 사망. 공식 사인은 심장마비로 기록되었지만, 약물(헤로인) 과다 복용이 실제 원인이었을 가능성이 짙다는 것이 통설이다. 친구였던 피아니스트 빌 에반스는 그를 추모하며 'Sonny Clark'의 애너그램인 "NYC's No Lark"라는 곡을 자신의 앨범 《Conversations with Myself》(1963)에 헌정했다. 이후 1970년대 일본의 재즈 깃사 문화를 통해 《Cool Struttin'》이 '전설의 명반'으로 재조명되며 그의 위상은 사후에 오히려 크게 높아졌고, 1985년에는 존 조른이 이끄는 '소니 클락 메모리얼 콰르텟'이 그의 곡들로 헌정 앨범 《Voodoo》를 발표했다.</span></li>
+  </ul>
+
+  <div class="qt">
+    <p>"나는 그것(소울)을 자신이 다룰 수 있는 악기의 역량만큼 성장해 가는 과정이라고 이해한다. 당신의 소울이란 당신의 음악적 구상이며, 음 하나를 짚는 방식, 만들어내는 소리, 프레이징이 당신 자신만의 것에서 비롯될 때 비로소 연주에 그것이 담기기 시작한다. 결국 그게 바로 재즈다 — 자기표현 말이다." — Sonny Clark, 음악 평론가 냇 헨토프(Nat Hentoff)와의 인터뷰 중</p>
+    <div class="src">— original liner notes to Blue Note BLP 1588, 1958</div>
+  </div>
+</section>
+
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <p class="p">《Cool Struttin'》은 1948~1952년 사이 여러 세션을 모아 엮은 컴필레이션이 아니라, 1958년 1월 5일 단 하루의 세션에서 완성된 순수한 퀸텟 레코딩이다. 종이 위의 조합만 보면 다소 의외였던 다섯 명의 연주자가 만들어낸, 그러나 실제로는 완벽한 화학 반응을 보여준 라인업을 소개한다.</p>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>1958년 1월 5일, Van Gelder Studio — 단 한 번의 세션, 완벽한 케미스트리</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Sonny Clark</div>
+      <div class="cr">PIANO · LEADER · 1931–1963</div>
+      <div class="cb">버드 파웰의 직계로 평가받는 하드 밥 피아노의 정수. 캘리포니아 시절 버디 드프랑코, 워델 그레이 등과 활동하며 다져진 스윙감과, 뉴욕 이주 후 블루노트 하우스 피아니스트로서 쌓은 블루스적 감각이 정점에 달한 시기의 연주를 들려준다. 이 앨범에서 그는 솔로이스트이자 동시에 전체 그루브를 설계하는 건축가의 역할을 모두 수행한다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Art Farmer</div>
+      <div class="cr">TRUMPET · 1928–1999</div>
+      <div class="cb">아이오와 출생, 애리조나와 로스앤젤레스에서 성장한 트럼페터로 클락과는 서해안 시절부터 인연이 있었다. 라이오넬 햄튼 오케스트라를 거쳐 뉴욕에 정착한 그는 부드럽고 서정적인 톤, 절제된 멜로디 구사로 유명했으며, 이 음반에서는 재키 맥클린의 날카로운 음색과 대비되는 따스하고 유려한 카운터파트를 들려준다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Jackie McLean</div>
+      <div class="cr">ALTO SAXOPHONE · 1931–2006</div>
+      <div class="cb">할렐의 슈가힐에서 자라며 어린 시절 이웃이었던 텔로니어스 몽크와 버드 파웰의 직접적인 지도를 받았고, 무엇보다 찰리 파커를 우상으로 삼아 독자적인 비밥 어법을 완성한 인물이다. 이 세션에서는 평소보다 한층 부드러워진 톤으로 연주하면서도, 특유의 날카롭고 강렬한 에너지를 잃지 않는다.</div>
+    </div>
+    <div class="card red">
+      <div class="cn">Paul Chambers</div>
+      <div class="cr">BASS · 1935–1969</div>
+      <div class="cb">피츠버그에서 태어나 디트로이트에서 자란 베이시스트로, 당시 마일즈 데이비스 퀸텟의 핵심 멤버였다. 견고한 워킹 베이스라인과 더불어 활을 사용한 아르코(bowed) 솔로의 선구자로도 명성이 높았으며, 이 음반에서도 자신만의 풍부한 톤과 멜로딕한 발상이 돋보이는 보잉 솔로를 선보인다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Philly Joe Jones</div>
+      <div class="cr">DRUMS · 1923–1985</div>
+      <div class="cb">필라델피아 출생으로 마일즈 데이비스가 가장 아꼈던 드러머. 폭발적이면서도 음악적으로 세밀하게 계산된 림샷과 크로스 리듬으로 유명했으며, 이 앨범에서는 솔로이스트를 한 발 물러서서 받쳐주는 절제와, 곡 후반부에서 터뜨리는 폭발적인 추진력을 자유롭게 오간다.</div>
+    </div>
+  </div>
+</section>
+
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎹</div>
+      <div><div class="iname">피아노 (Piano) — Sonny Clark</div><div class="ipl" style="color:var(--blue-light)">버드 파웰과 레니 트리스타노 사이, '구불구불한 멜로디 라인'의 발견</div></div>
+    </div>
+    <div class="ibody">
+      소니 클락의 피아노는 버드 파웰의 타격적인 우수(右手) 어법을 근간으로 삼으면서도, 클락 자신이 원곡 라이너 노트에서 직접 존경을 표한 레니 트리스타노(Lennie Tristano)의 기술적 정교함과 구성력을 함께 흡수한 결과물이다. 재즈 평론가들은 클락 특유의 스타일을 두고 "몇 박에 걸쳐 길게 이어지면서도 예상치 못한 지점에서 강세가 떨어지는, 뱀처럼 구불구불한 멜로디 라인"이라 설명하는데, 바로 이 점이 그의 연주를 다른 버드 파웰 추종자들과 구분짓는 핵심이다. 또한 그는 박자를 살짝 앞에서 밀어붙이는 듯한 날카롭고 타악기적인 터치를 구사해, 어떤 템포에서도 한결같이 전진하는 듯한 추진력을 만들어낸다. 타이틀곡에서 그는 세 번의 12마디 코러스에 걸쳐 점층적으로 쌓아 올리는 솔로를 들려주다가, 네 번째 코러스의 시작 박에서 돌연 파머에게 솔로를 넘기는 의외의 구성을 보여주기도 한다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--gold)">🎺</div>
+      <div><div class="iname">트럼펫 (Trumpet) — Art Farmer</div><div class="ipl" style="color:var(--gold)">절제된 서정성, 비밥과 쿨 재즈 사이의 부드러운 가교</div></div>
+    </div>
+    <div class="ibody">
+      아트 파머의 트럼펫은 이 앨범에서 가장 '서정적인' 목소리를 담당한다. 평론가 톰 주렉(Thom Jurek)은 이 음반에서 파머의 솔로를 두고 음표를 절제하면서도 동기를 충실히 발전시켜 나가는 그의 최고의 연주 중 하나로 꼽았다. 그는 종종 곡의 코드 진행 위에서 의도적으로 '비틀린 음(flatted notes)'을 던져 넣으며 듣는 이를 살짝 긴장시키는 동시에, 재키 맥클린의 거칠고 날카로운 음색과 선명한 대비를 이루는 부드럽고 유려한 톤을 유지한다. 디트로이트와 로스앤젤레스에서 활동하며 워델 그레이, 아트 페퍼 등과 교류했던 그의 서해안 시절 경험은, 이 앨범이 단순히 격렬한 비밥이 아니라 한 박자 늦춰진 '쿨'한 태도를 동시에 품을 수 있게 만든 핵심 요인이기도 하다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-dark)">🎷</div>
+      <div><div class="iname">알토 색소폰 (Alto Sax) — Jackie McLean</div><div class="ipl" style="color:var(--blue-dark)">평소보다 부드러워진, 그러나 여전히 날카로운 칼날</div></div>
+    </div>
+    <div class="ibody">
+      평론가들은 종종 이 음반에서의 재키 맥클린이 "이전에도 이후에도 다시는 들려주지 않은 만큼 부드러운 톤"으로 연주한다고 지적한다. 찰리 파커의 직계로서 거칠고 강렬한 톤을 트레이드마크로 삼았던 그가, 아트 파머와의 호흡 속에서 한층 절제된 표현을 들려주는 것이다. 그럼에도 그의 솔로는 결코 둥글둥글하게 마모되지 않는다. "Sippin' At Bells"에서 그는 한 차례 너무 서둘러 솔로에 진입했다가 살짝 흔들리는 듭하지만 곧 침착함을 되찾고, 벤 웹스터와 레스터 영의 어법을 거쳐 버드 파커, 그리고 결국 자기 자신의 목소리로 돌아오는 인상적인 여정을 들려준다. 클락의 어두운 마이너 코드 위에서 슬쩍 코드 바깥으로 벗어나는 그의 프레이징은, 곡 중반부에 예상치 못한 깊이를 더한다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--blue-light)">🎻</div>
+      <div><div class="iname">베이스 (Bass) — Paul Chambers</div><div class="ipl" style="color:var(--blue-light)">워킹 베이스의 정석, 그리고 활(arco)이 그려내는 또 하나의 목소리</div></div>
+    </div>
+    <div class="ibody">
+      폴 챔버스는 이 앨범에서 마일즈 데이비스 퀸텟 시절 다져온 신뢰감 있는 워킹 베이스 라인으로 곡 전체의 골격을 단단히 받친다. "Cool Struttin'"에서는 보우(활)로 솔로를 시작했다가 중간에 마음을 바꾼 듯 손가락으로 뜯는 피치카토(pizzicato)로 자연스럽게 전환하는 흥미로운 순간을 들려주는데, 이는 당시 재즈 베이스 연주에서 흔치 않았던 아르코 주법의 선구자였던 그의 개성을 잘 보여준다. 직선적인 4분음표 펄스 사이에 의도적인 변주를 끼워 넣는 그의 라인 선택은, 단순한 블루스 진행에도 끊임없이 새로운 호기심을 불어넣는다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--gold)">🥁</div>
+      <div><div class="iname">드럼 (Drums) — Philly Joe Jones</div><div class="ipl" style="color:var(--gold)">절제와 폭발 사이, 솔로이스트를 읽어내는 귀</div></div>
+    </div>
+    <div class="ibody">
+      필리 조 존스는 이 음반 전체에서 자신의 트레이드마크인 폭발적인 추진력을 절제된 형태로 운용한다. 아트 파머가 솔로를 시작하면 그는 한 발 물러서 파머가 자신의 직선적인 라인을 충분히 풀어낼 공간을 내어주다가, 솔로가 절정으로 향할 즈음 다시 림샷을 더해 가며 함께 끌어올린다. "Sippin' At Bells"의 도입부에서는 전기가 흐르는 듯한 강렬한 드러밍으로 곡 전체에 시동을 걸기도 한다. 이처럼 그는 단순한 박자 유지자가 아니라, 매 순간 솔로이스트의 호흡을 읽고 그에 맞춰 다이내믹을 조율하는 섬세한 동반자로서 기능한다.
+    </div>
+  </div>
+</section>
+
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+  <p class="p">《Cool Struttin'》은 비밥의 화성적 복잡성과 블루스·가스펠에 뿌리를 둔 단순함을 동시에 끌어안는, 하드 밥(Hard Bop)이라는 장르의 가장 이상적인 표본으로 종종 인용된다.</p>
+
+  <p class="p"><strong>1. '스윙하는 미디엄 블루스'라는 장르의 교과서:</strong> 평론가 톰 주렉은 타이틀곡을 두고 재즈 역사상 가장 대표적인 "스윙하는 미디엄 블루스(swinging medium blues)" 곡 가운데 하나라고 평했다. 화려한 속도 경쟁이나 난해한 코드 진행 대신, 느긋하게 걸어가는 듯한 워킹 베이스와 셔플 비트 위에 블루스에 기반한 호른 멜로디를 얹는 단순한 구조가, 오히려 가장 강력한 스윙감을 만들어낸다는 사실을 이 음반은 증명한다.</p>
+
+  <div class="hl">
+    <p><strong>2. 서해안 '쿨'의 감성과 동부 하드 밥의 결합:</strong> 이 음반의 또 다른 묘미는 리더 클락과 트럼페터 파머 모두가 한때 캘리포니아의 쿨 재즈 신(scene)과 가까이 있었던 연주자라는 점에 있다. 비록 두 사람 모두 엄밀히 '쿨 스쿨' 연주자로 분류되지는 않지만, 서해안 출신 연주자들에게 흔히 따라붙던 절제되고 차분한 인상은 이 음반에도 어느 정도 스며들어 있다. 여기에 뉴욕 토박이이자 비밥의 정통 계승자인 재키 맥클린의 날카롭고 직선적인 에너지가 더해지면서, 동부와 서부, 비밥과 쿨이 한 자리에서 만나는 흥미로운 긴장감이 형성된다.</p>
+  </div>
+
+  <p class="p"><strong>3. 두 호른의 음색 대비가 만들어내는 입체감:</strong> 아트 파머의 부드럽고 서정적인 톤과 재키 맥클린의 날카롭고 직선적인 톤은, 유니즌으로 테마를 연주할 때조차 또렷하게 구분된다. 평론가들은 이 둘의 조합이 "종이 위에서는 그리 어울려 보이지 않았을 조합"이었지만, 실제 스튜디오에서는 완벽한 시너지를 냈다고 입을 모은다. 이 음색의 대비는 단조로워질 수 있는 블루스 기반의 곡들에 끊임없는 입체감을 부여하는 핵심 장치다.</p>
+</section>
+
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 음악적 세부 분석</h2></div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1.2rem;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">※ 1958년 블루노트 오리지널 12인치 LP (BLP 1588) 첫 발매반의 트랙리스트(전 4곡) 기준 해설입니다.</p>
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Cool Struttin'</span><span class="ttime">A1 · 약 9분 23초</span></div>
+      <div class="ttag">작곡: 소니 클락 (Sonny Clark) · 장르: 미디엄 템포 12마디 블루스</div>
+      <div class="tdesc">앨범 전체의 정체성을 규정하는 타이틀곡이자 클락의 시그니처 작품. 느긋하게 흔들거리는 듯한 워킹 베이스와 셔플 비트 위에서, 절제되고 다소 거만한 걸음걸이를 연상시키는 멜로디가 펼쳐진다. 클락이 세 번의 12마디 코러스에 걸쳐 점층적으로 쌓아 올리는 솔로 다음, 아트 파머가 네 번째 코러스의 시작 박에서 곧바로 솔로를 이어받는 영리한 구성이 인상적이다. 폴 챔버스는 활로 시작했다가 손가락 주법으로 전환하는 베이스 솔로를 들려준다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Blue Minor</span><span class="ttime">A2 · 약 10분 19초</span></div>
+      <div class="ttag">작곡: 소니 클락 (Sonny Clark) · 장르: 마이너 키 블루스 (라틴 풍 인트로)</div>
+      <div class="tdesc">정식 블루스 진행은 아니지만 느긋한 '블루(blue)'한 무드를 띤 마이너 키 곡으로, 멜로디 라인에는 가벼운 라틴 풍 악센트가 묻어난다. 재키 맥클린은 이 곡에서 한층 더 버드(Charlie Parker)에 가까운 활력을 발휘하며, 아트 파머의 트럼펫 또한 한껏 고조된 정점을 향해 나아간다. 클락 본인 역시 매우 사려 깊게 다듬어진 솔로로 곡 전체의 중심을 잡는다. 흥미롭게도 타이틀곡의 독특한 그루브는 바로 이 곡을 먼저 연주한 직후 자연스럽게 흘러나온 결과라는 분석도 있다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Sippin' At Bells</span><span class="ttime">B1 · 약 8분 13~18초</span></div>
+      <div class="ttag">작곡: 마일즈 데이비스 (Miles Davis) · 장르: 업템포 비밥 블루스 (12마디, '어드밴스드 체인지')</div>
+      <div class="tdesc">1947년 찰리 파커의 세션을 통해 처음 알려진 마일즈 데이비스의 초기작으로, 클락이 평소 즐겨 연주하던 애착곡이었다. 필리 조 존스의 전기가 흐르는 듯한 드러밍으로 곡이 시작되고, 파머와 맥클린이 구불구불한 비밥 테마를 함께 제시한다. 클락은 자신이 직접 '진보된 코드 진행(advanced changes)'이라 표현했던 이 곡의 화성 위에서 첫 솔로를 맡으며, 버드 파웰의 영향과 자신만의 멜로디 어법을 동시에 드러낸다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Deep Night</span><span class="ttime">B2 · 약 9분 28~35초</span></div>
+      <div class="ttag">작곡: 찰스 헨더슨 & 루디 발레 (Charles Henderson, Rudy Vallée) · 장르: 1929년 팝 스탠다드의 하드 밥 어레인지</div>
+      <div class="tdesc">앨범에서 유일하게 정통 블루스 형식이 아닌 곡으로, 1929년 가수 루디 발레가 크게 히트시킨 팝 스탠다드다. 클락은 자신이 즐겨 듣던 버드 파웰이 1954년 앨범 《Jazz Original》에서 이 곡을 연주하는 것을 라이브로 직접 들은 뒤, "버드가 그 곡을 연주하는 걸 들었을 때, 나도 내 방식대로 이 곡을 꼭 연주해야겠다고 생각했다"고 냇 헨토프에게 직접 밝힌 바 있다. 챔버스-존스 리듬 섹션의 추진력 있는 스윙이 돋보이며, 필리 조 존스는 짧지만 폭발적인 드럼 솔로로 곡을 마무리한다.</div>
+    </div>
+  </div>
+
+  <p class="p" style="margin-top:1.4rem;font-size:12.5px;color:var(--muted)"><strong style="color:var(--blue-dark)">참고 — 보너스 트랙(원곡 LP 비수록):</strong> 같은 세션에서 함께 녹음된 클락의 자작곡 "Royal Flush"와 로저스-하트(Rodgers & Hart)의 스탠다드 "Lover" 두 곡은 1958년 오리지널 12인치 LP에는 수록되지 않았다. 이 두 곡은 1987년 미국 CD 재발매(CDP 7 46513 2)부터 보너스 트랙으로 추가되었으며, 일본에서는 1976년 다른 미발매 세션 곡들과 함께 묶여 《Sonny Clark Quintets》(LNJ 70093)라는 별도 앨범으로 먼저 공개된 바 있다.</p>
+</section>
+
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+  <p class="p">BLP 1588 앨범은 음악적 완성도뿐만 아니라, 블루노트(Blue Note) 1500번대 시리즈가 절정에 다다른 시기—1958년—를 대표하는 카탈로그상의 핵심 좌표로서도 중요한 위치를 점하고 있다.</p>
+
+  <div class="hl">
+    <p><strong>리드 마일스(Reid Miles)의 가장 유명한 작업 — 재즈 앨범 커버 디자인 역사상 가장 자주 인용되는 이미지.</strong> 1958년 발매 당시 리드 마일스는 이미 수십 장의 블루노트 커버를 디자인한 상태였지만, 프랭크 울프가 촬영한 이 '걸어가는 다리'의 이미지는 그의 전체 작업 가운데서도 가장 널리 알려지고, 가장 자주 패러디된 사진으로 남았다. 볼드한 타이포그래피와 흑백 사진의 대담한 크롭이 만들어내는 '블루노트 스타일'의 정수를 보여주는 동시에, 음악과 비주얼이 완벽하게 합일된 사례로 평가받는다.</p>
+  </div>
+
+  <div class="pos-grid">
+    <div class="pos-card" style="border:2px solid var(--blue-mid)">
+      <div class="pos-label" style="color:var(--blue-light)">BLP 1588 [현재 앨범]</div>
+      <div class="pos-title">Cool Struttin'</div>
+      <div class="pos-desc">1958년 1월 5일 단일 세션으로 완성된 클락의 다섯 번째 블루노트 리더작. 리드 마일스의 가장 상징적인 커버 디자인 가운데 하나.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1587 [선행 발매]</div>
+      <div class="pos-title">Bennie Green – Back on the Scene</div>
+      <div class="pos-desc">1958년 3월 23일 녹음된 트롬보니스트 베니 그린의 리더작. 카탈로그상 BLP 1588 바로 앞 번호.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1589 [후행 발매]</div>
+      <div class="pos-title">Horace Silver Quintet – Further Explorations</div>
+      <div class="pos-desc">《Cool Struttin'》 녹음 불과 8일 뒤인 1958년 1월 13일 녹음된 호레이스 실버의 리더작. 카탈로그상 BLP 1588 바로 다음 번호.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1592 [미발매 결번]</div>
+      <div class="pos-title">Sonny Clark Quintets</div>
+      <div class="pos-desc">1957년 12월 클리포드 조던·케니 버렐과 녹음한 미발매 세션에 예약되었던 번호. 클락 생전에는 발매되지 않았고, 1976년 일본에서 《Cool Struttin'》의 보너스 트랙 "Royal Flush"·"Lover"와 결합되어 별도 발매되었다.</div>
+    </div>
+  </div>
+
+  <p class="p">《Cool Struttin'》은 카탈로그 번호 자체는 비교적 단순한 역사를 갖고 있지만(원곡 1958년 LP 발매 이후 큰 트랙 변경 없이 이어졌다), 보너스 트랙의 발매 경로는 상당히 복잡하다. 같은 세션에서 함께 녹음되었던 "Royal Flush"와 "Lover"는 정작 원곡 LP에는 실리지 못한 채, 1957년 12월의 또 다른 미발매 세션(클리포드 조던·케니 버렐 참여)의 곡들과 함께 1976년 일본에서 《Sonny Clark Quintets》(LNJ 70093)로 먼저 빛을 보았고, 1983년에는 다시 《Cool Struttin' Volume 2》라는 이름으로 재발매되었다. 이 두 곡이 마침내 미국 CD 시장에 정식으로 등장한 것은 1987년 루디 반 겔더 리마스터링/코노이슈어 에디션(CDP 7 46513 2)에 이르러서였다. 스테레오반은 카탈로그 번호 BST 81588로 별도 발매되었다.</p>
+</section>
+
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치 및 프레싱 식별법</h2></div>
+  <p class="p">소니 클락, 아트 파머, 재키 맥클린, 그리고 무엇보다 그 전설적인 커버 사진 덕분에 《Cool Struttin'》의 오리지널 아날로그 바이닐은 전 세계 컬렉터들 사이에서 가장 치열하게 경쟁이 붙는 블루노트 1500번대 타이틀 중 하나로 꼽힌다.</p>
+
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-dark);color:#fff">🇺🇸 미국 루디 반 겔더 오리지널 첫 프레싱 (1958)</div>
+      <div class="pbody">
+        <p><span class="pl">오리지널 초판 식별 초점:</span> 《Cool Struttin'》이 발매된 1958년은 블루노트의 레이블 주소가 "767 Lexington Ave"에서 "47 WEST 63rd, NEW YORK 23"로 완전히 옮겨간 시점에 해당한다. 따라서 진정한 오리지널 1st 프레싱은 양면 레이블에 **"47 WEST 63rd NEW YORK 23"** 주소가 인쇄되어 있어야 하며, 양면 모두에 **딥 그루브(Deep Groove)**가 선명해야 한다. 데드왁스(런아웃) 구간에는 플라스틸라이트(Plastylite) 공장을 증명하는 **'이어(Ear)' 마크**와 루디 반 겔더의 **'RVG' 각인**이 함께 존재해야 완전한 초판으로 인정받는다.</p>
+        <p><span class="pl">음질적 특성:</span> 단일 세션·단일 스튜디오(Van Gelder Studio, Hackensack)에서 녹음된 까닭에 음장감이 매우 일관되며, 오리지널 모노 마스터 특유의 두툼한 베이스와 심벌의 고역대 잔향이 생생하게 살아 있다. 이 시기 블루노트는 풀트랙·투트랙 테이프를 동시에 사용했기 때문에, 모노판은 단순히 스테레오를 합친 결과물이 아니라 별도의 마스터에서 비롯된 고유한 사운드를 지닌다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> VG+ 등급 기준으로도 보통 **$800에서 $2,000 이상**에서 거래되며, 레이블·딥 그루브·이어 마크가 완벽하게 보존된 Near Mint급 초판은 옥션에서 **$3,000 이상**까지 낙찰되는 경우도 드물지 않다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-light);color:#fff">🇯🇵 일본 King Records / Toshiba-EMI 재발매반</div>
+      <div class="pbody">
+        <p><span class="pl">발매 및 제작 시기:</span> 1970~80년대 King Records의 GXF/GXK 시리즈를 통해 일본에서 별도로 컷팅·프레싱되었으며, 이후 1983년부터는 Toshiba-EMI가 라이선스를 이어받아 재발매를 지속했다. 일본 내 재즈 깃사 문화 속에서 《Cool Struttin'》이 '환상의 명반'으로 떠오르면서, 미국 원판을 구하기 어려운 애호가들에게 King반은 가장 현실적인 대안이 되었다.</p>
+        <p><span class="pl">음질적 특성:</span> 비교적 양호한 상태의 마스터 음원에서 컷팅되어, 다이내믹하고 묵직한 일본 프레싱 특유의 사운드를 들려준다. 다만 시리즈에 따라 음질 편차가 존재해, 컬렉터들 사이에서도 King반과 Toshiba-EMI반에 대한 평가는 다소 엇갈린다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> 오비(OBI)가 보존된 양호한 상태 기준으로 **$40에서 $150 내외**에서 거래되며, 미국 오리지널에 비해 압도적으로 접근성이 좋아 입문 컬렉터들에게 꾸준히 추천된다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--gold);color:#fff">🆕 현대 오디오파일 재발매 (Music Matters / Blue Note Classic / Tone Poet)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 및 제작 시기:</span> 2009년 Music Matters Jazz가 45회전 2LP로 발매한 에디션을 시작으로, 이후 Classic Records와 블루노트 본사의 'Blue Note Classic Vinyl Series'에서도 잇따라 재발매되었다. 모두 거장 케빈 그레이(Kevin Gray)가 오리지널 마스터 테이프에서 직접 올-아날로그 마스터링(AAA)을 진행했다.</p>
+        <p><span class="pl">음질적 특성:</span> 현대적인 프레싱 기술 덕분에 노이즈가 극도로 적고 다이내믹 레인지가 넓으며, 드럼과 피아노, 베이스의 위치감이 또렷하게 분리되어 들린다. 한 리뷰어는 Blue Note Classic Vinyl Series 가운데서도 가장 사운드가 좋은 음반으로 이 타이틀을 꼽기도 했다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> Music Matters 45회전 2LP는 중고 시장에서 **$80에서 $200대**, Blue Note Classic Vinyl Series 신품 180g 바이닐은 **$30에서 $45** 선에서 비교적 손쉽게 구할 수 있다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 (핵심 요약 정리)</h2></div>
+  <div class="hl" style="margin-bottom:1.1rem">
+    <p>1958년 초판 LP 뒷면에 인쇄되었던 냇 헨토프(Nat Hentoff)의 오리지널 라이너 노트는, 클락 본인의 육성 인터뷰를 통해 그의 음악적 자기인식과 영향 관계를 드물게 직접적으로 들려준다는 점에서 자료적 가치가 매우 높다. 여러 재즈 사료와 평론을 토대로 그 핵심 내용을 정리했다.</p>
+  </div>
+
+  <div class="ln">
+    <div class="lns">1. '소울(Soul)'에 대한 클락 자신의 정의</div>
+    <div class="lnb">
+      헨토프는 라이너 노트에서 클락에게 재즈에서 말하는 '소울'이 무엇인지를 직접 물었고, 클락은 그것을 "자신이 다룰 수 있는 악기의 역량만큼 성장해 가는 과정"이라 정의했다. 음 하나를 짚는 방식과 만들어내는 소리, 프레이징이 오롯이 자기 자신만의 것에서 비롯될 때 비로소 소울이 연주에 담기기 시작한다는 것이 그의 설명이며, 이는 곧 "재즈란 결국 자기표현"이라는 그의 음악관으로 이어진다.</div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">2. 의외의 영향 관계 — 레니 트리스타노에 대한 존경</div>
+    <div class="lnb">
+      라이너 노트에서 가장 흥미로운 지점 중 하나는, 비밥 정통 계승자로 평가받는 클락이 쿨 스쿨의 학구적인 피아니스트 레니 트리스타노의 "기술적 역량과 음악적 구상력"에 대한 존경을 직접 밝혔다는 사실이다. 트리스타노는 통상 리 코니츠, 워른 마쉬 등 쿨 스쿨 계열과 연결되는 인물로, 클락처럼 헌신적인 비밥 연주자가 그를 영향원으로 꼽는 것은 다소 의외였다. 평론가들은 이 점이 바로 클락의 연주에서 들리는, 몇 박에 걸쳐 길게 이어지는 '구불구불한 멜로디 라인'의 기원을 설명해 준다고 본다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">3. "Deep Night"와 버드 파웰에 관한 직접 증언</div>
+    <div class="lnb">
+      클락은 앨범 마지막 곡 "Deep Night"에 대해서도 흥미로운 비화를 남겼다. 그는 버드 파웰이 1954년 노그란(Norgran) 레이블의 《Jazz Original》에서 이 곡을 연주하는 것을 버드랜드(Birdland) 클럽에서 직접 들었고, 그 즉시 자신도 이 곡을 자신만의 방식으로 연주해야겠다고 결심했다고 헨토프에게 밝혔다. 이는 비밥과 하드 밥 세대 사이에서 어떻게 레퍼토리와 영감이 직접적으로 전수되었는지를 보여주는 생생한 사례다.
+    </div>
+  </div>
+
+  <div class="rv">
+    <div class="rvsrc">올뮤직 (AllMusic) — 톰 주렉(Thom Jurek) 리뷰 발췌</div>
+    <div class="rvb">"여전히 충분히 인정받지 못한 소니 클락이 리더 자리를 맡은 이 전설적인 세션은, 평소보다 한층 부드러워진 톤의 재키 맥클린과 트럼페터 아트 파머, 그리고 마일즈 데이비스 밴드 출신의 전설적인 리듬 섹션을 함께 들려준다. 이 음반은 그 소울의 매력 하나만으로도 지금의 명성을 누릴 자격이 있다."</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">펭귄 재즈 가이드 (The Penguin Guide to Jazz Recordings) — 역대 최고 등급 '크라운(Crown)' 부여</div>
+    <div class="rvb">"클락의 우아한 피아노 연주가 퀸텟 전체의 응집력 있는 스윙 속에서 빛을 발한다."</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">뉴욕 타임스 (The New York Times) — 1987년 회고 기사 중</div>
+    <div class="rvb">"오래도록 지속되는 하드 밥의 고전(an enduring hard-bop classic)."</div>
+  </div>
+</section>
+
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 역사적 에피소드</h2></div>
+  <p class="p">BLP 1588의 탄생 이면에는 재즈 역사에서 두고두고 회자되는 흥미진진한 비화와 에피소드들이 가득 숨겨져 있다.</p>
+
+  <p class="p"><strong>1. 그 다리의 주인은 누구인가 — 풀리지 않은 미스터리:</strong> 표지 사진 속, 또렷하게 초점이 맞은 한쪽 다리의 주인은 오랫동안 알프레드 라이언의 부인 루스 라이언(Ruth Lion)으로 알려져 왔다. 블루노트 공식 SNS 계정 역시 이를 그대로 소개한 바 있다. 그러나 모자이크 레코드의 설립자이자 블루노트 아카이브의 최고 권위자인 마이클 쿠스쿠나(Michael Cuscuna)는 정작 이 다리가 정말 루스 라이언의 것인지에 의구심을 표하며, 그저 고용된 모델일 가능성을 제기했다. 영화 〈리버티 밸런스를 쏜 사나이〉의 명대사처럼, "전설이 사실이 되면, 전설을 인쇄하라"는 말이 이 사진에는 정확히 들어맞는 셈이다.</p>
+
+  <div class="hl">
+    <p><strong>2. 후지산 아래 1만 5천 명이 함께 외친 첫 네 박자:</strong> 블루노트의 공동 창립자 알프레드 라이언과 프랭크 울프의 일생을 기록한 회고에는, 1986년부터 매년 후지산 자락에서 열린 '블루노트 페스티벌'에서 있었던 인상적인 장면이 등장한다. 약 1만 5천 명에 달하는 일본의 젊은 관객들이 "Cool Struttin'"의 첫 네 박자가 흘러나오는 순간 일제히 환호하며 알아보았다는 것이다. 이는 1970년대 일본의 재즈 깃사 문화 속에서 이 음반이 얼마나 깊이 사랑받았는지를 단적으로 보여주는 장면으로 회자된다.</p>
+  </div>
+
+  <p class="p"><strong>3. 카탈로그의 미로 — 결번 BLP 1592의 뒤늦은 운명:</strong> 《Cool Struttin'》 세션에서 함께 녹음되었던 "Royal Flush"와 "Lover"는 정작 1958년 오리지널 LP에는 실리지 못했다. 이 두 곡은 1957년 12월 클리포드 조던·케니 버렐과 함께한 또 다른 미발매 세션(원래 BLP 1592로 예정되었던)의 곡들과 결합되어, 1976년 일본에서야 비로소 《Sonny Clark Quintets》라는 별도 앨범으로 처음 공개되었다. 같은 세션의 결과물이 거의 20년에 걸쳐 서로 다른 두 개의 '앨범'으로 나뉘어 발매된 셈이다.</p>
+
+  <p class="p"><strong>4. 모순어법이 낳은 완벽한 제목:</strong> 평론가들은 종종 "쿨(Cool)"과 "스트럿(Strut)"이 사실상 정반대의 의미를 지닌 단어라는 점을 지적한다. 전자는 무심하고 나른한 태도를, 후자는 의기양양하고 과시적인 걸음걸이를 뜻하기 때문이다. 그러나 타이틀곡이 들려주는, 절제되면서도 묘하게 당당한 그루브는 바로 이 모순된 두 단어를 동시에 음악으로 구현해 냈다는 평가를 받으며, 이는 표지의 '걸어가는 다리' 이미지와 완벽하게 공명한다.</p>
+
+  <p class="p"><strong>5. 세상을 떠난 뒤에야 시작된 인정:</strong> 클락은 1963년 31세의 나이로 세상을 떠났고, 공식 사인은 심장마비였지만 실제로는 약물 과다 복용이었을 가능성이 짙다는 것이 통설이다. 생전에는 늘 다른 거장들의 그늘에 머물렀던 그가, 사후 일본을 중심으로 '환상의 명반'으로 재발굴되며 비로소 하드 밥의 핵심 인물로 자리매김했다는 사실은, 재즈사에서 손꼽히는 비극적이면서도 역설적인 에피소드로 남아 있다.</p>
+</section>
+
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+  <p class="p">대한민국의 재즈 애호가 및 평론가 커뮤니티 사이에서 《Cool Struttin'》이 가지는 독특한 위상과 평가의 지표들을 분석한다.</p>
+
+  <p class="p"><strong>1. 재즈 입문자에게 가장 먼저 권하는 '국민 명반':</strong> 국내의 여러 재즈 음악 매체와 음반 추천 칼럼에서 《Cool Struttin'》은 단골로 거론되는 입문용 명반이다. 복잡한 화성이나 과도한 속도 경쟁 없이 누구나 쉽게 즐길 수 있는 블루스 기반의 멜로디와 그루브를 들려주기 때문에, 재즈를 처음 접하는 청취자에게도 거부감 없이 다가간다는 평가가 일관되게 나온다. 한 국내 음악 매체의 재즈 명반 칼럼에서도 이 음반의 커버 사진과 타이틀곡의 스윙감이 "세련되고 도도한 여인의 걸음걸이"를 떠올리게 한다며 애정을 담아 소개한 바 있다.</p>
+
+  <div class="hl">
+    <p><strong>2. 음악 전문 매체가 선정한 '역대 재즈 명반' 목록의 단골:</strong> 국내 음악 스트리밍 서비스와 재즈 전문지가 공동으로 선정하는 '역대 재즈 명반' 리스트류에 《Cool Struttin'》은 거의 빠지지 않고 이름을 올린다. 아트 파머의 복합적인 톤과 연주 스타일, 그리고 클락·맥클린·챔버스·필리 조 존스가 빚어낸 완성도 높은 앙상블이 "결코 놓쳐서는 안 될 매력적인 연주로 가득"하다는 평가가 대표적이다.</p>
+  </div>
+
+  <p class="p"><strong>3. 디자인 애호가들의 꾸준한 관심:</strong> 한국은 블루노트 레이블의 커버 아트워크에 대한 디자인적 관심이 세계적으로도 높은 국가 중 하나로 꼽힌다. 리드 마일스와 프랭크 울프가 만들어낸 '걸어가는 다리' 이미지는 국내 디자인 스튜디오나 카페, 재즈 바의 인테리어 소품으로도 즐겨 활용되며, 음악을 잘 모르는 사람조차 한 번쯔음 이 표지를 마주한 적이 있을 만큼 폭넓게 회자된다.</p>
+
+  <p class="p"><strong>4. 오리지널 프레싱 대신 합리적인 대안을 찾는 컬렉터 문화:</strong> 국내 컬렉터들 사이에서도 《Cool Struttin'》의 미국 오리지널 초판은 가격 부담이 상당히 크다는 인식이 일반적이다. 이에 따라 상대적으로 가격이 합리적인 일본 King Records·Toshiba-EMI 재발매반이나, 음질이 우수하다고 평가받는 Music Matters·Blue Note Classic Vinyl Series 등 현대 재발매반을 구해 소장하는 경우가 더 흔하다. 중고 거래 시에는 트랙리스트와 매트릭스 번호, 레이블 표기를 면밀히 대조하는 것이 권장된다.</p>
+
+  <p class="p"><strong>5. '걸음걸이'의 그루브에 대한 보편적인 공감:</strong> 한국의 청취자들이 이 음반에 느끼는 매력의 핵심은, 타이틀곡이 들려주는 절제되고도 당당한 '걸음걸이'의 그루브가 국적과 시대를 초월해 보편적인 공감을 이끌어낸다는 점에 있다는 평가가 많다. 화려한 기교보다 '느낌(feel)'을 우선하는 이 앨범의 태도는, 재즈를 막 시작한 이들에게도 또 오랜 애호가에게도 변함없이 매력적인 출발점으로 남아 있다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
