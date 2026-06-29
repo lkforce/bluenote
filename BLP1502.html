@@ -3,253 +3,512 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1502 - Miles Davis, Volume 2 (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Miles Davis · Volume 2 BLP 1502 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #0f1c3f; --blue-mid: #1d3557; --blue-light: #457b9d;
+  --cyan: #a8dadc; --cyan-lt: rgba(168,218,220,0.15);
+  --gold: #d4a373; --gold-lt: rgba(212,163,115,0.12);
+  --muted: #5c677d; --border: rgba(15,28,63,0.12);
 }
-
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-h1{
-    margin:0;
-    font-size:2.6em;
-}
-
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
-
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
-
-th{
-    background:#0d1b2a;
-    color:white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0a1128 0%,#111e38 50%,#1d3557 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(168,218,220,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(24px,4.5vw,38px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(14px,2vw,18px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(15,28,63,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib{background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:1.4rem;box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ih{display:flex;align-items:center;gap:12px;padding:.8rem 1.2rem;background:rgba(15,28,63,0.03);border-bottom:1px solid var(--border)}
+.ii{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.iname{font-weight:700;font-size:14px;color:var(--blue-dark)}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em}
+.ibody{padding:1.2rem;font-size:13.5px;line-height:1.85;text-align:justify}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1502</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1501.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1503.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1502 · 1956</div>
+      <h1 class="title">Miles Davis — Volume 2</h1>
+      <div class="sub">세 번의 세션, 세 개의 리듬 섹션 — 그리고 루디 반 겔더와의 첫 만남</div>
+      <div class="meta">
+        <span>1952.5.9 · 1953.4.20 · 1954.3.6 녹음</span>
+        <span>WOR Studios, New York / Van Gelder Studio, Hackensack, NJ</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: John Hermansader / Photography: Francis Wolff</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">Miles Davis, Volume 2 (상세 분석 리포트)</h2>
-  <p>
-  Miles Davis(tp), J.J. Johnson(tb), Horace Silver(p)<br>
-  Recorded 5/9/52, 4/20/53, 3/6/54 | Blue Note Records
-  </p>
+<div class="hdr-nav">
+  <a href="BLP1501.html" class="nav-arrow" title="이전 앨범 (BLP 1501)">←</a>
+  
+  <a href="index.html" class="home-link" title="메인 인덱스로 가기">
+    <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+  </a>
+  
+  <a href="BLP1503.html" class="nav-arrow" title="다음 앨범 (BLP 1503)">→</a>
+</div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1502 《Miles Davis, Volume 2》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">《Volume 2》(BLP 1502)는 1956년 2월, 자매 앨범 《Volume 1》(BLP 1501)에 곧이어 발매되며 마일즈 데이비스의 블루노트 시절 전체를 마무리하는 컴필레이션이다. 그러나 단순한 '나머지 곡 모음'이 아니다. 이 음반에는 1952년과 1953년 세션에서 남은 곡들뿐 아니라, 1954년 3월 6일 호레이스 실버·퍼시 히스·아트 블레이키와 함께한 세 번째이자 마지막 블루노트 세션의 결과물이 통째로 담겨 있다. 그리고 바로 이 1954년 세션이, 블루노트 레이블이 뉴저지 해켄색에 있는 루디 반 겔더(Rudy Van Gelder)의 자택 거실 스튜디오를 처음으로 사용한 기념비적인 순간이었다.</p>
+
+  <div class="hl">
+    <p><strong>이후 30년 넘게 블루노트의 거의 모든 명반—BLP 1509(밀트 잭슨), BLP 1588(소니 클락), BLP 1589(호레이스 실버)를 포함한 수많은 걸작들—이 반 겔더의 스튜디오에서 녹음되었다는 사실을 떠올리면, 이 음반의 11곡 가운데 6곡을 차지하는 1954년 세션은 단순한 트랙 목록 이상의 무게를 지닌다.</strong> 그것은 블루노트와 반 겔더, 그리고 훗날 블루노트의 사운드를 정의하게 될 '하드 밥' 사운드의 만남이 시작된 바로 그 지점이기 때문이다.</p>
+  </div>
+
+  <p class="p">또한 이 1954년 세션은 마일즈 데이비스와 호레이스 실버의 음악적 만남을 기록한 귀중한 자료다. 실버는 이 세션이 녹음되던 해, 아트 블레이키와 함께 훗날 '재즈 메신저스'로 발전할 협업을 막 시작하려던 참이었다. 트롬본이나 색소폰 없이 트럼펫·피아노·베이스·드럼만으로 구성된 콰르텟 편성은, 당시로서는 상당히 간소화된 구성이었으며, 이는 한 달 뒤 프레스티지에서 녹음될 《Walkin'》—종종 하드 밥의 출발점으로 거론되는 그 음반—을 예고하는 음악적 전조로도 읽힌다.</p>
+  <p class="p">발매 시점 또한 의미심장하다. 1955년 뉴포트 재즈 페스티벌에서의 화려한 복귀와 컬럼비아 레코드와의 새 계약으로 마일즈가 다시 정상급 스타로 떠오른 직후, 블루노트는 그의 과거 기록들을 한 장씩 차례로 세상에 내놓았다. 《Volume 1》에 이어 발매된 이 음반은, 한 시대를 마감하고 새로운 시대를 본격적으로 알리는 마침표 같은 존재였다.</p>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《Miles Davis(tp), J.J. Johnson(tb), Horace Silver(p)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 마일즈 데이비스 — 생애 및 약력</h2></div>
+  <p class="p" style="margin-bottom: 1.5rem;">《Volume 1》과 마찬가지로, 이 음반 역시 마일즈 데이비스가 블루노트에서 리더로 활동한 시기를 중심으로 그의 생애를 살펴본다. 특히 이 음반에서 가장 큰 비중을 차지하는 1954년 3월의 세 번째 세션을 중심으로 연표를 보강했다.</p>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1926</span><span class="tlb"><strong>일리노이 주 앨턴에서의 탄생.</strong> 5월 26일 출생, 미주리 주 동세인트루이스에서 성장. 13세에 트럼펫을 선물받았다.</span></li>
+    <li class="tli"><span class="tly">1944–48</span><span class="tlb"><strong>줄리아드, 찰리 파커, 그리고 '쿨'의 씨앗.</strong> 줄리아드 음악원에 입학했지만 찰리 파커를 찾아 할렘의 클럽들을 전전하며 비밥의 한복판으로 뛰어들었다. 1948~49년에는 길 에반스·거니 멀리건과 9인조 밴드를 꾸려 훗날 '쿨 재즈'의 출발점이 된 캐피톨 레이블 세션을 녹음했다.</span></li>
+    <li class="tli"><span class="tly">1949–51</span><span class="tlb"><strong>헤로인 중독, 그리고 침체기.</strong> 심각한 약물 중독으로 경력이 흔들리며 주로 사이드맨으로 활동하는 어려운 시절을 보냈다.</span></li>
+    <li class="tli"><span class="tly">1952.5.9</span><span class="tlb"><strong>블루노트 첫 세션.</strong> J.J. 존슨·재키 맥클린·길 코긴스·오스카 페티포드·케니 클락과 함께 첫 블루노트 리더 세션을 녹음. 결과물은 10인치 LP 《Young Man with a Horn》(1953)으로 먼저 발매되었다.</span></li>
+    <li class="tli"><span class="tly">1953.4.20</span><span class="tlb"><strong>두 번째 세션.</strong> J.J. 존슨·짐미 히스·길 코긴스·퍼시 히스·아트 블레이키와 함께 두 번째 세션을 녹음. 10인치 LP 《Miles Davis, Vol. 2》(1953)로 발매되었다.</span></li>
+    <li class="tli"><span class="tly">1954.3.6</span><span class="tlb"><strong>세 번째이자 마지막 세션 — 반 겔더와의 첫 만남, 호레이스 실버와의 첫 협업.</strong> 뉴저지 해켄색에 있는 루디 반 겔더의 자택 스튜디오에서, 트롬본이나 색소폰 없이 호레이스 실버(피아노)·퍼시 히스(베이스)·아트 블레이키(드럼)만으로 구성된 콰르텟으로 녹음. 이는 블루노트가 반 겔더의 스튜디오를 사용한 최초의 사례이며, 결과물은 10인치 LP 《Miles Davis, Vol. 3》(1954)로 발매되었다.</span></li>
+    <li class="tli"><span class="tly">1954.4</span><span class="tlb"><strong>재기의 신호 — 《Walkin'》.</strong> 프레스티지 레이블에서 호레이스 실버·퍼시 히스·케니 클락과 함께 《Walkin'》을 녹음. 블루노트 세션 불과 한 달 뒤의 일로, 하드 밥이라는 새로운 흐름의 시작을 알리는 작품으로 평가받는다.</span></li>
+    <li class="tli"><span class="tly">1955.7</span><span class="tlb"><strong>뉴포트 재즈 페스티벌에서의 화려한 복귀.</strong> 큰 호평을 받으며 재기에 성공하고, 같은 해 컬럼비아 레코드와 장기 계약을 체결했다.</span></li>
+    <li class="tli"><span class="tly">1956.2</span><span class="tlb"><strong>《Volume 2》(BLP 1502) 발매.</strong> 《Volume 1》에 이어, 1952·1953·1954년 세 차례 세션에서 남은 곡들과 대안 마스터들을 묶어 발매. 이로써 마일즈가 블루노트에 남긴 모든 리더 레코딩이 두 장의 12인치 LP로 정리되었다.</span></li>
+    <li class="tli"><span class="tly">1955–61</span><span class="tlb"><strong>퍼스트 그레이트 퀸텟.</strong> 존 콜트레인·레드 갈란드·폴 챔버스·필리 조 존스와 결성한 퀸텟으로 《'Round About Midnight》을 비롯한 컬럼비아 시대의 걸작들을 쏟아내기 시작했다.</span></li>
+    <li class="tli"><span class="tly">1959</span><span class="tlb"><strong>《Kind of Blue》.</strong> 역사상 가장 많이 팔린 재즈 앨범으로 꼽히는 모달 재즈의 정점을 발표.</span></li>
+    <li class="tli"><span class="tly">1991</span><span class="tlb"><strong>타계.</strong> 9월 28일, 65세를 일기로 세상을 떠남. 비밥부터 쿨 재즈, 하드 밥, 모달 재즈, 퓨전에 이르기까지 재즈사의 거의 모든 주요한 양식적 전환을 주도했다.</span></li>
+  </ul>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(Miles Davis(tp), J.J. Johnson(tb), Horace Silver(p))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <p class="p">《Volume 2》는 세 차례의 서로 다른 세션을 묶은 컴필레이션이다. 트럼펫의 마일즈 데이비스만이 모든 세션에 참여했고, 나머지 자리는 세션마다 완전히 다른 연주자로 채워졌다. 특히 1954년 세션은 트롬본·색소폰 없이 콰르텟으로 진행되어, 이 음반에서 가장 이질적이면서도 가장 비중 있는 사운드를 들려준다.</p>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>1954년 3월 6일 세션 (앨범의 절반 이상을 차지) — 호레이스 실버 · 퍼시 히스 · 아트 블레이키</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Horace Silver</div>
+      <div class="cr">PIANO · 1928–2014</div>
+      <div class="cb">코네티컷 노워크 출생, 케이프 베르데 혈통의 피아니스트. 이 세션이 녹음될 무렵 그는 이미 블루노트에서 자신의 트리오 리더작을 발표한 신예였으며, 같은 해 아트 블레이키와 함께 훗날 '재즈 메신저스'로 발전할 협업을 시작하려던 참이었다. 마일즈와의 이 만남은 그의 펑키하고 블루스에 뿌리를 둔 컴핑 스타일이 폭넓게 인정받게 되는 중요한 발판이 되었다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Percy Heath</div>
+      <div class="cr">BASS · 1923–2005</div>
+      <div class="cb">필라델피아 출신, 짐미 히스의 형. 1953년 세션에 이어 이 1954년 세션에도 참여했다. 같은 해부터 모던 재즈 콰르텟(MJQ)의 창단 멤버로 23년간 활동을 시작하게 되는, 막 떠오르던 신예 베이시스트였다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Art Blakey</div>
+      <div class="cr">DRUMS · 1919–1990</div>
+      <div class="cb">피츠버그 출신. 1953년 세션에도 참여했던 그는, 바로 이 1954년 무렵 호레이스 실버와 함께 '재즈 메신저스'를 결성하기 직전이었다. 폭발적인 프레스 롤로 하드 밥 드럼의 표준을 세운 인물이다.</div>
+    </div>
+  </div>
+
+  <div class="warn" style="margin-bottom:.8rem;margin-top:1.6rem"><strong>1953년 4월 20일 세션 — 짐미 히스 · 퍼시 히스</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Jimmy Heath</div>
+      <div class="cr">TENOR SAXOPHONE · 1926–2020</div>
+      <div class="cb">필라델피아 출신, '히스 브라더스'의 막내. 찰리 파커를 닮은 연주로 '리틀 버드'라는 애칭을 얻은 뒤 테너로 전환했다. 이 음반에 실린 "I Waited For You"에서 부드러운 테너 톤을 들려준다.</div>
+    </div>
+  </div>
+
+  <div class="warn" style="margin-bottom:.8rem;margin-top:1.6rem"><strong>1952년 5월 9일 세션 — 재키 맥클린 · 오스카 페티포드 · 케니 클락</strong></div>
+  <div class="cg">
+    <div class="card gold">
+      <div class="cn">Jackie McLean</div>
+      <div class="cr">ALTO SAXOPHONE · 1931–2006</div>
+      <div class="cb">할렘 슈가힐 출신. 자신의 자작곡 "Donna"의 마스터 테이크가 바로 이 음반에 실려 있으며, 찰리 파커를 향한 흠모가 짙게 묻어나는 날카로운 비밥 어법을 들려준다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Oscar Pettiford</div>
+      <div class="cr">BASS · 1922–1960</div>
+      <div class="cb">오클라호마 출생의 비밥 베이스 선구자. "Wouldn't You"의 마스터 테이크에서 단단한 추진력을 제공한다.</div>
+    </div>
+    <div class="card red">
+      <div class="cn">Kenny Clarke</div>
+      <div class="cr">DRUMS · 1914–1985</div>
+      <div class="cb">비밥 드럼의 창시자 '클룩'. 라이드 심벌 중심의 가볍고 유려한 타임키핑으로 1952년 세션 전체를 지탱한다.</div>
+    </div>
+  </div>
+
+  <div class="cg" style="margin-top:1.6rem">
+    <div class="card gold">
+      <div class="cn">J.J. Johnson</div>
+      <div class="cr">TROMBONE · 1952·1953년 세션 참여 · 1924–2001</div>
+      <div class="cb">단, 이 음반에서 그가 실제로 들리는 곡은 1953년 세션에서 가져온 "I Waited For You"와 "Ray's Idea (Alternate Master)" 뿐이다. 1954년 콰르텟 세션에는 참여하지 않았다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Gil Coggins</div>
+      <div class="cr">PIANO · 1952·1953년 세션 참여 · 1924–2004</div>
+      <div class="cb">마일즈와 군 복무 시절부터 인연을 맺은 할렘 출신 피아니스트. 1954년 세션에는 참여하지 않고 호레이스 실버에게 자리를 내주었다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎺</div>
+      <div><div class="iname">트럼펫 (Trumpet) — Miles Davis</div><div class="ipl" style="color:var(--blue-light)">콰르텟 편성에서 비로소 또렷해지는 자신만의 목소리</div></div>
+    </div>
+    <div class="ibody">
+      1954년 콰르텟 세션에서 마일즈는 트롬본이나 색소폰이라는 또 다른 호른의 보호막 없이, 호레이스 실버의 피아노와 직접 대화를 나눈다. 발라드 "It Never Entered My Mind"에서 그는 무트(mute)를 사용한 취약하고 내면적인 톤으로 연주하는데, 이는 훗날 그의 트레이드마크가 될 무트 트럼펫 사운드의 가장 초기 형태 가운데 하나로 거론된다. "Take Off"나 "The Leap" 같은 업템포 곡에서는 비밥의 속도감과, 하드 밥적인 블루스 감각이 공존하는 절제된 프레이징을 들려준다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--gold)">🎹</div>
+      <div><div class="iname">피아노 (Piano) — Horace Silver</div><div class="ipl" style="color:var(--gold)">곧 하드 밥의 설계자가 될 손길, 그리고 몽크를 향한 헌사</div></div>
+    </div>
+    <div class="ibody">
+      호레이스 실버는 이 세션에서 펑키하고 블루스에 뿌리를 둔 자신만의 컴핑 스타일로 콰르텟 전체에 활력을 불어넣는다. 특히 "The Leap"에서는 텔로니어스 몽크의 어법을 적극적으로 인용하는 솔로를 들려주는데, 흥미롭게도 바로 다음 트랙이 몽크의 실제 작품인 "Well You Needn't"로 이어지도록 배치되어 있다. 이는 단순한 우연이 아니라, 당시 실버를 비롯한 젊은 연주자들 사이에서 몽크의 영향이 얼마나 깊고 직접적이었는지를 보여주는 의도적인 트랙 배열로 해석된다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-dark)">🎷</div>
+      <div><div class="iname">트롬본/리드 (Trombone/Reeds) — J.J. Johnson · Jimmy Heath (1953) / Jackie McLean (1952)</div><div class="ipl" style="color:var(--blue-dark)">짧지만 강렬한 출연, 그리고 비밥 색소폰의 두 얼굴</div></div>
+    </div>
+    <div class="ibody">
+      이 음반에서 J.J. 존슨과 짐미 히스가 들리는 곡은 단 두 곡("I Waited For You", "Ray's Idea" 대안 마스터)뿐이지만, 두 사람의 호흡은 여전히 인상적이다. 한편 재키 맥클린은 "Wouldn't You"와 "Donna"의 마스터 테이크에서 날카롭고 직선적인 톤으로 찰리 파커를 향한 흠모를 드러낸다. 짧은 출연 분량에도 불구하고, 이 두 세션의 리드 파트는 1954년 콰르텟의 간결한 사운드와 뚜렷한 대비를 이루며 앨범에 다채로움을 더한다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--blue-light)">🎻</div>
+      <div><div class="iname">베이스 (Bass) — Percy Heath (1953·1954) / Oscar Pettiford (1952)</div><div class="ipl" style="color:var(--blue-light)">두 세션에 걸쳐 앨범 전체를 잇는 단단한 토대</div></div>
+    </div>
+    <div class="ibody">
+      퍼시 히스는 1953년과 1954년 두 세션 모두에 참여하며 이 음반에서 가장 많이 등장하는 베이시스트가 된다. 신예답지 않은 안정감으로 호레이스 실버의 콰르텟을 떠받치는 그의 연주는, 곧이어 그가 합류할 모던 재즈 콰르텟에서의 활약을 예고한다. 반면 1952년 세션의 오스카 페티포드는 이미 완성된 비밥 베이스의 거장다운 단단한 워킹 라인을 들려준다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--gold)">🥁</div>
+      <div><div class="iname">드럼 (Drums) — Art Blakey (1953·1954) / Kenny Clarke (1952)</div><div class="ipl" style="color:var(--gold)">재즈 메신저스 결성을 목전에 둔 폭발적인 추진력</div></div>
+    </div>
+    <div class="ibody">
+      아트 블레이키 역시 1953·1954년 두 세션 모두에 참여하며 이 음반의 핵심 리듬을 책임진다. 특히 1954년 콰르텟 세션에서는 호레이스 실버와의 호흡이 이미 무르익어 있음이 또렷이 들리는데, 이는 바로 그해 두 사람이 함께 결성하게 될 '재즈 메신저스'의 음악적 화학반응을 미리 엿볼 수 있는 귀중한 기록이다. 1952년 세션의 케니 클락은 보다 가볍고 유려한 비밥 타임키핑으로 대조를 이룬다.
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>5/9/52, 4/20/53, 3/6/54</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1956 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+  <p class="p">《Volume 2》는 세 개의 서로 다른 세션이 한 장의 앨범 안에서 충돌하고 공명하며, 비밥에서 하드 밥으로 넘어가는 과정을 압축적으로 보여주는 독특한 음반이다.</p>
+
+  <p class="p"><strong>1. 콰르텟이라는 간소화된 편성이 예고하는 하드 밥의 미래:</strong> 1954년 세션은 트롬본이나 색소폰 없이 트럼펫·피아노·베이스·드럼만으로 구성되었다. 이는 1952·1953년의 풍성한 섹스텟 편성과 뚜렷이 구별되는 선택으로, 평론가들은 이를 두고 불과 한 달 뒤 프레스티지에서 녹음될 《Walkin'》 — 종종 하드 밥의 출발점으로 거론되는 음반 — 의 간결하고 블루스 중심적인 사운드를 예고하는 전조로 해석한다.</p>
+
+  <div class="hl">
+    <p><strong>2. 몽크의 영향이 또렷이 드러나는 트랙 배열:</strong> "The Leap"에서 호레이스 실버가 텔로니어스 몽크의 어법을 liberally 인용한 직후, 곧바로 몽크의 실제 작품 "Well You Needn't"가 이어지는 트랙 순서는 결코 우연이 아니다. 이는 1950년대 중반 젊은 하드 밥 세대 사이에서 몽크가 차지하던 음악적 위상을, 한 장의 음반 안에서 직접적으로 체감할 수 있게 해주는 흥미로운 구성이다.</p>
+  </div>
+
+  <p class="p"><strong>3. '대안 마스터'를 통한 즉흥연주 비교 체험:</strong> 《Volume 1》과 마찬가지로 이 음반 역시 "Ray's Idea"와 "Tempus Fugit"의 대안 마스터를 수록해, 같은 곡에 대한 솔로이스트들의 다른 접근을 비교하며 들을 수 있게 한다. 두 권의 컴필레이션이 함께 마일즈 데이비스의 블루노트 시절 전체를 빠짐없이 복원하려는 알프레드 라이언의 의도가 읽힌다.</p>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 음악적 세부 분석</h2></div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1.2rem;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">※ 1956년 블루노트 오리지널 12인치 LP (BLP 1502) 첫 발매반의 트랙리스트(전 11곡) 기준 해설입니다.</p>
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Take Off</span><span class="ttime">A1 · 1954년 세션</span></div>
+      <div class="ttag">작곡: 마일즈 데이비스 (Miles Davis) · 장르: 업템포 콰르텟 오리지널</div>
+      <div class="tdesc">호레이스 실버·퍼시 히스·아트 블레이키와 함께한 콰르텟 세션의 오프너. 트롬본과 색소폰이 빠진 간결한 편성 속에서, 마일즈의 트럼펫과 실버의 피아노가 한층 또렷하게 대화를 나눈다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Weirdo</span><span class="ttime">A2 · 1954년 세션</span></div>
+      <div class="ttag">작곡: 마일즈 데이비스 (Miles Davis) · 장르: 블루스 기반 오리지널</div>
+      <div class="tdesc">제목처럼 다소 기묘한 분위기의 크로매틱한 멜로디 라인을 지닌 곡으로, 블루스에 뿌리를 둔 구조가 훗날 《Walkin'》의 사운드를 연상시킨다는 평가를 받는다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Wouldn't You</span><span class="ttime">A3 · 1952년 세션</span></div>
+      <div class="ttag">작곡: 디지 길레스피 (Gillespie) · 장르: 비밥 (통상 "Woody'n You"로 알려진 곡의 마스터 테이크)</div>
+      <div class="tdesc">밴드 리더 우디 허먼에게 헌정된 디지 길레스피의 유명한 비밥 곡. 《Volume 1》에는 이 곡의 대안 마스터가 실렸고, 이 음반에는 정식 마스터 테이크가 실려 있어 두 음반을 나란히 들으면 비교가 가능하다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">I Waited For You</span><span class="ttime">A4 · 1953년 세션</span></div>
+      <div class="ttag">작곡: 월터 "길" 풀러 (W. Fuller) · 장르: 발라드</div>
+      <div class="tdesc">디지 길레스피 빅밴드의 레퍼토리로 잘 알려진 발라드. 짐미 히스의 부드러운 테너 톤과 마일즈의 서정적인 트럼펫이 차분한 분위기를 자아낸다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Ray's Idea (Alternate Master)</span><span class="ttime">A5 · 1953년 세션</span></div>
+      <div class="ttag">작곡: 길 풀러 & 레이 브라운 (Fuller, Brown) · 장르: 업템포 비밥</div>
+      <div class="tdesc">《Volume 1》에 실린 마스터 테이크와 짝을 이루는 대안 테이크. 디지 길레스피 빅밴드의 레퍼토리를 소편성으로 재해석한 곡으로, 같은 멜로디에 대한 또 다른 즉흥적 접근을 들을 수 있다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Donna</span><span class="ttime">A6 · 1952년 세션</span></div>
+      <div class="ttag">작곡: 재키 맥클린 (McLean) · 장르: 비밥 오리지널</div>
+      <div class="tdesc">재키 맥클린의 자작곡 마스터 테이크. 《Volume 1》에 실린 대안 마스터와 비교해 들으면, 같은 멜로디에 대한 맥클린의 서로 다른 즉흥적 선택을 비교할 수 있다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Well You Needn't</span><span class="ttime">B1 · 1954년 세션</span></div>
+      <div class="ttag">작곡: 텔로니어스 몽크 (Thelonious Monk) · 장르: 비밥 스탠다드</div>
+      <div class="tdesc">몽크의 대표적인 비밥 스탠다드. 직전 트랙 "The Leap"에서 호레이스 실버가 몽크의 어법을 적극적으로 인용한 직후 곧바로 이어지도록 배치되어, 두 트랙이 한 쌍처럼 들리도록 의도된 흥미로운 트랙 순서다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">The Leap</span><span class="ttime">B2 · 1954년 세션</span></div>
+      <div class="ttag">작곡: 마일즈 데이비스 (Miles Davis) · 장르: 업템포 콰르텟 오리지널</div>
+      <div class="tdesc">호레이스 실버가 몽크를 liberally 인용하는 솔로로 화제가 되는 트랙. 마일즈와 실버의 긴밀한 대화가 콰르텟 편성의 장점을 한껏 드러낸다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Lazy Susan</span><span class="ttime">B3 · 1954년 세션</span></div>
+      <div class="ttag">작곡: 마일즈 데이비스 (Miles Davis) · 장르: 미디엄 템포 스윙</div>
+      <div class="tdesc">느긋한 미디엄 템포의 스윙 넘버로, 마일즈와 실버가 테마와 솔로를 주고받는 대화적 구성이 돋보인다. 32마디 표준 형식 안에서 차분하게 전개되는 서사적인 흐름이 인상적이다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Tempus Fugit (Alternate Master)</span><span class="ttime">B4 · 1953년 세션</span></div>
+      <div class="ttag">작곡: 버드 파웰 (Bud Powell) · 장르: 업템포 비밥</div>
+      <div class="tdesc">《Volume 1》의 오프너로 쓰인 마스터 테이크와 짝을 이루는 대안 테이크. 같은 빠른 코드 진행 위에서 솔로이스트들이 어떻게 다른 선택을 내리는지 비교하며 들을 수 있다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">It Never Entered My Mind</span><span class="ttime">B5 · 1954년 세션</span></div>
+      <div class="ttag">작곡: 로렌즈 하트 & 리처드 로저스 (Hart, Rodgers) · 장르: 발라드 스탠다드</div>
+      <div class="tdesc">1940년 뮤지컬 〈Higher and Higher〉를 위해 쓰인 로저스-하트의 스탠다드. 마일즈가 무트를 사용해 취약하고 내면적인 톤으로 들려주는 이 발라드는, 호레이스 실버의 섬세한 반주와 함께 앨범을 가장 감성적인 순간으로 마무리한다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+  <p class="p">BLP 1502는 자매 앨범 BLP 1501과 한 쌍을 이루며, 블루노트가 10인치 시대에 녹음했던 마일즈 데이비스의 모든 리더 레코딩을 12인치 시대로 옮겨오는 작업의 완결편이다.</p>
+
+  <div class="hl">
+    <p><strong>루디 반 겔더라는 이름이 블루노트 카탈로그에 처음 등장한 순간.</strong> 이 음반의 절반 이상을 차지하는 1954년 3월 6일 세션은, 블루노트가 반 겔더의 해켄색 스튜디오를 처음으로 사용한 역사적인 순간이다. 이후 반 겔더는 30년 넘게 거의 모든 블루노트 명반—BLP 1509, BLP 1588, BLP 1589를 비롯한 수많은 걸작들—을 엔지니어링하게 된다. 즉, 이 음반은 카탈로그 번호상으로는 시리즈의 두 번째일 뿐이지만, 음향적으로는 블루노트의 '황금기 사운드'가 시작되는 진짜 출발점이라 할 수 있다.</p>
+  </div>
+
+  <div class="pos-grid">
+    <div class="pos-card" style="border:2px solid var(--blue-mid)">
+      <div class="pos-label" style="color:var(--blue-light)">BLP 1502 [현재 앨범]</div>
+      <div class="pos-title">Miles Davis – Volume 2</div>
+      <div class="pos-desc">1952·1953·1954년 세 세션을 묶은 컴필레이션. 1956년 2월 발매.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1501 [자매 앨범]</div>
+      <div class="pos-title">Miles Davis – Volume 1</div>
+      <div class="pos-desc">1952·1953년 세션의 마스터 테이크 중심. 1500번대 시리즈의 출발점.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1503–1504</div>
+      <div class="pos-title">The Amazing Bud Powell, Vol. 1 & 2</div>
+      <div class="pos-desc">번 파웰의 10인치 시대 녹음을 묶은 또 다른 초기 컴필레이션. 1956년 3월 발매.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1505</div>
+      <div class="pos-title">The Eminent Jay Jay Johnson, Vol. 1</div>
+      <div class="pos-desc">이 음반에도 참여한 J.J. 존슨의 리더작. 시리즈 초기를 채운 또 다른 컴필레이션 성격의 앨범이다.</div>
+    </div>
+  </div>
+
+  <p class="p">BLP 1501과 1502는 함께 묶여, 블루노트 1500번대 시리즈가 어떻게 출발했는지를 보여주는 한 쌍의 '창세기'와 같은 존재다. 두 음반 모두 신규 녹음이 아니라 과거 10인치 시대의 자료를 재편집한 컴필레이션이라는 공통점을 지니며, 이후 BLP 1509(밀트 잭슨)까지도 비슷한 성격의 초기 컴필레이션 계보를 잇는다. 시리즈가 본격적으로 '오리지널 신규 세션' 중심으로 전환된 것은 1956~57년 무렵, 호레이스 실버·소니 롤린스 같은 신예들의 새로운 레코딩이 쌓이기 시작하면서부터다.</p>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 1501과 세트, 명곡 'Tempus Fugit' 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치 및 프레싱 식별법</h2></div>
+  <p class="p">BLP 1502는 자매 앨범 BLP 1501과 거의 동일한 컬렉터 시장 환경을 공유하지만, 발매 시점이 약간 늦은 만큼 일부 식별 포인트에 차이가 있다.</p>
+
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-dark);color:#fff">🇺🇸 미국 오리지널 첫 프레싱 (1956, 767 Lexington Ave)</div>
+      <div class="pbody">
+        <p><span class="pl">오리지널 초판 식별 초점:</span> BLP 1502 역시 블루노트의 주소가 **"767 LEXINGTON AVE, NEW YORK"**로 표기되던 '순수 렉싱턴 런'(BLP 1501~1543) 시기에 발매되었다. 진정한 초판은 양면 레이블의 렉싱턴 주소, **딥 그루브**, **플랫 엣지** 림, 데드왁스의 **'이어' 마크**와 **'RVG' 각인**을 모두 갖추어야 한다. 1954년 세션은 반 겔더가 직접 녹음 엔지니어링을 맡은 첫 사례인 만�, 이 음반의 'RVG' 각인은 1501보다 한층 더 직접적인 의미를 지닌다.</p>
+        <p><span class="pl">음질적 특성:</span> 세 세션이 섞여 있는 까닭에 음질의 편차가 비교적 뚜렷하게 느껴진다. WOR 스튜디오에서 녹음된 1952·1953년 트랙들에 비해, 반 겔더의 스튜디오에서 녹음된 1954년 콰르텟 트랙들이 한층 선명하고 분리도 높은 사운드를 들려준다는 평가가 많다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> BLP 1501과 유사한 가격대를 형성하며, 일반적인 VG+ 등급은 **$100에서 $300대**, 보존 상태가 우수한 초판은 그 이상으로 거래된다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-light);color:#fff">🇯🇵 일본 재발매반 (King Records / Toshiba-EMI)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 및 제작 시기:</span> BLP 1501과 함께 짝을 이루어 일본에서 여러 차례 재발매되었다. 일부 일본 CD판은 오리지널 BLP 1502의 트랙 순서를 그대로 보존해, 후대의 미국 CD 재편집판과 구별되는 자료적 가치를 지닌다.</p>
+        <p><span class="pl">음질적 특성:</span> 1954년 반 겔더 녹음분의 선명함이 비교적 잘 살아 있는 편이며, 전반적으로 안정적인 재발매 품질을 보인다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> **$30에서 $80 내외**로, 미국 오리지널보다 훨씬 합리적인 가격에 구할 수 있다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--gold);color:#fff">🆕 현대 오디오파일 재발매 (Blue Note Classic Vinyl Series)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 및 제작 시기:</span> BLP 1501과 함께 'Blue Note Classic Vinyl Series'로 재발매되었다. 케빈 그레이가 오리지널 마스터에서 모노 올-아날로그로 마스터링했으며, 옵티멀 프레싱 공장에서 180g LP로 제작되었다.</p>
+        <p><span class="pl">음질적 특성:</span> 리스너들은 전반적으로 1501보다 1502의 음질이 한층 더 우수하다고 평가하는데, 이는 1954년 반 겔더 녹음분의 비중이 절반을 넘기 때문으로 분석된다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> 신품 기준 **$25에서 $40** 선으로, 음질과 가격 모두에서 합리적인 선택지로 꼽힌다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 및 평가 (핵심 요약 정리)</h2></div>
+  <div class="hl" style="margin-bottom:1.1rem">
+    <p>오리지널 12인치 LP의 라이너 노트 역시 레너드 페더가 작성했다. 자매 앨범 BLP 1501과 마찬가지로, 세 세션을 한 장에 묶게 된 배경과 각 리듬 섹션의 개성을 설명하는 데 주력했다.</p>
+  </div>
+
+  <div class="rv">
+    <div class="rvsrc">올뮤직 (AllMusic) — 그록피디아 종합 평가</div>
+    <div class="rvb">"발라드 'It Never Entered My Mind'는 실버의 섬세한 반주 위로 마일즈의 취약한 무트 트럼펫이 그의 감성적 스펙트럼을 드러내며 앨범을 마무리한다. 'Take Off', 'Lazy Susan', 'The Leap' 같은 업템포 곡들은 비밥의 속도감과 하드 밥의 소울을 잇는 활기찬 리듬과 멜로디적 창의성을 보여준다."</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">올어바웃재즈 (All About Jazz) — 마크 데이비스(Marc Davis), Vol.1/2 통합 리뷰, 5점 만점에 4점</div>
+    <div class="rvb">"세 세션 가운데 가장 뛰어난 것은 1953년 섹스텟이지만, 1954년 세션의 'The Leap'에서 호레이스 실버가 몽크를 인용한 직후 곧바로 몽크의 'Well You Needn't'가 이어지는 구성은 특히 인상적이다."</div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">1. 호레이스 실버라는 이름의 비중</div>
+    <div class="lnb">
+      페더는 라이너 노트에서 이 음반에 처음 등장하는 호레이스 실버의 존재를 특별히 짚었다. 당시 실버는 아직 전국적인 명성을 얻기 전이었지만, 페더는 그의 펑키한 컴핑 스타일이 곧 재즈계에서 폭넓게 인정받게 될 것이라는 예견에 가까운 평가를 남겼다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">2. 대안 마스터가 지닌 자료적 가치</div>
+    <div class="lnb">
+      페더는 "Ray's Idea"와 "Tempus Fugit"의 대안 마스터를 수록한 이유에 대해, 단순히 LP의 남는 공간을 채우기 위함이 아니라 같은 곡에 대한 솔로이스트들의 서로 다른 즉흥적 선택을 비교하며 듣는 것이 재즈 감상의 또 다른 즐거움이라는 점을 강조했다.
+    </div>
+  </div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 역사적 에피소드</h2></div>
+  <p class="p">BLP 1502의 탄생 이면에는 재즈사 연구자들 사이에서 두고두고 거론되는 흥미로운 비화들이 숨어 있다.</p>
 
+  <p class="p"><strong>1. 블루노트와 반 겔더, 운명적인 첫 만남:</strong> 1954년 3월 6일, 마일즈 데이비스 콰르텟이 뉴저지 해켄색의 작은 거실 스튜디오를 찾았다. 그 거실의 주인이자 엔지니어였던 루디 반 겔더와 블루노트의 첫 협업이 바로 이날 시작되었다. 이후 30년 넘게 이어질 블루노트와 반 겔더의 동맹이, 다른 누구도 아닌 마일즈 데이비스의 세션에서 시작되었다는 사실은 재즈사의 흥미로운 우연으로 거론된다.</p>
+
+  <div class="hl">
+    <p><strong>2. 호레이스 실버와 아트 블레이키, 재즈 메신저스 결성 직전의 마지막 리허설:</strong> 이 1954년 세션에서 호흡을 맞춘 호레이스 실버와 아트 블레이키는, 바로 같은 해 협동조합 형태의 밴드 '재즈 메신저스'를 결성하게 된다. 마일즈 데이비스의 콰르텟에서 보여준 두 사람의 긴밀한 음악적 대화는, 사실상 재즈 메신저스가 탄생하기 직전 마지막으로 남은 합주 기록 가운데 하나라 할 수 있다.</p>
+  </div>
+
+  <p class="p"><strong>3. 한 달 차이로 갈라진 두 레이블 — 블루노트와 프레스티지:</strong> 이 1954년 3월 세션이 끝난 지 불과 한 달 뒤인 4월, 마일즈는 프레스티지에서 호레이스 실버·퍼시 히스·케니 클락과 함께 《Walkin'》을 녹음했다. 거의 같은 멤버, 거의 같은 음악적 어법이 두 개의 서로 다른 레이블에 나뉘어 기록된 셈인데, 이는 당시 마일즈의 계약이 비독점적이었기에 가능했던 일이며, 재즈사에서 하드 밥의 출발점을 논할 때 이 두 세션이 함께 거론되는 이유이기도 하다.</p>
+
+  <p class="p"><strong>4. "Well You Needn't" 직전에 놓인 "The Leap" — 의도된 트랙 순서:</strong> 호레이스 실버가 "The Leap"에서 몽크의 어법을 적극적으로 인용한 직후, 곧바로 몽크의 실제 작품이 이어지는 트랙 배열은 단순한 우연으로 보기 어렵다. 이는 당시 젊은 하드 밥 세대 음악가들 사이에서 몽크가 차지하던 위상을 한 장의 음반 안에서 직접 체감할 수 있게 해주는 의도적인 구성으로 거론된다.</p>
+
+  <p class="p"><strong>5. 자매 음반과 나뉜 같은 곡들 — 컬렉터들의 비교 청취:</strong> "Donna", "Ray's Idea", "Tempus Fugit", "Wouldn't You" 네 곡은 모두 마스터 테이크와 대안 마스터가 BLP 1501과 1502에 각각 나뉘어 실려 있다. 두 음반을 나란히 놓고 같은 곡의 서로 다른 테이크를 비교해 듣는 것은, 오늘날까지도 진지한 컬렉터와 즉흥연주 연구자들 사이에서 즐겨 행해지는 청취 방식이다.</p>
+</section>
+
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+  <p class="p">대한민국의 재즈 애호가 커뮤니티 사이에서 《Volume 2》가 가지는 위상과 평가의 지표들을 분석한다.</p>
+
+  <p class="p"><strong>1. 자매 앨범 《Volume 1》과 함께 다뤄지는 경우가 많다:</strong> 국내에서 이 음반은 단독으로 거론되기보다, 자매 앨범 《Volume 1》과 함께 '마일즈 데이비스의 블루노트 시절'이라는 하나의 묶음으로 소개되는 경우가 많다. 두 음반을 따로 떼어 평가하기보다, 마일즈가 컬럼비아 시대 이전 어떤 길을 걸어왔는지를 보여주는 한 쌍의 사료로 다뤄지는 경향이 짙다.</p>
+
+  <div class="hl">
+    <p><strong>2. 호레이스 실버의 초기 발자취를 좇는 국내 애호가들의 관심:</strong> 한국에서 호레이스 실버는 BLP 1589 《Further Explorations》나 《Song for My Father》를 통해 비교적 잘 알려진 인물이다. 이 음반은 그가 마일즈 데이비스와 처음으로 깊이 협업한 기록이라는 점에서, 실버의 디스코그래피를 차례로 따라가는 국내 애호가들 사이에서 중요한 '원점'으로 거론되곤 한다.</p>
+  </div>
+
+  <p class="p"><strong>3. 반 겔더 스튜디오의 '원년'에 대한 사료적 관심:</strong> 블루노트 레이블을 깊이 다루는 국내 칼럼이나 콘텐츠에서는, 이 음반의 1954년 세션이 루디 반 겔더와 블루노트의 첫 협업이라는 사실이 자주 강조된다. 이후 한국 재즈 애호가들에게 큰 사랑을 받는 BLP 1588·1589 같은 명반들이 모두 반 겔더의 사운드 위에 놓여 있다는 점에서, 이 음반은 그 출발점으로서 학술적인 관심을 받는다.</p>
+
+  <p class="p"><strong>4. 입문용보다는 심화 학습용 자료로서의 위치:</strong> 마일즈 데이비스의 이름값에 비해, 이 시기의 음악은 국내 입문자들에게 첫 추천 음반으로 거론되는 경우는 드물다. 오히려 마일즈의 디스코그래피를 시간순으로 완주하려는 진지한 애호가나, 비밥에서 하드 밥으로의 전환 과정을 공부하려는 학습자들에게 권장되는 심화 자료로 다뤄진다.</p>
+
+  <p class="p"><strong>5. 합리적인 소비 — 일본 재발매반과 Blue Note Classic Vinyl Series:</strong> 국내 컬렉터들 사이에서는 BLP 1501과 마찬가지로, 미국 오리지널 렉싱턴 애비뉴 초판보다 합리적인 가격의 일본 재발매반이나 최신 Blue Note Classic Vinyl Series를 구해 듣는 것이 실용적인 선택으로 통용된다. 다만 두 음반을 한 쌍으로 수집하려는 컬렉터들에게는, 짝을 맞춰 소장하는 것 자체가 또 하나의 즐거움으로 여겨지기도 한다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
 </body>
 </html>
