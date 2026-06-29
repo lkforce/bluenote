@@ -3,253 +3,488 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1505 - The Eminent J. J. Johnson, Volume 1 (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Jay Jay Johnson · The Eminent Jay Jay Johnson Vol. 1 BLP 1505 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #1a2536; --blue-mid: #2e3d52; --blue-light: #4a5d78;
+  --cyan: #e0a96d; --cyan-lt: rgba(224,169,109,0.15);
+  --gold: #cd7f32; --gold-lt: rgba(205,127,50,0.12);
+  --muted: #5c677d; --border: rgba(26,37,54,0.12);
 }
-
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-h1{
-    margin:0;
-    font-size:2.6em;
-}
-
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
-
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
-
-th{
-    background:#0d1b2a;
-    color:white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0d1520 0%,#1a2536 50%,#2e3d52 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(224,169,109,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(24px,4.5vw,38px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(14px,2vw,18px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(26,37,54,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib{background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:1.4rem;box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ih{display:flex;align-items:center;gap:12px;padding:.8rem 1.2rem;background:rgba(26,37,54,0.03);border-bottom:1px solid var(--border)}
+.ii{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.iname{font-weight:700;font-size:14px;color:var(--blue-dark)}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em}
+.ibody{padding:1.2rem;font-size:13.5px;line-height:1.85;text-align:justify}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1505</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1504.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1506.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1505 · 1955</div>
+      <h1 class="title">Jay Jay Johnson — The Eminent Jay Jay Johnson Volume 1</h1>
+      <div class="sub">트롬본이라는 악기의 한계를 지워버린, 모던 재즈 트롬본의 역사적 이정표</div>
+      <div class="meta">
+        <span>1953.6.22 / 1954.9.24 녹음</span>
+        <span>WOR Studios / Van Gelder Studio</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: Reid Miles / Photography: Francis Wolff</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">The Eminent J. J. Johnson, Volume 1 (상세 분석 리포트)</h2>
-  <p>
-  J. J. Johnson(tb), Clifford Brown(tp), Jimmy Heath(ts)<br>
-  Recorded 6/22/53, 9/24/54 | Blue Note Records
-  </p>
+<div class="hdr-nav">
+  <a href="BLP1504.html" class="nav-arrow" title="이전 앨범 (BLP 1504)">←</a>
+  
+  <a href="index.html" class="home-link" title="메인 인덱스로 가기">
+    <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+  </a>
+  
+  <a href="BLP1506.html" class="nav-arrow" title="다음 앨범 (BLP 1506)">→</a>
+</div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1505 《The Eminent J. J. Johnson, Volume 1》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">블루노트 레이블이 10인치 LP 시대를 마감하고 12인치 명반 컬렉션인 '1500번대 시리즈'를 기획했을 때, 초창기 카탈로그의 가장 위대한 성취 중 하나로 꼽히는 음반이 바로 제이 제이 존슨(J.J. Johnson)의 《The Eminent Jay Jay Johnson Volume 1》(BLP 1505)이다. 이 음반은 비밥(Bebop) 혁명기 당시 슬라이드 트롬본이라는 악기 구조적 한계 때문에 '빠르고 복잡한 비밥 라인은 연주 불가능하다'던 재즈계의 고정관념을 완벽하게 무너뜨리고, 트롬본을 알토 색소폰이나 트럼펫과 동등한 반열의 독주 악기로 격상시킨 재즈사의 역사적 선언서이다.</p>
+
+  <div class="hl">
+    <p><strong>올뮤직(AllMusic)은 본작에 만점(5/5)을 부여하며 "이 세션은 모던 재즈 트롬본 연주의 기준점이며, 존슨이 왜 당대 최고(Eminent)라 불렸는지 증명한다"고 상찬했다.</strong> 펭귄 재즈 가이드(The Penguin Guide to Jazz) 역시 이 음반의 역사적 가치를 조명하며 초기 하드 밥으로 이행하는 과정의 교본으로 꼽았고, 재즈 평론가 냇 헨토프는 그를 "비밥의 어법을 트롬본에 완벽히 이식한 유일무이한 마스터"로 평가했다. 1953년 6월 22일과 1954년 9월 24일이라는 두 차례의 결정적인 세션을 묶어 완성해낸 이 앨범은 존슨의 전성기 기량뿐만 아니라 클리포드 브라운, 찰스 밍거스 등 재즈 거장들의 초창기 눈부신 에너지를 한눈에 확인할 수 있는 소중한 기록이다.</p>
+  </div>
+
+  <p class="p">앨범의 타이틀인 'Eminent(저명한, 탁월한)'라는 단어는 결코 과장이 아니었다. 존슨은 밸브 트롬본이 아닌 전통적인 슬라이드 트롬본을 사용하면서도, 믿을 수 없을 만큼 정확한 아티큘레이션과 스피드로 비밥의 복잡한 화성 진행을 돌파해 나갔다. 리드 마일스(Reid Miles)가 디자인한 극도로 절제된 폰트 레이아웃의 타이틀 커버와 프랭크 울프(Francis Wolff)가 포착한, 연주에 몰입한 존슨의 흑백 사진은 1500번대 초창기 모노 명반 특유의 진중하고 압도적인 아우라를 뿜어낸다.</p>
+  <p class="p">무엇보다 이 음반은 스윙 시대의 전유물이나 오케스트라의 백그라운드 악기로 취급받던 트롬본이 모던 재즈의 최전선에서 어떻게 리드 악기로 군임할 수 있는지를 보여주었으며, 사후 수많은 트롬보니스트들이 반드시 통과해야만 하는 거대한 거울이자 하드 밥의 태동을 알린 최고의 고전으로 자리 잡고 있다.</p>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《J. J. Johnson(tb), Clifford Brown(tp), Jimmy Heath(ts)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 제이 제이 존슨 — 생애 및 약력</h2></div>
+  <p class="p" style="margin-bottom: 1.5rem;">재즈 트롬본의 역사를 새로 쓴 거장 제이 제이 존슨(J.J. Johnson)의 치열했던 삶과 음악적 발자취를 정리한 연표다.</p>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1924</span><span class="tlb"><strong>인디애나폴리스에서의 탄생.</strong> 본명 제임스 루이스 존슨(James Louis Johnson), 1월 22일 인디애나 주 인디애나폴리스에서 출생. 9세 때 피아노를 배우며 음악에 입문했으나, 14세 무렵 트롬본으로 악기를 전환하며 자신만의 운명적인 길을 걷기 시작했다.</span></li>
+    <li class="tli"><span class="tly">1942</span><span class="tlb"><strong>프로 커리어의 시작과 스윙 밴드 시절.</strong> 18세의 나이로 클라렌스 러브(Clarence Love) 밴드에 합류해 프로 연주자가 되었고, 이어 스누컴 러셀(Snoocom Russell) 오케스트라를 거치며 두각을 나타냈다. 이 시기 트롬보니스트 프레드 베케트(Fred Beckett)로부터 강렬한 음악적 영감을 얻었다.</span></li>
+    <li class="tli"><span class="tly">1943</span><span class="tlb"><strong>베니 카터 오케스트라 합류 및 첫 레코딩.</strong> 거장 베니 카터(Benny Carter)의 대형 오케스트라에 발탁되어 활동했으며, 최초의 정식 재즈 솔로 레코딩을 남겼다. 이 시기 로스앤젤레스에서 열린 역사적인 'Jazz at the Philharmonic(JATP)' 첫 콘서트에 참여하여 당대 거장들과 어깨를 나란히 했다.</span></li>
+    <li class="tli"><span class="tly">1945</span><span class="tlb"><strong>카운트 베이시 밴드 입단 및 비밥으로의 눈뜸.</strong> 재즈 명문 카운트 베이시(Count Basie) 오케스트라에 가입하여 1946년까지 활동했다. 이 무렵 뉴욕 52번가를 중심으로 몰아치던 찰리 파커와 디지 길레스피의 비밥 혁명을 목격하고, 트롬본으로 비밥 어법을 구현하겠다는 결심을 세웠다.</span></li>
+    <li class="tli"><span class="tly">1946–50</span><span class="tlb"><strong>비밥 신의 핵심 인물로 부상.</strong> 베이시 밴드를 나와 뉴욕에 정착한 뒤, 찰리 파커 퀸텟, 디지 길레스피 빅밴드, 마일즈 데이비스의 《Birth of the Cool》 세션 등에 참여하며 '비밥 트롬본의 독보적인 일인자'로 인정받았다.</span></li>
+    <li class="tli"><span class="tly">1953.6</span><span class="tlb"><strong>청사진이 된 블루노트 첫 세션 (WOR Studios).</strong> 재즈계의 극심한 불황과 마약의 유혹 속에서 잠시 음악을 중단하고 청사진 검사관(Blueprint Inspector)으로 일하기도 했으나, 블루노트의 알프레드 라이언의 권유로 복귀 세션을 가짐. 신성 클리포드 브라운(트럼펫), 지미 히스, 존 루이스, 찰스 밍거스, 케니 클락과 함께 본작의 전반부가 되는 불멸의 트랙들을 녹음했다.</span></li>
+    <li class="tli"><span class="tly">1954.9</span><span class="tlb"><strong>반 겔더 스튜디오에서의 두 번째 세션 및 카이 와인딩과의 만남.</strong> 루디 반 겔더 스튜디오에서 와인드 허스트, 찰스 밍거스 등과 함께 두 번째 세션을 완수하며 《The Eminent Jay Jay Johnson Volume 1》의 퍼즐을 완성함. 같은 해 트롬보니스트 카이 와인딩(Kai Winding)과 함께 결성한 'Jay & Kai' 퀸텟은 대중적·상업적으로 엄청난 성공을 거두며 재즈계에 트롬본 붐을 일으켰다.</span></li>
+    <li class="tli"><span class="tly">1955</span><span class="tlb"><strong>본작 《The Eminent... Volume 1》 발매.</strong> 1953년과 1954년의 역사적인 마스터피스 세션들을 통합한 블루노트 12인치 LP 초판(BLP 1505)이 정식 발매되어 평단에 커다란 충격을 안겼다.</span></li>
+    <li class="tli"><span class="tly">1960–70</span><span class="tlb"><strong>작곡가 및 스코어러로서의 변신.</strong> 서드 스트림(Third Stream) 운동에 참여하며 대형 오케스트라 작품을 작곡했고, 1970년대에는 할리우드로 이주해 영화 음악 및 TV 시리즈 서사 음악 작곡가로서 명성을 날렸다. (〈Shafton〉, 〈Starsky and Hutch〉 등)</span></li>
+    <li class="tli"><span class="tly">1980–90</span><span class="tlb"><strong>재즈 신으로의 화려한 귀환.</strong> 다시 재즈 연주자로 복귀하여 수많은 명반을 남겼고, 여전한 스피드와 한층 깊어진 깊이로 전 세계 재즈 팬들을 매료시켰다. 1995년 NEA 재즈 마스터 상을 수상했다.</span></li>
+    <li class="tli"><span class="tly">2001</span><span class="tlb"><strong>거장의 마지막 걸음.</strong> 전립선암과 투병하던 중 2월 4일, 고향 인디애나폴리스에서 향년 77세의 나이로 자살로 생을 마감했다. 그의 타계 소식에 전 세계 재즈계는 "트롬본의 파커가 떠났다"며 깊은 슬픔에 잠겼다.</span></li>
+  </ul>
+
+  <div class="qt">
+    <p>"사람들은 트롬본이 빠른 비밥 프레이징을 연주하기엔 너무 둔하고 느린 악기라고 말했다. 나는 그 말이 틀렸음을 증명하고 싶었다. 악기가 연주자를 제한하는 것이 아니라, 연주자의 상상력이 악기의 한계를 결정하는 것이다." — J.J. Johnson, 냇 헨토프와의 대담 중</p>
+    <div class="src">— original liner notes to Blue Note BLP 1505, 1955</div>
+  </div>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(J. J. Johnson(tb), Clifford Brown(tp), Jimmy Heath(ts))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <p class="p">《The Eminent Jay Jay Johnson Volume 1》은 1953년 올스타 섹스텟 세션과 1954년 찰스 밍거스가 참여한 퀸텟 세션의 에센스를 모은 음반이다. 재즈 역사상 다시는 한자리에 모이기 힘든 불멸의 거장들이 참여한 라인업이다.</p>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>1953년 WOR / 1954년 Van Gelder — 시대의 천재들이 빚어낸 경이로운 앙상블</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">J.J. Johnson</div>
+      <div class="cr">TROMBONE · LEADER · 1924–2001</div>
+      <div class="cb">모던 재즈 트롬본의 설계자이자 절대강자. 악기 특유의 슬라이드 글리스 효과를 극도로 절제하고, 마치 밸브 악기를 연주하듯 정밀하고 깔끔한 스타카토와 초인적인 스피드로 비밥 라인을 구사해 재즈 트롬본의 패러다임을 바꾼 인물이다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Clifford Brown</div>
+      <div class="cr">TRUMPET · 1930–1956</div>
+      <div class="cb">'브라우니'라는 애칭으로 불린, 재즈사상 가장 눈부셨던 천재 트럼페터. 1953년 세션 당시 22세의 나이로 참여해, 티 없이 맑고 풍부한 톤과 거침없이 뿜어져 나오는 멜로딕한 인벤션으로 제이 제이 존슨의 강력한 카운터파트를 완벽히 수행했다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Jimmy Heath</div>
+      <div class="cr">TENOR SAXOPHONE · 1926–2020</div>
+      <div class="cb">'리틀 버드'라는 별명답게 찰리 파커의 강렬한 자양분을 완벽히 흡수한 테너 색소포니스트이자 탁월한 편곡자. 1953년 세션에 참여해 3호른 체제의 탄탄한 화성적 베이스를 제공했으며, 자작곡 "Capri"를 선사해 앨범의 완성도를 높였다.</div>
+    </div>
+    <div class="card red">
+      <div class="cn">Charles Mingus</div>
+      <div class="cr">BASS · 1922–1979</div>
+      <div class="cb">재즈사에서 가장 위대한 베이시스트이자 작곡가 중 한 명. 1953년과 1954년 세션 모두에 참여하여 특유의 강력하고 역동적인 피치카토 구동력으로 리듬 섹션을 지배했다. 존슨의 아이디어에 끊임없이 불을 지피는 촉매제 역할을 수행했다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">John Lewis / Wynton Kelly</div>
+      <div class="cr">PIANO · (1953) / (1954)</div>
+      <div class="cb">1953년 세션의 존 루이스(MJQ의 리더)는 절제되고 클래시컬한 터치로 지적인 프레임을 짰고, 1954년 세션의 윈튼 켈리는 특유의 싱그럽고 블루지한 스윙감과 춤추는 듯한 컴핑으로 존슨의 솔로를 한층 유연하게 보좌했다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎼</div>
+      <div><div class="iname">트롬본 (Trombone) — J.J. Johnson</div><div class="ipl" style="color:var(--blue-light)">슬라이드의 한계를 지워버린 속사포 같은 아티큘레이션</div></div>
+    </div>
+    <div class="ibody">
+      제이 제이 존슨의 연주는 들을 때마다 "이것이 진정 슬라이드 트롬본인가?"라는 경탄을 자아낸다. 그는 전통적인 트롬본 연주자들이 즐겨 쓰던 뭉뚱그려진 글리스(glissando) 주법을 배제하고, 텅잉(tonguing)과 슬라이드의 타이밍을 밀리초 단위로 일치시켜 아주 명민한 '페이크 밸브' 효과를 만들어낸다. 본작의 "Turnpike"나 "Coffee Pot" 같은 업템포 곡에서 그가 구사하는 프레이징은 마치 소니 스티트나 찰리 파커가 알토 색소폰으로 펼치는 속주를 연상시킬 만큼 맑고 날카롭다. 그러면서도 발라드 곡인 "Lover Man"에서는 한없이 따뜻하고 깊은 벨벳 같은 톤으로 곡을 감싸 안으며, 완벽한 다이내믹의 조율 능력을 보여준다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--gold)">🎺</div>
+      <div><div class="iname">트럼펫 (Trumpet) — Clifford Brown</div><div class="ipl" style="color:var(--gold)">터져 나오는 광채, 하드 밥 트럼펫의 찬란한 서막</div></div>
+    </div>
+    <div class="ibody">
+      1953년 세션에 참여한 클리포드 브라운의 트럼펫은 이 앨범에 찬란한 생동감을 불어넣는 치트키다. "Turnpike"에서 그가 보여주는 오픈 호른 솔로는 음 하나하나가 완벽하게 조율된 금속성 광채를 발하며, 단 한 치의 머뭇거림도 없이 질주한다. 존슨의 이지적이고 깔끔한 아티큘레이션과 대조되는 브라운의 넘쳐흐르는 열정적 프레이징은, 자칫 차갑게 흐를 수 있었던 비밥 세션에 하드 밥 특유의 뜨거운 소울과 화려한 다이내믹을 부여하는 결정적 역할을 했다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-dark)">🎷</div>
+      <div><div class="iname">테너 색소폰 (Tenor Sax) — Jimmy Heath</div><div class="ipl" style="color:var(--blue-dark)">두터운 화성적 뼈대와 비밥 어법의 정교한 이식</div></div>
+    </div>
+    <div class="ibody">
+      지미 히스는 1953년 세션에서 앙상블의 중간 허리를 단단하게 받쳐준다. 존슨과 브라운이라는 투 탑 솔로이스트 사이에서, 히스는 정통 비밥에 기반한 조밀하고 논리적인 테너 색소폰 솔로를 구사한다. 특히 그가 작곡한 "Capri"에서 드러나듯, 3호른이 유니즌으로 맞물려 돌아가는 헤드(테마) 부분에서 그의 정교한 앙상블 조율력과 부드러운 중저음 톤은 존슨의 고음역 트롬본 사운드와 절묘한 결합을 이루어낸다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--blue-light)">🎻</div>
+      <div><div class="iname">베이스 (Bass) — Charles Mingus</div><div class="ipl" style="color:var(--blue-light)">리듬 펄스를 주도하는 거대한 추진력과 공격적 피치카토</div></div>
+    </div>
+    <div class="ibody">
+      찰스 밍거스는 이 음반의 두 세션 모두에서 리듬 섹션의 실질적인 사령관으로 기능한다. 당시의 일반적인 워킹 베이스들이 뒤에서 묵묵히 박자만 짚어주던 것과 달리, 밍거스의 베이스 라인은 매우 공격적이며 음량이 풍부하고 타악기적이다. "Get Happy"와 "Jay"에서 들려오는 그의 묵직하고 탄력 넘치는 핑거링은 리더인 존슨의 슬라이드 워크를 뒤에서 강하게 밀어붙이며, 독주자들과 대등하게 대화하는 듯한 입체적인 저음역 스윙을 형성한다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--gold)">🥁</div>
+      <div><div class="iname">드럼 (Drums) — Kenny Clarke / Kenny Dennis</div><div class="ipl" style="color:var(--gold)">비밥 드럼의 원조가 들려주는 정교한 라이드 심벌 워크</div></div>
+    </div>
+    <div class="ibody">
+      1953년 세션을 책임진 케니 클락(Kenny Clarke)은 모던 재즈 드럼의 창시자답게, 베이스 드럼의 '쿵쿵'거리는 타격을 줄이는 대신 라이드 심벌의 지속적인 펄스('딩-딩-디-딩')로 곡의 스피드감을 유지한다. 이는 존슨의 빠른 솔로 라인이 엉키지 않고 날아오를 수 있는 완벽한 양탄자를 깔아준 격이다. 1954년 세션의 케니 데니스 역시 클락의 유산을 이어받아 깔끔한 림샷과 스네어 악센트로 존슨의 그루브를 정밀하게 호위한다.
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>6/22/53, 9/24/54</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1955 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+  <p class="p">《The Eminent Jay Jay Johnson Volume 1》은 초기 비밥의 광포한 열기가 정교하게 정제되어 하드 밥(Hard Bop)이라는 새로운 세부 장르로 이행해 가던 1950년대 초·중반 블루노트 사운드의 원형을 간직하고 있다.</p>
+
+  <p class="p"><strong>1. 트롬본의 독주 악기화와 비밥 어법의 완성:</strong> 스윙 시대까지 트롬본은 주로 빅밴드의 섹션 음색을 채우거나 슬라이드의 글리스 효과를 활용한 유머러스한 양념 역할에 머물렀다. 그러나 본작에서 존슨은 색소폰이나 트럼펫이 연주하던 복잡하고 빠른 비밥 라인을 한 치의 오차도 없이 소화해 내며, 이 악기가 모던 재즈 콤보의 완벽한 리드 악기가 될 수 있음을 장르적으로 입증했다.</p>
+
+  <div class="hl">
+    <p><strong>2. 3호른 섹스텟과 퀸텟 구조의 완벽한 대비:</strong> 이 음반은 1953년의 3호른(트롬본·트럼펫·테너) 섹스텟 구성과 1954년의 단일 호른(트롬본 단독) 퀸텟 구성을 동시에 수록하고 있다. 전반부에서는 빅밴드를 축소해 놓은 듯한 촘촘하고 세련된 화성적 레이어의 묘미를 들려주고, 후반부에서는 존슨의 트롬본 원톱 독주자로서의 초인적인 한계 극복 과정을 생생하게 보여주며 하드 밥 편성의 입체적 교과서 역할을 수행한다.</p>
+  </div>
+
+  <p class="p"><strong>3. 멜로디의 가독성을 높인 초기 블루노트 하드 밥 사운드:</strong> 초기 비밥이 지나치게 난해한 코드 진행과 파편화된 멜로디로 대중과 거리를 두었던 반면, 본작에 수록된 곡들은 하드 밥의 태동기답게 흑인 가스펠·블루스적 리듬감과 귀에 쉽게 들어오는 캐치한 테마 선율("Capri", "Coffee Pot" 등)을 전면에 내세워 모던 재즈의 음악적 영토를 대폭 확장했다.</p>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 음악적 세부 분석</h2></div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1.2rem;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">※ 1955년 블루노트 오리지널 12인치 롱플레잉 LP (BLP 1505) 첫 발매반의 트랙리스트(전 10곡) 기준 정밀 해설입니다.</p>
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Turnpike</span><span class="ttime">A1 · 약 4분 15초</span></div>
+      <div class="ttag">작곡: 제이 제이 존슨 (J.J. Johnson) · 세션: 1953년 6월 22일 녹음</div>
+      <div class="tdesc">앨범의 포문을 연 존슨의 자작곡으로, 맹렬하게 질주하는 고속도로(Turnpike)를 연상시키는 전형적인 업템포 비밥 트랙이다. 존슨, 클리포드 브라운, 지미 히스의 3호른 유니즌 테마가 소름 끼치는 정밀함으로 전개되며, 특히 22세 클리포드 브라운의 폭발적이고 눈부신 트럼펫 솔로와 존슨의 한계를 모르는 슬라이드 속주가 절정의 케미스트리를 선사한다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Lover Man</span><span class="ttime">A2 · 약 3분 50초</span></div>
+      <div class="ttag">작곡: Jimmy Davis, Ram Ramirez · 세션: 1953년 6월 22일 녹음</div>
+      <div class="tdesc">찰리 파커의 역사적인 연주로도 유명한 불멸의 재즈 발라드 넘버. 존슨은 여기서 속주를 완전히 멈추고, 트롬본이라는 악기가 낼 수 있는 가장 서정적이고 묵직하며 벨벳처럼 부드러운 매력을 유감없이 발산한다. 존 루이스의 정제된 피아노 반주 위로 흐르는 존슨의 따스한 중저음 블로잉은 듣는 이의 마음을 단숨에 사로잡는다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Get Happy</span><span class="ttime">A3 · 약 4분 47초</span></div>
+      <div class="ttag">작곡: Harold Arlen · 세션: 1953년 6월 22일 녹음</div>
+      <div class="tdesc">해롤드 알렌의 고전 팝 스탠다드를 하드 밥 스타일로 경쾌하게 재해석한 트랙. 찰스 밍거스와 케니 클락이 만들어내는 통통 튀는 강력한 스윙 그루브 위에서 존슨은 장난기 넘치면서도 기술적으로 완벽하게 통제된 솔로 비행을 선보인다. 뒤이어 나오는 클리포드 브라운의 멜로딕한 프레이징 역시 청량감을 준다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Sketch 1</span><span class="ttime">A4 · 약 4분 21초</span></div>
+      <div class="ttag">작곡: 존 루이스 (John Lewis) · 세션: 1953년 6월 22일 녹음</div>
+      <div class="tdesc">모던 재즈 콰르텟(MJQ)의 브레인 존 루이스가 선사한 지적이고 실내악적인 구성을 띤 작품. 비밥의 격정적인 흐름 속에 클래시컬한 대위법적 에센스가 가미되어 앨범 전체에 이색적인 긴장감과 세련미를 더한다. 밍거스의 정교한 보잉과 피치카토의 경계선도 매력적이다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Capri</span><span class="ttime">A5 · 약 3분 37초</span></div>
+      <div class="ttag">작곡: 지미 히스 (Jimmy Heath) · 세션: 1953년 6월 22일 녹음</div>
+      <div class="tdesc">색소포니스트 지미 히스가 제공한 세련된 미디엄 템포 곡. 라틴풍의 이국적인 뉘앙스가 가미된 테마 선율이 매우 매력적이며, 세 명의 호른 연주자가 주고받는 짧은 체이싱과 리듬 섹션의 유연한 컴핑이 하드 밥 특유의 쾌감을 가장 잘 전달하는 트랙 중 하나다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Jay</span><span class="ttime">B1 · 약 3분 42초</span></div>
+      <div class="ttag">작곡: 제이 제이 존슨 (J.J. Johnson) · 세션: 1954년 9월 24일 녹음</div>
+      <div class="tdesc">B면부터는 루디 반 겔더 스튜디오에서 녹음된 1954년 퀸텟 세션으로 채워진다. 존슨 자신의 이름을 타이틀로 내건 이 곡은 트롬본 단독 호른 체제의 자신감이 돋보이는 블루스 트랙이다. 윈튼 켈리의 블루지하고 탄력적인 피아노 반주에 맞춰 존슨은 마치 말하는 듯한 아티큘레이션의 마스터 클래스를 보여준다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Old Devil Moon</span><span class="ttime">B2 · 약 3분 52초</span></div>
+      <div class="ttag">작곡: Burton Lane · 세션: 1954년 9월 24일 녹음</div>
+      <div class="tdesc">뮤지컬 크리스마스 스탠다드 곡을 존슨만의 날카로운 하드 밥 시각으로 재해석했다. 인트로에서 흐르는 찰스 밍거스의 최면적인 베이스 라인과 케니 데니스의 드럼 그루브가 인상적이며, 존슨은 원곡의 멜로디를 영리하게 분해하고 재조합하여 완벽한 모던 재즈로 탈바꿈시킨다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">It's You Or No One</span><span class="ttime">B3 · 약 4분 06초</span></div>
+      <div class="ttag">작곡: Jule Styne · 세션: 1954년 9월 24일 녹음</div>
+      <div class="tdesc">매우 빠른 템포로 몰아치는 통쾌한 트랙. 트롬본이라는 악기가 스피드전에서 색소폰에 결코 뒤지지 않음을 완벽하게 선언하는 곡이다. 존슨의 전광석화 같은 슬라이드 워크 뒤로 이어지는 윈튼 켈리의 영롱하면서도 탄력 넘치는 피아노 솔로가 곡의 열기를 더한다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Too Marvelous For Words</span><span class="ttime">B4 · 약 3분 35초</span></div>
+      <div class="ttag">작곡: Richard A. Whiting · 세션: 1954년 9월 24일 녹음</div>
+      <div class="tdesc">스탠다드 팝 넘버를 부드럽고 스윙감 넘치는 미디엄 템포로 연주한 곡. 존슨은 악기의 불필요한 잔향을 완벽히 제어한 깔끔한 터치로 멜로디를 리드해 나가며, 밍거스의 견고한 워킹 베이스가 곡의 중심축을 흔들림 없이 받쳐준다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Coffee Pot</span><span class="ttime">B5 · 약 4분 08초</span></div>
+      <div class="ttag">작곡: 제이 제이 존슨 (J.J. Johnson) · 세션: 1954년 9월 24일 녹음</div>
+      <div class="tdesc">앨범의 대미를 장식하는 존슨의 전설적인 오리지널 자작곡. 스탠다드 곡 "Confirmition"의 코드 진행에 기반한 복잡한 비밥 라인이 특징이다. 펄펄 끓는 커피포트처럼 뜨겁게 작렬하는 존슨의 솔로와 중반부 필리 조 존스를 연상시키는 케니 데니스의 정교한 드럼 인터플레이가 압권이다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+  <p class="p">BLP 1505 앨범은 블루노트 레이블이 재즈 역사에 길이 남을 '1500번대 컬렉션'을 구축하기 시작한 극초창기의 기념비적인 런칭작 중 하나다.</p>
+
+  <div class="hl">
+    <p><strong>리드 마일스의 초기 미니멀리즘 스타일과 프랭크 울프의 완벽한 조화.</strong> 1500번대 초반 카탈로그는 리드 마일스가 막 블루노트의 전임 디자이너로 합류하여 본인 특유의 볼드한 서체 레이아웃과 여백의 미를 실험하던 시기다. BLP 1505는 블루 계열의 정제된 배경 위에 'THE EMINENT JAY JAY JOHNSON'을 격자로 배치한 미니멀 디자인의 정수를 보여주며, 프랭크 울프의 리얼한 재즈 세션 스냅사진과 결합하여 블루노트만의 시각적 정체성을 확립했다.</p>
+  </div>
+
+  <div class="pos-grid">
+    <div class="pos-card" style="border:2px solid var(--blue-mid)">
+      <div class="pos-label" style="color:var(--blue-light)">BLP 1505 [현재 앨범]</div>
+      <div class="pos-title">The Eminent Jay Jay Johnson Vol. 1</div>
+      <div class="pos-desc">1953년과 1954년의 역사적 복귀 세션을 묶은 음반. 모던 재즈 트롬본의 성전으로 불리는 카탈로그 핵심 좌표.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1503/1504 [선행 발매]</div>
+      <div class="pos-title">The Amazing Bud Powell Vol. 1 & 2</div>
+      <div class="pos-desc">비밥 피아노의 시조 버드 파웰의 불멸의 세션들을 12인치화한 음반. 번호상 1505번 바로 앞에 위치.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1506 [후행 발매]</div>
+      <div class="pos-title">The Eminent Jay Jay Johnson Vol. 2</div>
+      <div class="pos-desc">Vol. 1의 엄청난 성공에 힘입어 같은 세션의 얼터네이트 테이크 및 1955년 최신 행크 모블리 세션을 묶어 발매한 연작 시리즈.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">1500번대 초창기 특징</div>
+      <div class="pos-title">10인치 아카이브의 12인치 통합화</div>
+      <div class="pos-desc">이 시기 블루노트는 기존 10인치 LP로 쪼개져 있던 거장들의 명연에 보너스 테이크를 더해 정식 12인치 명반 시리즈로 재편성했다.</div>
+    </div>
+  </div>
+
+  <p class="p">《The Eminent... Volume 1》은 오리지널 10인치 반(BLP 5028 등)에 수록되었던 곡들을 바탕으로, 마스터 테이프에 잠들어 있던 미발표 마스터 트랙들을 발굴해 블루노트의 상징인 1500번대 12인치 고음질 LP 포맷으로 완성한 영리한 컬렉션이다. 이후 CD 시대로 넘어오면서 수많은 얼터네이트 테이크(Alternate Takes)들이 추가되는 과정에서도, 이 오리지널 10곡의 배열이 지닌 완벽한 서사적 밸런스는 하드 밥 아카이브의 최고 모범 사례로 평가받는다.</p>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 트롬본 연주의 새 지평 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치 및 프레싱 식별법</h2></div>
+  <p class="p">블루노트 1500번대 초반 번호(1501~1510번 사이)에 위치한 바이닐들은 프레싱 공장과 주소 표기 변화의 과도기에 걸쳐 있어, 전 세계 오디오파일 및 컬렉터들이 눈에 불을 켜고 초판을 식별하는 고가치의 표적이다.</p>
+
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-dark);color:#fff">🇺🇸 미국 Lex Ave / W. 63rd 오리지널 초판 식별 (1955)</div>
+      <div class="pbody">
+        <p><span class="pl">오리지널 초판 식별 초점:</span> 1955년 발매된 진정한 1st 프레싱은 레이블에 **"767 Lexington Ave NY"** 주소가 인쇄되어 있거나, 과도기적 특징으로 한 면은 Lexington 주소, 다른 면은 **"47 WEST 63rd NYC"** 주소가 적혀 있어야 한다. 당연히 양면 모두 선명하고 깊은 **딥 그루브(Deep Groove)**가 필수적이다. 런아웃 구간에는 플라스틸라이트 공장의 **'이어(Ear, 손글씨 'P')' 마크**와 루디 반 겔더의 **'RVG' 각인**이 칼로 새겨지듯 박혀 있어야 초판의 가치를 지닌다. (프레싱 링 내부 평평도 확인 필수)</p>
+        <p><span class="pl">음질적 특성:</span> 1950년대 모노 마스터 테이프 특유의 가공되지 않은 날것의 사운드다. 밍거스의 베이스가 스피커 유닛을 때리는 펀치력과 제이 제이 존슨의 트롬본 벨에서 뿜어져 나오는 직진성 짙은 혼(Horn) 사운드의 밀도감은 현대의 그 어떤 디지털 복각판도 따라오지 못하는 오리지널 모노 바이닐만의 매력이다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> 컬렉터들이 가장 선호하는 오리지널 Lex 주소반의 경우, Near Mint 등급 기준 중고 시장 및 이베이 옥션에서 **$1,500에서 $2,500 이상**을 상회하며, 자켓 후면에 주소 표기가 없는 초판 자켓까지 보존된 상태라면 그 가치는 부르는 게 값이다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-light);color:#fff">🇯🇵 일본 King Records / Toshiba-EMI 라이선스반</div>
+      <div class="pbody">
+        <p><span class="pl">발매 및 제작 시기:</span> 1970년대 후반에서 1980년대 초반 일본 King Records의 'Blue Note Masterpiece Selection' (포맷 코드 코드가 주로 GXK/K18P) 시리즈로 컷팅되었으며, 이후 Toshiba-EMI 배급망을 통해 재발매반이 유통되었다. 미국 원반의 살인적인 가격에 지친 전 세계 컬렉터들에게 훌륭한 탈출구가 되었다.</p>
+        <p><span class="pl">음질적 특성:</span> 일본 특유의 정교한 프레싱 기술로 표면 잡음(Surface Noise)이 극도로 적다. 오리지널 마스터 릴테이프의 복사본을 활용해 컷팅했기에 초고역대나 저역의 아주 미세한 배음은 원반에 비해 다소 정제되어 평탄한 인상을 주지만, 밸런스 면에서는 매우 훌륭하다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> 인서트와 오비(OBI)가 완벽히 포함된 민트급 기준으로 **$50에서 $120 선**에서 안정적인 시세를 형성하고 있어, 하드 밥 바이닐 입문자들에게 가장 추천되는 실속형 선택지다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--gold);color:#fff">🆕 현대 오디오파일 재발매 (Blue Note Classic / Tone Poet / Music Matters)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 및 제작 시기:</span> 거장 엔지니어 케빈 그레이(Kevin Gray)가 블루노트 아카이브실에 보존되어 있던 오리지널 모노 마스터 테이프를 직접 아날로그 콘솔로 마스터링(AAA)하여 발매한 프리미엄 라인업이다.</p>
+        <p><span class="pl">음질적 특성:</span> 60년이 넘은 테이프의 미세한 마모를 현대적인 프리프레싱 및 이퀄라이징 기술로 완벽히 보정했다. 노이즈 플로어가 극도로 낮아져 밍거스의 핑거링 소리와 케니 클락의 정교한 심벌 잔향이 투명하게 시야에 들어온다. 모노 사운드임에도 불구하고 무대의 깊이감이 느껴지는 입체적인 아날로그의 정수를 맛볼 수 있다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> Music Matters 45회전 한정판은 중고 시장에서 **$100 내외**, 블루노트 공식 Classic Vinyl / Tone Poet 180g 에디션은 신품 기준으로 **$35에서 $50** 사이에서 구할 수 있어 높은 가성비를 자랑한다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 (핵심 요약 정리)</h2></div>
+  <div class="hl" style="margin-bottom:1.1rem">
+    <p>1955년 발매 당시 LP 뒷면에 수록되었던 평론가 냇 헨토프(Nat Hentoff)의 오리지널 라이너 노트는, 제이 제이 존슨이 청사진 검사관으로 일하며 음악을 내려놓았던 공백기를 깨고 어떻게 블루노트를 통해 화려하게 부활했는지 그 드라마틱한 이면을 세밀히 증언하고 있다.</p>
+  </div>
+
+  <div class="ln">
+    <div class="lns">1. 악기의 한계를 향한 집요한 투쟁</div>
+    <div class="lnb">
+      냇 헨토프는 라이너 노트의 상당 부분을 존슨의 '기술적 혁명성'을 설명하는 데 할애했다. 당시 재즈계는 비밥의 가공할 템포를 슬라이드 트롬본으로 따라잡는 것은 물리적으로 불가능하다고 단언했으나, 존슨은 집요한 연습과 독창적인 텅잉 법을 개발해 이를 극복했다. 헨토프는 이를 두고 "악기의 물리적 한계마저 정신력으로 지워버린 재즈사의 일대 사건"이라고 극찬했다.</div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">2. 거장들의 숨겨진 촉매제 역할 — 찰스 밍거스의 증언</div>
+    <div class="lnb">
+      노트에는 세션에 참여한 베이시스트 찰스 밍거스의 흥미로운 멘트가 실려 있다. 밍거스는 "제이 제이가 연주를 시작하면 리듬 섹션은 단순히 박자를 맞추는 것이 아니라, 그의 슬라이드가 그리는 기하학적 궤적을 쫓아가기 바빴다. 그는 트롬본을 부는 것이 아니라, 트롬본의 외피를 쓴 색소폰을 연주하는 것 같았다"라며 존슨의 독보적인 스피드와 정확성에 경의를 표했다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">3. 천재 '클리포드 브라운'의 초기 광채 포착</div>
+    <div class="lnb">
+      1953년 세션 당시 아직 전 세계적인 명성을 얻기 전이었던 신예 클리포드 브라운의 기량을 알아본 알프레드 라이언의 혜안도 라이너 노트에 언급된다. 존슨은 헨토프와의 인터뷰에서 "브라우니가 스튜디오에서 첫 솔로를 부는 순간, 나와 지미 히스는 서로를 쳐다보며 감탄할 수밖에 없었다. 그의 톤에는 이미 재즈의 미래가 담겨 있었다"라고 회고했다.
+    </div>
+  </div>
+
+  <div class="rv">
+    <div class="rvsrc">올뮤직 (AllMusic) — 평론가 스콧 야로우(Scott Yanow) 리뷰 발췌</div>
+    <div class="rvb">"모던 재즈 트롬본을 이해하기 위해 반드시 거쳐야 할 단 한 장의 성전이 있다면 바로 이 음반이다. 젊은 클리포드 브라운과 밍거스의 터질 듯한 에너지, 그리고 악기의 역사 자체를 바꾼 제이 제이 존슨의 전성기 질주가 완벽한 모노 사운드로 담겨 있다."</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">다운비트 (DownBeat) — 1955년 역사적 리뷰 중</div>
+    <div class="rvb">"존슨은 트롬본이라는 악기가 비밥과 하드 밥의 핵심 주역이 될 수 있음을 이 한 장의 음반으로 완벽히 입증했다. 별점 5개조차 부족한 역사적 마스터피스다."</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">재즈타임즈 (JazzTimes) — 회고록 중</div>
+    <div class="rvb">"블루노트 1500번대 시리즈의 위대한 서막을 알린, 결코 퇴색되지 않을 견고하고 순수한 다이아몬드 같은 음반."</div>
+  </div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 역사적 에피소드</h2></div>
+  <p class="p">BLP 1505 앨범의 탄생 이면에는 재즈 역사상 가장 드라마틱하고 흥미로운 비화들이 숨겨져 있다.</p>
 
+  <p class="p"><strong>1. 청사진 검사관에서 재즈 거장으로의 복귀극:</strong> 1952년 무렵 미국의 재즈 신은 극심한 불황이었고, 수많은 비밥 연주자들이 마약과 생활고로 무너져 내렸다. 생계를 위해 제이 제이 존슨 역시 악기를 잠시 내려놓고 뉴욕의 한 공장에서 주당 90달러를 받는 '청사진 검사관(Blueprint Inspector)'으로 일하고 있었다. 그의 재능이 썩는 것을 안타깝게 여긴 블루노트의 프로듀서 알프레드 라이언은 집요한 설득 끝에 그를 다시 스튜디오로 불러들였고, 그렇게 탄생한 것이 바로 1953년 역사적인 복귀 세션이다. 재즈를 영영 잃을 뻔한 위기 속에서 블루노트가 건져 올린 기적 같은 인류의 유산인 셈이다.</p>
+
+  <div class="hl">
+    <p><strong>2. 밸브 트롬본 의혹 사건 — 평론가들의 집단 패닉:</strong> 앨범이 발매된 직후, 일부 보수적인 재즈 평론가들은 "제이 제이 존슨이 슬라이드 트롬본을 연주한 것이 아니라, 트럼펫처럼 피스톤 누르는 밸브 트롬본(Valve Trombone)을 숨기고 연주했거나 녹음 테이프 속도를 인위적으로 빨리 돌린(Tape Speeding) 것이 틀림없다"라는 황당한 의혹을 제기했다. 슬라이드를 팔로 밀고 당기는 물리적 속도로는 도저히 "Turnpike"나 "Coffee Pot"의 속주를 소화할 수 없다는 이유에서였다. 이후 존슨이 라이브 클럽 무대에서 똑같은 속도로 완벽하게 슬라이드를 조작해 연주하는 모습을 직접 보여주자, 평론가들은 비로소 자신들의 무지를 사과하며 그에게 '당대 최고(Eminent)'라는 왕관을 바쳤다.</p>
+  </div>
+
+  <p class="p"><strong>3. 두 스튜디오의 음향적 전이 — WOR에서 Hackensack으로:</strong> 이 음반은 1953년 뉴욕의 WOR 스튜디오 녹음과 1954년 뉴저지 해켄색의 루디 반 겔더 스튜디오 녹음이 공존한다. 재즈 오디오파일들은 A면과 B면의 음향적 차이를 분석하는 것을 즐기는데, WOR 스튜디오가 전형적인 초기 비밥의 건조하고 타이트한 공간감을 들려준다면, 반 겔더 스튜디오에서 녹음된 B면은 루디 반 겔더 특유의 깊은 잔향감과 악기 고유의 배음이 풍부하게 살아나는 하드 밥 사운드로의 진화 과정을 음향학적으로 증명해 준다.</p>
+
+  <p class="p"><strong>4. 운명적 파트너쉽 'Jay & Kai'의 시발점:</strong> 1954년 9월 세션을 완수한 직후, 존슨은 또 다른 명 트롬보니스트 카이 와인딩(Kai Winding)과 의기투합하여 'Jay & Kai'라는 전설적인 투-트롬본 프론트 밴드를 결성하게 된다. 본작의 퀸텟 세션에서 보여준 트롬본 원톱 체제에서의 멜로딕한 자신감이 바탕이 되어, 재즈사에서 가장 성공적인 2호른 트롬본 팀의 아이디어가 촉발된 것이다.</p>
+</section>
+
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+  <p class="p">대한민국의 깐깐한 재즈 컬렉터들과 전문 평론가들 사이에서 《The Eminent Jay Jay Johnson Volume 1》이 차지하고 있는 독보적인 위상과 평가의 지표들이다.</p>
+
+  <p class="p"><strong>1. "재즈 좀 듣는 체 하려면 반드시 거쳐야 할" 매니아의 관문:</strong> 국내 재즈 커뮤니티에서 본작은 보컬 재즈나 피아노 트리오 위주의 말랑말랑한 입문 단계를 지나, 정통 모던 재즈와 하드 밥의 깊은 수렁으로 들어가는 매니아층의 필수 관문으로 통한다. 트롬본이라는 악기가 지닌 중후하면서도 폭발적인 매력을 한국 청취자들에게 최초로 각인시킨 음반으로 평가받으며, 재즈 바나 동호회에서 청음 테스트용으로 단골 소환되는 음반이다.</p>
+
+  <div class="hl">
+    <p><strong>2. 요절한 천재 '클리포드 브라운'의 성지순례 레코드:</strong> 한국의 재즈 팬들은 유독 요절한 천재에 대한 애착이 깊은데, 트럼페터 클리포드 브라운의 숨겨진 명연을 찾기 위한 '성지순례' 목록에 BLP 1505는 언제나 최상단에 위치한다. 맥스 로치-클리포드 브라운 퀸텟 결성 직전, 가장 순수하고 거침없던 브라우니의 20대 초반 오픈 혼 사운드를 들을 수 있다는 사실 하나만으로도 국내 컬렉터들 사이에서 소장 가치가 최우선으로 지목된다.</p>
+  </div>
+
+  <p class="p"><strong>3. 인테리어 소품을 넘어선 오리지널 바이닐 아우라의 상징:</strong> 국내 카페나 편집숍에서 패러디 소품으로 흔히 쓰이는 1588번 《Cool Struttin'》 커버와 달리, BLP 1505의 자켓은 진정한 '코어 재즈 컬렉터'의 공간임을 증명하는 시각적 앰블럼으로 통한다. 리드 마일스의 초기 서체 플레이 디자인이 풍기는 묵직한 아우라 덕분에, 국내 아날로그 오디오파일들의 리스닝 룸 전면 거치대를 차지하는 단골 명반이다.</p>
+
+  <p class="p"><strong>4. 모노(Mono) 사운드 예찬론자들의 영원한 장난감:</strong> 한국의 빈티지 오디오파일 및 모노 카트리지 유저들 사이에서 이 음반은 시스템의 '중역대 밀도감'을 테스트하는 최고의 레퍼런스 포맷이다. 스테레오 가공반(BST 81505)의 인위적인 좌우 찢어짐에 실망한 국내 매니아들이 오리지널 렉싱턴/63rd 모노 원반이나 현대 AAA 모노 리이슈반을 구하기 위해 치열한 정보전을 벌이는 모습을 국내 재즈 동호회에서 심심치 않게 볼 수 있다.</p>
+
+  <p class="p"><strong>5. 악기의 편견을 깨부순 카타르시스에 대한 보편적 찬사:</strong> 한국 청취자들은 이 음반이 주는 '편견에 대한 승리'라는 서사적 맥락에 깊이 공감한다. 느리고 둔탁하다는 트롬본의 한계를 초인적인 노력과 천재성으로 극복하고 색소폰보다 빠르게 비밥 라인을 폭격하는 제이 제이 존슨의 연주에서, 국적과 시대를 초월한 강렬한 음악적 카타르시스를 느낀다는 평이 국내 평단과 애호가들 사이에서 일관되게 이어지고 있다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
 </body>
 </html>
