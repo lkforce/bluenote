@@ -3,253 +3,382 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1523 - Introducing Kenny Burrell (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Kenny Burrell · Introducing Kenny Burrell BLP 1523 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #0f1c3f; --blue-mid: #1d3557; --blue-light: #457b9d;
+  --cyan: #a8dadc; --cyan-lt: rgba(168,218,220,0.15);
+  --gold: #d4a373; --gold-lt: rgba(212,163,115,0.12);
+  --muted: #5c677d; --border: rgba(15,28,63,0.12);
 }
-
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-h1{
-    margin:0;
-    font-size:2.6em;
-}
-
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
-
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
-
-th{
-    background:#0d1b2a;
-    color:white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0a1128 0%,#111e38 50%,#1d3557 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(168,218,220,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(13px,1.8vw,17px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(15,28,63,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib{background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:1.4rem;box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ih{display:flex;align-items:center;gap:12px;padding:.8rem 1.2rem;background:rgba(15,28,63,0.03);border-bottom:1px solid var(--border)}
+.ii{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.iname{font-weight:700;font-size:14px;color:var(--blue-dark)}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em}
+.ibody{padding:1.2rem;font-size:13.5px;line-height:1.85;text-align:justify}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1523</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1522.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1524.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1523 · 1956</div>
+      <h1 class="title">Kenny Burrell — Introducing Kenny Burrell</h1>
+      <div class="sub">디트로이트 재즈의 총아가 쏘아 올린 모던 기타의 이정표, 블루지한 우아함과 견고한 밥 비트의 선포</div>
+      <div class="meta">
+        <span>1956.05.29 / 1956.05.30 녹음</span>
+        <span>Van Gelder Studio, Hackensack, NJ</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: John Hermansader / Photography: Francis Wolff</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">Introducing Kenny Burrell (상세 분석 리포트)</h2>
-  <p>
-  Kenny Burrell(g)<br>
-  Recorded 5/29/56, 5/30/56 | Blue Note Records
-  </p>
+    <div class="hdr-nav">
+      <a href="BLP1522.html" class="nav-arrow" title="이전 앨범 (BLP 1522)">←</a>
+      <a href="index.html" class="home-link" title="메인 인덱스로 가기">
+        <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+      </a>
+      <a href="BLP1524.html" class="nav-arrow" title="다음 앨범 (BLP 1524)">→</a>
+    </div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1523 《Introducing Kenny Burrell》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<!-- ═══════════════════════════════════════════════════════════ S1 -->
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">《Introducing Kenny Burrell》(BLP 1523)는 1950년대 하드 밥의 황금기를 구가하던 블루노트 레이블이 당대 재즈 기타의 세대교체를 공식화한 기념비적인 데뷔작이다. 1956년 5월 29일과 30일 이틀에 걸쳐 뉴저지 해컨색의 루디 반 겔더 스튜디오에서 녹음된 이 앨범은, 디트로이트 재즈 씬의 무서운 신예였던 케니 버렐(Kenny Burrell)이 뉴욕 재즈의 중심부에서 자신의 거대한 예술적 역량을 완벽하게 선포한 결과물이다. 프로듀서 알프레드 라이언은 찰리 크리스천의 유산을 이어받으면서도 한층 더 도시적이고 세련된 블루스 필(Feel)을 구사하는 버렐의 천재성을 간파하고 정규 리더작의 기회를 부여했다.</p>
+  <p class="p">본작이 재즈사에서 지니는 가장 큰 가치는 기타라는 악기를 단순한 리듬 컴핑이나 일차원적인 멜로디 연주에서 해방시켜, 하드 밥 프론트라인의 중심 호른 악기들과 완벽하게 대등한 반열로 격상시켰다는 점이다. 버렐은 디트로이트 동향 출신의 피아니스트 토미 플래너건, 베이시스트 폴 보이드, 그리고 모던 재즈 드럼의 거장 맥스 로치와 호흡을 맞추며 정교하고도 탄력 넘치는 스윙감을 구현했다. 여기에 아프로-큐반 퍼커션의 대부 칸디도 카메로의 콩가를 배치함으로써, 정통 하드 밥의 완고한 뼈대 위에 유연하고 이국적인 타악적 에너지를 주입한 영민한 음악적 확장을 시도했다.</p>
+  <p class="p">비평계 역시 이 앨범을 모던 재즈 기타의 어법을 정립한 텍스트로 주저 없이 꼽는다. 버렐의 연주는 비밥의 정교한 하모니와 델타 블루스의 흙내음 나는 감성을 유려한 일렉트릭 기타 톤으로 융합해냈으며, 이는 향후 그랜트 그린, 웨스 몽고메리로 이어지는 블루노트 소울-재즈 기타 라인업의 단단한 주춧돌이 되었다. 올뮤직을 비롯한 주요 평단은 본작을 케니 버렐의 방대한 디스코그래피 중 가장 신선하고 패기 넘치는 마스터피스로 극찬하며, 역사적 완성도를 지닌 명반으로 확고히 포지셔닝하고 있다.</p>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《Kenny Burrell(g)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S2 -->
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 케니 버렐 — 생애 및 약력</h2></div>
+  <p class="p" style="margin-bottom: 1.5rem;">지적이고 우아한 블루스 톤으로 모던 재즈 기타의 황금기를 개척하고, 후학 양성까지 위대한 족적을 남긴 케니 버렐의 연표다.</p>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1931</span><span class="tlb"><strong>미시간 디트로이트에서의 탄생.</strong> 7월 31일 음악적 재능이 풍부한 가정에서 출생. 어린 시절부터 기타를 잡았으며, 찰리 크리스천, 장고 라인하르트 등의 연주를 들으며 재즈 기타리스트로서의 꿈을 키웠다.</span></li>
+    <li class="tli"><span class="tly">1951</span><span class="tlb"><strong>디지 길레스피 세션 참여와 천재성의 증명.</strong> 디트로이트 웨인 주립대학교에서 음악을 전공하던 중, 디트로이트를 방문한 거장 디지 길레스피(Dizzy Gillespie)의 눈에 띄어 그의 콤보와 함께 첫 레코딩을 진행하는 파격을 선보였다.</span></li>
+    <li class="tli"><span class="tly">1955</span><span class="tlb"><strong>웨인 주립대 졸업 및 디트로이트의 맹주.</strong> 음악학사 학위를 취득하며 이론적 기반을 탄탄히 다진 버렐은 토미 플래너건, 도널드 버드, 페퍼 아담스 등과 함께 '디트로이트 재즈 협회'를 이끌며 지역 씬의 핵심 인물로 부상했다.</span></li>
+    <li class="tli"><span class="tly">1956.05</span><span class="tlb"><strong>뉴욕 진출과 역사적인 블루노트 데뷔.</strong> 뉴욕으로 이주하자마자 알프레드 라이언에게 발탁되어 전속 계약을 맺었다. 5월 29일과 30일 양일간 토미 플래너건, 맥스 로치와 함께 대망의 첫 리더작 《Introducing Kenny Burrell》을 녹음했다.</span></li>
+    <li class="tli"><span class="tly">1957</span><span class="tlb"><strong>블루노트 세션의 대체 불가능한 에이스.</strong> 지미 스미스, 소니 로린스, 루 도널드슨 등 블루노트를 대표하는 거장들의 앨범에 퍼스트 콜 기타리스트로 참여하며, 레이블 사운드의 '블루지한 우아함'을 결정짓는 핵심 리듬/솔로 세션으로 활약했다.</span></li>
+    <li class="tli"><span class="tly">1963</span><span class="tlb"><strong>불멸의 마스터피스 《Midnight Blue》 발표.</strong> 자신의 음악 인생을 관통하는 최고의 명반 《Midnight Blue》(BLP 4123)를 발표했다. "Chitlins con Carne" 등이 수록된 이 앨범은 대중성과 예술성을 모두 거머쥐며 재즈 기타 역사상 최고의 베스트셀러가 되었다.</span></li>
+    <li class="tli"><span class="tly">1970s~</span><span class="tlb"><strong>교육자로서의 헌신과 재즈 학문 가치 고양.</strong> 연주 활동과 더불어 학문적 연구에도 힘써, UCLA 등 명문 대학에서 재즈 역사 및 듀크 엘링턴 연구 과정을 개설하고 교수로 재직하며 수많은 후학을 양성했다.</span></li>
+    <li class="tli"><span class="tly">2005</span><span class="tlb"><strong>NEA 재즈 마스터 선정.</strong> 미국 정부가 재즈 뮤지션에게 수여하는 최고 영예인 'NEA 재즈 마스터(NEA Jazz Master)'에 헌액되며 모던 재즈기타의 살아있는 전설로 공인받았다.</span></li>
+  </ul>
+  <div class="qt">
+    <p>"기타로 블루스를 연주한다는 것은 단순히 슬픈 음을 내는 것이 아니다. 그것은 세련된 지성 속에 인간의 가장 깊은 본연의 그루브를 정직하게 담아내는 과정이다."</p>
+    <div class="src">— Kenny Burrell</div>
+  </div>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(Kenny Burrell(g))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<!-- ═══════════════════════════════════════════════════════════ S3 -->
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <p class="p">《Introducing Kenny Burrell》은 리더와 끈끈한 음악적 유대감을 지닌 디트로이트 동향의 거장들과 뉴욕 하드 밥 씬의 최정상 플레이어들이 결합한 초호화 라인업을 자랑한다. 특히 정통 비밥의 수호자 맥스 로치와 라틴 타악기의 거장 칸디도가 만들어내는 독특한 리듬 레이어는 케니 버렐의 데뷔작을 더욱 특별하게 만든 요소다.</p>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>데뷔 세션 라인업 — 디트로이트 리릭시즘과 뉴욕 하드 리듬의 유기적 융합</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Kenny Burrell</div>
+      <div class="cr">GUITAR · 1931~</div>
+      <div class="cb">미시간 디트로이트 출신의 거장 기타리스트. 맑고 정갈한 하이드 전기 기타 톤에 비밥의 화성과 정통 블루스의 감칠맛 나는 벤딩 기법을 조합했다. 섬세한 아르페지오와 묵직한 싱글 노트 솔로를 자유자재로 오가는 플레이가 독보적이다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Tommy Flanagan / Paul Chambers</div>
+      <div class="cr">PIANO / BASS · 디트로이트 커넥션</div>
+      <div class="cb">피아노의 토미 플래너건은 버렐과 어린 시절부터 호흡을 맞춘 파트너로 극상의 우아한 터치를 들려주며, 베이스의 폴 보이드(Paul Chambers)는 하드 밥 베이스의 정석다운 육중한 워킹과 정교한 아르코(Arco) 솔로로 버렐의 기타 선율을 지탱한다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Max Roach / Candido Camero</div>
+      <div class="cr">DRUMS / CONGA · 리듬의 입체적 확장</div>
+      <div class="cb">비밥 드럼의 개척자 맥스 로치가 참여하여 예리하고 폭발적인 박진감을 부여하며, 쿠바 출신의 전설적인 퍼커셔너 칸디도(Candido)의 콩가가 가세하여 자칫 건조해질 수 있는 하드 밥 앙상블에 탄력 넘치는 아프로-큐반 그루브를 덧입힌다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S4 -->
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎸</div>
+      <div><div class="iname">기타 (Guitar) — Kenny Burrell</div><div class="ipl" style="color:var(--blue-light)">명징한 톤과 세련된 블루스 라인 — 하드 밥 기타의 새로운 표준</div></div>
+    </div>
+    <div class="ibody">
+      케니 버렐의 기타 연주는 피킹의 강약 조절이 매우 정교하여 일렉트릭 깁슨 기타 특유의 따뜻하고 둥근 톤을 흐트러짐 없이 유지한다. 그는 빠른 템포의 비밥 프레이즈 속에서도 음을 뭉개지 않고 명확하게 짚어내는 싱글 노트 솔로를 구사하며, 코드 컴핑 시에는 건반 악기에 뒤지지 않는 화성적 밀도감을 부여한다. 특히 블루스 스케일을 사용할 때 과장된 왜곡 없이 서정적이고 세련된 도회적 뉘앙스로 풀어내는 능력이 탁월하여, 혼(Horn) 악기 중심이던 블루노트 레이블에 '기타 리더작'의 무한한 가능성을 증명해 보였다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--gold)">🎹</div>
+      <div><div class="iname">피아노 (Piano) — Tommy Flanagan</div><div class="ipl" style="color:var(--gold)">물 흐르듯 유려한 터치 — 리더를 위한 가장 완벽한 화성적 조력</div></div>
+    </div>
+    <div class="ibody">
+      '재즈 시인'이라는 별명답게 토미 플래너건의 피아노는 케니 버렐의 기타 솔로 뒷공간을 가장 아름다운 코드 배치로 채워나간다. 버렐과 오랜 시간 호흡을 맞춘 만큼, 버렐이 어떤 방향으로 멜로디를 전개할지 완벽히 예측하고 움직이는 듯한 인터플레이를 선보인다. 그의 솔로 파트는 언제나 절제되어 있으면서도 클래식적인 우아함과 스윙감의 균형을 잃지 않아, 버렐의 블루지한 감성을 한층 더 격조 높은 모던 재즈의 영역으로 끌어올리는 역할을 한다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-dark)">🥁</div>
+      <div><div class="iname">드럼 & 콩가 (Drums & Conga) — Max Roach & Candido</div><div class="ipl" style="color:var(--blue-dark)">정통 비밥 비트와 라틴 퍼커션의 황금 분할 — 다층적 그루브의 향연</div></div>
+    </div>
+    <div class="ibody">
+      맥스 로치의 드러밍은 앨범 전체에 타이트한 하드 밥의 긴장감과 폭발적인 에너지를 주입한다. 그의 칼날 같은 라이드 심벌 워크는 곡의 추진력을 극대화한다. 여기에 칸디도의 콩가가 결합하면서 리듬의 질감이 완전히 다층화된다. 칸디도는 정통 재즈 스윙의 맥락을 방해하지 않으면서, 음과 음 사이의 빈 여백에 콩가 특유의 탄력 있는 타격음을 촘촘히 새겨 넣어 케니 버렐의 기타 선율이 한층 더 쾌활하고 입체적인 그루브 위에서 노닐 수 있도록 판을 깔아준다.
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>5/29/56, 5/30/56</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1956 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<!-- ═══════════════════════════════════════════════════════════ S5 -->
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+  <p class="p">《Introducing Kenny Burrell》은 블루노트 스타일 하드 밥(Hard Bop)의 정체성을 고스란히 계승하면서도, **디트로이트 재즈(Detroit Jazz)**의 서정성과 **아프로-큐반(Afro-Cuban) 리듬 미학**을 영민하게 투영한 하이브리드 모던 재즈의 진수를 들려준다.</p>
+  <p class="p"><strong>1. 디트로이트 서정성과 비밥의 결합:</strong> 1950년대 디트로이트 출신 뮤지션들은 거칠고 폭발적인 뉴욕 하드 밥에 비해 한층 더 지적이고 멜로딕한 선율미를 추구했다. 케니 버렐과 토미 플래너건이 주도하는 본작 역시 비밥의 정교한 하모니 체계를 완벽히 따르면서도, 귀에 부드럽게 감기는 리릭시즘(Lyricism)을 놓치지 않는다. 이는 하드 밥이 지닌 강렬한 마초성과 쿨 재즈의 지적인 절제미가 가장 이상적으로 절충된 형태라 볼 수 있다.</p>
+  <p class="p"><strong>2. 재즈 기타의 프론트라인 편성과 확장:</strong> 찰리 크리스천 이후 재즈 기타는 솔로 악기로 대두되었으나, 여전히 관악기 섹션의 그늘에 가려져 있는 경우가 많았다. 하지만 본작은 호른 섹션을 완전히 배제하거나 최소화한 채, 기타를 단독 프론트라인으로 내세워 앨범의 서사를 이끌어간다. 이는 기타라는 악기가 지닌 다이내믹의 범위를 증명한 사건이며, 향후 소울-재즈 및 오가닉 재즈 트리오 형성에 결정적인 장르적 이정표를 제공했다.</p>
+  <p class="p"><strong>3. 아프로-큐반 퍼커션의 유기적 이식:</strong> 디지 길레스피가 시도했던 아프로-큐반 재즈의 전통을 하드 밥 기타 트리오 콤보에 이식했다. 칸디도의 콩가는 단순한 이국적 양념에 그치지 않고 맥스 로치의 모던 드럼 세트와 유기적으로 맞물려 도심의 블루스 사운드에 대지의 탄력을 부여한다. 이러한 리듬의 다변화는 하드 밥 장르가 매너리즘에 빠지지 않고 끊임없이 진화할 수 있었던 원동력이었다.</p>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S6 -->
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">수록곡별 상세 해설 및 음악적 세부 분석</h2></div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1.2rem;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">※ 사용자 요청 오리지널 7곡 트랙리스트 기준 해설입니다.</p>
+  <div class="tg">
+    <!-- Track 1 -->
+    <div class="tc">
+      <div class="tc-h"><span class="tname">This Time The Dream's On Me</span><span class="ttime">1956.05.29 세션</span></div>
+      <div class="ttag">Kenny Burrell (g), Tommy Flanagan (p), Paul Chambers (b), Max Roach (d)</div>
+      <div class="tdesc">해롤드 알렌이 작곡한 스탠다드를 업템포의 호쾌한 하드 밥으로 재해석한 앨범의 오프닝 트랙이다. 시작과 동시에 질주하는 맥스 로치의 라이드 심벌 위로 케니 버렐의 거침없는 싱글 노트 솔로가 폭발한다. 음 하나하나가 자로 잰 듯 명징하게 고막에 꽂히며, 토미 플래너건의 유려한 스윙 컴핑이 리더의 눈부신 데뷔를 완벽하게 보좌한다.</div>
+    </div>
+    <!-- Track 2 -->
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Fugue'n Blues</span><span class="ttime">1956.05.30 세션</span></div>
+      <div class="ttag">Kenny Burrell (g), Tommy Flanagan (p), Paul Chambers (b), Max Roach (d)</div>
+      <div class="tdesc">케니 버렐의 뛰어난 음악적 이론가로서의 면모를 확인할 수 있는 자작곡이다. 제목처럼 클래식의 푸가(Fugue) 대위법적 구조를 정통 재즈 블루스의 형태와 결합한 지적인 넘버다. 피아노와 기타가 주제 선율을 정교하게 주고받으며 전개되다가 이내 깊은 흙내음 나는 블루스 그루브로 침잠하는 전개가 감탄을 자아낸다.</div>
+    </div>
+    <!-- Track 3 -->
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Takeela</span><span class="ttime">1956.05.30 세션</span></div>
+      <div class="ttag">Kenny Burrell (g), Tommy Flanagan (p), Paul Chambers (b), Max Roach (d), Candido (conga)</div>
+      <div class="tdesc">라틴 멕시칸 풍의 뉘앙스가 물씬 풍기는 케니 버렐의 독창적인 오리지널 넘버다. 칸디도의 탄력 넘치는 콩가 비트가 전면에 나서며 곡의 이국적인 분위기를 주도하고, 버렐은 그 위에서 리드미컬하고 세련된 옥타브 주법과 싱코페이션을 구사하며 하드 밥과 라틴 재즈의 가장 완벽한 하모니를 들려준다.</div>
+    </div>
+    <!-- Track 4 -->
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Weaver Of Dreams</span><span class="ttime">1956.05.30 세션</span></div>
+      <div class="ttag">Kenny Burrell (g), Tommy Flanagan (p), Paul Chambers (b), Max Roach (d)</div>
+      <div class="tdesc">앨범에서 가장 로맨틱하고 서정적인 순간을 선사하는 아름다운 발라드 넘버다. 케니 버렐은 깁슨 기타 특유의 가장 부드럽고 따뜻한 톤을 사용하여 꿈을 자아내듯 멜로디를 직조해 나간다. 토미 플래너건의 리릭컬한 피아노 솔로와 폴 보이즈의 은은한 베이스 워킹이 밤 안개처럼 아늑한 분위기를 완성한다.</div>
+    </div>
+    <!-- Track 5 -->
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Delilah</span><span class="ttime">1956.05.30 세션</span></div>
+      <div class="ttag">Kenny Burrell (g), Tommy Flanagan (p), Paul Chambers (b), Max Roach (d), Candido (conga)</div>
+      <div class="tdesc">빅터 영이 작곡한 명곡으로 어둡고 이조적인 마이너 멜로디가 매혹적인 트랙이다. 칸디도의 콩가와 맥스 로치의 스네어 림샷이 결합하여 팽팽한 긴장감을 자아내며, 버렐은 마이너 블루스 스케일을 적극적으로 활용해 고혹적이면서도 가슴을 찌르는 듯한 드라마틱한 즉흥 연주를 펼쳐 보인다. 본작의 백미로 꼽히는 명연이다.</div>
+    </div>
+    <!-- Track 6 -->
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Rhythmorama</span><span class="ttime">1956.05.30 세션</span></div>
+      <div class="ttag">Max Roach (d), Candido (conga) / *Kenny Burrell tacet</div>
+      <div class="tdesc">리더인 케니 버렐이 연주에서 빠지고(Tacet), 오직 드럼의 맥스 로치와 콩가의 칸디도 단둘이서만 펼치는 파격적인 리듬 듀오 트랙이다. 모던 비밥 드럼의 수학적인 정교함과 쿠바 타악기의 원초적이고 탄력적인 에너지가 치열하게 충돌하고 대화하며 리듬의 한계가 어디까지 확장될 수 있는지 보여주는 경이로운 레코딩이다.</div>
+    </div>
+    <!-- Track 7 -->
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Blues For Skeeter</span><span class="ttime">1956.05.29 세션</span></div>
+      <div class="ttag">Kenny Burrell (g), Tommy Flanagan (p), Paul Chambers (b), Max Roach (d)</div>
+      <div class="tdesc">앨범의 대미를 장식하는 케니 버렐의 정통 하드 밥 블루스 자작곡이다. 폴 보이즈의 요지부동의 묵직한 워킹 베이스가 블루스의 단단한 뼈대를 구축하고, 버렐은 찰리 크리스천의 정통 유산에 현대적인 비밥 어법을 덧입힌 화려하고 감칠맛 나는 솔로를 가동하며 데뷔 앨범의 위대한 피날레를 화려하게 장식한다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<!-- ═══════════════════════════════════════════════════════════ S7 -->
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+  <p class="p">블루노트 1500번대 카탈로그 전체를 조망할 때, 《Introducing Kenny Burrell》(BLP 1523)는 레이블의 '사운드적 다양성'을 확보하는 데 지대한 공헌을 한 음반이다. 직전 넘버들이 주로 클리포드 브라운, 한스 콜러, 유타 힙 등 관악기나 피아노 중심의 하드 밥과 쿨 재즈 실황들로 채워졌던 것과 비교하면, 버렐의 본작은 블루노트가 본격적으로 '모던 재즈 기타 명반의 시대'를 개막했음을 알리는 신호탄이었다.</p>
+
+  <div class="hl">
+    <p><strong>블루스 헤리티지와 모던 밥의 교두보.</strong> 알프레드 라이언은 이 앨범을 통해 단순한 비밥의 모방을 넘어, 60년대 블루노트를 상징하게 될 '소울풀하고 블루지한 정체성'의 원형을 제시했다. 버렐의 대성공 이후 블루노트는 그랜트 그린, 솔로몬 이로어 등 기타리스트들을 적극 발굴할 수 있는 용기를 얻었으며, 지미 스미스의 오르간 콤보와 완벽하게 결합하는 사운드적 토양을 마련했다. 하드 밥의 강렬함 속에서 기타라는 현악기가 가질 수 있는 가장 세련되고 도시적인 대안을 제시한 독보적인 포지셔닝이다.</p>
+  </div>
+
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">BLP 1521/1522 [앞]</div>
+      <div class="pos-title">Art Blakey – At The Cafe Bohemia</div>
+      <div class="pos-desc">아트 블레이키와 재즈 메신저스의 폭발적인 현장감을 담은 하드 밥의 교과서적 라이브. 거친 브라스의 열기가 가득한 직전 타이틀이다.</div>
+    </div>
+    <div class="pos-card" style="border:2px solid var(--blue-mid)">
+      <div class="pos-label" style="color:var(--blue-light)">BLP 1523 [현재 앨범]</div>
+      <div class="pos-title">Introducing Kenny Burrell</div>
+      <div class="pos-desc">재즈 기타를 프론트라인으로 전면 격상시킨 최초의 마스터피스. 라틴 퍼커션을 가미해 리듬의 혁신을 이룬 역사적 데뷔반.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1524 [직후 발매]</div>
+      <div class="pos-title">Kenny Dorham – 'Round About Midnight At The Cafe Bohemia</div>
+      <div class="pos-desc">트럼펫터 케니 도햄의 전설적인 라이브 실황. 버렐 앨범의 지적인 절제미 이후 다시금 뉴욕 하드 밥의 뜨거운 밤으로 회귀하는 배치다.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1526 [뒤]</div>
+      <div class="pos-title">Clifford Brown – Memorial Album</div>
+      <div class="pos-desc">요절한 천재 트럼펫터 클리포드 브라운을 기리는 역사적 모음집. 블루노트 1500번대 전성기를 공고히 하는 기념비적 라인업이다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 기타리스트 Kenny Burrell의 데뷔작 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<!-- ═══════════════════════════════════════════════════════════ S8 -->
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 가치와 프레싱 식별법</h2></div>
+  <p class="p">재즈 바이닐 컬렉터들 사이에서 《Introducing Kenny Burrell》 오리지널 초판은 블루노트 1500번대 중에서도 손에 꼽히는 고가 아이템이자 소장 가치가 날로 치솟는 희귀반이다. 특히 기타 컬렉터와 재즈 마니아층의 수요가 겹치며 시장에 매물이 매우 드물다.</p>
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-dark);color:#fff">🇺🇸 미국 오리지널 첫 프레싱 (1956, 767 Lexington Ave)</div>
+      <div class="pbody">
+        <p><span class="pl">초판 식별 포인트:</span> 라벨에 <strong>"767 LEXINGTON AVE, NEW YORK"</strong> 주소가 기재되어 있어야 하며, 당연히 "Inc."나 "®" 마크가 없는 것이 오리지널이다. 양면에 선명한 <strong>딥 그루브(Deep Groove)</strong>와 테두리가 평평한 <strong>플랫 엣지(Flat Edge)</strong> 공정이 적용되어야 한다. 데드왁스에는 루디 반 겔더가 직접 새긴 'RVG' 각인과 프레싱 컴퍼니 플래스트라이트의 <strong>'이어(Ear)' 마크(P자 형태)</strong>가 필수적이다. 완벽한 상태의 초판은 현재 컬렉터들 사이에서 <strong>$1,200 ~ $2,000 이상</strong>의 초고가에 거래된다.</p>
+        <p><span class="pl">음질적 특성:</span> 반 겔더가 하이드 기타 특유의 앰프 울림과 칸디도의 콩가 타격음을 놀라운 중역대 밀도감으로 포착했다. 모노 음반 특유의 앞으로 튀어나오는 듯한 피킹의 타격감이 압권이다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--gold);color:#fff">🆕 현대 오디오파일 최고봉 (Tone Poet Series Reissue)</div>
+      <div class="pbody">
+        <p><span class="pl">복각의 가치와 오디오파일 평가:</span> 수천 달러를 호가하는 오리지널의 음질적 대안을 넘어, 2020년대 들어 블루노트 본사가 전개한 최고급 복각 라인업인 <strong>'톤 포엣(Tone Poet)' 시리즈</strong>로 본작이 재발매되면서 전 세계 오디오파일들이 열광했다. 마스터 페이더의 거장 케인 그레이(Kevin Gray)가 오리지널 아날로그 마스터 테이프에서 직접 올-아날로그 마스터링(AAA)을 감행했으며, RTI에서 고품질 프레싱을 진행했다.</p>
+        <p><span class="pl">음질 향상 지점:</span> 오리지널 모노반에서 다소 뭉개졌던 폴 보이즈의 저역대 베이스 라인과 칸디도의 고역대 콩가 잔향이 완벽한 스테레오 다이내믹으로 분리되어 살아났다. 케니 버렐의 피킹 순간 발생하는 줄의 미세한 떨림까지 아날로그적 질감으로 재현해내어 최고의 명복각반으로 칭송받고 있다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S9 -->
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 분석</h2></div>
+  <div class="ln">
+    <div class="lns">Original Liner Notes by Robert Levin (1956)</div>
+    <div class="lnb">
+      1956년 초판 LP 뒷면에 수록된 로버트 레빈(Robert Levin)의 라이너 노트는 24세의 젊은 나이에 뉴욕 재즈 씬을 뒤흔든 케니 버렐의 등장을 매우 고무적인 어조로 서술하고 있다. 레빈은 버렐이 디지 길레스피와의 조기 협연 및 웨인 주립대에서 음악학을 전공한 엘리트적 배경을 언급하며, 그의 연주가 단순히 감각에 의존하는 것이 아닌 철저한 화성적 논리 위에 서 있음을 강조한다. 특히 레빈은 "버렐은 찰리 크리스천이 정립한 재즈 기타의 개념을 하드 밥이라는 현대적 언어로 완벽하게 번역해낸 인물"이라 평하며, 비밥 호른 주자들의 전유물이었던 빠른 패시지를 일렉트릭 기타 건반 위에서 고스란히 재현해낸 그의 명징한 타건과 독창적인 블루스 에센스에 대해 아낌없는 찬사를 보냈다.
+    </div>
+  </div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<!-- ═══════════════════════════════════════════════════════════ S10 -->
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">앨범 제작의 비하인드 에피소드</h2></div>
+  <p class="p"><strong>1. 맥스 로치와 칸디도의 즉흥 리듬 배틀:</strong> 수록곡 "Rhythmorama"는 애초에 녹음 스케줄에 정식으로 포함된 곡이 아니었다. 케니 버렐과 토미 플래너건이 잠시 휴식을 취하며 악보를 점검하던 중, 드럼의 맥스 로치와 콩가의 칸디도가 스튜디오 안에서 재미 삼아 리듬 인터플레이를 주고받기 시작했다. 두 거장이 뿜어내는 아프로-큐반과 비밥 비트의 정교한 융합에 매료된 알프레드 라이언은 즉시 루디 반 겔더에게 녹음 버튼을 누르라고 지시했고, 단 한 번의 테이크(Take)로 이 역사적인 드럼-콩가 듀오 명연이 앨범에 실리게 되었다.</p>
+  <p class="p"><strong>2. 지미 스미스를 사로잡은 디트로이트의 톤:</strong> 본작이 녹음되던 1956년 5월, 블루노트 스튜디오에는 당시 막 레이블의 간판스타로 떠오르던 소울 오르간의 대부 지미 스미스(Jimmy Smith)가 방청을 와 있었다. 스미스는 케니 버렐이 구사하는 따뜻하면서도 엣지 있는 블루스 톤에 완전히 매료되었고, 녹음이 끝나자마자 알프레드 라이언에게 "내 다음 앨범의 기타리스트는 무조건 이 친구여야 한다"고 강력히 요구했다. 이 만남을 계기로 케니 버렐은 지미 스미스의 불멸의 명반 《The Sermon!》, 《Midnight Special》 등에 참여하며 재즈사 최고의 오르간-기타 콤비를 결성하게 된다.</p>
+</section>
 
+<!-- ═══════════════════════════════════════════════════════════ S11 -->
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국 재즈 애호가들의 평가 및 수용</h2></div>
+  <p class="p">한국의 재즈 리스너들과 음악 평단 사이에서 케니 버렐의 《Introducing Kenny Burrell》은 **'가장 세련되고 지적인 하드 밥 기타의 입문서'**로 확고히 자리매김하고 있다. 국내 애호가들은 자극적이지 않으면서도 속이 꽉 찬 아날로그 기타 톤을 선호하는 경향이 있는데, 버렐이 본작에서 보여준 흐트러짐 없는 명징한 타건과 블루지한 서정성은 국내 재즈바 및 카페 청취 문화와 완벽하게 부합한다.</p>
+  <p class="p">특히 수록곡 중 **"Delilah"**와 **"Weaver Of Dreams"**는 국내 재즈 동호회와 바이닐 커뮤니티에서 가을과 겨울철 필청 트랙으로 매년 불변의 인기를 누린다. 감정을 과하게 쏟아내지 않으면서도 깊은 여운을 남기는 디트로이트 특유의 리릭시즘이 한국인 특유의 차분하고 사색적인 감수성과 깊은 정서적 공명(Resonance)을 이루기 때문이다. 또한, 최근 '톤 포엣' 오디오파일 바이닐의 국내 정식 수입과 맞물려 고음질 오디오 시스템을 갖춘 국내 컬렉터들 사이에서 시스템의 해상도와 중역대 질감을 테스트하는 리퍼런스(Reference) 명반으로 재평가받으며, 시대를 초월한 모던 재즈 기타의 교과서로 추앙받고 있다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id,btn){
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b=>b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
 </body>
 </html>

@@ -3,253 +3,442 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1515 - At the Hickory House, Volume 1 (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Jutta Hipp · At The Hickory House Volume 1 BLP 1515 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #0f1c3f; --blue-mid: #1d3557; --blue-light: #457b9d;
+  --cyan: #a8dadc; --cyan-lt: rgba(168,218,220,0.15);
+  --gold: #d4a373; --gold-lt: rgba(212,163,115,0.12);
+  --muted: #5c677d; --border: rgba(15,28,63,0.12);
 }
-
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-h1{
-    margin:0;
-    font-size:2.6em;
-}
-
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
-
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
-
-th{
-    background:#0d1b2a;
-    color:white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0a1128 0%,#111e38 50%,#1d3557 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(168,218,220,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(13px,1.8vw,17px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(15,28,63,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib{background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:1.4rem;box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ih{display:flex;align-items:center;gap:12px;padding:.8rem 1.2rem;background:rgba(15,28,63,0.03);border-bottom:1px solid var(--border)}
+.ii{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.iname{font-weight:700;font-size:14px;color:var(--blue-dark)}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em}
+.ibody{padding:1.2rem;font-size:13.5px;line-height:1.85;text-align:justify}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1515</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1514.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1516.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1515 · 1956</div>
+      <h1 class="title">Jutta Hipp — At The Hickory House Volume 1</h1>
+      <div class="sub">독일에서 온 '재즈 프라우라인', 뉴욕 재즈의 심장에서 유럽적 지성과 모던 밥을 융합하다</div>
+      <div class="meta">
+        <span>1956.04.05 녹음</span>
+        <span>The Hickory House, New York, NY</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: John Hermansader / Photography: Francis Wolff</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">At the Hickory House, Volume 1 (상세 분석 리포트)</h2>
-  <p>
-  Jutta Hipp(p), Peter Ind(b), Ed Thigpen(d)<br>
-  Recorded 4/5/56 | Blue Note Records
-  </p>
+    <div class="hdr-nav">
+      <a href="BLP1514.html" class="nav-arrow" title="이전 앨범 (BLP 1514)">←</a>
+      <a href="index.html" class="home-link" title="메인 인덱스로 가기">
+        <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+      </a>
+      <a href="BLP1516.html" class="nav-arrow" title="다음 앨범 (BLP 1516)">→</a>
+    </div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1515 《At the Hickory House, Volume 1》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<!-- ═══════════════════════════════════════════════════════════ S1 -->
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">《At The Hickory House Volume 1》(BLP 1515)는 블루노트 레이블 역사상 최초로 유럽 출신의 여성 피아니스트를 전면에 내세운 기념비적인 라이브 레코딩이다. 1956년 4월 5일, 뉴욕의 유서 깊은 재즈 클럽 '히코리 하우스(The Hickory House)'에서 녹음된 이 앨범은 전후 유럽 재즈의 부흥을 이끌었던 유타 힙(Jutta Hipp)이 재즈의 본고장 미국에 상륙하여 거둔 예술적 결실을 생생하게 포착하고 있다. 알프레드 라이언이 발견한 이 독일 출신의 천재 피아니스트는 당대 뉴욕을 지배하던 하드 밥의 열기 속에서 자신만의 쿨하고 지적인 터치로 평단과 관객을 동시에 사로잡았다.</p>
+  <p class="p">이 앨범이 발매된 1956년은 블루노트가 10인치 LP 포맷에서 12인치 LP 포맷으로 본격적인 전환을 감행하며 카탈로그를 확장하던 중대한 시기였다. 남성 연주자 중심의 완고한 비밥 씬에서 여성, 그것도 백인 유럽인이 리더로서 클럽 라이브 음반을 녹음하고 이를 블루노트의 핵심 라인업인 1500번대에 포지셔닝했다는 사실은 레이블의 진취적인 안목을 증명한다. 유타 힙의 정교한 왼손 컴핑과 레니 트리스타노, 호레이스 실버의 영향이 절묘하게 교차하는 독창적인 어법은 미국 재즈가 유럽의 플레이어들을 단순한 모방자가 아닌 대등한 예술적 파트너로 인정하게 만드는 계기가 되었다.</p>
+  <p class="p">후대의 비평 역시 이 음반이 지닌 독보적인 위치를 높이 평가한다. 비록 유타 힙이 이 녹음 이후 얼마 지나지 않아 재즈계를 영영 떠나며 미완의 전설로 남았을지언정, 본작에 담긴 트리오 연주는 1950년대 중반 뉴욕 재즈 클럽의 실황 분위기와 유럽적 서정성이 가미된 모던 밥의 정수를 들려준다. 올뮤직 등 주요 평단은 본작을 유타 힙의 짧았던 커리어 중 가장 빛나는 순간으로 꼽으며, 역사적 희소성과 음악적 완성도를 모두 갖춘 하이드 지엠(Hidden Gem)으로 평가하고 있다.</p>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《Jutta Hipp(p), Peter Ind(b), Ed Thigpen(d)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S2 -->
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 유타 힙 — 생애 및 약력</h2></div>
+  <p class="p" style="margin-bottom: 1.5rem;">유럽 재즈의 선구자에서 뉴욕의 히어로로, 그리고 돌연한 은둔으로 이어진 유타 힙의 드라마틱한 생애와 음악적 여정을 정리한 연표다.</p>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1925</span><span class="tlb"><strong>독일 라이프치히에서의 탄생.</strong> 2월 4일 바이마르 공화국 시절 독일 라이프치히에서 출생. 어린 시절부터 클래식 피아노 교육을 받으며 음악적 재능을 나타냈으나, 회화와 시각 예술에도 깊은 관심을 보였다.</span></li>
+    <li class="tli"><span class="tly">~1945</span><span class="tlb"><strong>전쟁의 가혹함과 비밀스러운 재즈 청취.</strong> 나치 정권 하에서 재즈는 '타락한 음악(Entartete Musik)'으로 금지되었으나, 유타 힙은 폭격의 공포 속에서도 지하 단파 라디오를 통해 비밀리에 미국 재즈를 들으며 자유를 갈망했다. 전후 라이프치히가 소련 점령 지구가 되자 서독 지역인 뮌헨으로 탈출했다.</span></li>
+    <li class="tli"><span class="tly">1952</span><span class="tlb"><strong>한스 콜러 퀸텟 합류 및 유럽 씬의 부상.</strong> 독일 재즈의 거장 색소포니스트 한스 콜러(Hans Koller)의 퀸텟에 합류하며 프로 커리어를 본격화했다. 유럽 전역을 투어하며 냉철하면서도 스윙감 넘치는 연주로 '유럽 최고의 여성 재즈 피아니스트'라는 명성을 얻기 시작했다.</span></li>
+    <li class="tli"><span class="tly">1954</span><span class="tlb"><strong>레너드 페더와의 만남과 미국 이주의 발판.</strong> 미국의 저명한 재즈 비평가 레너드 페더(Leonard Feather)가 유럽 방문 중 유타 힙의 연주를 듣고 깊은 감명을 받았다. 페더는 그녀를 미국으로 초청하기 위한 스폰서십을 자처했고, 그녀의 연주가 담긴 테이프를 뉴욕의 프로듀서들에게 전달했다.</span></li>
+    <li class="tli"><span class="tly">1955</span><span class="tlb"><strong>뉴욕 상륙과 알프레드 라이언과의 계약.</strong> 11월 뉴욕에 도착한 유타 힙은 곧바로 재즈 씬의 주목을 받았다. 블루노트의 수장 알프레드 라이언은 그녀의 신선한 스타일을 높이 평가하여 전속 계약을 체결했고, 최초의 10인치 레코딩 등을 진행하며 본격적인 미국 데뷔를 지원했다.</span></li>
+    <li class="tli"><span class="tly">1956.04</span><span class="tlb"><strong>히코리 하우스 실황 녹음 — 커리어의 정점.</strong> 4월 5일, 뉴욕 중심가의 유명 클럽 히코리 하우스에서 피터 인디(Bass), 에드 시그펜(Drums)과 함께 트리오 실황을 녹음했다. 이 녹음은 훗날 BLP 1515와 BLP 1516 두 장의 12인치 LP로 분할 발매되어 그녀의 대표작이 되었다.</span></li>
+    <li class="tli"><span class="tly">1956.07</span><span class="tlb"><strong>주트 심스와의 스튜디오 명작.</strong> 테너 색소포니스트 주트 심스(Zoot Sims)와 함께 또 하나의 블루노트 명반 《Jutta Hipp with Zoot Sims》(BLP 1530)를 녹음했다. 이 음반은 호레이스 실버 스타일의 한층 더 펑키하고 다이내믹한 연주를 담아내 평단에 깊은 인상을 남겼다.</span></li>
+    <li class="tli"><span class="tly">1957~</span><span class="tlb"><strong>재즈 씬에서의 돌연한 이탈과 무대 공포증.</strong> 극심한 무대 공포증과 알코올 의존증, 그리고 미국 재즈 씬의 가혹한 상업적 경쟁에 지친 유타 힙은 1957년을 기점으로 재즈 연주 활동을 전면 중단했다. 그녀는 생계를 위해 뉴욕의 한 의류 공장에 재봉사로 취직했다.</span></li>
+    <li class="tli"><span class="tly">~2003</span><span class="tlb"><strong>은둔의 삶과 예술가로서의 마감.</strong> 이후 수십 년 동안 재즈계와의 접촉을 끊은 채 평범한 노동자이자 화가, 시인으로서 조용한 삶을 살았다. 블루노트에서 정기적으로 들어오는 로열티가 그녀의 유일한 과거의 끈이었다. 2003년 4월 7일, 뉴욕 퀸즈의 자택에서 78세를 일기로 별세했다.</span></li>
+  </ul>
+  <div class="qt">
+    <p>"재즈는 나에게 단순한 음악이 아니었다. 그것은 전쟁의 참화 속에서 숨 쉴 수 있게 해준 유일한 자유의 공기였다."</p>
+    <div class="src">— Jutta Hipp</div>
+  </div>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(Jutta Hipp(p), Peter Ind(b), Ed Thigpen(d))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<!-- ═══════════════════════════════════════════════════════════ S3 -->
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <p class="p">《At The Hickory House Volume 1》은 유타 힙이 미국에 정착한 후 결성한 최정예 뉴욕 트리오의 호흡을 담고 있다. 당시 쿨 재즈와 밥 씬에서 최고의 주가를 올리던 정통파 리듬 섹션의 가세는, 유타 힙의 유럽적 지성이 미국 재즈의 심장부에서 완벽한 스윙감으로 만개할 수 있도록 지탱해준 결정적 요인이었다.</p>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>히코리 하우스 트리오 라인업 — 피아노, 베이스, 드럼의 완벽한 삼각 구도</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Jutta Hipp</div>
+      <div class="cr">PIANO · 1925–2003</div>
+      <div class="cb">독일 라이프치히 출신의 피아니스트. 클래식에 기반한 정교한 터치와 레니 트리스타노풍의 긴 리니어 프레이징을 구사했다. 동시에 호레이스 실버의 블루지한 그루브를 흡수하여, 지적이면서도 강력한 추진력을 지닌 자신만의 독창적인 트리오 사운드를 완성했다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Peter Ind</div>
+      <div class="cr">BASS · 1928–2021</div>
+      <div class="cb">영국 런던 출신의 베이시스트로 레니 트리스타노의 직계 제자다. 고도의 화성적 지식과 자로 잰 듯 정확한 타이밍의 워킹 베이스가 장기였다. 유타 힙의 다소 복잡한 코드 대리 화성을 정확하게 읽어내며 트리오의 화성적 닻 역할을 충실히 수행했다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Ed Thigpen</div>
+      <div class="cr">DRUMS · 1930–2010</div>
+      <div class="cb">시카고 출생의 드러머로, 훗날 오스카 피터슨 트리오의 황금기를 이끄는 '브러시 연주의 마술사'다. 본작 녹음 당시 젊고 영민한 라이징 스타였으며, 클럽 라이브 특유의 소음을 잠재우는 섬세한 브러시 워크와 정교한 심벌 워크로 유타 힙에게 최고의 리듬 카펫을 깔아주었다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S4 -->
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎹</div>
+      <div><div class="iname">피아노 (Piano) — Jutta Hipp</div><div class="ipl" style="color:var(--blue-light)">절제된 타건과 거침없는 선율선 — 유럽적 이성과 뉴욕 밥의 교차점</div></div>
+    </div>
+    <div class="ibody">
+      본 앨범에서 유타 힙의 피아노는 과장된 제스처나 불필요한 장식을 배제한 극도의 절제미를 보여준다. 그녀의 오른손은 레니 트리스타노의 영향이 짙게 배어나는, 길고 끊어지지 않는 리니어(Linear)한 즉흥 연주 라인을 직조해낸다. 반면 왼손은 호레이스 실버 스타일의 강한 하드 밥적 악센트를 불규칙하게 찔러 넣으며 곡에 팽팽한 긴장감을 부여한다. 스탠다드 곡들을 연주할 때 멜로디의 원형을 존중하면서도 화성적 배치를 세련되게 변형하는 그녀의 터치는, 라이브 공간의 열기 속에서도 냉철한 지성을 유지하는 독특한 감상적 경험을 선사한다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:var(--gold)">🎻</div>
+      <div><div class="iname">베이스 (Bass) — Peter Ind</div><div class="ipl" style="color:var(--gold)">트리스타노 학파의 견고한 논리 — 트리오의 화성적 중심을 잡다</div></div>
+    </div>
+    <div class="ibody">
+      피터 인디의 베이스는 화려하게 전면에 나서기보다는 유타 힙의 피아노 아래에서 가장 완벽한 로우 엔드(Low-end)를 지탱하는 데 주력한다. 그의 워킹 베이스 라인은 음 하나하나의 길이가 균일하고 톤이 묵직하여, 드럼의 에드 시그펜과 함께 흔들리지 않는 견고한 타임키핑을 형성한다. 유타 힙이 즉흥 연주 중 화성적으로 과감한 도약을 감행할 때마다, 피터 인디는 영민한 루트 음의 변화를 통해 피아노가 언제든 안정적으로 제자리로 돌아올 수 있도록 거대한 화성적 지도를 그려준다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-dark)">🥁</div>
+      <div><div class="iname">드럼 (Drums) — Ed Thigpen</div><div class="ipl" style="color:var(--blue-dark)">마술적인 브러시 워크와 유려한 스윙 — 클럽의 공기를 지배하다</div></div>
+    </div>
+    <div class="ibody">
+      에드 시그펜의 드러밍은 왜 그가 훗날 재즈사 최고의 트리오 드러머로 추앙받게 되었는지를 이 초기 녹음에서부터 입증한다. 히코리 하우스라는 오픈된 클럽 공간의 특성상 피아노 트리오의 섬세함이 묻히기 쉬운 환경이었음에도, 시합은 예술적인 브러시 연주를 통해 부드러운 스네어의 지속음을 만들어내며 피아노 터치를 포근하게 감싸 안는다. 템포가 빠른 곡에서는 정교한 하이햇 마감과 라이드 심벌의 팅잉(Tinging) 사운드로 트리오 전체에 경쾌한 추진력을 불어넣으며 라이브 특유의 생동감을 극대화한다.
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>4/5/56</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1956 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<!-- ═══════════════════════════════════════════════════════════ S5 -->
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+  <p class="p">《At The Hickory House Volume 1》은 1950년대 중반 재즈사에서 쿨 재즈(Cool Jazz)의 백인적·지적 어법과 이스트 코스트 하드 밥(Hard Bebop)의 흑인적·신체적 그루브가 어떻게 한 명의 이방인 내부에서 융합되었는지를 보여주는 훌륭한 텍스트다.</p>
+  <p class="p"><strong>1. 클럽 라이브 트리오의 미학:</strong> 스튜디오의 통제된 환경과 달리, 본작과 같은 클럽 실황은 관객의 대화 소리, 식기 부딪히는 소리, 연주자들의 숨소리까지 음악의 일부로 수용한다. 유타 힙 트리오는 이러한 현장감 속에서 긴밀한 인터플레이(Interplay)를 전개한다. 과장된 독주 위주의 연주가 아니라 서로의 음을 듣고 즉각적으로 반응하는 삼각 구도의 정교함은, 피아노 트리오가 도달할 수 있는 가장 친밀하고 밀도 높은 대화 형식을 취하고 있다.</p>
+  <p class="p"><strong>2. 스탠다드의 세련된 재해석:</strong> 본 앨범에 수록된 곡들은 대부분 당대 유행하던 브로드웨이 뮤지컬 넘버나 비밥의 명곡들이다. 유타 힙은 이 익숙한 멜로디들을 연주할 때, 감상적인 감정에 매몰되지 않는 냉정함을 유지한다. 멜로디 라인을 의도적으로 길게 늘어뜨리거나 템포를 미세하게 조율하는 방식은 레니 트리스타노 스타일의 쿨 재즈적 특성이며, 이를 하드 밥의 리듬 섹션 위에서 구사함으로써 독특한 하이브리드 장르적 매력을 발산한다.</p>
+  <p class="p"><strong>3. 전후 유럽 재즈의 미국적 이식:</strong> 1950년대 초반까지 유럽 재즈는 미국의 아류라는 인식이 강했으나, 유타 힙은 본작을 통해 미국 관객들에게 자신만의 독자적인 해석력을 각인시켰다. 유럽 클래식 전통의 정교한 터치와 앙상블 감각이 미국의 모던 밥 언어와 결합했을 때 발생하는 시너지는, 향후 60년대 유로 재즈의 독자적 발전으로 이어지는 중요한 징검다리 역할을 했다고 볼 수 있다.</p>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S6 -->
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 음악적 세부 분석</h2></div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1.2rem;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">※ 1956년 블루노트 오리지널 12인치 LP (BLP 1515) 첫 발매반 트랙리스트(전 10곡) 기준 해설입니다.</p>
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Take Me In Your Arms</span><span class="ttime">A1 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Fred Markush / 이탈리아-독일 계열의 팝 스탠다드 · 편성: 피아노 트리오</div>
+      <div class="tdesc">앨범의 포문을 여는 첫 트랙으로, 유럽 출신인 유타 힙의 배경을 은근히 암시하는 선곡이다. 본래 유럽에서 유래한 멜로디의 애수 어린 분위기를 간직하면서도, 에드 시그펜의 경쾌한 심벌 워크가 가세하며 완벽한 뉴욕 스타일의 모던 스윙으로 탈바꿈한다. 유타 힙의 탄탄한 컴핑 능력이 돋보인다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Dear Old Stockholm</span><span class="ttime">A2 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">스웨덴 민요 (Traditional) / 마일즈 데이비스 편곡 버전 기반 · 편성: 피아노 트리오</div>
+      <div class="tdesc">스웨덴 민요에 기반하여 스탠 모조, 마일즈 데이비스 등이 유행시킨 곡. 유타 힙은 스칸디나비아 재즈 씬과도 교류가 깊었던 만큼 이 북유럽 특유의 서정적인 멜로디를 누구보다 깊이 이해하고 연주한다. 피터 인디의 고요하고 묵직한 베이스 솔로와 유타 힙의 투명한 피아노 톤이 클럽의 공기를 단숨에 엄숙하게 만든다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Billie's Bounce</span><span class="ttime">A3 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Charlie Parker (정통 비밥 블루스) · 편성: 피아노 트리오</div>
+      <div class="tdesc">찰리 파커의 역사적인 비밥 블루스 명곡. 유럽 출신의 여성 피아니스트가 미국의 정통 비밥을 얼마나 제대로 소화할 수 있는지 시험대와도 같은 곡이다. 유타 힙은 정면 돌파를 선택한다. 호레이스 실버를 연상시키는 왼손의 강력한 펑키 악센트와 밥 어법에 충실한 오른손 라인이 클럽을 뜨겁게 달군다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">I'll Remember April</span><span class="ttime">A4 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Gene de Paul (모던 재즈 스탠다드) · 편성: 피아노 트리오</div>
+      <div class="tdesc">빠른 템포로 자주 연주되는 난곡을 트리오의 정교한 인터플레이로 풀어낸다. 에드 시그펜의 라틴 그루브와 스윙을 오가는 드럼 인터루드가 인상적이며, 유타 힙은 템포의 압박 속에서도 흔들림 없는 타건과 트리스타노풍의 리니어한 즉흥 연주 라인을 길게 전개하며 압도적인 테크닉을 과시한다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Lady Bird</span><span class="ttime">A5 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Tadd Dameron (비밥 스탠다드) · 편성: 피아노 트리오</div>
+      <div class="tdesc">태드 대머론의 아름다운 밥 넘버. 유타 힙은 이 곡이 가진 멜로디 고유의 매력을 살리면서도, 즉흥 연주 파트에서 코드의 대리 화성을 영민하게 사용하여 한층 더 모던하고 지적인 분위기를 자아낸다. A면의 마지막을 장식하며 트리오의 단단한 결속력을 보여주는 트랙이다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Mad About The Boy</span><span class="ttime">B1 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Noel Coward (노엘 카워드 팝 스탠다드) · 편성: 피아노 트리오</div>
+      <div class="tdesc">B면의 시작을 알리는 곡으로, 영국 출신의 극작가 노엘 카워드의 세련된 넘버다. 유타 힙은 특유의 쿨한 감성으로 감상성을 걷어내고 미디엄 템포의 모던한 그루브를 장착한다. 에드 시그펜의 섬세한 스네어 워크 위에서 춤추듯 전개되는 피아노 멜로디가 매혹적이다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Ain't Misbehavin'</span><span class="ttime">B2 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Fats Waller (스트라이드 재즈 클래식) · 편성: 피아노 트리오</div>
+      <div class="tdesc">팻츠 월러의 위대한 스트라이드 시대 명곡. 유타 힙은 고전적인 스트라이드 주법을 고수하는 대신, 이를 1950년대 중반의 모던 밥 스타일로 완전히 현대화하여 해석한다. 과거의 유산을 현재의 언어로 번역해내는 그녀의 탁월한 역사 감각이 빛을 발하는 트랙이다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">These Foolish Things</span><span class="ttime">B3 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Jack Strachey (재즈 발라드 명곡) · 편성: 피아노 트리오</div>
+      <div class="tdesc">앨범에서 가장 깊은 서정성을 지닌 발라드 트랙이다. 유타 힙의 클래식적 터치와 투명한 음색이 극대화되며, 감정을 억제하는 듯한 절제된 프레이징이 오히려 청자에게 더 큰 내면적 울림을 준다. 피터 인디의 따뜻한 베이스 톤이 든든한 배경이 되어준다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Jeepers Creepers</span><span class="ttime">B4 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Harry Warren (스윙 시대 팝 넘버) · 편성: 피아노 트리오</div>
+      <div class="tdesc">본래 활기차고 유머러스한 스윙 넘버를 트리오의 빠르고 탄력 넘치는 밥 그루브로 전환시킨 곡. 유타 힙의 오른손이 질주할 때 에드 시그펜의 심벌이 화답하며 라이브 특유의 유쾌하고 에너제틱한 현장 분위기를 고스란히 전달한다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">The Moon Was Yellow</span><span class="ttime">B5 · 1956.04.05 (실황)</span></div>
+      <div class="ttag">작곡: Fred E. Ahlert (팝 스탠다드) · 편성: 피아노 트리오</div>
+      <div class="tdesc">Volume 1의 대미를 장식하는 트랙. 달콤하면서도 어딘가 이국적인 멜로디의 흐름을 트리오의 정교한 구조적 앙상블로 매듭짓는다. 유타 힙의 마지막 코드 아웃트로가 히코리 하우스의 밤 공기 속으로 사라지며 깊은 여운과 함께 Volume 2에 대한 기대감을 남긴다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<!-- ═══════════════════════════════════════════════════════════ S7 -->
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+  <p class="p">BLP 1515는 블루노트 12인치 LP 시리즈 역사상 매우 이례적이면서도 중요한 위치를 점한다. 1500번대 초반의 강력한 하드 밥 대작들 사이에서, 유럽 출신 피아니스트의 클럽 실황을 두 장으로 나누어 연속 발매(BLP 1515, BLP 1516)했다는 사실 자체가 알프레드 라이언이 유타 힙에게 걸었던 기대가 얼마나 대단했는지를 방증한다.</p>
+
+  <div class="hl">
+    <p><strong>백인 쿨 재즈와 하드 밥 레이블의 조우.</strong> 블루노트는 본래 뉴욕의 정통 흑인 하드 밥을 대변하는 레이블이었으나, 1956년 12인치 포맷 확장기에 접어들면서 음악적 외연 확장을 시도했다. BLP 1515는 바로 그 외연 확장의 선봉에 선 작품이다. 레니 트리스타노 학파의 백인 베이시스트 피터 인디와 정통 하드 밥 드러머 에드 시그펜을 매칭하여 독일 출신 피아니스트의 라이브를 녹음한 것은, 블루노트가 당대 서해안 쿨 재즈(West Coast Cool)와 동해안 하드 밥의 예술적 대안을 모색하고 있었음을 보여주는 포지셔닝이다.</p>
+  </div>
+
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">BLP 1513/1514 [앞]</div>
+      <div class="pos-title">Thad Jones – Detroit-New York Junction</div>
+      <div class="pos-desc">새로운 하드 밥 트럼펫 거장 태드 존스의 명반. 강렬한 블루노트 특유의 브라스 사운드가 지배하는 직전 넘버들과 뚜렷한 대비를 이룬다.</div>
+    </div>
+    <div class="pos-card" style="border:2px solid var(--blue-mid)">
+      <div class="pos-label" style="color:var(--blue-light)">BLP 1515 [현재 앨범]</div>
+      <div class="pos-title">Jutta Hipp – At The Hickory House Vol. 1</div>
+      <div class="pos-desc">유럽 출신 여성 피아니스트의 최초 블루노트 12인치 라이브 앨범. 레이블 역사상 가장 독특한 인적 구성을 지닌 숨은 명작.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1516 [직후 발매]</div>
+      <div class="pos-title">Jutta Hipp – At The Hickory House Vol. 2</div>
+      <div class="pos-desc">동일한 날 녹음된 실황의 연장선. BLP 1515와 쌍둥이를 이루며 유타 힙 트리오의 히코리 하우스 실황 전체를 완성하는 완결편이다.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1518 [뒤]</div>
+      <div class="pos-title">Horace Silver – Fontana Sessions</div>
+      <div class="pos-desc">블루노트 피아노의 상징 호레이스 실버의 명작. 유타 힙이 실버의 영향력을 어떻게 자신만의 방식으로 소화했는지 비교 감상하기 좋은 배치다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 희귀반, 여성 피아니스트의 강렬함 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<!-- ═══════════════════════════════════════════════════════════ S8 -->
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치 및 프레싱 식별법</h2></div>
+  <p class="p">유타 힙의 히코리 하우스 바이닐은 전 세계 블루노트 헤비 컬렉터들 사이에서 최상위권의 희소성과 소장 가치를 지닌 '수집가들의 성배' 중 하나로 통한다. 짧은 커리어 후 자취를 감춘 그녀의 역사적 스토리텔링이 더해져 가격이 지속적으로 상승하고 있다.</p>
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-dark);color:#fff">🇺🇸 미국 오리지널 첫 프레싱 (1956, 767 Lexington Ave)</div>
+      <div class="pbody">
+        <p><span class="pl">오리지널 초판 식별 초점:</span> BLP 1515의 진정한 오리지널 첫 프레싱은 레이블에 <strong>"767 LEXINGTON AVE, NEW YORK"</strong> 주소가 선명히 인쇄되어 있어야 한다. 당연히 "Inc."나 "®" 마크는 없어야 하며, 양면에 깊은 홈인 <strong>딥 그루브(Deep Groove)</strong>와 평평한 테두리인 <strong>플랫 엣지(Flat Edge)</strong> 림이 적용되어야 한다. 데드왁스(Dead Wax)에는 루디 반 겔더의 마스터링 각인(RVG)과 함께 블루노트 특유의 프레싱 마크인 <strong>'이어(Ear)' 각인(P자 형태)</strong>이 필히 존재해야 초판으로 인정받는다.</p>
+        <p><span class="pl">음질적 특성:</span> 루디 반 겔더가 클럽 현장에서 직접 포터블 장비로 레코딩한 모노 음원으로, 현장의 어쿠스틱과 청중의 자연스러운 소음이 피아노 트리오의 선명한 터치와 기막힌 밸런스를 이룬다. 오리지널 프레싱 특유의 중역대 질감이 매우 농밀하다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> 초판의 극도의 희소성으로 인해 상태가 좋은 VG+에서 NM급 오리지널 바이닐은 컬렉터 시장에서 최소 <strong>$800에서 $1,500 선</strong>을 호가하며, 경매 상태에 따라 그 이상을 기록하기도 하는 초고가 타이틀이다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-light);color:#fff">🇯🇵 일본 King Records / Toshiba-EMI 재발매반</div>
+      <div class="pbody">
+        <p><span class="pl">발매 및 제작 시기:</span> 1970년대 후반 킹 레코드(King Records)의 'Blue Note Masterpiece Selection' 시리즈 또는 80-90년대 도시바-EMI(Toshiba-EMI)를 통해 발매되었다. 일본 재즈 컬렉터들 사이에서 유타 힙의 인기는 절대적이었기에 정교한 아날로그 복각이 이루어졌다.</p>
+        <p><span class="pl">음질적 특성:</span> 미국 오리지널의 거친 질감은 다소 정제되었으나, 일본 특유의 정숙한 표면 소음 관리와 깨끗한 고역대 마감 덕분에 유타 힙의 정교한 피아노 타건 소리를 감상하기에 아주 훌륭한 퀄리티를 자랑한다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> 오비(OBI)와 해설지가 포함된 완품 기준으로 <strong>$50에서 $100 선</strong>에서 거래되며, 오리지널의 대안으로 전 세계 컬렉터들에게 인기가 높다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--gold);color:#fff">🆕 현대 오디오파일 재발매 (Blue Note Classic / Tone Poet Reissue)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 및 제작 시기:</span> 오리지널 마스터 테이프의 노후화와 희소성을 극복하기 위해, 최근 블루노트 본사에서 케빈 그레이(Kevin Gray) 등 거장 엔지니어를 동원해 오리지널 아날로그 마스터에서 직접 컷팅한 180g 중량반으로 복각되었다.</p>
+        <p><span class="pl">음질적 특성:</span> 최신 테크놀로지를 통해 1956년 히코리 하우스의 공간감을 현대 오디오 시스템에 맞게 최적화했다. 피터 인디의 베이스 저역대가 뭉개지지 않고 선명하게 살아난 점이 애호가들의 큰 호평을 받는다.</p>
+        <p><span class="pl">컬렉터 시장 시세:</span> 일반 매장가 <strong>$35에서 $45 내외</strong>로, 가장 합리적인 가격에 최상의 아날로그 사운드로 유타 힙의 라이브를 감상할 수 있는 현실적인 선택지다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S9 -->
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 (핵심 요약 정리)</h2></div>
+  <div class="hl" style="margin-bottom:1.1rem">
+    <p>1956년 오리지널 발매 당시 미국의 저명한 재즈 비평가이자 유타 힙을 미국으로 이끈 은인인 레너드 페더(Leonard Feather)가 작성한 라이너 노트의 핵심 내용을 요약했다. 당시 미국 재즈계가 이 이방인 여성 연주자를 어떻게 바라보았는지 그 시선이 고스란히 담겨 있다.</p>
+  </div>
+
+  <div class="ln">
+    <div class="lns">1. '재즈 프라우라인(Jazz Fräulein)'의 등장 배경</div>
+    <div class="lnb">
+      레너드 페더는 라이너 노트를 통해 유타 힙이 나치 정권의 억압 속에서 어떻게 재즈를 수호하고 자신의 음악을 발전시켰는지 극적인 서사를 소개한다. 전쟁의 폐허 속에서 피어난 그녀의 음악성이 단순히 유럽의 유행을 따른 것이 아니라, 생존과 자유를 위한 열망의 결과물이었음을 강조하며 미국 청중들에게 감정적인 유대감을 제안한다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">2. 뉴욕 재즈의 상징 '히코리 하우스'가 지닌 공간적 의미</div>
+    <div class="lnb">
+      맨해튼 52번가 근처에 위치한 히코리 하우스는 당대 최고의 피아노 트리오들이 거쳐 간 명소였다. 라이너 노트는 유타 힙이 이 역사적인 클럽의 원형 바(Bar) 안쪽 무대에서 연주를 마침으로써, 그녀가 더 이상 '유럽의 유망주'가 아닌 뉴욕 재즈의 중심에 당당히 진입했음을 선언하고 있다. 현장 관객들의 뜨거운 반응이 그 증거로 제시된다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">3. 음악적 스타일 분석 — 트리스타노와 실버의 연금술</div>
+    <div class="lnb">
+      페더는 그녀의 주법이 지닌 독창성을 명쾌하게 분석한다. 지적이고 정교한 화성 어법은 레니 트리스타노로부터, 모던한 스윙감과 블루스에 대한 이해는 호레이스 실버로부터 자양분을 받았다고 설명하며, 이 두 극단의 스타일이 유타 힙이라는 독특한 개성 속에서 완벽하게 녹아들어 새로운 트리오 사운드를 창조했다고 극찬했다.
+    </div>
+  </div>
+
+  <div class="rv">
+    <div class="rvsrc">올뮤직 (AllMusic) — 평론가 스콧 야로우(Scott Yanow)의 평가</div>
+    <div class="rvb">"유타 힙의 짧은 미국 활동기 중 가장 뛰어난 기록물이다. 그녀의 연주는 대단히 신선하며, 피터 인디와 에드 시그펜과의 인터플레이는 당대 뉴욕 최고의 트리오들과 견주어도 손색이 없다."</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">재즈와이즈 (Jazzwise) — 역사적 복각 리뷰 중</div>
+    <div class="rvb">"남성 호르몬이 과잉되던 50년대 뉴욕 하드 밥 씬에서 유타 힙이 보여준 세련되고 지적인 터치는 신선한 충격이었다. 블루노트 1500번대 컬렉션에서 절대 빼놓을 수 없는 숨은 보석이다."</div>
+  </div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<!-- ═══════════════════════════════════════════════════════════ S10 -->
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 역사적 에피소드</h2></div>
+  <p class="p">BLP 1515의 녹음 전후에는 유타 힙의 비극적이면서도 신비로운 커리어와 얽힌 수많은 뒷이야기들이 전해진다.</p>
 
+  <p class="p"><strong>1. 알프레드 라이언의 특별한 배려와 클럽 레코딩:</strong> 알프레드 라이언은 웬만하면 스튜디오 녹음을 선호하는 프로듀서였으나, 유타 힙의 경우 그녀가 스튜디오 공간에서 극심한 긴장감을 느낀다는 것을 파악했다. 이에 그녀가 가장 편안하게 연주할 수 있고 매주 정기 공연을 펼치던 히코리 하우스 클럽으로 루디 반 겔더를 직접 불러 라이브 레코딩을 감행했다. 이 배려 덕분에 그녀의 역사상 가장 자연스럽고 스윙감 넘치는 연주가 테이프에 담길 수 있었다.</p>
+
+  <p class="p"><strong>2. 에드 시그펜과의 만남, 그리고 오스카 피터슨 트리오의 서막:</strong> 본작에서 유타 힙과 완벽한 호흡을 보여준 드러머 에드 시그펜은 이 녹음으로부터 불과 몇 년 후인 1959년, 오스카 피터슨 트리오에 합류하여 재즈사상 가장 위대한 트리오 라인업을 완성하게 된다. BLP 1515는 시합이 거장으로 만개하기 직전, 젊은 날의 섬세하고 날카로운 드러밍 감각을 고스란히 간직한 귀중한 초기 아카이브다.</p>
+
+  <p class="p"><strong>3. 마일즈 데이비스의 혹평과 무대 공포증의 심화:</strong> 뉴욕 재즈 씬의 중심에 선 그녀를 모두가 환영한 것은 아니었다. 당대의 독설가 마일즈 데이비스(Miles Davis)는 유타 힙의 연주를 두고 "미국 비밥의 겉핥기식 모방"이라며 특유의 냉소적인 혹평을 던졌다. 가뜩이나 이방인 여성으로서 자격지심과 극심한 무대 공포증을 겪고 있던 유타 힙은 이 사건으로 큰 상처를 입었고, 이는 그녀가 재즈계를 조기에 은퇴하게 된 심리적 원인 중 하나가 되었다.</p>
+
+  <p class="p"><strong>4. 의류 공장 재봉사로 살다 간 전설의 피아니스트:</strong> 블루노트에서 주트 심스와의 명반(BLP 1530)까지 남긴 후, 그녀는 1957년 음악계를 완전히 등졌다. 이후 뉴욕의 한 봉제 공장에서 수십 년간 재봉사로 일하며 평범한 노동자의 삶을 살았다. 블루노트 본사는 수십 년 동안 그녀에게 꼬박꼬박 재발매 로열티를 송금했는데, 공장 동료들은 그녀가 한때 뉴욕을 뒤흔들었던 블루노트 최초의 유럽인 전속 피아니스트였다는 사실을 그녀가 사망할 때까지 전혀 몰랐다고 한다.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ S11 -->
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+  <p class="p">한국의 재즈 청취자들과 바이닐 컬렉터들 사이에서 유타 힙은 '재즈 마니아들의 깊이를 가늠하는 척도'와 같은 인물로 대접받는다. 빌 에반스나 부드 파웰처럼 대중적인 인지도를 누리지는 못하지만, 마니아층 사이에서의 충성도와 예술적 평가는 대단히 높다.</p>
+
+  <p class="p"><strong>1. '비운의 천재 여성 연주자' 서사에 대한 깊은 몰입:</strong> 한국의 재즈 애호가들은 연주자의 생애가 지닌 스토리텔링에 깊이 공감하는 경향이 있다. 나치의 감시를 피해 재즈를 듣던 소녀가 뉴욕 블루노트의 스타가 되었다가, 돌연 재봉사로 평생을 은둔했다는 유타 힙의 드라마틱한 삶은 한국 청중들에게 강한 정서적 잔상을 남긴다. 본작을 들을 때 클럽의 화려함 이면에 숨겨진 그녀의 외로움과 절제미를 읽어내는 평론들이 많은 이유다.</p>
+
+  <p class="p"><strong>2. "Dear Old Stockholm"에 대한 한국적 정서의 공명:</strong> 수록곡 중 "Dear Old Stockholm"은 한국 애호가들에게 압도적인 사랑을 받는다. 북유럽 민요 특유의 단조 멜로디가 지닌 쓸쓸하고 애잔한 정서가 한국인 고유의 '한(恨)'이나 슬픔의 미학과 묘하게 공명하기 때문이다. 마일즈 데이비스의 관악기 버전과는 또 다른, 유타 힙 트리오만의 투명하고 시린 피아노 터치는 비 오는 날이나 늦은 밤 필청 트랙으로 국내 커뮤니티에서 자주 추천된다.</p>
+
+  <p class="p"><strong>3. 오디오파일과 바이닐 수집가들의 타깃:</strong> 국내 빈티지 오디오파일 및 블루노트 컬렉터들 사이에서 BLP 1515 렉싱턴 초판은 그야말로 '꿈의 바이닐'로 통한다. 국내에 유입된 수량 자체가 극히 적기 때문에, 회현동이나 홍대 인근의 고급 바이닐 숍이나 매니아들의 개인 거래에서 초고가에 거래되는 상징적인 컬 타이틀이다. 최근 발매된 오디오파일용 고음질 재발매반(Classic Vinyl 등) 역시 국내 수입과 동시에 빠르게 품절될 만큼 강력한 구매층을 거느리고 있다.</p>
+
+  <p class="p"><strong>4. 재즈 평단 및 전문 음악 공간에서의 위상:</strong> 국내의 유명 재즈 바나 오디오 특화 카페(일명 '재즈 깃사'풍 공간)에서 이 음반은 공간의 음악적 품격을 증명하는 스페셜 플레이 리스트로 애용된다. 뻔한 스탠다드 연주에 지친 손님들에게 '아는 사람만 아는 명반'으로 소개하기에 이보다 좋은 선택이 없기 때문이다. 지적이면서도 과하지 않은 스윙감 덕분에, 한국의 현대 재즈 리스너들이 추구하는 '모던하고 세련된 공간감'에 완벽히 부합하는 앨범으로 평가받고 있다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
 </body>
 </html>

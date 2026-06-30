@@ -3,253 +3,395 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1519 - The Herbie Nichols Trio (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Herbie Nichols · The Herbie Nichols Trio BLP 1519 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #0f1c3f; --blue-mid: #1d3557; --blue-light: #457b9d;
+  --cyan: #a8dadc; --cyan-lt: rgba(168,218,220,0.15);
+  --gold: #d4a373; --gold-lt: rgba(212,163,115,0.12);
+  --muted: #5c677d; --border: rgba(15,28,63,0.12);
 }
-
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-h1{
-    margin:0;
-    font-size:2.6em;
-}
-
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
-
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
-
-th{
-    background:#0d1b2a;
-    color:white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0a1128 0%,#111e38 50%,#1d3557 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(168,218,220,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(13px,1.8vw,17px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(15,28,63,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib {background: var(--bg2); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin-bottom: 1.4rem; box-shadow: 0 2px 6px rgba(0,0,0,0.02);}
+.ih {display: flex; align-items: center; gap: 12px; padding: .8rem 1.2rem; background: rgba(15,28,63,0.03); border-bottom: 1px solid var(--border);}
+.ii {width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; flex-shrink: 0;}
+.iname {font-weight: 700; font-size: 14px; color: var(--blue-dark);}
+.ipl {font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .06em;}
+.ibody {padding: 1.2rem; font-size: 13.5px; line-height: 1.85; text-align: justify;}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1519</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1518.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1520.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1519 · 1956</div>
+      <h1 class="title">Herbie Nichols — The Herbie Nichols Trio</h1>
+      <div class="sub">시대를 앞서간 비운의 모던 재즈 건축가, 하드 밥의 토양 위에 아방가르드의 씨앗을 뿌리다</div>
+      <div class="meta">
+        <span>1955.05.06 / 1955.08.07 / 1956.04.19 녹음</span>
+        <span>Van Gelder Studio, Hackensack, NJ</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: Harold Feinstein / Photography: Francis Wolff</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">The Herbie Nichols Trio (상세 분석 리포트)</h2>
-  <p>
-  Herbie Nichols(p)<br>
-  Recorded 8/7/55, 4/19/56 | Blue Note Records
-  </p>
+    <div class="hdr-nav">
+      <a href="BLP1518.html" class="nav-arrow" title="이전 앨범 (BLP 1518)">←</a>
+      <a href="index.html" class="home-link" title="메인 인덱스로 가기">
+        <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+      </a>
+      <a href="BLP1520.html" class="nav-arrow" title="다음 앨범 (BLP 1520)">→</a>
+    </div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1519 《The Herbie Nichols Trio》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">《The Herbie Nichols Trio》(BLP 1519)는 재즈 역사상 가장 독창적이면서도 당대에 가장 철저히 외면받았던 비운의 천재 피아니스트 겸 작곡가, 허비 니콜스(Herbie Nichols)의 음악적 정수가 집약된 블루노트 레이블의 위대한 유산이다. 1955년과 1956년에 걸쳐 뉴저지 해컨색의 루디 반 겔더 스튜디오에서 녹음된 이 음반은, 하드 밥이 재즈 씬의 주류로 확고히 자리 잡아가던 시기에 클래식적 대위법과 비정형적인 리듬 구조를 도입하여 모던 재즈의 지평을 아방가르드 영역으로 확장한 선구적 의미를 지닌다.</p>
+  <p class="p">알프레드 라이언은 셀로니어스 몽크를 발굴해냈던 것과 유사한 심미안으로 허비 니콜스의 난해하면서도 중독성 있는 자작곡들의 가치를 알아보고 본작의 발매를 추진했다. 당대 블루노트 1500번대 카탈로그가 주로 폭발적인 호른 블로잉 섹션 중심의 하드 밥 음반들로 채워졌던 것과 비교하면, 전곡이 니콜스의 오리지널 작곡으로만 구성된 이 트리오 음반은 극도로 예외적인 포지셔닝이었다. 니콜스는 익숙한 블루스나 스탠더드의 진행을 따르는 대신, 예측 불가능한 코드 진행과 불협화음, 정교하게 짜인 서사적 구조를 통해 피아노 트리오를 단순한 리듬 섹션이 아닌 세 악기가 완벽히 대등하게 대화하는 하나의 소우주로 격상시켰다.</p>
+  <p class="p">발매 당시에는 대중과 평단으로부터 너무나 기괴하고 난해하다는 평가를 받으며 철저한 상업적 실패를 겪었으나, 후대의 재즈 비평가들과 오방가르드 연주자들은 이 음반을 셀로니어스 몽크와 세실 테일러를 잇는 미싱 링크(Missing Link)로 꼽는다. 올뮤직을 비롯한 현대의 주요 평론가들은 본작에 최고점인 별 5개를 부여하며, 시대를 너무 앞서 나간 한 천재 예술가가 남긴 고독하고 장엄한 마스터피스이자 블루노트 1500번대 숨겨진 최고의 보석으로 재평가하고 있다.</p>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《Herbie Nichols(p)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 허비 니콜스 — 생애 및 약력</h2></div>
+  <p class="p" style="margin-bottom: 1.5rem;">평생을 뉴올리언스 스타일의 딕시랜드 밴드에서 연주하는 삼류 악사로 연명하면서도, 내면에는 시대를 뒤흔들 아방가르드적 조형미를 품고 있었던 허비 니콜스의 비극적이고 천재적인 연표다.</p>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1919</span><span class="tlb"><strong>뉴욕 맨해튼에서의 탄생.</strong> 1월 3일 세인트키츠 네비스 출신의 이민자 부모 밑에서 출생. 어린 시절부터 할렘에서 자라며 클래식 피아노 교육을 엄격하게 받았고, 예술과 문학에 깊은 조예를 보였다.</span></li>
+    <li class="tli"><span class="tly">1937</span><span class="tlb"><strong>프로 커리어의 시작과 군 복무.</strong> 10대 후반부터 지역 재즈 밴드에서 연주를 시작했으나, 제2차 세계대전이 발발하자 미 육군에 징집되어 복무했다. 제대 후 뉴욕으로 돌아와本格적인 재즈 뮤지션의 길을 걸었다.</span></li>
+    <li class="tli"><span class="tly">1940s</span><span class="tlb"><strong>생계를 위한 디시랜드 연주와 내면의 고독.</strong> 비밥의 혁명이 할렘을 휩쓸 때, 아이러니하게도 니콜스는 생계를 유지하기 위해 자신의 진보적인 성향과 정반대인 구식 '딕시랜드(Dixieland)' 스윙 밴드에서 피아노를 쳐야만 했다. 밤마다 고독하게 자신만의 복잡한 대위법적 자작곡들을 작곡하며 때를 기다렸다.</span></li>
+    <li class="tli"><span class="tly">1951</span><span class="tlb"><strong>메리 루 윌리엄스와의 만남.</strong> 위대한 여성 피아니스트 메리 루 윌리엄스가 니콜스의 재능을 발견하고 그의 자작곡 "Stiff Attacks"를 녹음하여 음악계에 그의 이름을 처음으로 알리는 계기를 마련해주었다.</span></li>
+    <li class="tli"><span class="tly">1955</span><span class="tlb"><strong>블루노트 알프레드 라이언과의 극적인 계약.</strong> 오랜 무명 생활 끝에 마침내 블루노트의 알프레드 라이언을 만나 3장의 10인치 및 12인치 LP를 녹음할 수 있는 기회를 얻었다. 5월과 8월, 맥스 로치, 알 맥키본과 함께 역사적인 트리오 세션을 진행했다.</span></li>
+    <li class="tli"><span class="tly">1956</span><span class="tlb"><strong>마스터피스 BLP 1519 완성.</strong> 4월 19일 테디 코틱, 맥스 로치와 함께 추가 세션을 녹음하며 마침내 자신의 이름을 내문 온전한 12인치 정규 걸작 《The Herbie Nichols Trio》를 완성하여 발매했다.</span></li>
+    <li class="tli"><span class="tly">1957</span><span class="tlb"><strong>베들레헴 레이블에서의 마지막 녹음.</strong> 블루노트와의 계약이 끝난 후 베들레헴(Bethlehem) 레이블에서 마지막 트리오 음반을 남겼으나, 여전히 대중적인 반응을 얻지 못하고 다시 딕시랜드 클럽의 무명 악사로 돌아갔다.</span></li>
+    <li class="tli"><span class="tly">1963</span><span class="tlb"><strong>백혈병으로 인한 이른 요절.</strong> 평생 동안 가난과 평단의 무관심 속에서 고통받던 허비 니콜스는 44세라는 젊은 나이에 백혈병으로 뉴욕에서 쓸쓸히 숨을 거두었다. 그가 남긴 수많은 미발표 악보들은 사후에야 발견되어 재즈계에 큰 충격을 안겼다.</span></li>
+  </ul>
+  <div class="qt">
+    <p>"내가 만드는 음악은 기괴한 것이 아니다. 그것은 도시의 소음과 내 영혼 속 클래식의 기억들이 격렬하게 충돌하며 만들어내는 정교한 건축물이다."</p>
+    <div class="src">— Herbie Nichols</div>
+  </div>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(Herbie Nichols(p))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <p class="p">《The Herbie Nichols Trio》는 무명의 리더를 전폭적으로 신뢰했던 알프레드 라이언의 안목 덕분에 당대 하드 밥 씬 최고의 거장 리듬 섹션이 결합할 수 있었다. 특히 모던 재즈 드럼의 창시자인 맥스 로치의 참여는 허비 니콜스가 요구한 고도의 수학적이고 입체적인 리듬의 다이내믹을 현실로 구현해내는 데 결정적인 열쇠가 되었다.</p>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>니콜스 트리오 라인업 — 변칙적 선율을 견인하는 최고의 리듬 기하학</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Herbie Nichols</div>
+      <div class="cr">PIANO · 1919–1963</div>
+      <div class="cb">뉴욕 출신의 피아니스트이자 천재 작곡가. 스트라이드 피아노의 전통 위에 세르게이 프로코피에프, 이고르 스트라빈스키 등 20세기 클래식 현대 음악의 화성학을 접목했다. 몽크보다 멜로딕하면서도 구조적으로 한층 촘촘한 즉흥 연주를 전개했다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Al McKibbon / Teddy Kotick</div>
+      <div class="cr">BASS · 세션별 교체 참여</div>
+      <div class="cb">1955년 세션의 알 맥키본(Al McKibbon)은 거대한 톤과 정통 하드 밥 그루브로 중심을 잡았고, 1956년 세션의 테디 코틱(Teddy Kotick)은 찰리 파커, 빌 에반스와 협연했던 정교한 라인으로 니콜스의 복잡한 코드 워크를 유연하게 보조했다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Max Roach</div>
+      <div class="cr">DRUMS · 1924–2007</div>
+      <div class="cb">모던 재즈 드럼의 전설. 니콜스의 복잡한 다이내믹을 완벽히 이해하고, 단순한 박자 유지를 넘어 드럼 킷 전체로 멜로디를 연주하는 '선율적 드러밍'을 선보였다. 니콜스의 피아노 구절마다 정교한 대위법적 카운터 리듬을 새겨 넣은 본작의 일등 공신이다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎹</div>
+      <div><div class="iname">피아노 (Piano) — Herbie Nichols</div><div class="ipl" style="color:var(--blue-light)">수학적 조형미와 스트라이드의 유산 — 불협화음 속에서 피어나는 기괴한 우아함</div></div>
+    </div>
+    <div class="ibody">
+      본 작에서 허비 니콜스의 피아노는 하드 밥의 관습적인 블루스 스케일 연주를 철저히 거부한다. 그의 타건은 클래식 터치 특유의 명징함과 힘을 유지하면서도, 테디 윌슨 스타일의 초기 스트라이드 기법의 그루브를 밑바탕에 깔고 있다. 오른손은 반음계적 진행과 급격한 도약을 일삼으며 청자의 허를 찌르고, 왼손은 독립적인 멜로디 라인을 연주하며 오른손과 정교한 대위법적 대화를 나눈다. 화성적으로는 연속적인 대리 코드를 사용하여 조성의 경계를 아슬아슬하게 넘나들지만, 전체적인 악곡의 구조적 통일성을 절대로 잃지 않는 기하학적 조형미를 보여준다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:#4f3d29">🎻</div>
+      <div><div class="iname">베이스 (Bass) — Al McKibbon / Teddy Kotick</div><div class="ipl" style="color:var(--gold)">흔들리지 않는 축으로서의 워킹 — 변칙 속에서 질서를 유지하는 무게중심</div></div>
+    </div>
+    <div class="ibody">
+      허비 니콜스의 자작곡들이 지닌 변화무쌍한 코드 진행과 리듬의 싱코페이션 속에서 두 베이시스트는 트리오가 공중분해 되지 않도록 붙잡아두는 강력한 인력의 역할을 수행한다. 알 맥키본은 두텁고 육중한 피치로 니콜스의 날카로운 화성을 따뜻하게 감싸 안으며 정통 스윙의 탄력을 불어넣는다. 반면 테디 코틱은 보다 민첩하고 워킹 라인의 선율성이 강조된 연주를 통해, 피아노의 복잡한 대위법적 뼈대 사이사이를 유연하게 파고들며 사운드의 밀도를 높여준다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:rgba(15,28,63,0.05);color:var(--blue-dark)">🥁</div>
+      <div><div class="iname">드럼 (Drums) — Max Roach</div><div class="ipl" style="color:var(--muted)">심벌과 톰톰으로 직조한 멜로디 — 피아노와 대등하게 대립하는 리듬의 마술</div></div>
+    </div>
+    <div class="ibody">
+      맥스 로치의 드러밍은 이 앨범을 단순한 '피아노 반주' 음반이 아닌 '공동의 예술'로 끌어올린 핵심 요소다. 로치는 라이드 심벌의 규칙적인 스윙 타임에만 의존하지 않고, 하이햇과 스네어, 그리고 톰톰의 톤 다운된 음색을 활용하여 니콜스의 피아노 선율에 일일이 응답하는 카운터 멜로디를 연주한다. 곡의 격정적인 전개부에서는 폴리리듬(Polyrhythm)을 적극적으로 구사하여 리듬의 다층적 구조를 만들어내며, 니콜스의 불규칙한 프레이징 끝자락마다 절묘한 악센트를 찔러 넣어 곡의 입체감을 극대화한다.
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>8/7/55, 4/19/56</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1957 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">재즈 장르 및 스타일적 특성</h2></div>
+  <p class="p">《The Herbie Nichols Trio》는 1950년대 중반 재즈 씬의 주류였던 **하드 밥(Hard Bop)**의 토양 위에서 탄생했으나, 그 내면은 이미 1960년대에 만개할 **포스트 밥(Post-Bop)**과 **오방가르드/프리 재즈(Avant-garde/Free Jazz)**의 혁신성을 내포하고 있다. 당대의 전형적인 하드 밥이 흑인 영가나 블루스에 기반한 직관적이고 펑키한 그루브를 지향했다면, 니콜스의 스타일은 철저히 이성적으로 계산된 구조적 아방가르드를 추구했다.</p>
+  <div class="hl">
+    <p><strong>1. 모더니즘 클래식과 스트라이드 재즈의 이색적 결합:</strong> 니콜스의 음악적 뿌리는 할렘 스트라이드 피아노 스타일의 거장 아트 테이텀뿐만 아니라, 벨라 바르톡, 이고르 스트라빈스키 같은 유럽 현대 클래식 작곡가들에게 가닿아 있다. 이러한 이종교배는 하드 밥 특유의 뜨거운 열기 대신, 서늘하고 지적인 미학을 완성해냈다.</p>
+    <p><strong>2. 32마디 AABA 구조의 해체와 확장:</strong> 당대 재즈곡들의 표준 양식이었던 32마디 형태를 의도적으로 비틀어, 14마디나 22마디 단위의 기묘한 프레이즈 구조를 사용했다. 이는 연주자들에게 고도의 집중력을 요구했으며, 결과적으로 관습적인 재즈 릭(Lick)을 연주하는 것을 원천적으로 차단했다.</p>
+    <p><strong>3. 공간감의 미학과 음의 생략:</strong> 가득 채우는 연주 대신, 음과 음 사이의 여백을 활용해 팽팽한 긴장감을 유도한다. 셀로니어스 몽크가 쉼표를 통해 리듬을 비틀었다면, 니콜스는 화성적 여백을 통해 청자가 스스로 멜로디를 유추하게 만드는 고차원적인 심리 전술을 구사한다.</p>
+  </div>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">수록곡별 상세 해설</h2></div>
+  <p class="p" style="margin-bottom: 1.3rem;">허비 니콜스가 남긴 불후의 오리지널 자작곡 10곡에 대한 심층적인 분석이다. 전곡 모두 정교한 내러티브와 기하학적 화성으로 가득 차 있다.</p>
+  
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">1. The Gig</span>
+        <span class="ttime">1956.04.19 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Teddy Kotick (b), Max Roach (d)</div>
+      <div class="tdesc">앨범의 포문을 연주하는 니콜스의 가장 대표적인 걸작 중 하나로, 밤거리 재즈 뮤지션들의 일상을 묘사한 곡이다. 활기차면서도 어딘가 기괴하게 비틀린 메인 테마가 매력적이며, 맥스 로치의 정교한 심벌 워크와 니콜스의 쾌활하면서도 반음계적인 즉흥 연주가 완벽한 대조를 이룬다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">2. House Party Starting</span>
+        <span class="ttime">1955.08.07 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Al McKibbon (b), Max Roach (d)</div>
+      <div class="tdesc">느리고 불길한 분위기로 시작되어 파티가 시작되기 직전의 묘한 설렘과 긴장감을 시각적으로 묘사한 서사적 트랙이다. 왼손의 무거운 저음 컴핑이 곡의 음산한 분위기를 주도하며, 중반부에서 로치의 드럼이 가세하며 리듬이 반전되는 구조적 묘미가 압권이다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">3. Chit-Chatting</span>
+        <span class="ttime">1956.04.19 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Teddy Kotick (b), Max Roach (d)</div>
+      <div class="tdesc">사람들이 빠르게 수다를 떠는 모습을 음악적으로 형상화한 유머러스한 곡이다. 스타카토 타건을 중심으로 멜로디가 쉴 새 없이 교차하며, 피아노 오른손 라인이 드럼의 스네어 악센트와 정교하게 맞물려 돌아가는 타악기적 피아니즘의 진수를 들려준다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">4. The Lady Sings The Blues</span>
+        <span class="ttime">1955.05.06 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Al McKibbon (b), Max Roach (d)</div>
+      <div class="tdesc">본작에서 유일하게 대중적으로 널리 알려진 곡으로, 본래 빌리 홀리데이(Billie Holiday)에게 헌정되어 그녀의 자전적 소설과 동명의 앨범 타이틀곡으로 쓰인 역사적 명곡이다. 홀리데이의 보컬 버전과는 달리 니콜스의 트리오 버전은 멜랑콜리한 서정성 속에 뼛속 깊은 고독과 슬픔의 정서가 원형 그대로 투명하게 빛난다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">5. Terpsichore</span>
+        <span class="ttime">1955.08.07 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Al McKibbon (b), Max Roach (d)</div>
+      <div class="tdesc">그리스 신화 속 무용의 여신 '터프시코레'에서 이름을 딴 곡답게, 변칙적인 박자감 위에서 멜로디가 춤을 추듯 도약하는 곡이다. 하드 밥의 그루브 위에 클래식 발레 음악의 우아함과 20세기 현대 음악의 불협화음적인 위트가 절묘하게 융합되어 있다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">6. Spinning Song</span>
+        <span class="ttime">1955.05.06 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Al McKibbon (b), Max Roach (d)</div>
+      <div class="tdesc">물레가 쉴 새 없이 돌아가는 모습을 묘사한 곡으로, 끊임없이 회전하는 듯한 오른손의 순환 프레이즈가 특징이다. 알 맥키본의 요지부동의 워킹 베이스가 굳건한 중심축을 형성하고, 그 위에서 니콜스는 나선형으로 상승하는 화려한 코드 대리 기법의 즉흥 연주를 폭발시킨다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">7. Query</span>
+        <span class="ttime">1955.08.07 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Al McKibbon (b), Max Roach (d)</div>
+      <div class="tdesc">'질문'이라는 제목처럼, 테마 멜로디가 의문문으로 끝나는 듯한 묘한 종지형을 가지고 있다. 니콜스는 솔로 파트에서 해답을 제시하는 대신 끊임없이 화성적 의문을 던지는 방식으로 전개하며, 청자에게 시종일관 지적인 긴장감을 유도하는 미니멀리즘적 명연이다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">8. Wildflower</span>
+        <span class="ttime">1955.05.06 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Al McKibbon (b), Max Roach (d)</div>
+      <div class="tdesc">거친 길가에 피어난 들꽃의 야생적인 생명력을 표현한 작품이다. 전반적으로 거칠고 모난 타건과 불협화음이 주를 이루지만, 그 이면에는 니콜스 특유의 낭만주의적 멜로디 라인이 숨겨져 있어 들을수록 묘한 중독성과 깊은 페이소스를 남긴다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">9. Hangover Triangle</span>
+        <span class="ttime">1956.04.19 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Teddy Kotick (b), Max Roach (d)</div>
+      <div class="tdesc">숙취로 인한 어지러움과 비틀거림을 절묘한 레이트 컴핑(Late Comping)과 당김음으로 묘사한 기발한 위트의 자작곡이다. 테디 코틱의 유연한 베이스 라인과 맥스 로치의 불규칙한 스네어 드롭이 니콜스의 비틀거리는 피아노 선율과 기가 막힌 타이밍으로 맞물려 위트 있는 앙상블을 이룬다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">10. Mine</span>
+        <span class="ttime">1956.04.19 세션</span>
+      </div>
+      <div class="ttag">Herbie Nichols (p), Teddy Kotick (b), Max Roach (d)</div>
+      <div class="tdesc">앨범의 대미를 장식하는 트랙으로, 소유와 집착에 대한 내면의 고백을 담은 듯한 어둡고 밀도 높은 곡이다. 니콜스는 건반의 전 음역대를 종횡무진하며 격정적인 스트라이드 프레이즈를 쏟아내고, 맥스 로치의 심벌 크래시가 광포하게 몰아치며 장엄한 피날레를 이끌어낸다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 레이블 내에서의 포지셔닝</h2></div>
+  <p class="p">블루노트의 설립자 알프레드 라이언은 상업적 성공 가능성이 희박함에도 불구하고 순수한 예술적 혁신성을 지닌 뮤지션에게 기꺼이 카탈로그의 중요한 자리를 내어주곤 했다. BLP 1519는 1500번대 컬렉션 중에서도 가장 이질적이면서도 전위적인 포지션을 차지한다. 마일즈 데이비스, 클리포드 브라운, 소니 로린스 등이 구축한 화려한 하드 밥의 왕도 속에서, 이 음반은 철저하게 '외로운 사색가'의 독백으로 기능한다.</p>
+  <p class="p">특히 블루노트의 역사에서 이 음반은 셀로니어스 몽크의 초기 10인치 시절 녹음들과 깊은 유대 관계를 맺는다. 라이언은 몽크의 기이한 천재성을 세상에 처음 알렸듯, 허비 니콜스를 통해 재즈 작곡의 개념을 한 단계 더 높은 예술적 차원으로 끌어올리고자 했다. 비록 상업적으로는 참패하여 니콜스의 블루노트 계약은 3장으로 단명했으나, 레이블이 전성기를 구가하던 시절에 이토록 타협 없는 순수 아방가르드 음반을 핵심 라인업에 배치했다는 사실 자체가 블루노트가 지닌 '진정한 재즈 정신'의 방증이라 할 수 있다.</p>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 희귀한 피아노 트리오 명작 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 가치와 감상 문화</h2></div>
+  <p class="p">바이닐(LP) 수집가들 사이에서 《The Herbie Nichols Trio》 오리지널 초판은 블루노트 1500번대 중에서도 손에 꼽히는 **초희귀반(Mega Rare Item)**이자 컬렉터들의 종착지 중 하나로 통한다. 발매 당시 워낙 판매량이 저조하여 프레싱된 수량 자체가 극도로 적었기 때문에, 시장에 나오는 매물 자체가 가뭄에 콩 나듯 하는 상황이다.</p>
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">ORIGINAL PRESSING</div>
+      <div class="pos-title">렉싱턴 초판의 희소성</div>
+      <div class="pos-desc">767 Lexington Ave 주소가 선명히 박힌 라벨, 플래스트라이트(Plastylite)의 귀 심볼(Ear), RVG 각인이 새겨진 모노 오리지널 초판은 완벽한 상태일 경우 수천 달러를 호가하는 최상위 수집품이다.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">COVER ARTWORK</div>
+      <div class="pos-title">해롤드 파인스타인의 커버 디자인</div>
+      <div class="pos-desc">존 마일스가 아닌 해롤드 파인스타인(Harold Feinstein)이 디자인한 커버로, 허비 니콜스의 깊은 고독이 묻어나는 프랭크 울프의 흑백 사진과 미니멀한 폰트 배치가 음악적 성격과 완벽한 싱크로율을 자랑한다.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">REISSUE ALTERNATIVES</div>
+      <div class="pos-title">합리적인 컬렉팅 대안</div>
+      <div class="pos-desc">오리지널의 높은 가격 탓에 컬렉터들은 70년대 일본 도시바-EMI 재발매반이나 프리미엄 복각 레이블인 Classic Records, 혹은 최근 블루노트의 Classic Vinyl/Tone Poet 시리즈를 훌륭한 음질적 대안으로 선택한다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 분석</h2></div>
+  <div class="ln">
+    <div class="lns">Original Liner Notes by Leonard Feather (1956)</div>
+    <div class="lnb">
+      초판 LP 뒷면에 수록된 저명한 재즈 평론가 레너드 페더(Leonard Feather)의 라이너 노트는 허비 니콜스가 당면했던 음악적 고립과 그의 음악이 지닌 내면의 깊이를 연민어린 시선으로 해부하고 있다. 페더는 니콜스가 딕시랜드 밴드에서 구식 재즈를 연주하며 밤마다 방방곡곡을 전전하는 현실을 언급하며, 이 음반에 담긴 음악이 그의 '진짜 영혼의 탈출구'임을 역설한다. 페더는 "니콜스의 음악은 처음 들었을 때는 셀로니어스 몽크의 파편처럼 들릴지 모르지만, 두 번째 들을 때는 그가 구축한 정교한 멜로디의 선율선과 바르톡 연구가 선사한 화성적 엄밀함에 압도당하게 될 것"이라며 당대 대중들에게 이 낯선 천재의 음악을 귀 기울여 들을 것을 강력히 권고했다.
+    </div>
+  </div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">앨범 제작의 비하인드 에피소드</h2></div>
+  <p class="p"><strong>1. 맥스 로치의 헌신적인 지지와 연습 세션:</strong> 당시 이미 재즈 씬의 슈퍼스타였던 드러머 맥스 로치는 무명에 가까웠던 허비 니콜스의 악보를 처음 받아보고 경악을 금치 못했다고 한다. 변칙적인 마디 수와 복잡한 당김음 탓에 도저히 초견으로 연주가 불가능하자, 로치는 니콜스의 아파트를 직접 찾아가 수 주 동안 단둘이 리듬 연습을 감행했다. 로치는 훗날 인터뷰에서 "니콜스는 내 드럼 커리어 전체를 통틀어 가장 지적이고 도전적인 과제를 던져준 피아니스트였다"고 고백했다.</p>
+  <p class="p"><strong>2. 빌리 홀리데이와 "The Lady Sings The Blues"의 얽힌 이야기:</strong> 수록곡 "The Lady Sings The Blues"는 원래 니콜스가 40년대 후반에 작곡해둔 연주곡이었다. 그는 자신의 절친한 친구였던 빌리 홀리데이에게 이 아름답고 쓸쓸한 멜로디를 들려주었고, 이에 매료된 홀리데이가 직접 가사를 붙여 자신의 대표곡으로 삼았다. 그러나 대중들은 이 곡이 허비 니콜스의 순수한 창작물이라는 사실을 거의 알지 못했고, 니콜스는 본작을 통해 이 곡의 온전한 '원작자적 권리'와 트리오로서의 기하학적 해석을 세상에 증명하고자 했다.</p>
+</section>
 
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국 재즈 애호가들의 평가 및 수용</h2></div>
+  <p class="p">한국의 재즈 커뮤니티와 평단에서 허비 니콜스의 BLP 1519는 오랜 기간 동안 마니아들 사이에서만 은밀히 공유되던 **'평론가들의 평론가'** 같은 음반이었다. 한국 청중들은 역사 속 비운의 천재가 겪은 고독한 서사에 깊이 몰입하는 경향이 있는데, 평생 무명으로 살다 백혈병으로 요절한 니콜스의 드라마틱한 삶은 국내 애호가들에게 강력한 감성적 잔상을 남겼다.</p>
+  <p class="p">특히 스트리밍 서비스와 바이닐 재발매가 활성화된 최근에 이르러, 단순한 하드 밥의 피로감에서 벗어나 보다 신선하고 지적인 음악을 찾는 젊은 오디오파일들 사이에서 본작은 폭발적인 재평가를 받고 있다. 수록곡 중 빌리 홀리데이의 원곡인 **"The Lady Sings The Blues"**의 트리오 버전은 쓸쓸하고 깊은 슬픔의 미학이 한국인 고유의 정서적 한(恨)과 묘하게 공명한다는 평가를 받으며, 비 오는 날이나 늦은 밤 인디 재즈 바의 필청 트랙으로 자주 추천되곤 한다. 복잡한 구조를 완벽하게 통제하는 그의 피아니즘은 오늘날 국내 재즈 전공자들에게도 반드시 분석해야 할 '재즈 작곡의 숨겨진 교과서'로 회자되고 있다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id,btn){
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b=>b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
 </body>
 </html>
