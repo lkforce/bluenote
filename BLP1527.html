@@ -3,253 +3,383 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1527 - The Magnificent Thad Jones (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Thad Jones · The Magnificent Thad Jones BLP 1527 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #0f1c3f; --blue-mid: #1d3557; --blue-light: #457b9d;
+  --cyan: #a8dadc; --cyan-lt: rgba(168,218,220,0.15);
+  --gold: #d4a373; --gold-lt: rgba(212,163,115,0.12);
+  --muted: #5c677d; --border: rgba(15,28,63,0.12);
 }
-
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-h1{
-    margin:0;
-    font-size:2.6em;
-}
-
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
-
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
-
-th{
-    background:#0d1b2a;
-    color:white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0a1128 0%,#111e38 50%,#1d3557 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(168,218,220,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(13px,1.8vw,17px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(15,28,63,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib {background: var(--bg2); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin-bottom: 1.4rem; box-shadow: 0 2px 6px rgba(0,0,0,0.02);}
+.ih {display: flex; align-items: center; gap: 12px; padding: .8rem 1.2rem; background: rgba(15,28,63,0.03); border-bottom: 1px solid var(--border);}
+.ii {width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; flex-shrink: 0;}
+.iname {font-weight: 700; font-size: 14px; color: var(--blue-dark);}
+.ipl {font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .06em;}
+.ibody {padding: 1.2rem; font-size: 13.5px; line-height: 1.85; text-align: justify;}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1527</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1526.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1528.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1527 · 1956</div>
+      <h1 class="title">Thad Jones — The Magnificent Thad Jones</h1>
+      <div class="sub">디트로이트 블루버드 인이 키운 트럼펫의 정수, 베이시 빅밴드의 그늘에서 걸어 나와 자신의 이름을 증명하다</div>
+      <div class="meta">
+        <span>1956.07.14 녹음</span>
+        <span>Van Gelder Studio, Hackensack, NJ</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Photography: Francis Wolff / Liner Notes: Leonard Feather</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">The Magnificent Thad Jones (상세 분석 리포트)</h2>
-  <p>
-  Thad Jones(tp), Billy Mitchell(ts), Barry Harris(p)<br>
-  Recorded 7/14/56 | Blue Note Records
-  </p>
+    <div class="hdr-nav">
+      <a href="BLP1526.html" class="nav-arrow" title="이전 앨범 (BLP 1526)">←</a>
+      <a href="index.html" class="home-link" title="메인 인덱스로 가기">
+        <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+      </a>
+      <a href="BLP1528.html" class="nav-arrow" title="다음 앨범 (BLP 1528)">→</a>
+    </div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1527 《The Magnificent Thad Jones》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">《The Magnificent Thad Jones》(BLP 1527)는 카운트 베이시 오케스트라의 트럼펫 섹션에 묻혀 있던 한 천재 연주자가 비로소 소그룹의 리더로서 자신의 음악적 인격을 온전히 드러낸 1956년 블루노트의 걸작이다. 단 하루, 1956년 7월 14일 뉴저지 해컨색의 루디 반 겔더 스튜디오에서 완성된 이 음반은 하드 밥이 재즈 씬의 패권을 확고히 쥐어가던 시기에, 화려한 블로잉의 격렬함보다는 한 트럼페터의 톤과 어법이 지닌 깊이를 정공법으로 증명해낸 음반으로 자리매김한다.</p>
+  <p class="p">알프레드 라이언은 같은 해 초 발매되어 호평을 받았던 새드 존스의 블루노트 데뷔작 《Detroit-New York Junction》(BLP 1513)의 성과에 곧바로 화답하듯 후속 세션을 마련했다. 디트로이트 블루버드 인(Blue Bird Inn) 출신의 동향 음악가인 테너 색소포니스트 빌리 미첼을 다시 불러들이고, 그 옆에 당시 막 클리포드 브라운-맥스 로치 퀸텟의 비극적인 사고로 자리를 비우게 된 리치 파웰의 후임으로 합류한 신예 피아니스트 배리 해리스, 그리고 정통 동부 비밥의 계보를 잇는 베이시스트 퍼시 히스와 드러머 맥스 로치를 결합시켰다. 디트로이트의 토양과 뉴욕의 세련됨이 한 자리에서 만난 이 라인업은 본작에 흔치 않은 균형 감각을 부여했다.</p>
+  <p class="p">발매 당시 빌보드는 "지금까지 나온 새드 존스의 음반 중 최고작"이라는 찬사를 보냈으며, 후대의 평론에서도 이러한 평가는 흔들리지 않았다. 올뮤직의 평론가 마이클 G. 나스토스는 이 퀸텟이 "진정으로 위대한 재즈를 함께 만들어낸다"고 평하며, 이후 멜 루이스와 함께 이끈 빅밴드의 명성에도 불구하고 본작이 새드 존스의 커리어를 통틀어 가장 빼어난 작업으로 평가받는다고 기록했다. 《펭귄 가이드 투 재즈》 역시 별 3개 반의 높은 점수를 부여하며 본작의 완성도를 인정했다.</p>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《Thad Jones(tp), Billy Mitchell(ts), Barry Harris(p)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 새드 존스 — 생애 및 약력</h2></div>
+  <p class="p" style="margin-bottom: 1.5rem;">존스 삼형제 중 한 명으로 태어나 디트로이트의 음악적 자양분을 흡수하고, 카운트 베이시의 그늘을 지나 새드 존스-멜 루이스 오케스트라라는 현대 빅밴드의 역사를 새로 쓴 트럼페터 겸 작곡가의 생애를 정리한다.</p>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1923</span><span class="tlb"><strong>미시간 폰티악에서의 탄생.</strong> 3월 28일, 침례교 집사였던 아버지 헨리와 어머니 올리비아 사이의 10남매 중 한 명으로 출생했다. 형 행크 존스는 훗날 거장 피아니스트로, 동생 엘빈 존스는 모던 재즈 드럼의 혁명가로 성장하며 '존스 삼형제'라는 전설을 만든다.</span></li>
+    <li class="tli"><span class="tly">1939</span><span class="tlb"><strong>독학으로 시작한 프로 연주 생활.</strong> 삼촌에게 물려받은 중고 트럼펫으로 독학을 시작해 16세부터 지역 밴드에서 프로로 활동했으며, 디트로이트에서 루이 암스트롱의 실황 연주를 듣고 트럼페터가 되기로 결심했다.</span></li>
+    <li class="tli"><span class="tly">1943</span><span class="tlb"><strong>2차대전 군악대 복무.</strong> 미 육군에 징집되어 1946년까지 군악대에서 복무했다. 제대 후에는 오클라호마시티 등지의 밴드를 거치며 경력을 쌓았다.</span></li>
+    <li class="tli"><span class="tly">1952</span><span class="tlb"><strong>디트로이트 블루버드 인 하우스 밴드.</strong> 빌리 미첼이 이끌던 블루버드 인의 하우스 밴드에 합류해 배리 해리스, 토미 플래너건, 동생 엘빈 존스 등과 호흡을 맞췄다. 1953년에는 객원 솔로이스트로 참여한 마일스 데이비스와도 무대를 함께했다.</span></li>
+    <li class="tli"><span class="tly">1954</span><span class="tlb"><strong>카운트 베이시 오케스트라 입단.</strong> 5월, 새롭게 재편된 '뉴 테스타먼트' 베이시 밴드에 합류하며 전국적인 주목을 받기 시작했다. "April in Paris" 연주 중 즉흥적으로 삽입한 "Pop Goes the Weasel" 인용구가 베이시 밴드의 시그니처 농담으로 자리잡았다.</span></li>
+    <li class="tli"><span class="tly">1956</span><span class="tlb"><strong>블루노트 데뷔와 신인상 수상.</strong> 블루노트에서 데뷔작 《Detroit-New York Junction》을 발매했고, 같은 해 다운비트 평론가 투표에서 트럼펫 부문 신인상을 수상했다. 7월 14일 본작 《The Magnificent Thad Jones》 세션을 완성했다.</span></li>
+    <li class="tli"><span class="tly">1963</span><span class="tlb"><strong>베이시 탈퇴와 뉴욕 프리랜서 활동.</strong> 9년간 몸담았던 베이시 오케스트라를 떠나 뉴욕의 프리랜서 편곡자 겸 스튜디오 연주자로 전환했다.</span></li>
+    <li class="tli"><span class="tly">1965</span><span class="tlb"><strong>새드 존스-멜 루이스 오케스트라 결성.</strong> 드러머 멜 루이스와 손잡고 뉴욕 최고의 스튜디오 연주자들을 규합한 빅밴드를 결성, 이듬해부터 빌리지 뱅가드의 월요일 밤 공연을 13년간 이어가며 현대 빅밴드 역사의 한 장을 새로 썼다.</span></li>
+    <li class="tli"><span class="tly">1979</span><span class="tlb"><strong>덴마크 코펜하겐으로의 갑작스러운 이주.</strong> 뉴욕의 동료들조차 놀랄 만큼 돌연 코펜하겐으로 이주해 덴마크 라디오 빅밴드를 이끌고 왕립음악원에서 작곡을 가르쳤다.</span></li>
+    <li class="tli"><span class="tly">1986</span><span class="tlb"><strong>코펜하겐에서의 영면.</strong> 1985년 베이시 사후 베이시 오케스트라의 리더로 복귀했으나 건강 악화로 활동을 접고 코펜하겐으로 돌아가, 8월 21일 암으로 향년 63세에 눈을 감았다.</span></li>
+  </ul>
+  <div class="qt">
+    <p>"새드 존스는 내가 평생 들어본 트럼페터 중 가장 위대한 연주자다."</p>
+    <div class="src">— Charles Mingus</div>
+  </div>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(Thad Jones(tp), Billy Mitchell(ts), Barry Harris(p))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <p class="p">본작의 라인업은 디트로이트 블루버드 인 동문(새드 존스, 빌리 미첼, 배리 해리스)과 동부 비밥의 정예(퍼시 히스, 맥스 로치)가 절묘하게 결합된 형태다. 특히 배리 해리스에게는 이 세션이 자신의 첫 정식 레코딩 데뷔 무대였다는 점에서, 본작은 단순한 블로잉 세션을 넘어 한 세대의 출발점을 기록한 음반이기도 하다.</p>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>새드 존스 퀸텟 라인업 — 디트로이트의 우정과 뉴욕의 정예가 만나다</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Thad Jones</div>
+      <div class="cr">TRUMPET · 1923–1986</div>
+      <div class="cb">미시간 폰티악 출신의 트럼페터 겸 작곡가. 카운트 베이시 밴드의 핵심 솔로이스트로 명성을 쌓았으며, 풍부하고 윤기 흐르는 음색과 유려하면서도 예측 불가능한 프레이징으로 동시대 트럼페터들과 차별화되는 개성을 구축했다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Billy Mitchell</div>
+      <div class="cr">TENOR SAXOPHONE · 1926–2001</div>
+      <div class="cb">캔자스시티 출신, 디트로이트 캐스 테크에서 음악 교육을 받았다. 1951~54년 블루버드 인의 하우스 밴드를 이끌며 새드 존스와 깊은 음악적 유대를 쌓았고, 레스터 영과 콜먼 호킨스의 영향이 묻어나는 따뜻하고 단단한 톤이 특징이다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Barry Harris</div>
+      <div class="cr">PIANO · 1929–2021 · 레코딩 데뷔작</div>
+      <div class="cb">디트로이트 출신의 신예 피아니스트로, 본작 세션 직전 클리포드 브라운-맥스 로치 퀸텟의 비극적 사고로 세상을 떠난 리치 파웰의 후임으로 로치 그룹에 합류했다. 정교한 비밥 어휘와 유려한 터치로 훗날 비밥 전통의 수호자로 불리게 될 면모를 일찌감치 드러냈다.</div>
+    </div>
+    <div class="card red">
+      <div class="cn">Percy Heath</div>
+      <div class="cr">BASS · 1923–2005</div>
+      <div class="cb">필라델피아에서 성장한 베이시스트로, 모던 재즈 콰르텟(MJQ)의 창립 멤버이자 색소포니스트 지미 히스, 드러머 앨버트 '투티' 히스의 형으로도 잘 알려져 있다. 정확하고 질서정연한 워킹 베이스 라인으로 퀸텟 전체의 안정적인 골격을 제공한다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Max Roach</div>
+      <div class="cr">DRUMS · 1924–2007</div>
+      <div class="cb">모던 재즈 드럼의 전설. 본작에서는 전면에 나서는 화려한 폭발 대신, 섬세하게 선별된 하이햇과 라이드 심벌 워크로 곡 전체의 흐름을 유려하게 받쳐주는 절제된 스윙을 들려준다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎺</div>
+      <div><div class="iname">트럼펫 (Trumpet) — Thad Jones</div><div class="ipl" style="color:var(--blue-light)">윤기 흐르는 음색과 따뜻한 서정성 — 화려함보다 깊이를 택한 호른</div></div>
+    </div>
+    <div class="ibody">
+      본작에서 새드 존스의 트럼펫은 베이시 밴드 시절의 절제된 섹션 플레이에서 벗어나 비로소 자유롭게 호흡한다. 그의 톤은 동시대 하드 밥 트럼페터들에 비해 한층 묵직하고 금빛에 가까운 울림을 지니며, 미들 템포와 업 템포 곡에서는 날카로운 추진력을 발휘하면서도 그 불꽃을 의미 있는 형식 안에 정확히 가둬낸다. 발라드에서는 따뜻한 온기와 섬세한 감수성, 그리고 선율의 확장 가능성을 끝까지 탐색하는 차분한 서정성을 들려주는데, 이는 당대 젊은 호른 연주자들 사이에서 흔치 않은 미덕이었다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:#4f3d29">🎷</div>
+      <div><div class="iname">테너 색소폰 (Tenor Saxophone) — Billy Mitchell</div><div class="ipl" style="color:var(--gold)">뜨겁고 꾸밈없는 호흡 — 존스의 상상력에 화답하는 디트로이트의 동료</div></div>
+    </div>
+    <div class="ibody">
+      빌리 미첼의 테너는 화려한 기교를 과시하기보다, 뜨겁고 정직하며 지적인 어법으로 새드 존스의 트럼펫과 절묘한 대조와 조화를 동시에 이루어낸다. 블루버드 인 시절부터 다져온 두 사람의 호흡은 본작에서 한 치의 어긋남 없이 맞물리며, 메인 테마의 유니즌 라인에서 특히 두 호른 악기가 만들어내는 음색의 밀도가 인상적이다. 솔로 구간에서는 레스터 영적인 여유와 콜먼 호킨스적인 무게감을 오가며 곡의 분위기에 맞춰 유연하게 색을 바꾼다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:rgba(15,28,63,0.05);color:var(--blue-dark)">🎹</div>
+      <div><div class="iname">피아노 (Piano) — Barry Harris</div><div class="ipl" style="color:var(--muted)">데뷔 무대의 긴장감 속에 빛난 비밥의 정교함</div></div>
+    </div>
+    <div class="ibody">
+      이제 막 레코딩 무대에 처음 선 배리 해리스의 피아노는 놀라울 만큼 유려하고 안정적이다. 컴핑에서는 호른 솔로의 호흡을 방해하지 않는 절제된 보이싱을 구사하고, 자신의 솔로 구간에서는 비밥 어휘에 충실하면서도 매끄러운 유동성을 갖춘 라인을 펼쳐낸다. 다소 더 감정적으로 파고들 여지가 있었다는 평가도 있으나, 이는 오히려 훗날 그가 보여줄 지적이고 절제된 스타일의 원형을 미리 들려주는 흥미로운 단서이기도 하다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎻</div>
+      <div><div class="iname">베이스 (Bass) — Percy Heath</div><div class="ipl" style="color:var(--blue-light)">정확하게 정돈된 질서 — 흔들림 없는 골격</div></div>
+    </div>
+    <div class="ibody">
+      퍼시 히스의 워킹 베이스는 화려한 기교 대신 정확한 음정과 질서정연한 타이밍으로 퀸텟 전체의 무게중심을 잡아준다. 솔로 구간에서도 인상적으로 정돈된 구성력을 보여주며, 모던 재즈 콰르텟에서 다져진 실내악적 균형 감각이 본작의 비교적 차분한 사운드스케이프와 잘 맞아떨어진다.
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="background:var(--gold-lt);color:#4f3d29">🥁</div>
+      <div><div class="iname">드럼 (Drums) — Max Roach</div><div class="ipl" style="color:var(--gold)">절제된 스윙 — 전면에 나서지 않으면서도 전체를 지휘하는 손길</div></div>
+    </div>
+    <div class="ibody">
+      맥스 로치는 본작에서 자신의 명성에 걸맞은 화려한 폭발 대신, 라이드 심벌과 하이햇 중심의 섬세하고 절제된 스윙 타임을 일관되게 유지한다. 곡의 성격에 따라 박자를 미묘하게 늘리거나 당기며 앙상블 전체의 호흡을 조율하는 노련함이 돋보이며, 이러한 절제는 오히려 새드 존스와 빌리 미첼의 호른이 마음껏 노래할 수 있는 여백을 만들어주는 결과로 이어진다.
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>7/14/56</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1956 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">재즈 장르 및 스타일적 특성</h2></div>
+  <p class="p">《The Magnificent Thad Jones》는 1956년 하드 밥이 재즈 씬의 주류로 자리매김해가던 시기에 녹음되었지만, 당대의 전형적인 하드 밥과는 결을 달리하는 음반이다. 호각을 다투는 격렬한 블로잉보다, 스탠더드와 오리지널 발라드를 통해 연주자 개개인의 음색과 서정성을 음미하게 만드는 균형 잡힌 프로그램 구성이 본작의 가장 큰 특징이다.</p>
+  <div class="hl">
+    <p><strong>1. 발라드와 미디엄 템포 중심의 차분한 설계:</strong> 본작은 폭발적인 업 템포 곡 대신, 스탠더드 발라드와 여유로운 미디엄 스윙을 중심으로 프로그램을 구성했다. 이는 새드 존스의 트럼펫이 지닌 따뜻한 서정성을 부각시키기 위한 의도적인 선택으로, 당대 하드 밥 음반들의 열기와는 다른 차분하고 노래하는 듯한 분위기를 완성한다.</p>
+    <p><strong>2. 디트로이트 동문 의식의 음악적 발현:</strong> 새드 존스, 빌리 미첼, 배리 해리스 세 사람이 공유하는 디트로이트 블루버드 인의 기억은 본작 곳곳에서 끈끈한 앙상블 호흡으로 드러난다. 미리 짜인 듯 정교하게 맞물리는 유니즌 라인과 서로의 솔로를 받쳐주는 컴핑은 단순한 세션 연주자들의 모임을 넘어서는 친밀함을 들려준다.</p>
+    <p><strong>3. 정통 스탠더드의 재해석과 오리지널의 병치:</strong> 카운트 베이시 시절부터 자신의 트레이드마크였던 "April in Paris"를 새로운 편성으로 재해석하는 한편, 자신의 오리지널 곡들을 나란히 배치함으로써 해석자와 작곡가로서의 정체성을 동시에 증명해낸다.</p>
+  </div>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">수록곡별 상세 해설</h2></div>
+  <p class="p" style="margin-bottom: 1.3rem;">1956년 7월 14일 단 하루의 세션에서 완성된 5곡에 대한 심층적인 분석이다. 전곡 모두 새드 존스 퀸텟의 디트로이트산 우아함이 짙게 배어 있다.</p>
+
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">1. April In Paris</span>
+        <span class="ttime">1956.07.14 세션</span>
+      </div>
+      <div class="ttag">Thad Jones (tp), Billy Mitchell (ts), Barry Harris (p), Percy Heath (b), Max Roach (d)</div>
+      <div class="tdesc">버논 듀크와 E.Y. 하버그가 쓴 스탠더드로, 새드 존스가 카운트 베이시 밴드 시절 즉흥적으로 삽입했던 "Pop Goes the Weasel" 인용구를 그대로 가져와 재연한 앨범의 문을 여는 곡이다. 퍼시 히스의 유려한 베이스 라인과 배리 해리스의 풍성한 백킹, 맥스 로치의 섬세한 하이햇과 라이드 심벌 워크 위에서 존스의 트럼펫이 느긋하게 노래하며, 비평가 레너드 페더 자신의 예전 평가를 스스로 뒤집게 만들 만큼 완성도 높은 연주를 들려준다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">2. Billie-Doo</span>
+        <span class="ttime">1956.07.14 세션</span>
+      </div>
+      <div class="ttag">Thad Jones (tp), Billy Mitchell (ts), Barry Harris (p), Percy Heath (b), Max Roach (d)</div>
+      <div class="tdesc">새드 존스의 오리지널 작곡으로, 블루스에 기반한 느긋하고 여유로운 그루브가 특징이다. 정교한 작곡적 장치보다는 경험 많은 재즈 연주자들이 함께 호흡을 맞춰가는 자연스러운 블로잉 세션의 미덕이 돋보이며, 빌리 미첼의 따뜻하고 꾸밈없는 테너가 존스의 트럼펫과 편안한 대화를 이어간다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">3. If I Love Again</span>
+        <span class="ttime">1956.07.14 세션</span>
+      </div>
+      <div class="ttag">Thad Jones (tp), Billy Mitchell (ts), Barry Harris (p), Percy Heath (b), Max Roach (d)</div>
+      <div class="tdesc">멜로딕한 스탠더드 발라드로, 새드 존스가 명료한 따뜻함과 섬세한 감수성, 그리고 선율선을 끝까지 확장해 나가는 노련한 균형 감각을 들려주는 트랙이다. 레너드 페더가 라이너 노트에서 특별히 호평했던 곡으로, 당대 젊은 호른 연주자들 사이에서는 보기 드문 서정적 깊이를 보여준다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">4. If Someone Had Told Me</span>
+        <span class="ttime">1956.07.14 세션</span>
+      </div>
+      <div class="ttag">Thad Jones (tp), Billy Mitchell (ts), Barry Harris (p), Percy Heath (b), Max Roach (d)</div>
+      <div class="tdesc">앨범에서 가장 인상적인 발라드 트랙 중 하나로 꼽히는 곡이다. 느린 템포 위에서 새드 존스의 트럼펫이 절제된 비브라토와 함께 섬세한 음영을 그려내며, 배리 해리스의 신중한 백킹과 맥스 로치의 브러시 워크가 곡 전체에 차분한 명상적 분위기를 더한다.</div>
+    </div>
+
+    <div class="tc">
+      <div class="tc-h">
+        <span class="tname">5. Thedia</span>
+        <span class="ttime">1956.07.14 세션</span>
+      </div>
+      <div class="ttag">Thad Jones (tp), Billy Mitchell (ts), Barry Harris (p), Percy Heath (b), Max Roach (d)</div>
+      <div class="tdesc">새드 존스가 자신의 딸 테디아(Thedia)에게 헌정한 오리지널 곡으로, 약 10분에 달하는 앨범의 대미를 장식하는 트랙이다. 가볍게 스윙하는 중간 템포 위에서 다섯 연주자 모두에게 충분한 솔로 공간이 주어지며, 특히 배리 해리스와 빌리 미첼의 활기차고 유려한 즉흥 연주가 인상적인, 퀸텟 전체의 합주력이 가장 빛나는 트랙이다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 레이블 내에서의 포지셔닝</h2></div>
+  <p class="p">알프레드 라이언은 1950년대 중반 디트로이트 출신 연주자들을 적극적으로 발굴해 블루노트 카탈로그에 새로운 활력을 불어넣었다. 새드 존스 외에도 소니 클락, 페퍼 애덤스, 도널드 버드 등 디트로이트 인재들이 같은 시기 블루노트의 핵심 라인업을 채워나갔으며, 본작은 그 흐름의 정중앙에 위치한다. BLP 1527은 같은 해 초 발매된 데뷔작 《Detroit-New York Junction》(BLP 1513)의 직접적인 후속작으로, 이후 1957년에 녹음되어 발매된 《The Magnificent Thad Jones Vol. 3》(BLP 1546)와 더불어 새드 존스 리더작 3부작을 형성한다.</p>
+  <p class="p">같은 1500번대 카탈로그 안에서 허비 니콜스의 음반이 철저한 아방가르드적 고립을 대변한다면, 본작은 정반대편에서 정통 하드 밥의 세련되고 접근하기 쉬운 얼굴을 보여준다. 격렬한 실험성 대신 견고한 연주력과 따뜻한 멜로디 감각으로 승부하는 본작의 존재는, 블루노트가 전위와 정통을 모두 아우르는 폭넓은 스펙트럼의 레이블이었음을 입증하는 또 하나의 증거다.</p>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 태드 존스의 리더작 중 가장 높게 평가 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 가치와 감상 문화</h2></div>
+  <p class="p">바이닐 컬렉터들 사이에서 《The Magnificent Thad Jones》 오리지널 초판은 블루노트 1500번대 중에서도 꾸준한 수요를 지닌 핵심 타이틀로 거래된다. 프랜시스 울프가 촬영한 새드 존스의 당당한 흑백 초상 커버는 시리즈 내에서도 손꼽히는 강렬한 비주얼로 평가받는다.</p>
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">ORIGINAL PRESSING</div>
+      <div class="pos-title">렉싱턴 초판의 식별 요소</div>
+      <div class="pos-desc">767 Lexington Ave 주소가 새겨진 라벨, 딥 그루브, 플래스트라이트(Plastylite)의 귀 심볼(Ear), 그리고 양면에 새겨진 RVG 각인이 진정한 모노 오리지널 초판을 가려내는 핵심 단서다.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">COVER ARTWORK</div>
+      <div class="pos-title">프랜시스 울프의 초상 사진</div>
+      <div class="pos-desc">트럼펫을 든 새드 존스를 정면으로 포착한 프랜시스 울프의 사진이 단순하고 강렬한 타이포그래피와 결합되어, 리더의 당당한 존재감을 시각적으로 직접 전달하는 커버로 완성되었다.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">REISSUE ALTERNATIVES</div>
+      <div class="pos-title">다양한 재발매 계보</div>
+      <div class="pos-desc">1972년 유나이티드 아티스츠 재발매반(라벨에 "MAGNIFICIENT" 오기가 있는 것으로 유명하다), 일본 도시바-EMI 및 킹 레코드 재발매반, 그리고 2024년 블루노트 클래식 바이닐 시리즈 재발매반이 합리적인 음질 대안으로 꼽힌다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 분석</h2></div>
+  <div class="ln">
+    <div class="lns">Original Liner Notes by Leonard Feather (1956)</div>
+    <div class="lnb">
+      초판 LP에 수록된 재즈 평론가 레너드 페더의 라이너 노트는 '매그니피슨트(Magnificent)'라는 단어의 라틴어 어원인 magnus(위대한)와 facere(만들다)를 풀이하며 시작된다. 페더는 한 연주자가 대중에게 인정받기까지 거치는 세 단계 — 동료 음악가들의 지지, 평론가들의 인정, 마지막으로 대중의 수용 — 를 언급하며, 새드 존스가 이제 그 세 번째 관문을 통과하는 중이라고 평했다. 그는 세션 당일 새드 존스가 유난히 컨디션이 좋았음을 강조하며, "Pop Goes the Weasel" 인용구가 담긴 "April in Paris"를 두고 과거 BLP 1513의 노트에서 자신이 썼던 회의적인 예측을 스스로 정정하게 되었다고 고백했다. 또한 리듬 섹션에 대해서는 맥스 로치가 전체를 훌륭히 통합하고 있으며, 배리 해리스는 유려하지만 좀 더 감정적으로 파고들 여지가 있고, 퍼시 히스는 인상적으로 정돈된 솔로를 들려준다고 평했다. 빌리 미첼에 대해서는 메이저 스타일리스트는 아닐지언정 뜨겁고 꾸밈없이 지적인 호른으로 존스의 상상력 풍부한 연주를 잘 보완한다고 적었다.
+    </div>
+  </div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">앨범 제작의 비하인드 에피소드</h2></div>
+  <p class="p"><strong>1. 비극 속에서 태어난 배리 해리스의 데뷔.</strong> 본작 세션이 열리기 불과 18일 전인 1956년 6월 26일, 트럼페터 클리포드 브라운과 피아니스트 리치 파웰(버드 파웰의 동생)이 자동차 사고로 세상을 떠나는 비보가 재즈계를 강타했다. 맥스 로치가 이끌던 그룹의 피아니스트 자리를 이어받은 사람이 바로 배리 해리스였고, 본작은 바로 그 해리스의 공식 레코딩 데뷔 무대가 되었다. 슬픔이 채 가시지 않은 시기에 녹음된 이 세션은, 비극을 딛고 새로운 세대가 자리를 이어가는 재즈사의 한 장면을 고스란히 담고 있다.</p>
+  <p class="p"><strong>2. 딸의 이름을 딴 헌정곡 "Thedia".</strong> 앨범의 대미를 장식하는 오리지널 곡 "Thedia"는 새드 존스가 첫 결혼에서 얻은 딸의 이름을 그대로 제목으로 삼은 곡이다. 약 10분에 걸쳐 펼쳐지는 이 트랙은 단순한 블로잉 넘버를 넘어, 한 아버지가 음악으로 남긴 사적인 헌사로도 읽힌다.</p>
+  <p class="p"><strong>3. "Pop Goes the Weasel"의 되풀이된 농담.</strong> 새드 존스가 카운트 베이시 밴드 시절 "April in Paris" 연주 도중 즉흥적으로 삽입했던 동요 "Pop Goes the Weasel" 인용구는 이미 베이시 밴드의 트레이드마크가 되어 있었다. 레너드 페더는 BLP 1513의 노트에서 이 인용구에 대해 다소 회의적인 뉘앙스를 내비친 바 있었는데, 본작에서 존스가 같은 곡을 다시 연주하며 그 인용구를 한층 더 완성도 높게 소화해내자 페더는 스스로 "내 말을 거둬들이게 되었다"고 고백하는 유쾌한 반전을 라이너 노트에 남겼다.</p>
+</section>
 
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국 재즈 애호가들의 평가 및 수용</h2></div>
+  <p class="p">한국의 재즈 청취 문화에서 《The Magnificent Thad Jones》는 허비 니콜스의 음반처럼 마니아들 사이의 은밀한 발견의 대상이라기보다, 보다 편안하게 다가갈 수 있는 정통 하드 밥의 모범 답안으로 받아들여지는 경향이 강하다. 발라드와 미디엄 템포 중심의 차분한 구성은 재즈를 처음 접하는 입문자에게도, 오랜 애호가에게도 두루 만족스러운 청취 경험을 제공한다는 평가가 많다.</p>
+  <p class="p">특히 **"If Someone Had Told Me"**와 **"April In Paris"**는 국내 인디 재즈 바와 음악 감상실에서 늦은 밤 분위기를 차분하게 가라앉히는 트랙으로 자주 회자된다. 새드 존스의 트럼펫이 들려주는 따뜻하고 절제된 톤은 화려한 기교를 앞세우는 다른 하드 밥 트럼페터들과 비교될 때 오히려 그 진가가 드러난다는 평가를 받으며, 빅밴드 리더로서의 명성에 가려졌던 그의 소그룹 연주가 국내 애호가들 사이에서도 재조명되는 흐름이 이어지고 있다. 디트로이트 출신 연주자들의 끈끈한 합주력과 비극을 딛고 데뷔한 배리 해리스의 서사는, 음악 외적인 맥락까지 함께 음미하는 한국 재즈 청취 문화의 정서와도 잘 맞아떨어지는 지점으로 꼽힌다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id,btn){
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b=>b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
 </body>
 </html>
