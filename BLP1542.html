@@ -3,253 +3,311 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1542 - Sonny Rollins, Vol. 1 (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Sonny Rollins · Sonny Rollins Volume 1 BLP 1542 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #0f1c3f; --blue-mid: #1d3557; --blue-light: #457b9d;
+  --cyan: #a8dadc; --cyan-lt: rgba(168,218,220,0.15);
+  --gold: #d4a373; --gold-lt: rgba(212,163,115,0.12);
+  --muted: #5c677d; --border: rgba(15,28,63,0.12);
 }
-
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-h1{
-    margin:0;
-    font-size:2.6em;
-}
-
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
-
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
-
-th{
-    background:#0d1b2a;
-    color:white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0a1128 0%,#111e38 50%,#1d3557 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(168,218,220,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(13px,1.8vw,17px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(15,28,63,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib = {background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:1.4rem;box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ih = {display:flex;align-items:center;gap:12px;padding:.8rem 1.2rem;background:rgba(15,28,63,0.03);border-bottom:1px solid var(--border)}
+.ii = {width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.iname{font-weight:700;font-size:14px;color:var(--blue-dark)}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em}
+.ibody{padding:1.2rem;font-size:13.5px;line-height:1.85;text-align:justify}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1542</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1541.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1543.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1542 · 1957</div>
+      <h1 class="title">Sonny Rollins — Sonny Rollins Volume 1</h1>
+      <div class="sub">테너 타이탄의 거대한 포효, 블루노트 오피셜 12인치 시리즈의 포문을 연 위대한 금자탑</div>
+      <div class="meta">
+        <span>1956.12.16 녹음</span>
+        <span>Van Gelder Studio, Hackensack, NJ</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: Reid Miles / Photography: Francis Wolff</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">Sonny Rollins, Vol. 1 (상세 분석 리포트)</h2>
-  <p>
-  Sonny Rollins(ts), Donald Byrd(tp), Wynton Kelly(p)<br>
-  Recorded 12/16/56 | Blue Note Records
-  </p>
+    <div class="hdr-nav">
+      <a href="BLP1541.html" class="nav-arrow" title="이전 앨범">←</a>
+      <a href="index.html" class="home-link" title="메인 인덱스">
+        <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+      </a>
+      <a href="BLP1543.html" class="nav-arrow" title="다음 앨범">→</a>
+    </div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1542 《Sonny Rollins, Vol. 1》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">《Sonny Rollins Volume 1》(BLP 1542)는 당대 재즈 씬에서 독보적인 테너 색소폰의 지배자, 일명 '테너 타이탄(Tenor Titan)'으로 군림하기 시작한 소니 롤린스(Sonny Rollins)가 블루노트 레이블에서 본격적으로 자신의 이름을 각인시킨 12인치 포맷 첫 리더 음반이다. 1956년 12월, 프레스티지(Prestige) 레이블에서의 명작 《Saxophone Colossus》 완성 직후 절정의 음악적 자신감에 차 있던 롤린스의 거대한 에너지가 루디 반 겔더의 정밀한 사운드 엔지니어링을 만나 극대화된 작품이다.</p>
+  <p class="p">본작은 비밥의 선율적 한계를 뛰어넘어 하나의 동기(Motive)를 수십 가지 방식으로 해체하고 재조립하는 롤린스 특유의 '테마 즉흥연주(Thematic Improvisation)'의 완전한 정립을 보여준다. 도널드 버드의 트럼펫과 함께 견고한 하드 밥 퀸텟 편성을 취하면서도, 편곡의 틀을 부수고 전면적인 솔로이스트의 파괴력을 전면에 부각시켰다. 롤린스의 두텁고 남성적인 음색과 가차 없는 리듬 분할은 재즈 테너의 새로운 기준점이 되었다.</p>
+  <p class="p">비평가들과 애호가들 사이에서 하드 밥 테너가 도달할 수 있는 가장 순수하고 강력한 블로잉 세션으로 손꼽히며, 프레싱 아트를 장식한 리드 마일스의 역사적인 하프톤 초상화 커버 디자인과 함께 블루노트 1500번대 컬렉션을 대표하는 영원한 명작의 반열에 올라 있다.</p>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《Sonny Rollins(ts), Donald Byrd(tp), Wynton Kelly(p)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 소니 롤린스 — 생애 및 약력</h2></div>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1930</span><span class="tlb"><strong>뉴욕 할렘에서의 탄생.</strong> 9월 7일 뉴욕 출생. 콜맨 호킨스의 거대한 테너 사운드에 매료되어 색소폰을 잡았으며, 마일스 데이비스, 세이디우스 몽크 등과 교류하며 비밥의 정수를 조기에 흡수했다.</span></li>
+    <li class="tli"><span class="tly">1954</span><span class="tlb"><strong>올해의 이정표 컴포지션.</strong> 마일스 데이비스 세션에서 "Oleo", "Airegin", "Doxy" 등 재즈 역사에 길이 남을 불멸의 스탠다드 자작곡들을 쏟아내며 천재 작곡가로 부상했다.</span></li>
+    <li class="tli"><span class="tly">1955</span><span class="tlb"><strong>클리포드 브라운-맥스 로치 퀸텟 합류.</strong> 하드 밥 최고의 명문 전선에 합류하여 절정의 앙상블 기량을 연마하며 전성기를 준비했다.</span></li>
+    <li class="tli"><span class="tly">1956</span><span class="tlb"><strong>Saxophone Colossus와 본작 녹음.</strong> 역사적 명반들을 잇달아 발매하며 명실상부한 테너의 일인자로 등극, 12월 16일 본작 《Volume 1》을 녹음했다.</span></li>
+    <li class="tli"><span class="tly">1957</span><span class="tlb"><strong>Way Out West 및 피아노리스 트리오 도입.</strong> 피아노를 과감히 배제하고 베이스, 드럼만으로 이루어진 피아노리스 트리오 형식을 창안하여 즉흥연주의 무한한 화성적 자유를 개척했다.</span></li>
+    <li class="tli"><span class="tly">1959</span><span class="tlb"><strong>윌리엄스버그 다리 위의 은둔.</strong> 자신의 음악적 한계를 극복하기 위해 돌연 활동을 중단하고 뉴욕 윌리엄스버그 다리 위에서 홀로 하루 10시간 넘게 연습에 매진한 전설적인 은둔기(The Bridge)를 가졌다.</span></li>
+    <li class="tli"><span class="tly">2026</span><span class="tlb"><strong>살아있는 재즈의 신화.</strong> 현재까지 생존해 있는 재즈 황금기의 마지막 위대한 거장이자 거룩한 아이콘으로 추앙받고 있다.</span></li>
+  </ul>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(Sonny Rollins(ts), Donald Byrd(tp), Wynton Kelly(p))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <div class="warn"><strong>소니 롤린스 퀸텟 (Sonny Rollins Quintet) 라인업</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Donald Byrd</div>
+      <div class="cr">TRUMPET · 1932–2013</div>
+      <div class="cb">1500번대 블루노트 하드 밥의 핵심 트럼페터. 롤린스의 거대하고 육중한 테너 사운드가 전면에서 포효할 때, 날카롭고 명징한 브라스 하이톤으로 사운드의 입체적 밸런스를 절묘하게 잡아준다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Wynton Kelly</div>
+      <div class="cr">PIANO · 1931–1971</div>
+      <div class="cb">재즈 역사상 가장 매력적인 스윙감을 지녔다고 평가받는 피아니스트. 특유의 통통 튀는 블루스 필 가득한 컴핑과 경쾌하고 리릭컬한 오른손 즉흥연주로 롤린스의 묵직한 독주 무대에 유연함과 활력을 불어넣었다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Gene Ramey</div>
+      <div class="cr">BASS · 1913–1984</div>
+      <div class="cb">초기 비밥 시절부터 산전수전을 다 겪은 노련한 베이시스트. 뿌리 깊은 스윙 리듬의 안정감을 바탕으로, 롤린스가 박자를 마음대로 늘어뜨리거나 쪼개는 변칙 즉흥연주를 펼칠 때 중심축을 완벽하게 잡아주었다.</div>
+    </div>
+    <div class="card red">
+      <div class="cn">Max Roach</div>
+      <div class="cr">DRUMS · 1924–2004</div>
+      <div class="cb">비밥 드러밍의 시조이자 멜로딕 드러밍의 대가. 롤린스와는 오랜 퀸텟 동료로서, 단순한 타임 키핑을 넘어 드럼 세트 자체로 색소폰과 멜로딕한 대화를 나누며 곡 전체의 예술적 격조를 우주 끝까지 끌어올렸다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+  <div class="ib">
+    <div class="ih"><div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎷</div><div><div class="iname">테너 색소폰 (Tenor Saxophone) — Sonny Rollins</div><div class="ipl">폭발적인 혼 브레싱, 모티브 해체의 무한 서사</div></div></div>
+    <div class="ibody">롤린스의 테너는 마치 거대한 바위가 굴러가는 듯한 묵직한 저음과 가차 없이 내지르는 선명한 중고음역대의 어택감이 일품이다. 그의 솔로는 단순한 스케일의 나열이 아니라, 곡의 오리지널 테마 멜로디 파편을 붙잡고 리듬과 화성을 끊임없이 비틀어 발산하는 '테마적 접근법'의 전형을 보여준다. 한 프레이즈가 끝나기도 전에 다음 아이디어를 폭발적으로 밀어붙이는 무한한 서사 구조가 듣는 이를 숨막히게 만든다.</div>
+  </div>
+  <div class="ib">
+    <div class="ih"><div class="ii" style="background:var(--gold-lt);color:var(--gold)">🥁</div><div><div class="iname">드럼 (Drums) — Max Roach</div><div class="ipl">박자 위의 오케스트레이션, 구조적 드러밍의 정점</div></div></div>
+    <div class="ibody">맥스 로치의 드럼은 단순한 반주 악기가 아니다. 하이햇과 스네어, 탐탐의 유기적인 음색 변화를 통해 롤린스의 색소폰 프레이즈에 리드미컬하게 화답하며, 솔로 파트에서는 완벽한 기승전결 구조를 가진 하나의 독립된 타악기 오케스트레이션을 펼쳐 보인다. 롤린스와 로치가 단둘이 주고받는 인터랙션은 본 음반 최고의 감상 포인트다.</div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>12/16/56</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1957 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+  <p class="p"><strong>1. 마초적 하드 밥(Muscular Hard Bop)의 절정:</strong> 펑키 재즈의 상업적 아기자기함 대신, 뮤지션 개인이 가진 가공할 블로잉 파워와 리듬의 한계를 시험하는 지극히 정통파적이고 남성적인 하드 밥의 정수가 고스란히 담겨 있다.</p>
+  <p class="p"><strong>2. 테마 중심 즉흥연주(Thematic Improvisation):</strong> 비밥의 고질적 병폐였던 '코드 진행에 맞춘 무의미한 음표 나열'을 과감히 타파하고, 테마가 가진 멜로디의 생명력을 즉흥연주 전반에 끝까지 유지하는 고도의 지적 장르 미학을 정립했다.</p>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 음악적 세부 분석</h2></div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1.2rem;font-family:'IBM Plex Mono',monospace;">※ Discogs 오리지널 미국 모노 12인치 LP 발매반 기준 트랙리스트입니다.</p>
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Decision</span><span class="ttime">A1 · 1956.12.16</span></div>
+      <div class="ttag">작곡: Sonny Rollins · 편성: 퀸텟</div>
+      <div class="tdesc">롤린스의 당당한 선언과도 같은 강력한 오리지널 마이너 블루스 트랙. 맥스 로치의 심벌 워크 위로 롤린스의 거대한 테너 유니즌이 포문을 열며, 윈튼 켈리의 블루지한 컴핑과 롤린스의 거침없는 블로잉이 완벽한 하드 밥의 정수를 선사한다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Bluesnote</span><span class="ttime">A2 · 1956.12.16</span></div>
+      <div class="ttag">작곡: Sonny Rollins · 편성: 퀸텟</div>
+      <div class="tdesc">레이블에 대한 헌사처럼 들리는 제목의 업템포 블루스 오리지널 곡. 도널드 버드의 불타는 트럼펫 솔로에 이어 롤린스가 바통을 이어받아 화성 구조를 완전히 장악하고 해체하는 압도적인 마스터클래스급 즉흥연주를 펼친다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">How Are Things in Glocca Morra?</span><span class="ttime">A3 · 1956.12.16</span></div>
+      <div class="ttag">작곡: Burton Lane, Yip Harburg · 편성: 퀸텟</div>
+      <div class="tdesc">뮤지컬 《Finian's Rainbow》에 수록된 대중적인 곡을 롤린스가 특유의 해학적이고 유머러스한 서정성으로 재해석한 발라드 넘버. 원곡이 가진 감상적인 무드를 롤린스의 묵직하고 따뜻한 톤이 감싸 안으며 묘한 여운을 남긴다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Plain Jane</span><span class="ttime">B1 · 1956.12.16</span></div>
+      <div class="ttag">작곡: Sonny Rollins · 편성: 퀸텟</div>
+      <div class="tdesc">스윙감 넘치는 경쾌한 하드 밥 오리지널 트랙. 윈튼 켈리의 통통 튀는 피아노 솔로와 진 레이미의 굳건한 베이스 라인이 리듬의 양탄자를 깔아주면, 롤린스가 특유의 리드미컬한 프레이징 배치로 곡 전체의 활력을 불어넣는다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Sonnymoon for Two</span><span class="ttime">B2 · 1956.12.16</span></div>
+      <div class="ttag">작곡: Sonny Rollins · 편성: 퀸텟</div>
+      <div class="tdesc">훗날 수많은 재즈 뮤지션들이 커버하게 되는 롤린스의 불멸의 리프 기반 블루스 명곡. 단 3개의 음표로 구성된 미니멀하고 중독성 강한 테마 뒤에 펼쳐지는 롤린스와 맥스 로치의 경이로운 리듬 인터랙션은 하드 밥 역사상 최고의 명장면이다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+  <p class="p">BLP 1542는 블루노트 레이블이 당대 최고의 테너 거장 소니 롤린스를 전속으로 영입하며 1500번대 오피셜 카탈로그의 위상을 최고조로 끌어올린 상징적 타이틀이다. 이 앨범을 시작으로 롤린스의 역사적인 블루노트 3부작 연작이 시작된다.</p>
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">BLP 1541</div>
+      <div class="pos-title">Lee Morgan — Indeed!</div>
+      <div class="pos-desc">18세 천재 트럼페터의 당돌한 데뷔작. 본작 바로 직전 번호에 위치하며 하드 밥 신세대의 등장을 예고했다.</div>
+    </div>
+    <div class="pos-card" style="border:2px solid var(--blue-mid)">
+      <div class="pos-label">BLP 1542</div>
+      <div class="pos-title">Sonny Rollins — Volume 1</div>
+      <div class="pos-desc">테너 타이탄의 거대한 포효이자 편곡과 즉흥의 완벽한 하드 밥 밸런스를 성취해낸 블루노트 첫 리더 기념비.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1543</div>
+      <div class="pos-title">Kenny Burrell — Kenny Burrell Volume 2</div>
+      <div class="pos-desc">기타 거장 케니 버렐의 세련된 리더작. 본작의 광포한 불로잉 세션 뒤를 이어 부드럽고 지적인 모더니즘을 선사한다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 블루노트 데뷔작, 당당한 톤 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치 및 프레싱 식별법</h2></div>
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-dark);color:#fff">🇺🇸 미국 오리지널 첫 프레싱 (1957 Mono)</div>
+      <div class="pbody">
+        <p><span class="pl">오리지널 식별 가이드:</span> 오리지널 초판 레이블 주소는 <strong>"767 LEXINGTON AVE, NEW YORK"</strong>가 찍혀 있어야 한다. 데드왁스에 루디 반 겔더의 <strong>RVG</strong> 각인과 프레스 기계 기호인 <strong>'이어(Ear)' 마크</strong>가 필수적으로 타각되어 있어야 한다. 양면 모두 깊은 홈의 <strong>딥 그루브(Deep Groove)</strong> 구조에 <strong>플랫 엣지(Flat Edge)</strong> 마감 처리가 완벽해야 오리지널 퍼스트 프레싱으로 판정된다.</p>
+        <p><span class="pl">잔존 가치 및 가격대:</span> 롤린스의 최고 전성기 블루노트 첫 단추라는 역사성 때문에 역사적 소장 수요가 어마어마하다. 디스크와 재킷 상태가 우수한 오리지널 초판 Mono NM 등급은 현재 <strong>$800 - $1,500</strong>를 훌쩍 상회하는 가격대를 형성하고 있다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 (핵심 요약 정리)</h2></div>
+  <div class="ln">
+    <div class="lns">1. 테너 색소폰의 일인자 선언</div>
+    <div class="lnb">재즈 평론가 로버트 레빈은 당시 재즈 씬에서 롤린스가 이룩한 절대적인 위상을 피력하며, 그가 콜맨 호킨스와 소니 스티트의 유산을 어떻게 현대적인 하드 밥의 언어로 완성했는지 서술했다.</div>
+  </div>
+  <div class="ln">
+    <div class="lns">2. 모티브 전개 즉흥연주(Motic Improvisation)의 가치</div>
+    <div class="lnb">수록곡 "Sonnymoon for Two" 등에서 나타나는 극도로 미니멀한 모티브를 가지고 롤린스가 어떻게 거대한 음악적 빌드업을 완성해 나가는지 구조주의 비평 시각으로 상세 분석했다.</div>
+  </div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 역사적 에피소드</h2></div>
+  <p class="p"><strong>1. Max Roach와의 완벽한 텔레파시:</strong> 롤린스와 맥스 로치는 수년간 클리포드 브라운-맥스 로치 퀸텟에서 동고동락한 사이였기에, 본작 녹음 당시 아무런 사전 조율 없이 즉흥적으로 들어간 "Sonnymoon for Two"의 듀오 인터랙션 섹션에서 신들린 듯한 완벽한 호흡을 뿜어낼 수 있었다.</p>
+  <p class="p"><strong>2. Blue Note 3부작의 화려한 개막:</strong> 본작의 대성공에 고무된 알프레드 라이언 프로듀서는 곧바로 이듬해 거장들을 대거 기용하여 재즈 역사상 손꼽히는 올스타 세션인 《Sonny Rollins Volume 2》(BLP 1558)와 《A Night at the Village Vanguard》(BLP 1581)라는 전설적인 연작을 기획하게 된다.</p>
+</section>
 
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+  <p class="p"><strong>1. "Sonnymoon for Two"의 영원한 오리지널리티:</strong> 국내 재즈 실연 무대나 잼 세션에서 가장 자주 연주되는 리프 블루스인 "Sonnymoon for Two"의 오리지널 스튜디오 녹음 버전이라는 이유 하나만으로도 국내 바이닐 매니아들의 필수 필청 소장반으로 늘 첫손에 꼽힌다.</p>
+  <p class="p"><strong>2. 루디 반 겔더 모노 사운드의 극치:</strong> 국내 오디오파일 바이닐 유저들 사이에서 본작은 반 겔더가 포착해낸 롤린스의 테너 색소폰 가죽 패드가 닫히는 소리와 맥스 로치 심벌의 날카로운 고음역 엣지가 모노 특유의 묵직한 음압으로 한가운데로 쏟아져 나오는 'RVG 모노 사운드의 진수'로 극찬받는다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
 </body>
 </html>

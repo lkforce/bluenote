@@ -3,253 +3,326 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1540 - With Donald Byrd and Lee Morgan (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Hank Mobley · Hank Mobley Sextet BLP 1540 — 완전 해설 가이드</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #f4f7f9; --bg2: #ffffff; --ink: #111622;
+  --blue-dark: #0f1c3f; --blue-mid: #1d3557; --blue-light: #457b9d;
+  --cyan: #a8dadc; --cyan-lt: rgba(168,218,220,0.15);
+  --gold: #d4a373; --gold-lt: rgba(212,163,115,0.12);
+  --muted: #5c677d; --border: rgba(15,28,63,0.12);
 }
-
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-h1{
-    margin:0;
-    font-size:2.6em;
-}
-
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
-
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
-
-th{
-    background:#0d1b2a;
-    color:white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.85}
+.hdr{background:linear-gradient(135deg,#0a1128 0%,#111e38 50%,#1d3557 100%);color:#fff;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue-light),var(--cyan),var(--gold))}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s}
+.nav-arrow:hover{background:var(--cyan);color:var(--blue-dark);transform:scale(1.05)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(168,218,220,0.4);padding:3px 10px;margin-bottom:1.1rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:.4rem}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.6);font-size:clamp(13px,1.8vw,17px);margin-bottom:1.3rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:rgba(255,255,255,0.5)}
+.meta span::before{content:'· ';color:var(--cyan)}
+.nav{background:var(--blue-dark);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:.85rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,0.6);background:none;border:none;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.05)}
+.nb.on{color:var(--cyan);border-bottom-color:var(--cyan);font-weight:500}
+.main{max-width:960px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:1.6rem;padding-bottom:1rem;border-bottom:2px solid var(--blue-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--blue-light);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:22px;color:var(--blue-dark);font-weight:700}
+.p{margin-bottom:1.2rem;text-align:justify}
+b,strong{font-weight:700;color:var(--blue-dark)}
+.hl{border-left:4px solid var(--blue-light);padding:1rem 1.3rem;background:var(--cyan-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:13.5px}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--gold);padding:1rem 1.3rem;background:var(--gold-lt);margin:1.2rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:13.5px;font-style:italic;color:#4f3d29}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.5rem;font-style:normal;text-align:right}
+.warn{border-left:4px solid var(--blue-dark);padding:1rem 1.3rem;background:rgba(15,28,63,0.04);margin:1.4rem 0 .8rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:1rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.2rem;position:relative;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:4px 0 0 4px}
+.card.red::before{background:var(--blue-light)}
+.card.gold::before{background:var(--gold)}
+.card.slate::before{background:var(--blue-dark)}
+.cn{font-weight:700;font-size:14.5px;margin-bottom:3px;color:var(--blue-dark)}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.07em;margin-bottom:8px;font-weight:500}
+.cb{font-size:12.5px;line-height:1.7;color:var(--muted)}
+.ib = {background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:1.4rem;box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ih = {display:flex;align-items:center;gap:12px;padding:.8rem 1.2rem;background:rgba(15,28,63,0.03);border-bottom:1px solid var(--border)}
+.ii = {width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.iname{font-weight:700;font-size:14px;color:var(--blue-dark)}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em}
+.ibody{padding:1.2rem;font-size:13.5px;line-height:1.85;text-align:justify}
+.tg{display:grid;grid-template-columns:1fr;gap:14px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.2rem 1.4rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;border-bottom:1px dashed var(--border);padding-bottom:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--blue-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--blue-light);font-weight:500}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:.06em;margin-bottom:8px;font-weight:500}
+.tdesc{font-size:13px;line-height:1.75;color:var(--muted);text-align:justify}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pc{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:var(--bg2);box-shadow:0 2px 6px rgba(0,0,0,0.02)}
+.ph{padding:.75rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700}
+.pbody{padding:1.2rem;background:var(--bg2)}
+.pbody p{font-size:13px;line-height:1.8;margin-bottom:.7rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--blue-dark);display:inline-block;margin-bottom:2px}
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.4rem;margin-bottom:1.4rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--blue-light);min-width:60px;padding-top:2px;font-weight:700;border-right:2px solid var(--cyan);margin-right:2px}
+.tlb{font-size:13.5px;line-height:1.8;text-align:justify}
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1.3rem 1.5rem;margin-bottom:1.2rem;box-shadow:0 2px 5px rgba(0,0,0,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--blue-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify}
+.rv{border:1px solid var(--border);border-radius:4px;padding:1.1rem 1.3rem;margin-bottom:1rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.05em;margin-bottom:6px;font-weight:700}
+.rvb{font-size:13px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.2rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue-light);letter-spacing:.08em;margin-bottom:6px;font-weight:500}
+.pos-title{font-weight:700;font-size:13.5px;color:var(--blue-dark);margin-bottom:6px}
+.pos-desc{font-size:12px;line-height:1.7;color:var(--muted)}
+@media(max-width:768px){.hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}.hdr-nav{width:100%;justify-content:flex-end}.pg,.cg{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1540</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1539.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1541.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1540 · 1957</div>
+      <h1 class="title">Hank Mobley — Hank Mobley Sextet</h1>
+      <div class="sub">1500번대 황금기를 장식한 '하드 밥의 서정 시인', 그의 초기 음악성이 만개한 결정적 레코드</div>
+      <div class="meta">
+        <span>1956.11.25 녹음</span>
+        <span>Van Gelder Studio, Hackensack, NJ</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: Reid Miles / Photography: Francis Wolff</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">With Donald Byrd and Lee Morgan (상세 분석 리포트)</h2>
-  <p>
-  Hank Mobley(ts), Donald Byrd(tp), Lee Morgan(tp)<br>
-  Recorded 11/25/56 | Blue Note Records
-  </p>
+    <div class="hdr-nav">
+      <a href="BLP1539.html" class="nav-arrow" title="이전 앨범">←</a>
+      <a href="index.html" class="home-link" title="메인 인덱스">
+        <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+      </a>
+      <a href="BLP1541.html" class="nav-arrow" title="다음 앨범">→</a>
+    </div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1540 《With Donald Byrd and Lee Morgan》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+  <p class="p">행크 모블리(Hank Mobley)의 셀프 타이틀 섹스텟 음반 《Hank Mobley Sextet》(BLP 1540)은 블루노트 레이블 역사상 가장 다작을 남긴 테너 색소포니스트인 그가 진정한 작곡가이자 밴드 리더로서의 역량을 12인치 포맷에 아낌없이 투영해낸 하드 밥의 숨은 걸작이다. 본작은 그가 훗날 완성하게 될 불멸의 명반 《Soul Station》(BLP 4031)의 미니멀한 콰르텟 어법으로 나아가기 전, 3호른 앙상블이 가진 풍성한 화성 구조와 치밀하게 짜인 앙상블의 극치를 시험한 무대다.</p>
+  <p class="p">1956년 late-bebop 세대의 가장 뜨거웠던 라이징 스타들인 도널드 버드, 존 젠킨스 등을 대거 기용하여 완성한 이 세션은, 즉흥연주의 자율성을 전면 보장하면서도 테마의 변주와 편곡에서 모블리 특유의 온화하고 멜로딕한 감각을 짙게 풍긴다. 소니 롤린스의 거대한 파괴력이나 존 콜트레인의 구도자적 복잡성과는 궤를 달리하는, 중도를 걷는 테너 사운드가 하드 밥 앙상블 안에서 얼마나 우아하게 빛날 수 있는지를 증명했다.</p>
+  <p class="p">올뮤직 등 평단으로부터 모블리의 초기 리더작 중 가장 짜임새 있는 하드 밥의 교과서라는 찬사를 받으며, 블루노트 1500번대 컬렉터들 사이에서 최상위권의 희소성과 예술성을 동시에 인정받는 고가치 바이닐로 평가받고 있다.</p>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《Hank Mobley(ts), Donald Byrd(tp), Lee Morgan(tp)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 행크 모블리 — 생애 및 약력</h2></div>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1930</span><span class="tlb"><strong>조지아에서의 탄생.</strong> 7월 7일 조지아 주 이스트포트 출생. 뉴저지에서 성장하며 레스터 영의 부드럽고 유려한 테너 스타일과 비밥의 문법을 동시에 체득했다.</span></li>
+    <li class="tli"><span class="tly">1951</span><span class="tlb"><strong>폴 패트레이션 빅밴드 경력.</strong> 드러머 맥스 로치(Max Roach)의 눈에 띄어 본격적인 모던 재즈 신에 데뷔하였고, 당대 주요 비밥 아티스트들과 교류를 다졌다.</span></li>
+    <li class="tli"><span class="tly">1954</span><span class="tlb"><strong>오리지널 재즈 메신저스 참여.</strong> 호레이스 실버, 아트 블레이키와 함께 하드 밥의 모태가 된 재즈 메신저스의 창립 멤버로 활약하며 이름을 널리 알렸다.</span></li>
+    <li class="tli"><span class="tly">1956</span><span class="tlb"><strong>블루노트 전속 계약과 독주.</strong> 실버 퀸텟의 핵심 테너로 활동함과 동시에 자신의 리더 세션을 다수 전개, 11월 25일 본작 《Hank Mobley Sextet》을 녹음했다.</span></li>
+    <li class="tli"><span class="tly">1960</span><span class="tlb"><strong>Soul Station 발표.</strong> 자신의 최고 마스터피스이자 하드 밥 테너의 정점인 《Soul Station》을 발표하며 독보적인 명성을 확보했다.</span></li>
+    <li class="tli"><span class="tly">1961</span><span class="tlb"><strong>마일스 데이비스 퀸텟 합류.</strong> 존 콜트레인의 탈퇴 이후 공백이 된 마일스 데이비스 퀸텟의 정식 테너맨으로 전격 발탁되어 《Someday My Prince Will Come》 음반 등에 참여했다.</span></li>
+    <li class="tli"><span class="tly">1986</span><span class="tlb"><strong>쓸쓸한 은퇴와 타계.</strong> 만년에 폐 질환으로 더 이상 연주를 하지 못하는 불운을 겪다 5월 30일 필라델피아에서 향년 55세로 별세했다.</span></li>
+  </ul>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(Hank Mobley(ts), Donald Byrd(tp), Lee Morgan(tp))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <div class="warn"><strong>행크 모블리 섹스텟 (Hank Mobley Sextet) 라인업</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="cn">Donald Byrd</div>
+      <div class="cr">TRUMPET · 1932–2013</div>
+      <div class="cb">실버 퀸텟에서와 마찬가지로 모블리의 우측을 든든하게 지킨 트럼페터. 본작에서도 하이노트를 자유자재로 넘나드는 맑고 벼려진 음색으로 섹스텟 전체의 상층부 화성을 찬란하게 열어젖힌다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">John Jenkins</div>
+      <div class="cr">ALTO SAXOPHONE · 1931–1993</div>
+      <div class="cb">시카고 출신의 촉망받던 알토 색소포니스트. 찰리 파커와 재키 맥린의 중간 지점에 위치한 듯한 강렬하고 다소 날카로운 톤을 구사하여, 모블리의 둥글둥글한 테너 음색과 절묘한 색채 대비를 완성해낸다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Walter Bishop Jr.</div>
+      <div class="cr">PIANO · 1927–1998</div>
+      <div class="cb">찰리 파커 그룹 출신의 정통 비밥 피아니스트. 호레이스 실버의 타격감 넘치는 스타일과는 다르게, 물 흐르듯 유려한 전형적인 비밥 오른손 싱글 라인 연주를 통해 섹스텟 리듬의 격조를 한 층 높였다.</div>
+    </div>
+    <div class="card red">
+      <div class="cn">Phineas Newborn Jr. (A4 전용)</div>
+      <div class="cr">PIANO · 1931–1989</div>
+      <div class="cb">당대 최고의 테크니션으로 불린 피아니스트. 오직 앨범의 마지막 트랙인 "포르투갈의 오솔길"에만 스페셜 게스트로 참여하여 신들린 듯한 양손 옥타브 유니즌 솔로로 압도적인 존재감을 증명했다.</div>
+    </div>
+    <div class="card gold">
+      <div class="cn">Doug Watkins</div>
+      <div class="cr">BASS · 1934–1962</div>
+      <div class="cb">동시대 하드 밥 베이스의 표준을 제시한 인물. 모블리의 자작곡들이 가진 독특한 리듬 루프 변화를 한 치의 오차도 없이 단단하게 고정해주는 워킹 베이스의 정석을 보여준다.</div>
+    </div>
+    <div class="card slate">
+      <div class="cn">Art Taylor</div>
+      <div class="cr">DRUMS · 1929–1995</div>
+      <div class="cb">수많은 블루노트 세션을 지탱한 하드 밥 드럼의 거장. 정교하고 깔끔한 탑 심벌 레가토와 날카로운 스네어 악센트 컴핑을 통해, 호른 연주자들이 안심하고 솔로에 몰입할 수 있는 완벽한 리듬 카펫을 깔아준다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+  <div class="ib">
+    <div class="ih"><div class="ii" style="background:var(--cyan-lt);color:var(--blue-mid)">🎷</div><div><div class="iname">테너 색소폰 (Tenor Saxophone) — Hank Mobley</div><div class="ipl">중량급 라운드 모노톤과 완벽한 호흡의 서정성</div></div></div>
+    <div class="ibody">모블리의 테너는 날카로운 금속성 어택을 철저히 배제한, 따뜻하고 둥근 음색(Round Tone)이 특징이다. 그의 연주는 마치 말을 건네는 듯 유연하게 흘러가며, 비밥의 까다로운 코드 체인지 속에서도 언제나 서정적인 멜로디의 끈을 놓지 않는다. 섹스텟 리더로서 그는 세 호른이 만들어내는 화성의 두께를 정교하게 컨트롤하며 솔로 파트에서는 과도한 과시 대신 절제미의 극치를 들려준다.</div>
+  </div>
+  <div class="ib">
+    <div class="ih"><div class="ii" style="background:var(--gold-lt);color:var(--gold)">🎺🎷🎷</div><div><div class="iname">3호른 프런트 라인 — Byrd, Jenkins, Mobley</div><div class="ipl">트럼펫, 알토, 테너가 직조해내는 하드 밥 입체 화성</div></div></div>
+    <div class="ibody">트럼펫(도널드 버드), 알토(존 젠킨스), 테너(행크 모블리)로 이어지는 3 호른 체제는 5인조 퀸텟이 도달할 수 없는 오케스트라적인 풍성함을 선사한다. 모블리가 직접 편곡한 테마 라인에서 세 악기는 각기 다른 옥타브와 대위법적 층위를 형성하며 리드미컬하게 맞물린다. 젠킨스의 거칠고 날카로운 탑 노트 사운드를 버드가 감싸 안고, 모블리가 베이스 라인 위에서 묵직하게 받쳐주는 구조적 짜임새가 훌륭하다.</div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>11/25/56</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1956 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+  <p class="p"><strong>1. 정통 3호른 하드 밥(Straight-Ahead Hard Bop)의 정수:</strong> 잼 세션 스타일의 무정형 연주를 지양하고, 도입부와 종지부를 철저하게 마이너 앙상블 편곡으로 통제하는 하드 밥 전성기 고유의 문법을 따른다. 블루스에 기반을 두면서도 세련된 도시적 모더니즘을 투영했다.</p>
+  <p class="p"><strong>2. 멜로딕 비밥(Melodic Bebop)으로의 진화:</strong> 격렬하고 속도감 넘치는 비밥의 연주 속도 속에서도 코드의 진행에만 매몰되지 않고, 한국인의 정서에도 직관적으로 와닿는 서정적인 선율미를 즉흥연주 속에 녹여내는 행크 모블리파 하드 밥의 출발점이다.</p>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 음악적 세부 분석</h2></div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1.2rem;font-family:'IBM Plex Mono',monospace;">※ Discogs 오리지널 미국 모노 12인치 LP 발매반 기준 트랙리스트입니다.</p>
+  <div class="tg">
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Touch and Go</span><span class="ttime">A1 · 1956.11.25</span></div>
+      <div class="ttag">작곡: Hank Mobley · 편성: 섹스텟</div>
+      <div class="tdesc">모블리의 탁월한 마이너 작곡 능력이 빛나는 오프닝 트랙. 긴장감 넘치고 각진 호른 섹션의 유니즌 테마가 도발적으로 전개되며, 리더인 모블리를 시작으로 도널드 버드, 존 젠킨스로 이어지는 솔로 자이언트들의 불꽃튀는 즉흥연주 대결이 하드 밥의 쾌감을 선사한다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Double Whammy</span><span class="ttime">A2 · 1956.11.25</span></div>
+      <div class="ttag">작곡: Hank Mobley · 편성: 섹스텟</div>
+      <div class="tdesc">경쾌하고 스윙감 넘치는 미디엄 템포의 하드 밥 넘버. 블루스적인 위트와 흥겨운 리듬 체인지가 돋보이며, 월터 비숍 주니어의 간결하고 톡톡 튀는 비밥 스타일 피아노 반주와 아트 테일러의 정교한 림샷 사운드가 솔로이스트들의 발걸음을 가볍게 만든다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Barrel of Funk</span><span class="ttime">B1 · 1956.11.25</span></div>
+      <div class="ttag">작곡: Hank Mobley · 편성: 섹스텟</div>
+      <div class="tdesc">제목 그대로 '펑크의 항아리'처럼 끈적하고 짙은 블루스 그루브를 듬뿍 담아낸 곡. 호레이스 실버 퀸텟의 테너맨 출신답게 모블리가 구현해낸 소울풀한 리듬 뱀프 위에서, 존 젠킨스의 거친 알토와 모블리의 부드러운 테너가 묘한 대비를 이루며 아프로-아메리칸의 정서를 토해낸다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Mobleymania</span><span class="ttime">B2 · 1956.11.25</span></div>
+      <div class="ttag">작곡: Hank Mobley · 편성: 섹스텟</div>
+      <div class="tdesc">자신의 이름을 내세운 업템포 비밥 잼 스타일의 고난도 곡. 숨 가쁘게 몰아치는 화성 진행 속에서 모든 관악기 주자들이 한 치의 양보도 없는 초고속 즉흥 라인을 뿜어내며, 드럼의 아트 테일러와 베이스의 더그 왓킨스가 보여주는 완벽한 타임 키핑이 압권이다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Pathos</span><span class="ttime">B3 · 1956.11.25</span></div>
+      <div class="ttag">작곡: Hank Mobley · 편성: 섹스텟</div>
+      <div class="tdesc">음반에서 가장 서정적이고 애잔한 무드를 자아내는 마이너 발라드 넘버. 모블리가 지닌 가슴 시린 멜로디 메이킹의 원형을 엿볼 수 있으며, 화려함을 걷어내고 한 음 한 음 정성스럽게 밀어 올리는 그의 테너 톤이 깊은 심상의 울림을 전달한다.</div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Vampire</span><span class="ttime">B4 · 1956.11.25</span></div>
+      <div class="ttag">작곡: Hank Mobley · 편성: 섹스텟 (Special Guest: Phineas Newborn Jr.)</div>
+      <div class="tdesc">당대 최고의 비르투오소 피아니스트 피니어스 뉴본 주니어가 전격 가세한 역사적 트랙. 질주하는 마이너 리듬 위에서 뉴본 주니어의 가공할 양손 옥타브 유니즌 피아노 솔로가 몰아치며 앨범 전체의 대미를 화려하고 짜릿하게 장식한다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+  <p class="p">BLP 1540은 블루노트의 역사에서 호레이스 실버의 BLP 1539와 리 모건의 초기 명작들 사이 가교 역할을 한다. 특히 알프레드 라이언이 행크 모블리라는 인물을 레이블의 '하우스 테너맨'을 넘어 독자적인 거물 작곡가 라인업으로 푸쉬하기 시작한 상징적 주소지다.</p>
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">BLP 1539</div>
+      <div class="pos-title">Horace Silver — Six Pieces of Silver</div>
+      <div class="pos-desc">실버 퀸텟의 소울풀한 대성공작. 본작인 BLP 1540 녹음 불과 보름 전에 완성되어 연속된 인적 라인업의 시너지를 발휘했다.</div>
+    </div>
+    <div class="pos-card" style="border:2px solid var(--blue-mid)">
+      <div class="pos-label">BLP 1540</div>
+      <div class="pos-title">Hank Mobley — Hank Mobley Sextet</div>
+      <div class="pos-desc">3호른 하드 밥 편곡의 교과서이자 모블리 자작곡의 매력이 한 장의 12인치 LP 안에 가장 촘촘하게 집약된 초기 대표작.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1541</div>
+      <div class="pos-title">Lee Morgan — Indeed!</div>
+      <div class="pos-desc">18세 천재 트럼페터 리 모건의 블루노트 화려한 데뷔작. 하드 밥의 세대교체와 새로운 폭발력을 예고하는 연작 타이틀이다.</div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 모블리의 리리시즘 정점 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치 및 프레싱 식별법</h2></div>
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--blue-dark);color:#fff">🇺🇸 미국 오리지널 첫 프레싱 (1957, 767 Lexington Ave)</div>
+      <div class="pbody">
+        <p><span class="pl">오리지널 초판 식별 가이드:</span> 오리지널 초판 레이블 주소는 <strong>"767 LEXINGTON AVE, NEW YORK"</strong>다. 데드왁스에 <strong>RVG</strong> 각인과 <strong>'이어(Ear)' 각인</strong>이 선명해야 한다. 양면 모두 깊고 둥근 <strong>딥 그루브(Deep Groove)</strong> 홈과 <strong>플랫 엣지(Flat Edge)</strong> 외경 마감이 완전한 초판 컬렉터 피스의 필수 조건이다.</p>
+        <p><span class="pl">희소성 및 시세:</span> 블루노트 1500번대 컬렉션 중에서도 유독 초판의 잔존 개체수가 매우 적은 타이틀 중 하나다. 디스크와 커버가 모두 완벽한 오리지널 NM 상태의 경우 컬렉터 경매 시장에서 최소 <strong>$1,200 - $2,500</strong>를 가볍게 넘나드는 초고가 표적 타이틀이다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 (핵심 요약 정리)</h2></div>
+  <div class="ln">
+    <div class="lns">1. '미들급 챔피언'의 사운드 정의</div>
+    <div class="lnb">당대 평론가 로버트 레빈(Robert Levin)은 라이너 노트를 통해 모블리의 톤을 과격하지 않고 정제된, 재즈사에서 가장 기분 좋은 '라운드 테너' 사운드로 규정했다. 그가 소니 롤린스와 차별화되는 서정적 지평을 열었음을 천명했다.</div>
+  </div>
+  <div class="ln">
+    <div class="lns">2. 전곡 자작곡에 담긴 편곡적 야심</div>
+    <div class="lnb">음반에 수록된 6곡 모두 모블리의 오리지널 컴포지션이라는 점에 주목하며, 그가 3개의 호른 섹션을 어떻게 대위법적으로 배치하고 긴장감을 조율했는지 음악학적으로 상세히 해설하고 있다.</div>
+  </div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 역사적 에피소드</h2></div>
+  <p class="p"><strong>1. Phineas Newborn Jr.의 번개 참여:</strong> 마지막 곡 "Vampire" 녹음 당일, 해켄색 스튜디오를 구경하러 우연히 놀러 왔던 피니어스 뉴본 주니어의 천재적인 재능을 아까워한 알프레드 라이언이 즉석에서 월터 비숍 대신 피아노 의자에 앉혀 녹음한 트랙이 바로 B4이다.</p>
+  <p class="p"><strong>2. Horace Silver의 그늘을 벗어난 독립 기념반:</strong> 모블리는 늘 실버의 편곡 틀 안에서 최고의 연주를 해왔으나, 본작을 통해 자신이 실버 못지않은 하드 밥의 위대한 아키텍트이자 리더가 될 수 있음을 대외적으로 공포했다.</p>
+</section>
 
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+  <p class="p"><strong>1. 컬렉터들의 종착역이자 드림 바이닐:</strong> 국내의 헤비 블루노트 바이닐 컬렉터들 사이에서 1540번 렉싱턴 초판은 돈이 있어도 매물이 없어 구하지 못하는 '유니콘' 같은 타이틀로 통하며, 소장 자체만으로 커뮤니티에서 엄청난 선망의 대상이 된다.</p>
+  <p class="p"><strong>2. 숨겨진 발라드 명곡 "Pathos"의 재발견:</strong> 국내 재즈 평론가들과 매니아층 사이에서 B면 3번 트랙인 "Pathos"는 한국인 특유의 서정적이고 애수 어린 마이너 정서와 완벽히 부합하는 하드 밥 최고의 숨은 발라드 명곡으로 숨겨져 전수되고 있다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
 </body>
 </html>
