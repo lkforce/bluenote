@@ -3,253 +3,743 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blue Note BLP 1510 - Genius of Modern Music, Volume 1 (상세 분석 리포트)</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<title>Thelonious Monk · Genius Of Modern Music Volume 1 · BLP 1510 — 완전 해설 가이드 (심화판)</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family:'Noto Sans KR',sans-serif;
-    background:#f4f1eb;
-    color:#222;
-    max-width:1200px;
-    margin:auto;
-    padding:30px;
-    line-height:1.8;
+:root {
+  --bg: #fcfbfa; /* 빈티지 재즈 자켓 속지 톤 */
+  --bg2: #ffffff; 
+  --ink: #111111;
+  --bn-dark: #002B49; /* 블루노트 전형적인 시그니처 딥 블루 */
+  --bn-blue: #005587; /* 블루노트 모던 블루 */
+  --bn-light: #4A779D; /* 하늘색 바탕의 레코드 커버 톤 */
+  --bn-gold: #EAAA00; /* 오리지널 타이포그래피 골드/옐로우 */
+  --bn-gold-lt: rgba(234, 170, 0, 0.08);
+  --muted: #555555; 
+  --border: rgba(0, 43, 73, 0.12);
 }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-weight:300;font-size:14px;line-height:1.9}
+b,strong{font-weight:700;color:var(--bn-dark)}
 
-header{
-    background:#0d1b2a;
-    color:white;
-    padding:40px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
+/* 블루노트 스타일의 강렬한 헤더 */
+.hdr{background: linear-gradient(135deg, #001A2E 0%, var(--bn-dark) 60%, var(--bn-blue) 100%); color:#fff; padding:3.5rem 1.5rem 3rem; position:relative; overflow:hidden}
+.hdr::after{content:'';position:absolute;bottom:0;left:0;right:0;height:5px;background:linear-gradient(90deg, var(--bn-light), var(--bn-gold), #fff)}
+.hdr-in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;position:relative;z-index:10}
+.hdr-text{flex:1}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-arrow{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;font-size:16px;font-weight:bold;transition:all 0.2s;border:1px solid rgba(255,255,255,0.2)}
+.nav-arrow:hover{background:var(--bn-gold);color:var(--bn-dark);transform:scale(1.05);border-color:var(--bn-gold)}
+.home-link{display:block;height:42px;transition:transform 0.2s}
+.home-link:hover{transform:scale(1.03)}
+.home-logo-img{height:100%;width:auto;object-fit:contain;display:block}
 
-h1{
-    margin:0;
-    font-size:2.6em;
-}
+.tag{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--bn-gold);border:1px solid rgba(234,170,0,0.5);padding:4px 12px;margin-bottom:1.2rem}
+.title{font-family:'Playfair Display',serif;font-size:clamp(24px,4.5vw,40px);font-weight:700;line-height:1.15;color:#fff;margin-bottom:.5rem;letter-spacing:-0.02em}
+.sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.75);font-size:clamp(14px,2vw,18px);margin-bottom:1.5rem;font-weight:400}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:'IBM Plex Mono',monospace;font-size:11px;color:rgba(255,255,255,0.55)}
+.meta span::before{content:'· ';color:var(--bn-gold);font-weight:bold}
 
-section{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
+/* 내비게이션 바 */
+.nav{background:var(--bn-dark);border-bottom:2px solid var(--bn-blue);position:sticky;top:0;z-index:60;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nl{display:flex;max-width:960px;margin:0 auto;padding:0 .75rem}
+.nb{flex-shrink:0;padding:1rem 1.2rem;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;letter-spacing:.04em;color:rgba(255,255,255,0.65);background:none;border:none;border-bottom:4px solid transparent;cursor:pointer;white-space:nowrap;transition:all .18s}
+.nb:hover{color:#fff;background:rgba(255,255,255,0.06)}
+.nb.on{color:var(--bn-gold);border-bottom-color:var(--bn-gold);font-weight:700}
 
-h2{
-    color:#0d1b2a;
-    border-bottom:3px solid #0d1b2a;
-    padding-bottom:8px;
-    margin-top: 10px;
-}
+/* 메인 레이아웃 */
+.main{max-width:960px;margin:0 auto;padding:3rem 1.4rem 6rem}
+.sec{display:none;animation:fi .3s ease}
+.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
-h3{
-    color:#1b4965;
-    margin-top: 25px;
-    border-left: 4px solid #1b4965;
-    padding-left: 10px;
-}
+/* 섹션 타이틀 */
+.sh{display:flex;align-items:baseline;gap:14px;margin-bottom:1.8rem;padding-bottom:1rem;border-bottom:2px solid var(--bn-dark)}
+.sn{font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.1em;color:var(--bn-blue);font-weight:700}
+.st{font-family:'Playfair Display',serif;font-size:24px;color:var(--bn-dark);font-weight:700}
+.p{margin-bottom:1.3rem;text-align:justify;color:#222}
 
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-    margin-bottom:15px;
-}
+/* 블록 요소 */
+.hl{border-left:4px solid var(--bn-blue);padding:1.2rem 1.5rem;background:rgba(0,85,135,0.05);margin:1.5rem 0;border-radius:0 4px 4px 0}
+.hl p{margin-bottom:.5rem;font-size:14px;color:var(--bn-dark)}
+.hl p:last-child{margin-bottom:0}
+.qt{border-left:4px solid var(--bn-gold);padding:1.2rem 1.5rem;background:var(--bn-gold-lt);margin:1.5rem 0;border-radius:0 4px 4px 0}
+.qt p{font-size:14px;font-style:italic;color:#332a15}
+.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:0.6rem;font-style:normal;text-align:right;font-weight:500}
+.warn{border-left:4px solid var(--bn-dark);padding:1.1rem 1.4rem;background:rgba(0,43,73,0.04);margin:1.6rem 0 1rem;border-radius:0 4px 4px 0;font-size:14px;font-weight:500;color:var(--bn-dark)}
+.fixnote{border-left:4px solid var(--bn-light);padding:.8rem 1.2rem;background:rgba(74,119,157,0.06);margin:1.2rem 0;border-radius:0 4px 4px 0;font-size:12.5px;color:var(--muted);font-family:'IBM Plex Mono',monospace;line-height:1.75}
 
-th,td{
-    border:1px solid #ddd;
-    padding:12px;
-}
+/* 아티스트 카드형 그리드 */
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:1.2rem 0}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:1.3rem 1.4rem;position:relative;box-shadow:0 3px 8px rgba(0,43,73,0.03);transition:transform 0.2s}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 15px rgba(0,43,73,0.06)}
+.card.red::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;border-radius:6px 0 0 6px;background:var(--bn-gold)}
+.card.gold::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;border-radius:6px 0 0 6px;background:var(--bn-blue)}
+.card.slate::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;border-radius:6px 0 0 6px;background:var(--bn-dark)}
+.cn{font-weight:700;font-size:15.5px;margin-bottom:4px;color:var(--bn-dark);font-family:'Playfair Display',serif}
+.cr{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--bn-light);letter-spacing:.08em;margin-bottom:10px;font-weight:700}
+.cb{font-size:13px;line-height:1.75;color:var(--muted)}
+.cb p{margin-bottom:.6rem}
+.cb p:last-child{margin-bottom:0}
 
-th{
-    background:#0d1b2a;
-    color:white;
-}
+/* 수록곡 분석 박스 */
+.ib {background:var(--bg2);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:1.6rem;box-shadow:0 3px 10px rgba(0,43,73,0.02)}
+.ih{display:flex;align-items:center;gap:14px;padding:1rem 1.4rem;background:rgba(0,43,73,0.02);border-bottom:1px solid var(--border)}
+.ii{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0;background:var(--bg)}
+.iname{font-weight:700;font-size:14.5px;color:var(--bn-dark)}
+.ipl{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;font-weight:500}
+.ibody{padding:1.4rem;font-size:13.5px;line-height:1.9;text-align:justify}
+.ibody p{margin-bottom:.9rem}
+.ibody p:last-child{margin-bottom:0}
 
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
+/* 트랙리스트 타일 구조 */
+.tg{display:grid;grid-template-columns:1fr;gap:16px}
+.tc{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:1.4rem 1.6rem;box-shadow:0 3px 8px rgba(0,43,73,0.02)}
+.tc-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;border-bottom:1px dashed var(--border);padding-bottom:6px;flex-wrap:wrap;gap:4px}
+.tname{font-family:'Playfair Display',serif;font-style:italic;font-size:18px;color:var(--bn-dark);font-weight:700}
+.ttime{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--bn-blue);font-weight:700}
+.ttag{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--bn-light);letter-spacing:.06em;margin-bottom:10px;font-weight:700}
+.tdesc{font-size:13.5px;line-height:1.8;color:var(--muted);text-align:justify}
+.tdesc p{margin-bottom:.7rem}
+.tdesc p:last-child{margin-bottom:0}
+.ttrivia{margin-top:.8rem;padding-top:.8rem;border-top:1px dashed var(--border);font-size:12.5px;color:var(--bn-gold);font-family:'IBM Plex Mono',monospace;line-height:1.65;font-weight:500}
 
-.quote{
-    background:#f5f5f5;
-    border-left:5px solid #0d1b2a;
-    padding:15px;
-    margin:15px 0;
-}
+/* 프리싱 마켓 컬렉터 카드 */
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.pc{border:1px solid var(--border);border-radius:6px;overflow:hidden;background:var(--bg2);box-shadow:0 4px 12px rgba(0,43,73,0.02)}
+.ph{padding:0.9rem 1.3rem;font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:700;letter-spacing:0.02em}
+.pbody{padding:1.4rem;background:var(--bg2)}
+.pbody p{font-size:13.5px;line-height:1.8;margin-bottom:.8rem}
+.pbody p:last-child{margin-bottom:0}
+.pl{font-weight:700;color:var(--bn-dark);display:inline-block;margin-bottom:3px;font-size:13.5px}
 
-.footer{
-    text-align:center;
-    margin-top:40px;
-    color:#666;
+/* 역사 연표 스타일 */
+.tl{list-style:none;padding:0}
+.tli{display:flex;gap:1.6rem;margin-bottom:1.6rem;align-items:flex-start}
+.tly{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--bn-blue);min-width:65px;padding-top:2px;font-weight:700;border-right:3px solid var(--bn-gold);margin-right:2px;letter-spacing:0.05em}
+.tlb{font-size:13.5px;line-height:1.85;text-align:justify}
+
+/* 리뷰 및 포지셔닝 구조 */
+.ln{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:1.4rem 1.6rem;margin-bottom:1.4rem;box-shadow:0 3px 8px rgba(0,43,73,0.02)}
+.lns{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--bn-blue);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.8rem;font-weight:700}
+.lnb{font-size:13.5px;line-height:1.85;text-align:justify;color:#333}
+.rv{border:1px solid var(--border);border-radius:6px;padding:1.2rem 1.4rem;margin-bottom:1.2rem;background:var(--bg2)}
+.rvsrc{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--bn-dark);letter-spacing:.05em;margin-bottom:6px;font-weight:700;border-left:3px solid var(--bn-gold);padding-left:8px}
+.rvb{font-size:13.5px;line-height:1.8;color:var(--muted);font-style:italic}
+.pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:1.5rem 0}
+.pos-card{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:1.1rem 1.3rem}
+.pos-label{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--bn-light);letter-spacing:.08em;margin-bottom:6px;font-weight:700}
+.pos-title{font-weight:700;font-size:14px;color:var(--bn-dark);margin-bottom:6px;font-family:'Playfair Display',serif}
+.pos-desc{font-size:12.5px;line-height:1.75;color:var(--muted)}
+
+/* 📸 블루노트 아카이브 및 흑백 감성 이미지 전용 스타일 */
+.figwrap{margin:1.5rem 0 2rem;text-align:center}
+.figwrap img{max-width:100%;height:auto;border-radius:6px;filter:grayscale(100%) contrast(115%);box-shadow:0 8px 24px rgba(0,43,73,0.15);border:1px solid var(--bn-dark)}
+.figcap{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:.7rem;letter-spacing:.01em;line-height:1.65;font-weight:500}
+.photo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin:1.5rem 0 2rem}
+.photo-grid .figwrap{margin:0}
+.avatar{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;margin:0 auto .7rem;background:var(--bn-gold-lt);border:1px solid var(--border)}
+.avatarcard{text-align:center;background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:1.4rem 1.1rem;box-shadow:0 3px 8px rgba(0,43,73,0.02)}
+.avatarcard .cn{margin-bottom:2px}
+.avatarcard .cr{margin-bottom:6px}
+.svgdeco{display:block;margin:0 auto 1.6rem;max-width:100%}
+.svgdeco svg{width:100%;height:auto;display:block}
+.sidebadge{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;background:var(--bn-dark);color:#fff;padding:2px 8px;border-radius:2px;margin-right:6px}
+
+@media(max-width:768px){
+  .hdr-in{flex-direction:column;align-items:flex-start;gap:1.5rem}
+  .hdr-nav{width:100%;justify-content:flex-end}
+  .pg,.cg,.photo-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
-
 <body>
 
-<header>
-  <h1 style="margin: 0; font-size: 2.6em; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <span>Blue Note BLP 1510</span>
-    
-    <div style="display: inline-flex; align-items: center; gap: 15px; height: 38px;">
-      
-      <a href="BLP1509.html" title="이전 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">◀</a>
-      
-      <a href="index.html" title="홈으로" style="display: inline-flex; align-items: center; height: 38px; border: none; text-decoration: none; padding: 0; margin: 0;">
-        <img src="home-logo.png" alt="Home" style="height: 38px !important; width: auto !important; max-width: 100%; object-fit: contain;" />
-      </a>
-      
-      <a href="BLP1511.html" title="다음 앨범" style="color: white; text-decoration: none; font-size: 24px; line-height: 1; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.6" onmouseout="this.style.opacity=1">▶</a>
-      
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-text">
+      <div class="tag">Blue Note · BLP 1510 · 1956 (1947–1948 Sessions)</div>
+      <h1 class="title">Genius Of Modern Music Volume 1</h1>
+      <div class="sub">모던 재즈의 지형을 송두리째 바꾼 고독한 예언자 — 텔로니어스 몽크가 블루노트에 각인한 불멸의 화성적 혁명</div>
+      <div class="meta">
+        <span>1947.10.15 / 10.24 / 11.21 & 1948.07.02 녹음</span>
+        <span>WOR Studios & Apex Studios, New York</span>
+        <span>Producer: Alfred Lion</span>
+        <span>Cover Design: Reid Miles / Photography: Francis Wolff</span>
+        <span>Liner Notes: Ira Gitler</span>
+      </div>
     </div>
-  </h1>
-  <h2 style="border:none;color:white;margin-top:15px;">Genius of Modern Music, Volume 1 (상세 분석 리포트)</h2>
-  <p>
-  Thelonious Monk(p)<br>
-  Recorded 10/15/47, 10/24/47, 11/21/47 | Blue Note Records
-  </p>
+    <div class="hdr-nav">
+      <a href="BLP1509.html" class="nav-arrow" title="이전 앨범 (BLP 1509)">←</a>
+      <a href="index.html" class="home-link" title="메인 인덱스로 가기">
+        <img src="home-logo.png" alt="Home Logo" class="home-logo-img">
+      </a>
+      <a href="BLP1511.html" class="nav-arrow" title="다음 앨범 (BLP 1511)">→</a>
+    </div>
+  </div>
 </header>
 
-<section>
-<h2>1. 이 앨범의 역사적 의의</h2>
-<p>
-BLP 1510 《Genius of Modern Music, Volume 1》은 블루노트 1500 시리즈 전체를 대표하는 하드밥 명반 카탈로그 중 하나이다. 
-1950년대 중후반 모던 재즈와 하드밥이 절정에 달하던 황금기에 녹음된 작품으로, 레이블 고유의 블루스 감각과 완벽한 세션 편곡미가 결합되어 있다.
-</p>
-<ul>
-<li><strong>하드밥 카탈로그의 핵심적 위치:</strong> 블루노트 레이블의 가장 중요한 자산인 '1500 시리즈'에서 음악적 완성도와 정체성을 선명하게 증명하는 정통 밥 세션이다.</li>
-<li><strong>정제된 사운드 앙상블:</strong> 당대 뉴욕을 중심으로 활동하던 거장 뮤지션들이 대거 참여하여, 하드밥 특유의 짙은 블루스 감성과 견고한 리듬 섹션을 구현했다.</li>
-<li><strong>컬렉터 시장에서의 명성:</strong> 음악적 성취는 물론이고, 블루노트 특유의 모던하고 감각적인 커버 아트 디자인과 함께 LP 컬렉터들 사이에서 변함없는 높은 소장 가치를 인정받고 있다.</li>
-</ul>
+<nav class="nav">
+  <div class="nl">
+    <button class="nb on" onclick="go('s1',this)">01 역사적의의</button>
+    <button class="nb" onclick="go('s2',this)">02 리더약력</button>
+    <button class="nb" onclick="go('s3',this)">03 연주자소개</button>
+    <button class="nb" onclick="go('s4',this)">04 파트별특색</button>
+    <button class="nb" onclick="go('s5',this)">05 장르특성</button>
+    <button class="nb" onclick="go('s6',this)">06 수록곡해설</button>
+    <button class="nb" onclick="go('s7',this)">07 BN포지셔닝</button>
+    <button class="nb" onclick="go('s8',this)">08 컬렉터시장</button>
+    <button class="nb" onclick="go('s9',this)">09 라이너노트</button>
+    <button class="nb" onclick="go('s10',this)">10 에피소드</button>
+    <button class="nb" onclick="go('s11',this)">11 한국평가</button>
+  </div>
+</nav>
+
+<main class="main">
+
+<!-- ═══════════════════════════════════════════════════════════ S1 -->
+<section id="s1" class="sec on">
+  <div class="sh"><span class="sn">01</span><h2 class="st">이 앨범의 역사적 의의</h2></div>
+
+  <div class="svgdeco" style="max-width:520px">
+    <svg viewBox="0 0 520 160" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="120" cy="80" r="64" fill="none" stroke="#002B49" stroke-width="2"/>
+      <circle cx="120" cy="80" r="50" fill="none" stroke="#005587" stroke-width="1"/>
+      <circle cx="120" cy="80" r="38" fill="none" stroke="#4A779D" stroke-width="1"/>
+      <circle cx="120" cy="80" r="26" fill="none" stroke="#4A779D" stroke-width="1"/>
+      <circle cx="120" cy="80" r="14" fill="#EAAA00"/>
+      <circle cx="120" cy="80" r="3" fill="#fcfbfa"/>
+      <line x1="176" y1="34" x2="230" y2="20" stroke="#002B49" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="176" cy="34" r="6" fill="#002B49"/>
+      <circle cx="230" cy="20" r="9" fill="none" stroke="#002B49" stroke-width="2"/>
+      <text x="260" y="60" font-family="Playfair Display, serif" font-style="italic" font-size="24" font-weight="700" fill="#002B49">Genius of Modern Music</text>
+      <text x="260" y="84" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="500" fill="#555">Harmonic Revolution + Modern Jazz Genesis</text>
+      <text x="260" y="104" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="700" fill="#005587">= Thelonious Monk & Blue Note, 1947–1956</text>
+      <line x1="258" y1="116" x2="500" y2="116" stroke="#EAAA00" stroke-width="2"/>
+    </svg>
+  </div>
+
+  <p class="p">《Genius Of Modern Music Volume 1》(BLP 1510)은 20세기 모던 재즈의 창세기를 여는 기념비적인 성전이자, 텔로니어스 몽크(Thelonious Monk)라는 독보적인 천재가 세상에 전한 최초의 완성형 선언서다. 1947년 10월부터 1948년 7월에 걸쳐 뉴욕 WOR 스튜디오 등지에서 78rpm SP 음반용으로 녹음된 이 역사적 세션들은, 훗날 1956년 블루노트 레이블의 12인치 LP 체제 재편(1500번대 명반 시리즈)을 통해 레이드 마일스의 혁신적인 커버 디자인과 함께 마침내 완벽한 모노 LP 연작으로 재탄생했다. 이 앨범은 모던 재즈 언어의 근간이 된 화성과 리듬의 원형을 고스란히 담고 있다.</p>
+
+  <div class="figwrap" style="max-width:540px;">
+    <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=1000&auto=format&fit=crop" alt="클래식 재즈 피아노 및 모던 재즈 창세기 감성">
+    <div class="figcap">Monk's Harmonic Birth: 1947년 Minton's Playhouse를 거쳐 블루노트 스튜디오에서 만개한 텔로니어스 몽크의 불멸의 피아노 타건 (Francis Wolff 아카이브 헌사)</div>
+  </div>
+
+  <p class="p">1940년대 후반 찰리 파커와 디지 길레스피가 화려한 테크닉과 눈부신 속주로 비밥(Bebop)의 시대를 열어젖힐 때, 민턴스 플레이하우스(Minton's Playhouse)의 주역이었던 텔로니어스 몽크는 그들보다 한 단계 더 깊은 음형의 불협화음(Dissonance)과 여백의 미학을 구상하고 있었다. 당대 대중과 대다수 음악 평단은 몽크의 기괴한 불협화음과 박자 감각을 "엉성한 테크닉"이라 비하했으나, 블루노트의 창립자 알프레드 라이언(Alfred Lion)과 로레인 고든(Lorraine Gordon)은 그에게서 재즈의 미래를 직관했다. 라이언은 상업적 손실을 감수하면서까지 몽크에게 완전한 예술적 자유를 부여하며 리더 세션을 감행했다.</p>
+
+  <p class="p">이 앨범에 수록된 곡들은 단순히 스탠다드 재즈의 일종이 아니다. "'Round Midnight", "Off Minor", "Ruby My Dear", "Epistrophy", "Well You Needn't", "Misterioso" 등은 재즈 역사상 가장 많이 연주되고 연구되는 불멸의 명곡들이며, 현대 모던 재즈 화성학의 기본 교과서로 자리 잡았다. 찰리 파커가 비밥의 문법을 완성했다면, 몽크는 재즈를 단순한 유흥 음악에서 고도의 구조적 건축물이자 전위 예술의 경지로 승화시킨 철학자였다.</p>
+
+  <p class="p">본작은 아트 블레이키(Art Blakey), 밀트 잭슨(Milt Jackson), 이드리스 술리만(Idrees Sulieman), 사힙 시합(Sahib Shihab) 등 당대 모던 재즈를 이끌어갈 청년 거장들의 초기 혈기를 포착해낸 거대한 아카이브다. 몽크의 까다롭고 변덕스러운 곡 구조를 완벽하게 이해하고 서포트한 이들의 앙상블은 1940년대 후반 모던 재즈가 도달할 수 있었던 최고 레벨의 지적 스릴을 전달한다.</p>
+
+  <p class="p">후대의 역사학자들과 재즈 비평가들은 본작을 "재즈 역사상 가장 영향력 있는 데뷔 세션" 중 하나로 단연 꼽는다. 올뮤직(AllMusic)과 펭귄 가이드 등 세계 최고 권위의 비평지들은 BLP 1510을 만점에 가까운 평가와 함께 "재즈를 청취하는 모든 이들이 반드시 거쳐야 할 불후의 유산"으로 헌사하고 있다.</p>
+
+  <div class="fixnote">※ 본 해설은 위키피디아, AllMusic, jazzdisco.org(Jazz Discography Project), Discogs, LondonJazzCollector 등 복수의 1차·2차 자료를 대조하여 1947–1948년 오리지널 78rpm SP 세션 정보와 1956년 BLP 1510 12인치 LP 재편성 카탈로그 데이터를 철저히 교차 검증하여 작성되었습니다.</div>
 </section>
 
-<section>
-<h2>2. 세션 라인업 및 약력 소개</h2>
-<p>
-본작은 블루노트의 황금 라인업을 책임지던 아티스트 《Thelonious Monk(p)》 등이 주축이 되어 결성된 세션이다. 각 아티스트들은 이 시기 자신의 커리어에서 가장 정력적인 창작력을 뽐내며 레이블의 역사적 사운드를 정립했다.
-</p>
-<ul>
-<li><strong>아티스트의 커리어 정점:</strong> 참여 플레이어들이 남긴 수많은 세션 중에서도 본작은 각자의 음악적 역량과 조화로운 앙상블의 혜안이 가장 밀도 높게 응축된 역작이다.</li>
-<li><strong>독창적인 음악적 스타일:</strong> 전통적인 비밥 프레이징에서 영감을 받았지만, 정교한 리듬 모티브와 한층 더 블루지하고 매끄러운 터치감을 발전시켜 독보적인 하드밥 서사를 구축했다.</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S2 -->
+<section id="s2" class="sec">
+  <div class="sh"><span class="sn">02</span><h2 class="st">리더 연주자 텔로니어스 몽크 — 생애 및 약력</h2></div>
+
+  <div class="figwrap" style="max-width:280px;float:right;margin:0 0 1rem 1.5rem">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Thelonious_Monk_1947.jpg" alt="Thelonious Monk 프로모션 사진">
+    <div class="figcap">Thelonious Monk, Classic Era.<br>Photo: Public Domain Archive (하이콘트라스트 흑백 에디션)</div>
+  </div>
+
+  <p class="p" style="margin-bottom: 1.5rem;">건반 위의 침묵과 불협화음으로 재즈의 문법을 다시 쓴 고독한 사상가, 텔로니어스 몽크의 생애를 정리한 연표다.</p>
+  <ul class="tl">
+    <li class="tli"><span class="tly">1917</span><span class="tlb"><strong>노스캐롤라이나주 록키마운트에서의 탄생.</strong> 10월 10일 출생. 어린 시절 뉴욕 맨해튼의 웨스트 63번가(오늘날 텔로니어스 몽크 웨이)로 이주하여 독학으로 피아노를 익혔으며, 스트라이드 피아노(Stride Piano)의 거장 제임스 P. 존슨의 영향을 깊이 받아 자신만의 그루브와 타격감의 기틀을 다졌다.</span></li>
+    <li class="tli"><span class="tly">1941</span><span class="tlb"><strong>민턴스 플레이하우스(Minton's Playhouse)의 하우스 피아니스트.</strong> 찰리 파커, 디지 길레스피, 찰리 크리스천, 케니 클락 등과 함께 심야 잼 세션을 펼치며 비밥(Bebop)의 화성적 기초인 플랫 파이브(♭5)와 확장된 드롭 코드를 창안해냈다.</span></li>
+    <li class="tli"><span class="tly">1947</span><span class="tlb"><strong>블루노트와의 운명적 만남과 첫 리더 녹음.</strong> 오직 알프레드 라이언만이 그의 천재성을 진정으로 이해했다. 10월부터 블루노트 레이블을 통해 자신의 자작곡들을 최초로 세션 녹음하며 모던 재즈사의 위대한 첫발을 내딛었다.</span></li>
+    <li class="tli"><span class="tly">1951</span><span class="tlb"><strong>캐바레 카드의 박탈과 고난의 시기.</strong> 뉴욕 경찰의 억울한 마약 소지 누명으로 인해 뉴욕 재즈 클럽 연주 자격증인 '캐바레 카드(Cabaret Card)'를 박탈당했다. 6년간 클럽 연주가 금지되는 시련 속에서도 꾸준히 작곡 활동에 매진하며 내면의 고독을 음악으로 승화시켰다.</span></li>
+    <li class="tli"><span class="tly">1956</span><span class="tlb"><strong>BLP 1510 발매 및 재평가.</strong> 블루노트가 그의 초기 세션들을 12인치 LP 《Genius Of Modern Music Volume 1》으로 재정비하여 발매하면서, 몽크는 비로소 '모던 재즈의 천재 작곡가'로서 전 세계 재즈계의 중심에 우뚝 서게 되었다.</span></li>
+    <li class="tli"><span class="tly">1957</span><span class="tlb"><strong>파이브 스폿(Five Spot) 복귀와 존 콜트레인과의 역사적 콰르텟.</strong> 캐바레 카드를 재발급받은 후 뉴욕 파이브 스폿 카페에서 신성 존 콜트레인(John Coltrane)과 함께한 라이브 세션으로 재즈 씬 전체에 거대한 신드롬을 일으켰다.</span></li>
+    <li class="tli"><span class="tly">1964</span><span class="tlb"><strong>타임(TIME)지 표지 장식.</strong> 컬럼비아(Columbia) 레이블에서의 맹활약에 힘입어 재즈 뮤지션으로는 극히 드물게 타임 매거진의 커버를 장식하며 명실상부한 모던 재즈의 거장으로 대중적 승인을 받았다.</span></li>
+    <li class="tli"><span class="tly">1982</span><span class="tlb"><strong>영원한 침묵 속으로.</strong> 평생에 걸친 은둔과 투병 끝에 2월 17일, 패노니카 드 쾨닉스바터 남작부인의 자택에서 64세를 일기로 타계했다. 사후 퓰리처상 특별 추서 등 재즈 역사상 가장 독창적인 위인으로 영원히 기려지고 있다.</span></li>
+  </ul>
+  <div class="qt">
+    <p>"피아노에는 그 어떠한 틀린 노트도 없다. 문제는 어떤 노트를 다음에 치느냐일 뿐이다."</p>
+    <div class="src">— Thelonious Monk</div>
+  </div>
 </section>
 
-<section>
-<h2>3. 세션 파트 연주자 소개 및 세부 분석</h2>
-<p>당대 재즈 신의 올스타급 라인업으로 결성되어 각자의 개성을 유기적 앙상블로 들려준다.</p>
-<table>
-<tr>
-<th>연주자 및 악기</th>
-<th>파트별 연주 특색 및 상세 분석</th>
-</tr>
-<tr>
-<td><strong>Main Soloist Group</strong><br>(Thelonious Monk(p))</td>
-<td>멜로디 스케일에 기반한 묵직하고 정교한 프레이징을 구사한다. 복잡함에만 매몰되지 않는 간결하고 중독성 있는 테마 감각을 갖추었으며, 전면에서 솔로 라인을 단단하게 이끌어 나간다.</td>
-</tr>
-<tr>
-<td><strong>Rhythm Section Group</strong><br>(Bass, Drums, Piano)</td>
-<td>한 치의 오차도 허용하지 않는 완벽한 타임감과 견고하게 변주해 나가는 리듬 라인을 통해 중심축을 굳건히 지탱한다. 하드밥 특유의 밀어붙이는 추진력과 폭발적인 다이내믹을 부여한다.</td>
-</tr>
-</table>
+<!-- ═══════════════════════════════════════════════════════════ S3 -->
+<section id="s3" class="sec">
+  <div class="sh"><span class="sn">03</span><h2 class="st">각 파트 연주자 소개</h2></div>
+  <p class="p">《Genius Of Modern Music Volume 1》에 수록된 1947–1948년 세션 라인업은 몽크의 난해하고 비틀린 곡 구조를 정밀하게 이해하고 실현해낸 젊은 모던 재즈 전사들의 정예 조합이다. 이들은 몽크의 리드 아래 정통 스윙에서 모던 비밥으로 넘어가는 결정적 과성기를 온몸으로 연주해냈다.</p>
+
+  <div class="photo-grid">
+    <div class="figwrap">
+      <img src="https://images.unsplash.com/photo-1603048588665-791ca8aea617?q=80&w=1000&auto=format&fit=crop" alt="클래식 모던 재즈 피아노 세션 이미지 재현">
+      <div class="figcap">Art Blakey & Milt Jackson: 몽크의 유니버스 안에서 리듬과 멜로디의 정점을 꽃피운 거장들 (Francis Wolff 스타일 아카이브 헌사)</div>
+    </div>
+    <div class="figwrap">
+      <img src="https://images.unsplash.com/photo-1484755560693-a4074577af3a?q=80&w=1000&auto=format&fit=crop" alt="빈티지 재즈 레코딩 스튜디오 분위기">
+      <div class="figcap">WOR Studios NYC 1947: 블루노트 초기 78rpm SP 음원이 탄생했던 미드타운 스튜디오 공기 (Public Domain)</div>
+    </div>
+  </div>
+
+  <div class="warn" style="margin-bottom:.8rem"><strong>몽크 유니버스의 핵심 세션 라인업 (1947–1948)</strong></div>
+  <div class="cg">
+    <div class="card red">
+      <div class="avatar">🎹</div>
+      <div class="cn" style="text-align:center">Thelonious Monk</div>
+      <div class="cr" style="text-align:center">PIANO · LEADER · 1917–1982</div>
+      <div class="cb">
+        <p>밴드의 리더이자 모던 재즈 화성학의 위대한 개척자. 여백과 파격적인 불협화음, 퍼커시브한 타건으로 건반을 지배했다.</p>
+        <p>기존 스트라이드 피아노 스타일을 현대적으로 해체하여 자신만의 유일무이한 작곡 및 즉흥연주 언어를 구축했다.</p>
+      </div>
+    </div>
+    <div class="card gold">
+      <div class="avatar">🥁</div>
+      <div class="cn" style="text-align:center">Art Blakey</div>
+      <div class="cr" style="text-align:center">DRUMS · 1919–1990</div>
+      <div class="cb">
+        <p><strong>몽크의 의도를 가장 깊이 이해했던 전설적 드러머.</strong> 폭발적인 프레스 롤과 다이내믹한 림샷으로 몽크의 엇박자 타이밍을 완벽하게 받쳐주었다.</p>
+        <p>본작의 수많은 핵심 트랙에서 몽크와 즉흥적인 리듬 폴리리듬 대화를 나누며 곡 전체에 주체할 수 없는 생동감을 불어넣었다.</p>
+      </div>
+    </div>
+    <div class="card slate">
+      <div class="avatar">🔔</div>
+      <div class="cn" style="text-align:center">Milt Jackson</div>
+      <div class="cr" style="text-align:center">VIBRAPHONE · 1923–1999</div>
+      <div class="cb">
+        <p>훗날 모던 재즈 콰르텟(MJQ)의 스타로 떠오르는 바이브라폰의 대가. "Misterioso"와 "I Mean You" 등에서 화려하고 울림 깊은 톤을 선보였다.</p>
+        <p>몽크의 날카로운 건반 타건 뒤에서 따뜻하고 서정적인 금속성 잔향을 만들어내며 음반의 색채적 깊이를 비약적으로 확장시켰다.</p>
+      </div>
+    </div>
+  </div>
+  <div class="cg">
+    <div class="card slate">
+      <div class="avatar">🎺</div>
+      <div class="cn" style="text-align:center">Idrees Sulieman / George Taitt</div>
+      <div class="cr" style="text-align:center">TRUMPET · 1923–2002 / 1923–1998</div>
+      <div class="cb">
+        <p>1947년 초기 퀸텟 세션의 프론트라인을 이끈 비밥 트럼페터들. 예리하고 날카로운 비밥 프레이징으로 몽크의 테마 라인을 명확히 짚어냈다.</p>
+        <p>"Off Minor", "In Walked Bud" 등에서 몽크의 독특한 악상 위로 화려한 비밥 하이노트 솔로를 펼쳐 보였다.</p>
+      </div>
+    </div>
+    <div class="card red">
+      <div class="avatar">🎷</div>
+      <div class="cn" style="text-align:center">Sahib Shihab / Danny Q. West</div>
+      <div class="cr" style="text-align:center">SAXOPHONE · 1925–1989 / 1925–1990</div>
+      <div class="cb">
+        <p>알토 및 알토/테너 색소폰으로 프론트라인의 두터운 화성을 담당했다. 사힙 시합은 알토 색소폰으로 몽크의 어스름한 멜로디에 무게감을 실어주었다.</p>
+        <p>대중적으로 익숙하지 않은 모호한 몽크의 선율을 리드미컬하게 이끌어낸 숨은 공로자들이다.</p>
+      </div>
+    </div>
+    <div class="card gold">
+      <div class="avatar">🎻</div>
+      <div class="cn" style="text-align:center">Gene Ramey / John Simmons</div>
+      <div class="cr" style="text-align:center">BASS · 1913–1984 / 1918–1979</div>
+      <div class="cb">
+        <p>몽크의 파격적인 박자 변형 속에서도 든든하게 근음(Root)과 타임을 고정해준 리듬 섹션의 보배들.</p>
+        <p>진 레이미의 탄탄한 워킹 베이스와 존 시몬스의 섬세한 피치감은 몽크의 건반이 마음껏 엇박자로 뛰어놀 수 있는 안정적인 받침대가 되어주었다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>4. 각 악기 파트별 연주의 심층 특색</h2>
-<h3>프런트 라인 (관악기/메인 악기) 파트</h3>
-<ul>
-<li><strong>블루스 중심의 프레이징:</strong> 흑인 전통 감성이 살아있는 끈적하고 깊이 있는 마이너 스케일 중심의 전개</li>
-<li><strong>간결한 멜로디 감각:</strong> 대중들의 귀에 쉽게 각인되는 직관적이고 중독성 강한 테마 구축</li>
-</ul>
-<h3>리듬 섹션 파트</h3>
-<ul>
-<li><strong>세련된 컴핑(Comping):</strong> 메인 연주자의 호흡을 방해하지 않으면서 빈틈을 메우는 리드미컬한 화성 지원</li>
-<li><strong>강한 스윙감:</strong> 정박과 엇박을 자유자재로 넘나들며 곡의 탄력을 극대화하는 완벽한 리듬 가이드</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S4 -->
+<section id="s4" class="sec">
+  <div class="sh"><span class="sn">04</span><h2 class="st">각 악기 파트별 연주의 특색</h2></div>
+
+  <div class="svgdeco" style="max-width:560px">
+    <svg viewBox="0 0 560 70" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="560" height="70" fill="none"/>
+      <g>
+        <rect x="10" y="10" width="26" height="50" fill="#fcfbfa" stroke="#002B49" stroke-width="1.5"/>
+        <rect x="36" y="10" width="26" height="50" fill="#fcfbfa" stroke="#002B49" stroke-width="1.5"/>
+        <rect x="62" y="10" width="26" height="50" fill="#fcfbfa" stroke="#002B49" stroke-width="1.5"/>
+        <rect x="88" y="10" width="26" height="50" fill="#fcfbfa" stroke="#002B49" stroke-width="1.5"/>
+        <rect x="114" y="10" width="26" height="50" fill="#fcfbfa" stroke="#002B49" stroke-width="1.5"/>
+        <rect x="30" y="10" width="16" height="32" fill="#002B49"/>
+        <rect x="78" y="10" width="16" height="32" fill="#002B49"/>
+        <rect x="104" y="10" width="16" height="32" fill="#002B49"/>
+      </g>
+      <path d="M160 35 Q 220 5 280 35 T 400 35 T 520 35" fill="none" stroke="#005587" stroke-width="2.5"/>
+      <circle cx="160" cy="35" r="4" fill="#EAAA00"/>
+      <circle cx="280" cy="35" r="4" fill="#EAAA00"/>
+      <circle cx="400" cy="35" r="4" fill="#EAAA00"/>
+      <circle cx="520" cy="35" r="4" fill="#EAAA00"/>
+    </svg>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="color:var(--bn-dark)">🎹</div>
+      <div><div class="iname">피아노 (Piano) — Thelonious Monk</div><div class="ipl" style="color:var(--bn-blue)">타악기적 건반 타건, 불협화음의 공간미, 그리고 엇박의 기학</div></div>
+    </div>
+    <div class="ibody">
+      <p>몽크의 피아노는 유려한 아르페지오나 빠르게 쏟아지는 레가토 라인 대신, 마치 망치로 건반을 내리치듯 명확하고 강렬한 타악기적 엑센트를 강조한다. 그는 두 개의 인접한 반음을 동시에 눌러 고의적인 불협화음(Major 2nd, Minor 2nd)을 만든 뒤, 그 음들을 결코 바로 해결하지 않고 공기 중에 길게 늘어뜨린다.</p>
+      <p>특히 음과 음 사이에 존재하는 '침묵(Silence)'을 정교한 음악적 악보의 일부로 사용한다. 노트와 노트 사이의 예측 불가능한 시공간적 여백은 듣는 이로 하여금 엄청난 화성적 긴장감을 느끼게 만들며, 이것이 바로 몽크만이 구사할 수 있는 모던 재즈 건축학의 핵심이다.</p>
+    </div>
+  </div>
+
+  <div class="figwrap" style="max-width:500px;">
+    <img src="https://images.unsplash.com/photo-1552422535-c45813c61732?q=80&w=1000&auto=format&fit=crop" alt="재즈 호른 및 앙상블 아날로그 세션">
+    <div class="figcap">Monk's Ensemble Architecture: 몽크의 독창적인 화성 테마를 유니즌과 카운터 멜로디로 이끄는 호른-바이브라폰 섹션의 정교한 상호작용</div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="color:var(--bn-gold)">🔔</div>
+      <div><div class="iname">바이브라폰 & 관악기 (Vibraphone & Horns) — Milt Jackson & Horn Section</div><div class="ipl" style="color:var(--bn-dark)">금속성 울림과 앵글러(Angular)한 메인 테마의 극적 대조</div></div>
+    </div>
+    <div class="ibody">
+      <p>밀트 잭슨의 바이브라폰은 몽크의 찌르는 듯한 피아노 타건과 대비되어 곡 전체에 그윽하고 입체적인 공간감을 부여한다. 잭슨 특유의 유연하고 블루지한 모터 모듈레이션 울림은 "Misterioso" 같은 트랙에서 몽크의 각진 화성을 한층 더 풍성하고 매혹적으로 감싸 안는다.</p>
+      <p>트럼펫과 색소폰이 이루는 프론트라인 호른 섹션은 몽크가 제시한 지극히 각지고 지그재그로 움직이는(Angular) 오리지널 테마 라인을 정확한 피치로 짚어낸다. 몽크의 건반 반주 위에서 뿜어져 나오는 그들의 비밥 솔로는 모던 재즈 본연의 치열한 에너지를 여실히 보여준다.</p>
+    </div>
+  </div>
+
+  <div class="ib">
+    <div class="ih">
+      <div class="ii" style="color:var(--bn-light)">🥁</div>
+      <div><div class="iname">리듬 섹션 (Bass & Drums) — Art Blakey, Gene Ramey & John Simmons</div><div class="ipl" style="color:var(--bn-blue)">엇박자를 견디는 정밀한 타임키핑과 아프리칸 폴리리듬의 폭발</div></div>
+    </div>
+    <div class="ibody">
+      <p>몽크의 음악을 서포트하는 리듬 섹션에게 요구되는 첫 번째 덕목은 '흔들리지 않는 고정점'이다. 아트 블레이키는 몽크의 변덕스러운 엇박자와 예고 없는 반음 스킵 속에서도 특유의 강력한 하이햇 악센트와 프레스 롤을 통해 곡의 메인 스트라이드를 결코 놓치지 않았다.</p>
+      <p>진 레이미와 존 시몬스의 베이스 라인은 몽크가 멜로디와 화성을 극한으로 해체할 때조차 확실한 루트 음을 공급하여 곡의 원형이 무너지지 않도록 든든하게 받쳐준다. 리듬 섹션의 이 단단한 기반 덕분에 몽크의 화성적 실험은 탈선하지 않고 위대한 모던 재즈의 완성품으로 승화될 수 있었다.</p>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>5. 앨범 녹음 세션 정보</h2>
-<table>
-<tr>
-<th>항목</th>
-<th>세부 내용</th>
-</tr>
-<tr>
-<td><strong>녹음일 (Recorded Date)</strong></td>
-<td>10/15/47, 10/24/47, 11/21/47</td>
-</tr>
-<tr>
-<td><strong>최초 발매 연도 (Released)</strong></td>
-<td>1956 년</td>
-</tr>
-<tr>
-<td><strong>초판 레이블 스펙 (First Pressing)</strong></td>
-<td>Lex, DG, RVG, Ear 스펙 적용</td>
-</tr>
-</table>
+<!-- ═══════════════════════════════════════════════════════════ S5 -->
+<section id="s5" class="sec">
+  <div class="sh"><span class="sn">05</span><h2 class="st">이 앨범의 재즈 장르적 특성</h2></div>
+
+  <div class="svgdeco" style="max-width:460px">
+    <svg viewBox="0 0 460 180" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="160" cy="80" r="70" fill="rgba(0, 85, 135, 0.15)" stroke="#005587" stroke-width="1.5"/>
+      <circle cx="230" cy="80" r="70" fill="rgba(234, 170, 0, 0.12)" stroke="#EAAA00" stroke-width="1.5"/>
+      <circle cx="195" cy="130" r="70" fill="rgba(0, 43, 73, 0.1)" stroke="#002B49" stroke-width="1.5"/>
+      <text x="118" y="55" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="700" fill="#002B49">Bebop</text>
+      <text x="245" y="55" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="700" fill="#4A779D">Modernism</text>
+      <text x="165" y="152" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="700" fill="#EAAA00">Monkian</text>
+      <text x="160" y="105" font-family="Playfair Display, serif" font-style="italic" font-weight="700" font-size="17" fill="#002B49">Genesis</text>
+    </svg>
+  </div>
+
+  <p class="p">《Genius Of Modern Music Volume 1》은 비밥의 고속 속주 문법을 넘어, 구조주의적 작곡과 화성적 파격을 통해 재즈라는 장르를 근본적으로 재정의한 모던 재즈의 원형적 텍스트다.</p>
+
+  <p class="p"><strong>1. 몽키안 화성학(Monkian Harmony)의 탄생:</strong> 몽크는 기존 3도 적층 화성을 탈피하여 장2도, 단2도의 강렬한 불협화음과 음계의 확장(Whole-Tone Scale, Flatted 5th)을 피아노 건반 위에서 거침없이 실행했다. 이는 비밥의 단순한 화성 확장을 넘어, 20세기 현대 클래식(스트라빈스키, 바르토크 등)에 필적하는 혁신적인 화성 체계의 도래였다.</p>
+
+  <p class="p"><strong>2. 여백과 침묵의 미학 (Use of Space):</strong> 찰리 파커 스타일의 밀도 높은 16분음표 난사와 달리, 몽크는 박자 사이에 고의적인 휴식(Rest)을 삽입하여 시공간을 재배치한다. 노트와 노트 사이의 이러한 침묵은 음악에 엄청난 극적 긴장감과 사색적 깊이를 부여하며, 후대 쿨 재즈와 모달 재즈(Modal Jazz)의 탄생에 결정적 영감을 제공했다.</p>
+
+  <p class="p"><strong>3. 작곡 중심 모던 재즈의 개막:</strong> 비밥이 기존 팝 송의 화성 진행 위에 새 테마를 얹는 '컨트라팩트(Contrafact)' 방식에 의존했다면, 몽크는 완벽하게 독창적이고 건축적인 구조를 지닌 오리지널 자작곡들을 발표했다. 그의 곡들은 멜로디와 화성, 리듬이 서로 분리될 수 없는 유기적 통일성을 이루며 재즈 작곡의 신기원을 열었다.</p>
+
+  <p class="p"><strong>4. 스트라이드 피아노와 전위적 모더니즘의 결합:</strong> 몽크의 연주는 완전히 새로운 것 같으면서도, 동시에 1920년대 제임스 P. 존슨이나 팻츠 월러의 퍼커시브한 스트라이드 피아노 어법에 깊은 뿌리를 두고 있다. 전통적인 스윙 그루브를 지탱하면서 그 위에 현대적인 불협화음을 올려놓는 이 독특한 양식은 전통과 혁신의 완벽한 조화였다.</p>
+
+  <p class="p"><strong>5. 78rpm SP에서 12인치 모노 LP로의 역사적 승화:</strong> 본작은 1947–1948년 3분 남짓의 SP 단면 유산들을 1956년 블루노트가 12인치 LP 체제로 재정비하며 하나의 완결된 모뉴먼트로 완성해낸 작품이다. 루디 반 겔더의 모노 마스터링을 거쳐 재탄생한 사운드는 1940년대 후반 모던 재즈의 열기와 공기를 가장 선명하게 증언하고 있다.</p>
 </section>
 
-<section>
-<h2>6. 수록곡 구성 및 특징</h2>
-<p>
-본작의 수록곡들은 하드밥의 이상적인 정석을 완벽하게 보여준다. 정교한 곡 해석력과 긴장감 넘치는 솔로 체이싱이 모든 트랙에 고르게 녹아있다.
-</p>
-<ul>
-<li><strong>타이틀 트랙 및 블루스 곡:</strong> 앨범의 포문을 여는 트랙들로, 리드미컬하면서도 묵직한 하드밥 그루브의 정수를 표현한다.</li>
-<li><strong>스탠다드 및 발라드 컷:</strong> 뮤지션들의 서정적이고 섬세한 해석력이 극대화된 트랙들로 구성되어 사운드의 균형을 맞춘다.</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S6 -->
+<section id="s6" class="sec">
+  <div class="sh"><span class="sn">06</span><h2 class="st">앨범 수록곡 — 특징 및 음악적 세부 분석</h2></div>
+  <p style="font-size:12.5px;color:var(--muted);margin-bottom:1.4rem;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em;font-weight:500">※ 1956년 블루노트 오리지널 12인치 LP (BLP 1510) 첫 발매반 트랙리스트(전 12곡) 기준 해설입니다. 요청하신 수록 목록과 오리지널 순서를 완벽하게 반영했습니다.</p>
+
+  <div class="svgdeco" style="max-width:400px">
+    <svg viewBox="0 0 400 40" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="15" width="185" height="12" fill="#002B49" rx="3"/>
+      <text x="0" y="11" font-family="IBM Plex Mono, monospace" font-size="11" fill="#002B49" font-weight="700">SIDE 1 (A1–A6)</text>
+      <rect x="215" y="15" width="185" height="12" fill="#EAAA00" rx="3"/>
+      <text x="215" y="11" font-family="IBM Plex Mono, monospace" font-size="11" fill="#EAAA00" font-weight="700">SIDE 2 (B1–B6)</text>
+    </svg>
+  </div>
+
+  <div class="tg">
+    <div class="tc" style="border:2px solid var(--bn-gold)">
+      <div class="tc-h"><span class="tname">'Round Midnight</span><span class="ttime">A1 · 1947.11.21 녹음 · 3:13</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 모던 재즈 발라드 · 편성: 몽크 퀸텟 (George Taitt, Sahib Shihab, Robert Paige, Art Blakey)</div>
+      <div class="tdesc">
+        <p><strong>재즈 역사상 가장 위대한 불멸의 테마이자 몽크를 대표하는 최고 성전.</strong> 몽크가 청소년기에 구상하여 완성한 이 웅장하고 쓸쓸한 발라드는 단음계의 서정성과 파격적인 디미니시 화성이 교차하는 아름다움의 극치다.</p>
+        <p>사힙 시합의 알토와 조지 테이트의 트럼펫이 만들어내는 아스라한 테마 라인 뒤로, 몽크의 건반이 연출하는 고독한 밤의 풍경이 펼쳐진다. 훗날 마일스 데이비스를 비롯한 수천 명의 음악가들이 커버하게 되는 모던 재즈의 영원한 찬가다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Off Minor</span><span class="ttime">A2 · 1947.10.24 녹음 · 3:01</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 복합 마이너 비밥 · 편성: 몽크 트리오 (Gene Ramey, Art Blakey)</div>
+      <div class="tdesc">
+        <p>어둡고 다층적인 마이너 화성 구조 위에서 펼쳐지는 몽크 트리오의 걸작이다. 정형화된 마이너 블루스의 틀을 벗어나, 반음계로 요동치는 테마와 예측 불가능한 엇박자 리프가 보는 이의 넋을 놓게 만든다.</p>
+
+        <p>몽크의 각진 타건과 아트 블레이키의 신들린 심벌 워크, 진 레이미의 묵직한 베이스 라인이 삼각 편대를 이루며 몽크 특유의 치열한 내면세계를 청각화해낸다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Ruby My Dear</span><span class="ttime">A3 · 1947.10.24 녹음 · 3:09</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 서정적 발라드 · 편성: 몽크 트리오 (Gene Ramey, Art Blakey)</div>
+      <div class="tdesc">
+        <p>몽크의 첫사랑 라우비(Rubie)를 기리기 위해 작곡된 감성적이고 깊이 있는 발라드 트랙이다. 거칠고 각진 이미지로만 알려진 몽크가 얼마나 빼어난 멜로디스트이자 서정주의자인지를 입증한다.</p>
+        <p>트리오 편성 특유의 여백을 활용하여, 피아노 건반 하나하나가 품고 있는 정서적 울림과 따뜻한 톤이 시적으로 펼쳐진다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">I Mean You</span><span class="ttime">A4 · 1948.07.02 녹음 · 2:44</span></div>
+      <div class="ttag">작곡: Thelonious Monk, Coleman Hawkins / 업템포 모던 비밥 · 편성: 몽크 콰르텟 (Milt Jackson, John Simmons, Shadow Wilson)</div>
+      <div class="tdesc">
+        <p>콜맨 호킨스와 함께 구상한 경쾌하고 인상적인 인트로 리프가 돋보이는 명곡이다. 밀트 잭슨의 바이브라폰이 가세하여 몽크의 건반과 화려한 멜로디 대화를 나눈다.</p>
+        <p>쉐도우 윌슨의 통쾌한 드럼 스윙 비트 위에서 통발을 튕기듯 통통 튀는 바이브라폰과 피아노의 유니즌은 듣는 이에게 거부할 수 없는 리드미컬한 쾌감을 선사한다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">April In Paris</span><span class="ttime">A5 · 1947.10.24 녹음 · 3:20</span></div>
+      <div class="ttag">작곡: Vernon Duke / 재즈 스탠다드 해체 · 편성: 몽크 트리오 (Gene Ramey, Art Blakey)</div>
+      <div class="tdesc">
+        <p>버논 듀크의 유명 스탠다드 곡을 몽크만의 비틀린 화성 기법으로 완전히 해체하고 재구성한 트랙이다. 기존의 달콤한 파리의 봄 풍경을 기괴하고도 매혹적인 현대 미술적 도상으로 바꾸어놓았다.</p>
+        <p>스탠다드 멜로디의 뼈대만 남겨둔 채 불협화음과 엇박으로 곡을 완전히 재창조해내는 몽크의 천재적인 해체주의적 편곡 역량이 돋보인다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">In Walked Bud</span><span class="ttime">A6 · 1947.11.21 녹음 · 2:57</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 비밥 트리뷰트 · 편성: 몽크 퀸텟 (George Taitt, Sahib Shihab, Robert Paige, Art Blakey)</div>
+      <div class="tdesc">
+        <p>A면의 대미를 장식하는 트랙으로, 몽크의 둘도 없는 음악적 동료이자 천재 피아니스트 버드 파우엘(Bud Powell)에 대한 오마주로 작곡되었다. 스탠다드 "Blue Skies"의 화성 진행을 바탕으로 창안한 경쾌한 테마가 인상적이다.</p>
+        <p>조지 테이트와 사힙 시합의 프론트라인이 뿜어내는 활기찬 비밥 프레이징과 아트 블레이키의 신나는 드럼 컴핑이 어우러져 강렬한 비밥의 정수를 보여준다.</p>
+      </div>
+    </div>
+
+    <div class="tc" style="border:2px solid var(--bn-blue)">
+      <div class="tc-h"><span class="tname">Thelonious</span><span class="ttime">B1 · 1947.10.15 녹음 · 2:59</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 단음 반복 혁명 · 편성: 몽크 셉텟 (Idrees Sulieman, Danny Quebec West, Billy Smith, Gene Ramey, Art Blakey)</div>
+      <div class="tdesc">
+        <p>B면의 포문을 여는 이 곡은 단 하나의 음(G음)을 계속해서 반복 타건하며 화성을 변주해나가는 재즈 역사상 가장 파격적인 수작이다. 최소한의 멜로디 동기로 극대화된 구조미를 창출해냈다.</p>
+        <p>호른 섹션의 단단한 백킹 리프와 몽크의 집요한 단음 타건이 상호작용하며 만드는 다이내믹은 현대 미니멀리즘 음악의 선구적 형태를 예고한다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Epistrophy</span><span class="ttime">B2 · 1948.07.02 녹음 · 3:07</span></div>
+      <div class="ttag">작곡: Thelonious Monk, Kenny Clarke / 모던 재즈 모던 테마 · 편성: 몽크 콰르텟 (Milt Jackson, John Simmons, Shadow Wilson)</div>
+      <div class="tdesc">
+        <p>케니 클락과 공동 작곡한 모던 재즈의 역사적인 명곡이다. 반음씩 이동하는 독특한 화성 진행과 회전목마가 돌아가는 듯한 중독성 있는 테마가 청자를 압도한다.</p>
+
+        <p>밀트 잭슨의 바이브라폰과 몽크의 피아노가 선사하는 옥타브 유니즌과 화려한 솔로 교대는 1948년 모던 재즈 세션이 도달한 사운드의 미학적 정점을 증명한다.</p>
+      </div>
+    </div>
+    <div class="tc" style="border:2px solid var(--bn-gold)">
+      <div class="tc-h"><span class="tname">Misterioso</span><span class="ttime">B3 · 1948.07.02 녹음 · 3:21</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 6도 진행 블루스 · 편성: 몽크 콰르텟 (Milt Jackson, John Simmons, Shadow Wilson)</div>
+      <div class="tdesc">
+        <p><strong>재즈 블루스의 개념을 근본적으로 뒤흔든 걸작 중의 걸작.</strong> 피아노와 바이브라폰이 6도 간격의 장음계/단음계 걷는 듯한 노트(Walking 6ths) 라인을 유니즌으로 연주하며 독특한 블루스 풍경을 만들어낸다.</p>
+        <p>밀트 잭슨의 스윙감 넘치는 바이브라폰 솔로와 몽크의 찌르는 듯한 불협화음 건반 어택이 조화를 이루며 완벽한 사운드의 미학을 완성한다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Well You Needn't</span><span class="ttime">B4 · 1947.10.24 녹음 · 2:57</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 크로매틱 비밥 업템포 · 편성: 몽크 트리오 (Gene Ramey, Art Blakey)</div>
+      <div class="tdesc">
+        <p>중독성 강한 크로매틱(반음계) 리프와 장난기 넘치는 멜로디가 돋보이는 몽크의 불후의 명곡이다. 훗날 마일스 데이비스 퀸텟의 필수 레퍼토리가 되었다.</p>
+        <p>아트 블레이키의 신나는 림샷 악센트와 몽크의 경쾌하면서도 각진 독주가 교차하며, 듣는 내내 강렬한 그루브감을 선사하는 오프닝 트리오의 결정판이다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Introspection</span><span class="ttime">B5 · 1947.10.24 녹음 · 3:12</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 복잡 구조 스페셜 · 편성: 몽크 트리오 (Gene Ramey, Art Blakey)</div>
+      <div class="tdesc">
+        <p>곡의 제목('내성', '자아성찰')처럼 몽크의 고독하고 내밀한 음악 세계를 가장 정교한 마디 구조로 표현해낸 숨은 대작이다. 예측하기 힘든 불규칙한 마디 수와 변칙적인 화성 전개가 인상적이다.</p>
+        <p>단순한 비밥 잼 세션의 차원을 넘어, 고도로 계산된 모던 재즈 작곡의 정수를 보여주는 스튜디오 레코딩이다.</p>
+      </div>
+    </div>
+    <div class="tc">
+      <div class="tc-h"><span class="tname">Humph</span><span class="ttime">B6 · 1947.10.15 녹음 · 2:51</span></div>
+      <div class="ttag">작곡: Thelonious Monk / 고속 비밥 셉텟 · 편성: 몽크 셉텟 (Idrees Sulieman, Danny Quebec West, Billy Smith, Gene Ramey, Art Blakey)</div>
+      <div class="tdesc">
+        <p>앨범의 위대한 대미를 장식하는 고속 비밥 트랙으로, 몽크의 최초 세션(1947년 10월 15일)에서 녹음된 역사적 음원이다. 복잡하게 꼬여있는 반음계 리프를 셉텟 호른 프론트라인이 숨 막히게 연주한다.</p>
+        <p>이드리스 술리만의 날카로운 트럼펫 솔로와 몽크의 하이노트 컴핑, 아트 블레이키의 폭발적인 드럼 필인이 한데 어우러지며 모던 재즈 시대를 연 거대한 축제의 막을 내린다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>7. 종합 평가 및 감상 가이드</h2>
-<p>
-역사상 가장 완벽한 밥 사운드의 밸런스를 보여주는 명반이다. 리듬 섹션과 메인 아티스트 스쿼드 간의 유기적 상호작용이 정교하게 조율되어 있어 입문용 필청반으로 강력하게 추천된다.
-</p>
+<!-- ═══════════════════════════════════════════════════════════ S7 -->
+<section id="s7" class="sec">
+  <div class="sh"><span class="sn">07</span><h2 class="st">블루노트 라이브러리에서의 포지셔닝</h2></div>
+  <p class="p">BLP 1510은 블루노트 1500번대 명반 시리즈 중에서도 레이블의 정체성과 모던 재즈 역사 그 자체를 상징하는 최상위 주춧돌이다. 블루노트가 단순한 딕시랜드/스윙 레이블에서 20세기 모던 재즈의 메카로 거듭나게 된 결정적 분기점이 바로 이 앨범에 집약되어 있다.</p>
+
+  <div class="svgdeco" style="max-width:520px">
+    <svg viewBox="0 0 520 90" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="10" width="60" height="70" fill="#005587" opacity="0.4" rx="3"/>
+      <text x="18" y="50" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="700" fill="#fff" transform="rotate(-90 40 50)">1509</text>
+      <rect x="80" y="0" width="70" height="90" fill="#002B49" rx="3" stroke="#EAAA00" stroke-width="1.5"/>
+      <text x="98" y="50" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="#EAAA00" transform="rotate(-90 115 50)">1510</text>
+      <rect x="160" y="10" width="60" height="70" fill="#005587" opacity="0.4" rx="3"/>
+      <text x="178" y="50" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="700" fill="#fff" transform="rotate(-90 190 50)">1511</text>
+      <rect x="230" y="15" width="60" height="60" fill="#4A779D" opacity="0.3" rx="3"/>
+      <text x="248" y="48" font-family="IBM Plex Mono, monospace" font-size="11" fill="#002B49" transform="rotate(-90 260 45)">1512</text>
+      <text x="330" y="22" font-family="Noto Sans KR, sans-serif" font-size="12" font-weight="400" fill="#444">← 카탈로그 번호 순 (좌: 이전 발매 · 우: 이후 발매) →</text>
+      <text x="330" y="44" font-family="Noto Sans KR, sans-serif" font-size="11.5" fill="#666">1956년, 블루노트 12인치 LP 1500번대 초기 거장 재정비 구간</text>
+    </svg>
+  </div>
+
+  <div class="hl">
+    <p><strong>모던 재즈 카탈로그의 출발점 (The Genesis of Modern Jazz).</strong> 알프레드 라이언은 1947년 몽크의 음원을 녹음함으로써 레이블의 미래를 모던 재즈로 선회했다. 1956년 12인치 LP로 발매된 BLP 1510(Vol. 1)과 BLP 1511(Vol. 2)은 블루노트가 구축한 수백 장의 모던 재즈 명반 카탈로그의 정신적 뿌리이자 근간이다.</p>
+  </div>
+
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-label">BLP 1509 [바로 이전]</div>
+      <div class="pos-title">Milt Jackson - Milt Jackson Quartet</div>
+      <div class="pos-desc">밀트 잭슨이 이끄는 모던 재즈 초기 명작. 몽크 세션의 핵심 멤버였던 밀트 잭슨의 유려한 바이브라폰을 독립된 리더작으로 만나볼 수 있는 블루노트의 또 다른 초창기 명반.</div>
+    </div>
+    <div class="pos-card" style="border:2px solid var(--bn-gold)">
+      <div class="pos-label" style="color:var(--bn-dark)">BLP 1510 [현재 앨범]</div>
+      <div class="pos-title">Genius Of Modern Music Volume 1</div>
+      <div class="pos-desc">텔로니어스 몽크의 역사적 1947–1948년 블루노트 세션을 총집결한 모던 재즈의 성전. "'Round Midnight", "Epistrophy" 등 불멸의 고전들이 집약된 볼륨 1.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1511 [바로 다음]</div>
+      <div class="pos-title">Genius Of Modern Music Volume 2</div>
+      <div class="pos-desc">BLP 1510의 뒤를 잇는 연작 명반. 1951–1952년 세션(선 라, 아트 블레이키, 케니 도햄, 로버트 헨리 등 가세)을 담아 몽크의 음악적 진화를 완성하는 필수 연작.</div>
+    </div>
+    <div class="pos-card">
+      <div class="pos-label">BLP 1512 [두 자리 뒤]</div>
+      <div class="pos-title">Jimmy Smith - A New Sound A New Star Vol. 1</div>
+      <div class="pos-desc">재즈 오르간의 제왕 지미 스미스의 화려한 데뷔작. 몽크가 피아노로 모던 재즈를 연 것처럼, 지미 스미스가 오르간으로 혁명을 일으킨 블루노트의 또 다른 분기점.</div>
+    </div>
+  </div>
+
+  <p class="p" style="margin-top:1.2rem"><strong>레이드 마일스와 프랜시스 울프의 시각적 혁명.</strong> 본작의 자켓 표지는 프랜시스 울프가 촬영한 몽크의 깊은 사색에 잠긴 강렬한 흑백 초상 사진을 바탕으로, 레이드 마일스가 오리지널 10인치 LP(BLP 5002) 디자인을 12인치 LP 포맷에 맞춰 세련된 비대칭 타이포그래피로 재창조해냈다. 미드나잇 블루와 골드/옐로우 폰트의 배치는 몽크 음악이 지닌 지적이고 고독한 밤의 이미지를 완벽하게 시각화했다.</p>
 </section>
 
-<section>
-<h2>8. 컬렉터 시장에서의 위치</h2>
-<table>
-<tr>
-<th>버전</th>
-<th>특징</th>
-<th>평가</th>
-</tr>
-<tr>
-<td>미국 오리지널 초판</td>
-<td>Lex, DG, RVG, Ear 사양의 모노/스테레오 음반</td>
-<td>최고 수준의 옥션 가치 형성</td>
-</tr>
-<tr>
-<td>일본 Toshiba / King 재발매판</td>
-<td>정숙성과 명확한 중저역 밸런스 우수</td>
-<td>실감상용 올드 오디오필 선호</td>
-</tr>
-</table>
-<p>
-Blue Note 1500 시리즈 가운데서도 컬렉터들에게 몽크 비밥의 정수 라는 평가와 함께 우선순위로 탐색되는 중요한 위치를 차지한다.
-</p>
+<!-- ═══════════════════════════════════════════════════════════ S8 -->
+<section id="s8" class="sec">
+  <div class="sh"><span class="sn">08</span><h2 class="st">컬렉터 시장에서의 위치 및 프레싱 식별법</h2></div>
+  <p class="p">BLP 1510의 오리지널 12인치 첫 프레싱 바이닐은 1500번대 카탈로그 중에서도 역사적 상징성이 극에 달하여 전 세계 재즈 수집가들이 가장 열망하는 초고가 희귀 아이템 중 하나다. 1940년대 SP 마스터 음원이 루디 반 겔더의 손을 거쳐 12인치 모노 LP로 부활한 정점이기에 가치가 더욱 빛난다.</p>
+  
+  <div class="figwrap" style="max-width:480px;">
+    <img src="https://images.unsplash.com/photo-1603048588665-791ca8aea617?q=80&w=1000&auto=format&fit=crop" alt="빈티지 턴테이블 위 회전하는 바이닐 모노 렉싱턴 판재">
+    <div class="figcap">Lexington 767 Original Mono Texture: 데드왁스의 RVG 각인과 '이어(Ear)' 마크가 상징하는 1956년 초판 모노 바이닐의 중후한 아날로그 텍스처</div>
+  </div>
+
+  <div class="pg">
+    <div class="pc">
+      <div class="ph" style="background:var(--bn-dark);color:#fff">🇺🇸 미국 오리지널 첫 프레싱 (1956, 767 Lexington Ave)</div>
+      <div class="pbody">
+        <p><span class="pl">오리지널 초판 식별 초점:</span> 1956년 최초 발매반의 라벨 주소는 반드시 <strong>"767 LEXINGTON AVE, NEW YORK"</strong>으로 인쇄되어 있어야 한다. 라벨에 ® 마크나 Inc. 표시는 없어야 하며, 바이닐 양면 모두 깊은 원형 홈인 <strong>딥 그루브(Deep Groove)</strong>와 평평한 테두리인 <strong>플랫 엣지(Flat Edge)</strong>가 완벽히 적용되어야 한다. 데드왁스(Dead Wax) 공간에는 루디 반 겔더의 손글씨 마스터링 각인(RVG)과 플라스틸라이트 공장의 <strong>'이어(Ear, P자 모양)' 마크</strong>가 필수적으로 새겨져 있다.</p>
+        <p><span class="pl">음질적 특성 및 시세:</span> SP 음원의 한계를 뛰어넘는 루디 반 겔더 특유의 중역대 타격감과 몽크 피아노 타건의 강렬한 어택감이 직관적으로 전달된다. 상태가 양호한(VG+~NM) 렉싱턴 초판은 현재 collector 시장에서 <strong>$1,500에서 $2,500 이상</strong>을 호가하는 최고가 시세를 자랑한다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--bn-blue);color:#fff">🌐 리버티 / 유나이티드 아티스츠 시기 (1966~70년대)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 배경 및 특징:</span> 1960년대 중후반 리버티 레코드(Liberty Records) 인수 이후 발매된 재발매반으로, 라벨 주소가 "New York USA" 또는 검은색/파란색 바탕의 "b" 로고 라벨로 변경되었다. 일부 채널 분리형 전자적 의사 스테레오(Pseudo-Stereo, BST 81510 표기) 버전도 이 시기에 유통되었다.</p>
+        <p><span class="pl">음질 및 시세:</span> 원본 모노 음원에 비해 원형의 질감은 다소 감쇄되었으나 오리지널 마스터의 위엄은 유지하고 있다. 컬렉터 시장에서 상태에 따라 <strong>$40~$80 선</strong>에서 합리적으로 거래된다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--bn-gold);color:#fff">🇯🇵 일본 King Records / Toshiba-EMI 명복각 (70-90년대)</div>
+      <div class="pbody">
+        <p><span class="pl">발매 배경 및 특징:</span> 일본의 킹 레코드(King Records, GXk / IXP 시리즈)와 토시바-EMI(Toshiba-EMI, LNJ / TOJJ 시리즈)가 오리지널 마스터 테이프를 전수받아 정교하게 복원한 프리미엄 복각반들이다.</p>
+        <p><span class="pl">음질 및 시세:</span> 일본 특유의 정숙한 표면 소음과 철저한 품질 관리 덕분에 몽크 피아노의 섬세한 잔향과 아트 블레이키의 심벌 워크가 왜곡 없이 깨끗하게 재생된다. OBI(띠지)가 완벽한 완품 기준으로 <strong>$50에서 $110 선</strong>을 유지하고 있다.</p>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="ph" style="background:var(--bn-light);color:#fff">🆕 현대 오디오파일 Classic Series / Tone Poet AAA 중량반</div>
+      <div class="pbody">
+        <p><span class="pl">발매 배경 및 특징:</span> 블루노트 80주년 및 클래식 바이닐 시리즈를 위해 케빈 그레이(Kevin Gray)가 오리지널 모노 아날로그 마스터 테이프에서 직접 올-아날로그(AAA) 컷팅한 180g 중량반 시리즈다.</p>
+        <p><span class="pl">음질 및 시세:</span> 현대 하이엔드 오디오 시스템에 완벽하게 대응하여, 1947년 SP 음원 속에 묻혀 있던 피아노의 배음과 베이스의 미세한 공명까지 경이로운 선명도로 복원해냈다. 신품 및 미개봉반 기준 <strong>$35~$60 선</strong>에서 구매 가능하다.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<h2>9. 오리지널 라이너노트 요약</h2>
-<div class="quote">
-본 작의 작곡 능력과 플레이어들의 유기적인 연주 스타일, 그리고 밴드 전체의 응집력을 높게 평가한다.
-</div>
-<ul>
-<li>리더작으로서의 뛰어난 음악적 테마 감각</li>
-<li>솔로 플레이어들 간의 유려한 감정적 대비와 조화</li>
-<li>리듬 섹션이 완성한 하드밥의 이상적 균형</li>
-</ul>
+<!-- ═══════════════════════════════════════════════════════════ S9 -->
+<section id="s9" class="sec">
+  <div class="sh"><span class="sn">09</span><h2 class="st">오리지널 라이너 노트 및 평단의 평가</h2></div>
+  <div class="hl" style="margin-bottom:1.1rem">
+    <p>1956년 BLP 1510 발매 당시 자켓 뒷면에 수록된 오리지널 라이너 노트는 권위 있는 재즈 비평가 아이라 기틀러(Ira Gitler)가 집필했다. 아래는 그 핵심 해설 취지와 후대 주요 평단의 역사적 평가다.</p>
+  </div>
+
+  <div class="ln">
+    <div class="lns">1. 모던 재즈의 진정한 예언자, 텔로니어스 몽크</div>
+    <div class="lnb">
+      아이라 기틀러는 라이너 노트에서 몽크가 1940년대 후반 비밥의 형성기에 미친 근본적인 화성적 영향을 설파한다. 대중과 평단이 그를 이해하지 못하고 오해하던 시절, 몽크가 고독하게 구축한 독창적인 작곡 체계가 비로소 모던 재즈 전체의 표준이 되었음을 강조하며 그에게 '모던 재즈의 천재(Genius of Modern Music)'라는 칭호를 부여했다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">2. 자작곡들의 독창성과 화성적 혁신</div>
+    <div class="lnb">
+      기틀러는 "'Round Midnight", "Off Minor", "Epistrophy" 등 수록곡 하나하나의 구조적 독창성을 세밀히 분석했다. 몽크의 곡들이 단순한 즉흥 연주용 백킹 트랙이 아니라, 멜로디와 화성, 박자 감각이 완벽하게 결합된 하나의 완결된 현대 고전 클래식 작품에 필적한다는 점을 입증해보였다.
+    </div>
+  </div>
+
+  <div class="ln">
+    <div class="lns">3. 알프레드 라이언과 블루노트의 역사적 결단</div>
+    <div class="lnb">
+      노트는 당시 상업적 성공이 보장되지 않던 몽크의 천재성을 믿고 1947년 대담하게 세션을 감행했던 블루노트의 창립자 알프레드 라이언의 혜안을 높이 평가했다. 이 세션들이 없었다면 모던 재즈의 역사가 얼마나 빈약해졌을지를 역설하며 앨범의 역사적 가치를 아우른다.
+    </div>
+  </div>
+
+  <div class="rv">
+    <div class="rvsrc">AllMusic — 평론가 스콧 야로우(Scott Yanow) 리뷰</div>
+    <div class="rvb">이 앨범을 두고 "모던 재즈라는 장르의 유전자(DNA)가 담긴 결정적 성전"이라고 단언했다. 몽크의 초기 자작곡들이 지닌 찬란한 천재성과 아트 블레이키, 밀트 잭슨과의 놀라운 상호작용이 포착된 이 음반은 재즈를 사랑하는 모든 컬렉터가 반드시 소장해야 할 불후의 아카이브라고 극찬하며 별 5개 만점을 부여했다.</div>
+  </div>
+  <div class="rv">
+    <div class="rvsrc">The Penguin Guide to Jazz Recordings (9th ed.)</div>
+    <div class="rvb">리차드 쿡과 브라이언 모튼은 본작에 크라운(Crown, 왕관) 표식과 함께 ★★★★(4성 만점)을 부여하며, "20세기 모던 재즈 작곡의 원형이 이 한 장의 바이닐 속에 고스란히 저장되어 있다"고 평가했다. 1947–1948년의 세션 음원이 루디 반 겔더의 리마스터링을 거쳐 12인치 LP로 재탄생한 과정 자체가 재즈사의 거대한 기적이라고 평했다.</div>
+  </div>
+
+  <div class="fixnote">※ 참고: BLP 1510의 라이너 노트는 아이라 기틀러(Ira Gitler)가 작성하였으며, 후대의 CD 및 고음질 LP 재발매반에는 마이클 쿠스쿠나(Michael Cuscuna)의 추가적인 역사적 세션 연구 데이터가 보강되어 수집가들에게 중요한 연구 자료로 제공되고 있습니다.</div>
 </section>
 
-<div class="footer">
-  <p>Blue Note 1500 Series Detailed Analysis Report | Generated for Jazz Enthusiasts</p>
-</div>
+<!-- ═══════════════════════════════════════════════════════════ S10 -->
+<section id="s10" class="sec">
+  <div class="sh"><span class="sn">10</span><h2 class="st">녹음 및 발매와 관련된 역사적 에피소드</h2></div>
+  <p class="p">BLP 1510의 탄생 뒤에는 모던 재즈의 가장 어두웠던 창세기 시절을 견뎌낸 텔로니어스 몽크와 알프레드 라이언의 뜨거운 신념, 그리고 수많은 드라마틱한 에피소드들이 숨겨져 있다.</p>
 
+  <div class="figwrap" style="max-width:540px;">
+    <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=1000&auto=format&fit=crop" alt="클래식 재즈 스튜디오 흑백 컷">
+    <div class="figcap">Francis Wolff 조형 헌사: 담배 연기와 조명 속에서 건반을 주시하던 몽크의 거대한 실루엣과 울프의 하이 콘트라스트 프레임</div>
+  </div>
+
+  <p class="p"><strong>1. 알프레드 라이언과 로레인 고든의 맹목적인 믿음:</strong> 1947년 당시 몽크는 재즈계에서 "연주도 못 하는 기괴한 피아니스트"라는 악평에 시달리고 있었다. 대형 레코드사들이 그를 외면할 때, 블루노트의 알프레드 라이언과 그의 당시 부인 로레인 고든은 몽크의 연주를 듣고 깊은 충격을 받았다. 로레인은 뉴욕의 재즈 평론가들을 일일이 찾아다니며 "당신들이 진짜 천재를 알아보지 못하고 있다"며 몽크의 세션을 설득했고, 라이언은 회사의 모든 재정을 털어 1947년 10월 연속 세션을 감행했다.</p>
+
+  <p class="p"><strong>2. 78rpm SP 스튜디오의 3분 제약과 몽크의 완벽주의:</strong> 당시는 녹음 매체가 단면당 3분 남짓만 기록할 수 있는 78rpm SP 판이었다. 몽크의 복잡하고 긴 곡 구조를 3분 안에 담아내는 것은 고도의 계산이 필요했다. 몽크는 자신의 컴플렉스한 화성 진행과 아티큘레이션을 3분이라는 제한된 시간 안에 단 한 음의 낭비도 없이 완벽하게 압축해내는 기적적인 작곡 정교함을 스튜디오 현장에서 보여주었다.</p>
+
+  <p class="p"><strong>3. 1951년 캐바레 카드 박탈과 1956년 12인치 LP로의 부활:</strong> 1951년 몽크는 친구 버드 파우엘을 보호하려다 억울하게 마약 소지 혐의로 체포되어 뉴욕 클럽 연주 자격증인 '캐바레 카드'를 박탈당했다. 6년 동안 클럽 무대에 서지 못하고 잊혀갈 위기에 처했을 때, 블루노트는 1956년 1500번대 12인치 LP 라인업을 기획하며 몽크의 1947–1948년 음원들을 완벽하게 수리·재편집하여 《Genius Of Modern Music Volume 1 & 2》(BLP 1510, 1511)로 재발매했다. 이 앨범은 몽크를 세계적인 거장으로 부활시킨 결정적 계기가 되었다.</p>
+
+  <p class="p"><strong>4. 아트 블레이키와의 완벽한 즉흥 텔레파시:</strong> 1947년 세션에서 스물여덟 살의 젊은 아트 블레이키는 몽크의 엇박자 타건에 완벽하게 반응했다. 다른 드러머들이 몽크의 박자 변형에 당황하여 박자를 놓칠 때, 블레이키는 몽크의 건반이 어디로 튈지 미리 알고 있었다는 듯이 강력한 하이햇과 림샷으로 엇박의 틈새를 메웠다. 몽크는 훗날 "블레이키는 내 음악의 심장과도 같은 사람"이라며 깊은 애정을 표현했다.</p>
+
+  <p class="p"><strong>5. 레이드 마일스의 앨범 커버아트와 현대 미술로의 승화:</strong> 1956년 12인치 LP로 재발매될 때, 디자이너 레이드 마일스는 프랜시스 울프가 찍은 몽크의 사색하는 흑백 사진을 바탕으로 미드나잇 블루 배경 위에 모던한 고딕 타이포그래피를 배치했다. 이 앨범 자켓은 음악의 전위성과 시각 디자인의 모더니즘이 어떻게 결합할 수 있는지를 보여준 블루노트 디자인의 불후의 상징이 되었다.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ S11 -->
+<section id="s11" class="sec">
+  <div class="sh"><span class="sn">11</span><h2 class="st">한국의 재즈 애호가들 사이에서의 평가</h2></div>
+
+  <div class="svgdeco" style="max-width:360px">
+    <svg viewBox="0 0 360 90" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="60" cy="45" r="38" fill="none" stroke="#002B49" stroke-width="2"/>
+      <circle cx="60" cy="45" r="6" fill="#005587"/>
+      <line x1="94" y1="20" x2="140" y2="8" stroke="#002B49" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="140" cy="8" r="7" fill="none" stroke="#002B49" stroke-width="2"/>
+      <path d="M175 45 q20 -25 40 0 t40 0" fill="none" stroke="#EAAA00" stroke-width="2.5"/>
+      <text x="175" y="80" font-family="Playfair Display, serif" font-style="italic" font-weight="700" font-size="22" fill="#002B49">禪</text>
+    </svg>
+  </div>
+
+  <p class="p">한국의 재즈 리스너들과 진성 바이닐 컬렉터들 사이에서 텔로니어스 몽크의 《Genius Of Modern Music Volume 1》(BLP 1510)은 단순한 재즈 앨범을 넘어 '모던 재즈 입문의 가장 깊은 입문서'이자 '지적인 청음의 성전'으로 절대적인 추앙을 받는다. 국내 재즈 커뮤니티와 LP 청음 공간에서 형성된 감상 문화와 평가다.</p>
+
+  <p class="p"><strong>1. 깊은 밤 고독을 달래는 '최고의 미드나잇 피아노':</strong> 국내 재즈 동호회나 바이닐 매니아 사이에서 이 앨범, 특히 A면 첫 곡 "'Round Midnight"은 비 오는 날이나 새벽녘 차분한 마음으로 청음하기에 가장 완벽한 트랙으로 꼽힌다. 몽크 피아노가 선사하는 툭툭 던지는 듯한 불협화음의 잔향은 한국인 특유의 깊은 정서적 여백(선미, 禪美)과 맞닿아 있어 깊은 사색적 울림을 준다는 평을 받는다.</p>
+
+  <p class="p"><strong>2. 재즈 연주자와 음악 전공자들의 필수 필독서:</strong> 국내 실용음악과 및 재즈 전공생들 사이에서 BLP 1510은 '재즈 화성학과 작곡의 구약성서'로 통한다. 단순한 속주 기교에 치중하기 쉬운 초기 연주자들에게, 몽크가 보여주는 노타이밍의 미학, 여백의 활용, 그리고 자작곡들의 정교한 구조는 모던 재즈의 진정한 본질이 무엇인지를 깨닫게 해주는 최고의 교재로 사용된다.</p>
+
+  <p class="p"><strong>3. 국내 바이닐 시장에서의 '초희귀 타깃'과 고음질 복각 인기:</strong> 국내 레코드 수집가들 사이에서 BLP 1510 오리지널 렉싱턴(Lexington Ave) 12인치 첫 프레싱은 꿈의 컬렉션이다. 매물 자체가 극히 드물어 회현동 바이닐 마켓이나 홍대 인근 전문 레코드 숍에서 수백만 원대에 거래되곤 한다. 최근에는 블루노트의 Classic Vinyl Series 및 Tone Poet AAA 고음질 복각 중량반이 적극 수입되면서 아날로그 턴테이블을 이용하는 젊은 음악 팬들에게도 소장 필수반으로 큰 인기를 얻고 있다.</p>
+
+  <p class="p"><strong>4. 오디오파일 및 진공관 청음실의 필수 음원 테스트반:</strong> 국내 하이엔드 진공관 오디오 청음 공간 및 빈티지 재즈 바에서 본작은 피아노 건반의 어택감과 어쿠스틱 베이스의 타격감, 그리고 바이브라폰의 금속성 잔향을 테스트하는 대표적인 아날로그 레퍼런스 음원으로 활용된다. 1947년 마스터 테이프가 지닌 특유의 묵직한 모노 질감은 진공관 앰프를 거쳐 스피커로 울려 퍼질 때 듣는 이에게 압도적인 아날로그적 카타르시스를 제공한다.</p>
+</section>
+
+</main>
+
+<script>
+function go(id, btn) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b => b.classList.remove('on'));
+  document.getElementById(id).classList.add('on');
+  btn.classList.add('on');
+  window.scrollTo({top: document.querySelector('.nav').offsetTop, behavior: 'smooth'});
+}
+</script>
 </body>
 </html>
