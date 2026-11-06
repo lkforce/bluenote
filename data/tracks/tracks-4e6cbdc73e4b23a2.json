@@ -1,0 +1,517 @@
+{
+  "records": [
+    {
+      "fields": {
+        "duration_seconds": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "take_description": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Willow Weep For Me",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "tracks-4e6cbdc73e4b23a2",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "A",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-tracks-ace7955ed7661833",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1600",
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-79ea49f96013dae2",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f",
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-98596a8f8ccf7ade",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda",
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-b6dbfd8f9ea22e19",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc",
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "드럼의 시간 유지와 프레이즈 사이의 채움을 분리해 듣고, 반복 구간마다 반주가 달라지는지 살펴보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-0b76b5277d153825",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "반복되는 선율이 어느 음에서 쉬는지 표시하고 베이스의 움직임과 비교해 보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-709960bac7270de2",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "첫 번째 감상에서는 Willow Weep For Me의 주제 선율만 따라가 보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-c3cda92e7383a0ef",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "피아노 선율과 베이스 음정의 관계를 구간별로 적고, 확인하지 못한 코드명은 추정으로 남기세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-f6216437adc3664c",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {},
+      "key": "track-sessions-c63a8536fdc28e6d",
+      "kind": "track_sessions",
+      "links": {
+        "session_key": "recording-sessions-79856f581c6982e1",
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Willow Weep For Me은 이 LP의 A면 2번입니다. CD 보너스 트랙을 원반 곡목에 추가하지 않았습니다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "context",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-stories-ceeedd163d679117",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-4e6cbdc73e4b23a2"
+      }
+    }
+  ],
+  "root_key": "tracks-4e6cbdc73e4b23a2",
+  "schema_version": 1
+}

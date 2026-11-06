@@ -1,0 +1,453 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6",
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6",
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Gene Harris",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-665f181e60375afc",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Celesta",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-178be8b956dadb9b",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-6aee521134475f24",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {},
+      "key": "musician-profiles-b82c741d2e8c8e87",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "자료에는 피아노와 첼레스타 참여가 기록되어 있다. 두 번째 세션의 곡별 악기 구분은 추가 확인 중이다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-3228ee72ae4e8cb2",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1600",
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "The Three Sounds 활동과 이후 Concord 레이블의 리더 녹음이 주요 경력이다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "works",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-4cf201c21a89fb34",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Gene Harris의 참여 악기를 먼저 확인한 뒤, 이 앨범에서 해당 악기의 짧은 프레이즈 하나를 골라 따라 불러 보세요. 다음에는 다른 악기가 응답하는 순간을 찾아보세요. 이것은 직접 청취할 과제이며 특정 솔로 순서를 확정한 설명은 아닙니다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-557b3c5fadbf993b",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "공식 약력은 Oscar Peterson의 영향과 블루스 성향을 언급한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-561afc64bf1d816f",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "The Three Sounds의 피아니스트로 활동한 뒤 Ray Brown과의 협업과 개인 리더 활동을 이어 갔다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-6cf3d3bec2ee4345",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-250fcf140472ea79",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc",
+        "session_key": "recording-sessions-79856f581c6982e1"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Celesta",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-7c04dea0ebae9684",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc",
+        "session_key": "recording-sessions-92c3d974567a9dd7"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-df5aa447c47b1ca0",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc",
+        "session_key": "recording-sessions-92c3d974567a9dd7"
+      }
+    }
+  ],
+  "root_key": "musicians-665f181e60375afc",
+  "schema_version": 1
+}

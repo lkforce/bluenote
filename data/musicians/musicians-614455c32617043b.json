@@ -6,7 +6,9 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-3ada92f28b4ceda3",
             "source-41cfc0d1f2d127b0",
+            "source-4e07408562bedb8b",
             "source-7a61b53701befdae"
           ],
           "unknown_reason": null,
@@ -17,7 +19,9 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-3ada92f28b4ceda3",
             "source-41cfc0d1f2d127b0",
+            "source-4e07408562bedb8b",
             "source-7a61b53701befdae"
           ],
           "unknown_reason": null,

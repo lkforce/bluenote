@@ -433,12 +433,12 @@
       "title": null
     },
     {
-      "album_key": null,
-      "artist": null,
+      "album_key": "blp-1555",
+      "artist": "Art Blakey",
       "key": "blp-1555",
       "number": 1555,
-      "release_status": null,
-      "title": null
+      "release_status": "released",
+      "title": "Orgy in Rhythm, Volume Two"
     },
     {
       "album_key": "blp-1556",
@@ -577,12 +577,12 @@
       "title": "Bone & Bari"
     },
     {
-      "album_key": null,
-      "artist": null,
+      "album_key": "blp-1573",
+      "artist": "John Jenkins with Kenny Burrell",
       "key": "blp-1573",
       "number": 1573,
-      "release_status": null,
-      "title": null
+      "release_status": "released",
+      "title": "John Jenkins with Kenny Burrell"
     },
     {
       "album_key": "blp-1574",
@@ -761,20 +761,20 @@
       "title": "Somethin’ Else"
     },
     {
-      "album_key": null,
-      "artist": null,
+      "album_key": "blp-1596",
+      "artist": "Kenny Burrell",
       "key": "blp-1596",
       "number": 1596,
-      "release_status": null,
-      "title": null
+      "release_status": "released",
+      "title": "Blue Lights, Volume 1"
     },
     {
-      "album_key": null,
-      "artist": null,
+      "album_key": "blp-1597",
+      "artist": "Kenny Burrell",
       "key": "blp-1597",
       "number": 1597,
-      "release_status": null,
-      "title": null
+      "release_status": "released",
+      "title": "Blue Lights, Volume 2"
     },
     {
       "album_key": "blp-1598",
@@ -793,15 +793,15 @@
       "title": "Soul Stirrin’"
     },
     {
-      "album_key": null,
-      "artist": null,
+      "album_key": "blp-1600",
+      "artist": "The Three Sounds",
       "key": "blp-1600",
       "number": 1600,
-      "release_status": null,
-      "title": null
+      "release_status": "released",
+      "title": "The 3 Sounds"
     }
   ],
-  "data_version": "v1-d903b1b36fd0e47da7345dc5",
+  "data_version": "v1-e72ebf5041070e593fe56e9d",
   "records": [
     {
       "album_titles": [
@@ -1481,6 +1481,19 @@
     },
     {
       "album_titles": [
+        "Orgy in Rhythm, Volume Two"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1555
+      ],
+      "key": "blp-1555",
+      "kind": "album",
+      "title": "Orgy in Rhythm, Volume Two",
+      "url": "/bluenote/albums/blp-1555/"
+    },
+    {
+      "album_titles": [
         "The Sounds Of Jimmy Smith"
       ],
       "artist": "Jimmy Smith",
@@ -1699,6 +1712,19 @@
       "kind": "album",
       "title": "Bone & Bari",
       "url": "/bluenote/albums/blp-1572/"
+    },
+    {
+      "album_titles": [
+        "John Jenkins with Kenny Burrell"
+      ],
+      "artist": "John Jenkins with Kenny Burrell",
+      "catalog_numbers": [
+        1573
+      ],
+      "key": "blp-1573",
+      "kind": "album",
+      "title": "John Jenkins with Kenny Burrell",
+      "url": "/bluenote/albums/blp-1573/"
     },
     {
       "album_titles": [
@@ -1949,6 +1975,32 @@
     },
     {
       "album_titles": [
+        "Blue Lights, Volume 1"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1596
+      ],
+      "key": "blp-1596",
+      "kind": "album",
+      "title": "Blue Lights, Volume 1",
+      "url": "/bluenote/albums/blp-1596/"
+    },
+    {
+      "album_titles": [
+        "Blue Lights, Volume 2"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1597
+      ],
+      "key": "blp-1597",
+      "kind": "album",
+      "title": "Blue Lights, Volume 2",
+      "url": "/bluenote/albums/blp-1597/"
+    },
+    {
+      "album_titles": [
         "Time Waits: The Amazing Bud Powell, Vol. 4"
       ],
       "artist": "Bud Powell",
@@ -1972,6 +2024,45 @@
       "kind": "album",
       "title": "Soul Stirrin’",
       "url": "/bluenote/albums/blp-1599/"
+    },
+    {
+      "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "blp-1600",
+      "kind": "album",
+      "title": "The 3 Sounds",
+      "url": "/bluenote/albums/blp-1600/"
+    },
+    {
+      "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "musicians-0164c119dc3f7bda",
+      "kind": "musician",
+      "title": "Bill Dowdy",
+      "url": "/bluenote/musicians/musicians-0164c119dc3f7bda/"
+    },
+    {
+      "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "musicians-07334a0bc021f834",
+      "kind": "musician",
+      "title": "The Three Sounds",
+      "url": "/bluenote/musicians/musicians-07334a0bc021f834/"
     },
     {
       "album_titles": [
@@ -2080,6 +2171,19 @@
     },
     {
       "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "musicians-1a0a536a39de7c1f",
+      "kind": "musician",
+      "title": "Andrew Simpkins",
+      "url": "/bluenote/musicians/musicians-1a0a536a39de7c1f/"
+    },
+    {
+      "album_titles": [
         "Whims Of Chambers",
         "Paul Chambers Quintet",
         "Bass On Top"
@@ -2150,6 +2254,19 @@
     },
     {
       "album_titles": [
+        "John Jenkins with Kenny Burrell"
+      ],
+      "artist": "John Jenkins with Kenny Burrell",
+      "catalog_numbers": [
+        1573
+      ],
+      "key": "musicians-3648fb1a50d3f132",
+      "kind": "musician",
+      "title": "John Jenkins with Kenny Burrell",
+      "url": "/bluenote/musicians/musicians-3648fb1a50d3f132/"
+    },
+    {
+      "album_titles": [
         "Blue Train"
       ],
       "artist": "John Coltrane",
@@ -2163,11 +2280,13 @@
     },
     {
       "album_titles": [
-        "Volume 1"
+        "Volume 1",
+        "The 3 Sounds"
       ],
-      "artist": "Miles Davis",
+      "artist": "Miles Davis · The Three Sounds",
       "catalog_numbers": [
-        1501
+        1501,
+        1600
       ],
       "key": "musicians-40155d540b1a77a2",
       "kind": "musician",
@@ -2190,12 +2309,16 @@
     {
       "album_titles": [
         "Introducing Kenny Burrell",
-        "Kenny Burrell"
+        "Kenny Burrell",
+        "Blue Lights, Volume 1",
+        "Blue Lights, Volume 2"
       ],
       "artist": "Kenny Burrell",
       "catalog_numbers": [
         1523,
-        1543
+        1543,
+        1596,
+        1597
       ],
       "key": "musicians-614455c32617043b",
       "kind": "musician",
@@ -2234,6 +2357,19 @@
       "kind": "musician",
       "title": "Jimmy Smith",
       "url": "/bluenote/musicians/musicians-64e77f47f1b2c613/"
+    },
+    {
+      "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "musicians-665f181e60375afc",
+      "kind": "musician",
+      "title": "Gene Harris",
+      "url": "/bluenote/musicians/musicians-665f181e60375afc/"
     },
     {
       "album_titles": [
@@ -2353,14 +2489,16 @@
         "Volume 1",
         "Volume 2",
         "A Night at Birdland, Vol. 1",
-        "A Night at Birdland, Vol. 2"
+        "A Night at Birdland, Vol. 2",
+        "Orgy in Rhythm, Volume Two"
       ],
       "artist": "Art Blakey · Miles Davis",
       "catalog_numbers": [
         1501,
         1502,
         1521,
-        1522
+        1522,
+        1555
       ],
       "key": "musicians-7f6d2da87fc7519e",
       "kind": "musician",
@@ -2700,6 +2838,19 @@
     },
     {
       "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "tracks-05347ffb2ea4daa2",
+      "kind": "track",
+      "title": "O Sole Mio",
+      "url": "/bluenote/tracks/tracks-05347ffb2ea4daa2/"
+    },
+    {
+      "album_titles": [
         "Volume 1"
       ],
       "artist": "Miles Davis",
@@ -2710,6 +2861,32 @@
       "kind": "track",
       "title": "Chance It",
       "url": "/bluenote/tracks/tracks-0553008bc93c6aff/"
+    },
+    {
+      "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "tracks-06c03bac9122f5e3",
+      "kind": "track",
+      "title": "Would’n You",
+      "url": "/bluenote/tracks/tracks-06c03bac9122f5e3/"
+    },
+    {
+      "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "tracks-147c4625f5cc44c8",
+      "kind": "track",
+      "title": "Both Sides",
+      "url": "/bluenote/tracks/tracks-147c4625f5cc44c8/"
     },
     {
       "album_titles": [
@@ -2739,6 +2916,19 @@
     },
     {
       "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "tracks-46f16db5d4e14862",
+      "kind": "track",
+      "title": "It's Nice",
+      "url": "/bluenote/tracks/tracks-46f16db5d4e14862/"
+    },
+    {
+      "album_titles": [
         "Volume 1"
       ],
       "artist": "Miles Davis",
@@ -2749,6 +2939,19 @@
       "kind": "track",
       "title": "Ray's Idea",
       "url": "/bluenote/tracks/tracks-4d1481c4a54c728f/"
+    },
+    {
+      "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "tracks-4e6cbdc73e4b23a2",
+      "kind": "track",
+      "title": "Willow Weep For Me",
+      "url": "/bluenote/tracks/tracks-4e6cbdc73e4b23a2/"
     },
     {
       "album_titles": [
@@ -2843,6 +3046,19 @@
     },
     {
       "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "tracks-8f57693ee0f42992",
+      "kind": "track",
+      "title": "Blue Bells",
+      "url": "/bluenote/tracks/tracks-8f57693ee0f42992/"
+    },
+    {
+      "album_titles": [
         "Volume 2"
       ],
       "artist": "Miles Davis",
@@ -2934,6 +3150,19 @@
     },
     {
       "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "tracks-c655912c753b4410",
+      "kind": "track",
+      "title": "Goin’ Home",
+      "url": "/bluenote/tracks/tracks-c655912c753b4410/"
+    },
+    {
+      "album_titles": [
         "Volume 2"
       ],
       "artist": "Miles Davis",
@@ -2970,6 +3199,19 @@
       "kind": "track",
       "title": "The Leap",
       "url": "/bluenote/tracks/tracks-e255a7cbd62b1b02/"
+    },
+    {
+      "album_titles": [
+        "The 3 Sounds"
+      ],
+      "artist": "The Three Sounds",
+      "catalog_numbers": [
+        1600
+      ],
+      "key": "tracks-e3fb96ec6016ed70",
+      "kind": "track",
+      "title": "Tenderly",
+      "url": "/bluenote/tracks/tracks-e3fb96ec6016ed70/"
     },
     {
       "album_titles": [

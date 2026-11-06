@@ -234,6 +234,63 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-108c995b953c8a35"
+          ],
+          "unknown_reason": null,
+          "value": "기존 후속 조사에서 확인한 자료",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-108c995b953c8a35"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-108c995b953c8a35"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-108c995b953c8a35"
+          ],
+          "unknown_reason": null,
+          "value": "john-jenkins — Blue Note Biography",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-108c995b953c8a35"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/john-jenkins/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-108c995b953c8a35",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-19581e27de7ced00"
           ],
           "unknown_reason": null,
@@ -747,6 +804,63 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-3ada92f28b4ceda3"
+          ],
+          "unknown_reason": null,
+          "value": "기존 후속 조사에서 확인한 자료",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3ada92f28b4ceda3"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3ada92f28b4ceda3"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3ada92f28b4ceda3"
+          ],
+          "unknown_reason": null,
+          "value": "Down Beat 1962-04-12 /29권8호 재현",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3ada92f28b4ceda3"
+          ],
+          "unknown_reason": null,
+          "value": "https://device.report/m/9839b555be616de4c15103e294156c2ca790f482f8be406e954cb13bb4f4a9af.pdf",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-3ada92f28b4ceda3",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-3d914f9348c9cc0f"
           ],
           "unknown_reason": null,
@@ -975,6 +1089,120 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note — The Three Sounds 약력",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/the-three-sounds/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-4523540f1504cd17",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records — Miles Davis 공식 자료",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/miles-davis/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-49d180ecf5613281",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-4a44dc15364204a8"
           ],
           "unknown_reason": null,
@@ -1023,6 +1251,63 @@
         }
       },
       "key": "source-4a44dc15364204a8",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Jazz Discography Project",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Jazz Discography Project — The Three Sounds 1958 세션",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.jazzdisco.org/the-three-sounds/discography/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-4b227777d4dd1fc6",
       "kind": "sources",
       "links": {}
     },
@@ -1944,6 +2229,63 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records — Gil Mellé 공식 자료",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/gil-melle/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-7f2253d7e228b22a",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-811786ad1ae74adf"
           ],
           "unknown_reason": null,
@@ -2172,6 +2514,63 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records — Herbie Nichols 공식 자료",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/herbie-nichols/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-8722616204217edd",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-9400f1b21cb527d7"
           ],
           "unknown_reason": null,
@@ -2343,6 +2742,120 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records — J.J. Johnson 공식 자료",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/j-j-johnson/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-a21855da08cb102d",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a68b412c4282555f"
+          ],
+          "unknown_reason": null,
+          "value": "기존 후속 조사에서 확인한 자료",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a68b412c4282555f"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a68b412c4282555f"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a68b412c4282555f"
+          ],
+          "unknown_reason": null,
+          "value": "Heritage Auctions lot7306-26212",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a68b412c4282555f"
+          ],
+          "unknown_reason": null,
+          "value": "https://entertainment.ha.com/itm/music-memorabilia/recordings/john-jenkins-with-kenny-burrell-self-titled-mono-first-pressing-vinyl-record-blue-note-blp-1573-/a/7306-26212.s",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-a68b412c4282555f",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-aea92132c4cbeb26"
           ],
           "unknown_reason": null,
@@ -2391,6 +2904,63 @@
         }
       },
       "key": "source-aea92132c4cbeb26",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note / Scott Yanow",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note — Gene Harris 약력",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/gene-harris/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-b17ef6d19c7a5b1e",
       "kind": "sources",
       "links": {}
     },
@@ -2505,6 +3075,63 @@
         }
       },
       "key": "source-c6f3ac57944a5314",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c75cb66ae28d8ebc"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c75cb66ae28d8ebc"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c75cb66ae28d8ebc"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c75cb66ae28d8ebc"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records — Milt Jackson 공식 자료",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c75cb66ae28d8ebc"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/milt-jackson/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-c75cb66ae28d8ebc",
       "kind": "sources",
       "links": {}
     },
@@ -2742,6 +3369,53 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-da4ea2a5506f2693"
+          ],
+          "unknown_reason": null,
+          "value": "기존 후속 조사에서 확인한 자료",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-da4ea2a5506f2693"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-da4ea2a5506f2693"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-da4ea2a5506f2693"
+          ],
+          "unknown_reason": null,
+          "value": "Heritage Auctions lot7308-26061",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-da4ea2a5506f2693",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-e29c9c180c6279b0"
           ],
           "unknown_reason": null,
@@ -2856,6 +3530,63 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "Leonard Feather / The Jazz Tome",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "liner_notes",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "Leonard Feather — BLP 1600 라이너노트 전사",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "https://thejazztome.info/the-3-sounds-the-3-sounds/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-e7f6c011776e8db7",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-eb1e33e8a81b697b"
           ],
           "unknown_reason": null,
@@ -2913,6 +3644,63 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Apple Music / Blue Note",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note 공급 음원 — Introducing the 3 Sounds 곡순",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "https://music.apple.com/us/album/introducing-the-3-sounds/1443197241",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-ef2d127de37b942b",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-f5ca38f748a1d6ea"
           ],
           "unknown_reason": null,
@@ -2961,6 +3749,63 @@
         }
       },
       "key": "source-f5ca38f748a1d6ea",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ff5a1ae012afa5d4"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ff5a1ae012afa5d4"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ff5a1ae012afa5d4"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ff5a1ae012afa5d4"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records — Thelonious Monk 공식 자료",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ff5a1ae012afa5d4"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/thelonious-monk/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-ff5a1ae012afa5d4",
       "kind": "sources",
       "links": {}
     }

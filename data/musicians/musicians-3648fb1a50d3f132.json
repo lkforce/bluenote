@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-108c995b953c8a35",
+            "source-4e07408562bedb8b",
+            "source-a68b412c4282555f"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-108c995b953c8a35",
+            "source-4e07408562bedb8b",
+            "source-a68b412c4282555f"
+          ],
+          "unknown_reason": null,
+          "value": "John Jenkins with Kenny Burrell",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-3648fb1a50d3f132",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-3648fb1a50d3f132",
+  "schema_version": 1
+}

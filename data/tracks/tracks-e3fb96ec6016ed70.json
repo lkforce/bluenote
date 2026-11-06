@@ -1,0 +1,576 @@
+{
+  "records": [
+    {
+      "fields": {
+        "duration_seconds": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "take_description": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Tenderly",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "tracks-e3fb96ec6016ed70",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "A",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-tracks-c72ac2597453f0ff",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1600",
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-611c22791d30c9b6",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda",
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-d5c6285e6a7fd53e",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc",
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-e71e7b4e46739501",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f",
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "피아노 선율과 베이스 음정의 관계를 구간별로 적고, 확인하지 못한 코드명은 추정으로 남기세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-2d0ba93af602de0b",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "주제가 나올 때와 피아노가 자유롭게 움직일 때 리듬 반주의 느낌이 달라지는지 관찰해 보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-91d6dfebe38ed1c4",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "첫 번째 감상에서는 Tenderly의 주제 선율만 따라가 보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-9feb3ce9d32e9431",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "드럼의 시간 유지와 프레이즈 사이의 채움을 분리해 듣고, 반복 구간마다 반주가 달라지는지 살펴보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-a50fdfdfa8059d88",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {},
+      "key": "track-sessions-edd795cf7c38b24e",
+      "kind": "track_sessions",
+      "links": {
+        "session_key": "recording-sessions-79856f581c6982e1",
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Tenderly은 이 LP의 A면 1번입니다. CD 보너스 트랙을 원반 곡목에 추가하지 않았습니다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "context",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-stories-4ae0f5e6db227e9a",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "Leonard Feather의 라이너노트는 Tenderly에 라틴적 요소가 있다고 설명한다. 이는 해당 필자의 음악적 해석이며, 이를 근거로 곡 전체를 라틴 재즈로 자동 분류하지 않았다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "rhythm",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-stories-fa4ed7fb114b1665",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-e3fb96ec6016ed70"
+      }
+    }
+  ],
+  "root_key": "tracks-e3fb96ec6016ed70",
+  "schema_version": 1
+}

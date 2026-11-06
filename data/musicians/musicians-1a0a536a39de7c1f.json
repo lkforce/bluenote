@@ -1,0 +1,356 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6",
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6",
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Andrew Simpkins",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-1a0a536a39de7c1f",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-71ff10d8fada165e",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f"
+      }
+    },
+    {
+      "fields": {
+        "death_year": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        }
+      },
+      "key": "musician-profiles-009b4a001e02f441",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "자료에 기록된 세션 참여자입니다. 곡별 실제 참여는 각 트랙의 크레딧과 별도로 확인합니다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-2bdd4becea96227e",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1600",
+        "musician_key": "musicians-1a0a536a39de7c1f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "라이너노트는 Ray Brown, Oscar Pettiford 등 여러 베이시스트를 선호한 인물로 기록한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-44d2ad9a6a967b53",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Andrew Simpkins의 참여 악기를 먼저 확인한 뒤, 이 앨범에서 해당 악기의 짧은 프레이즈 하나를 골라 따라 불러 보세요. 다음에는 다른 악기가 응답하는 순간을 찾아보세요. 이것은 직접 청취할 과제이며 특정 솔로 순서를 확정한 설명은 아닙니다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-4ea87d15549e2a86",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "라이너노트에 따르면 클라리넷과 피아노를 배운 뒤 군 복무 무렵 베이스를 본격적으로 공부했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-e2728efc99e7c516",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-24b81aa5cd0aa383",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f",
+        "session_key": "recording-sessions-79856f581c6982e1"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-9c207d1c3f0d630e",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-1a0a536a39de7c1f",
+        "session_key": "recording-sessions-92c3d974567a9dd7"
+      }
+    }
+  ],
+  "root_key": "musicians-1a0a536a39de7c1f",
+  "schema_version": 1
+}

@@ -53,6 +53,15 @@
     },
     {
       "fields": {},
+      "key": "album-sessions-2365ffc283ac9c40",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1600",
+        "session_key": "recording-sessions-79856f581c6982e1"
+      }
+    },
+    {
+      "fields": {},
       "key": "album-sessions-748df70740180ada",
       "kind": "album_sessions",
       "links": {
@@ -76,6 +85,15 @@
       "links": {
         "album_key": "blp-1502",
         "session_key": "recording-sessions-67ab5a1b69e44ce1"
+      }
+    },
+    {
+      "fields": {},
+      "key": "album-sessions-c25c470b28300fa8",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1600",
+        "session_key": "recording-sessions-92c3d974567a9dd7"
       }
     },
     {
@@ -162,6 +180,714 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1504의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-0391a777082c2f43",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1504"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: The Outlaw / Melancholy Mood / Pyramid / Moon Rays / Safari / Ill Wind. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-05a9cfd2066599f1",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1589"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1952-05-09, 1953-04-20, 1954-03-06. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-132da93d4d2207a8",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1502"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-1c3e57d97bf2efa0",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1503"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-21a66b96f7e662b3",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1571"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1522의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-2232170baf25b375",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1522"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Amuck / Elephant Walk / Abdallah’s Delight. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-22cb4917b55b1907",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1555"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1951-05-01. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-240259fe1ceed80e",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1503"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1957-08-03. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-2525556883da42ed",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1571"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1555의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-295962cdbb8f6b1c",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1555"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Reets and I / Autumn in New York / I Want to Be Happy / It Could Happen to You / Sure Thing / Polka Dots and Moonbeams / The Glass Enclosure / Collard Greens and Black-Eyed Peas / Over the Rainbow / Audrey / You Go to My Head / Ornithology (alternate). 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-298d59fdab982620",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1504"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-2a40bca1415fc08d",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1502"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-4e07408562bedb8b",
             "source-d4735e3a265e16ee"
           ],
@@ -226,6 +952,360 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-2e0520e4241c9097",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1555"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1598의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-333ab1285a8777cc",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1598"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: No Smokin' / The Back Beat / Soulville / Home Cookin' / Metamorphosis / My One and Only Love. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-3bacc7268af7a448",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1562"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1958-01-13. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-45b6b1ecc093e23b",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1589"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "두 번째 녹음일은 자료에 따라 9월 18일 또는 28일로 나타난다. 현재는 1958년 9월까지만 저장했다. 원발매 연도도 1958년과 1959년 표기가 있어 확정 날짜를 비워 두었다.",
+          "verification": "CONFLICTING"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "CONFLICTING"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 0,
+          "verification": "CONFLICTING"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음일과 발매일의 자료 차이",
+          "verification": "CONFLICTING"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "conflicting",
+          "verification": "CONFLICTING"
+        }
+      },
+      "key": "album-stories-4667e19f23d4180f",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-483c5350ccaa8e39",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1505"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-4e07408562bedb8b",
             "source-d4735e3a265e16ee"
           ],
@@ -282,6 +1362,2130 @@
       "kind": "album_stories",
       "links": {
         "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1956-11-10. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-4b11d485399bb6a5",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1539"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1951-05-01, 1953-08-14. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-4b8cdcf8ee8b3e02",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1504"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1957-05-08. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-4f26248cb9771ab1",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1562"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-4f6d4fec0fff04f1",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1506"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1505의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-57c1fe9024d195ab",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1505"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1953-06-22, 1954-09-24. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-581e2ba4e1e9c2e2",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1505"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-5a8c9c767d068650",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1598"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Cool Eyes / Shirl / Camouflage / Enchantment / Señor Blues / Virgo / For Heaven’s Sake. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-5e2bacb421be93ad",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1539"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Split Kick / Once in a While / Quicksilver / A Night in Tunisia / Mayreh. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-5e5b7baabeca97ca",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1521"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1571의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-5f620ef2bf1072fe",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1571"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Some Soul / Blue Pearl / Frantic Fancies / Keepin' in the Groove / Idaho / Don't Blame Me / Moose the Mooche. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-61e6dccbb63425f8",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1571"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1954-02-21. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-6d5e9bf4e3476b0b",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1521"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1957-03-07. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-735ed066f617023c",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1555"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Buster Rides Again / Sub City / Time Waits / Marmalade / Monopoly / John's Abbey / Dry Soul / Sub City (alternate take). 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-74c0045c71a54ee8",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1598"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Take Off / Weirdo / Would’n You / I Waited For You / Ray’s Idea / Donna / Well You Needn’t / The Leap / Lazy Susan / Tempus Fugit / It Never Entered My Mind. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-7ab5dc9f51bc5942",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1502"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-7ee61122b48a5f46",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1562"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1521의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-81c4a99aa447e2af",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1521"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "The Three Sounds의 Blue Note 데뷔 앨범이다. 공식 그룹 약력은 Gene Harris, Andrew Simpkins, Bill Dowdy의 블루스 감각과 앙상블을 소개한다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": 0,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "세 악기의 협업을 중심으로",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-86c36212c0502dcb",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1562의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-874a85e54ebed88b",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1562"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1539의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-88aef62569a1fb5c",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1539"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1589의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-899537d5413eb26a",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1589"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Daylie Double / Pennies from Heaven / You’re Mine You / Turnpike (alternate) / It Could Happen to You / Groovin’ / Portrait of Jennie / Viscosity / Time After Time / Capri (alternate). 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-901b005b82860c2f",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1506"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Wee Dot / If I Had You / Now’s the Time / Confirmation. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-a1ac3a55bbbc2529",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1522"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1958-05-24. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-a2e10f4a3b0edb07",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1598"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-a4a8198268b3a463",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1522"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1954-02-21. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-b80faac7c7cf1bea",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1522"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-d0eb6cbbed715a5e",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1521"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1503의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-d138847138b2d491",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1503"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "해당 카탈로그 절에서 곡명과 함께 대조한 녹음일 자료: 1953-06-22, 1954-09-24, 1955-06-06. 최초 발매일과 구분한다. 이 날짜 목록을 근거로 개별 트랙·테이크·연주자 관계를 자동 생성하지 않았다. 녹음 장비·마이크 배치·마스터링은 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 120,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음 시기 자료 — 문헌 범위",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-d48d66e4ed2e5458",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1506"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Turnpike / Lover Man / Get Happy / Sketch One / Capri / Jay / Old Devil Moon / It’s You or No One / Too Marvelous for Words / Coffee Pot. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-dc641adda13797b7",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1505"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1502의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-e022d4c9322fafb3",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1502"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "전문 디스코그래피의 해당 BLP 번호 절에서 대조된 곡명: Un Poco Loco / Dance of the Infidels / It Could Happen to You (alternate) / A Night in Tunisia (alternate) / A Night in Tunisia / Wail / Ornithology / Bouncing with Bud / Parisian Thoroughfare. 이 목록은 LP의 A/B면·수록 순서가 아니며, 후속 판본·대체 테이크를 원본과 동일하다고 확정하지 않는다. 작곡자·개별 곡 참여자·솔로 순서는 이 목록만으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 110,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "곡명 자료 — 문헌 대조 목록, 원본 LP 순서 미확인",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-e175d2069108d3cf",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1503"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-ea1ef0518e6832d8",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1504"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1506의 작품 식별과 발매 목록 대응은 확인했다. 원본 라벨·재킷의 정확한 인쇄, 최초 발매 연월일, 모든 곡의 작곡/연주 크레딧, 원본 LP 곡순은 항목별 추가 검수가 필요하다. 작품 식별 확인이 전체 콘텐츠 완료를 뜻하지 않는다. 판본별 음질과 청취 평가는 미확인이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 130,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "자료 검증 범위와 남은 과제",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-ed3d03d5fc9226e6",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1506"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-f9520e05ecfff56d",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1539"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "관련 공식 아티스트·발매 페이지를 출처 링크로 제공한다. 그 페이지의 이미지를 MY BLUE NOTE로 복제하거나 핫링크하지 않았다. 개별 표지의 사용 허가·원본 LP와의 일치·재발매 및 합본 여부는 별도 검토 대상이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "앨범 표지 자료 — 공식 페이지 참조",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-fb7a899b61fbb363",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1589"
       }
     },
     {
@@ -948,6 +4152,184 @@
             "source-4e07408562bedb8b"
           ],
           "unknown_reason": null,
+          "value": "음량·청취 위치를 일정하게 유지하고 저역의 어택과 감쇠, 고역의 거칠기와 지속음을 따로 기록하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "frequency",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-16e305b14824dbfa",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "판본이 모노인지 스테레오인지 먼저 확인하세요. 모노 음반에서 좌우 악기 배치를 단정하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "space",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-1d7d47daa68a192f",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
           "value": "음장은 소리가 펼쳐진 폭과 깊이다. A5·B3의 4인조와 6인조를 구분하고, 모노 판본이라면 좌우 악기 배치를 스테레오처럼 기대하지 않는다. 이 앨범의 실제 폭·깊이는 미평가다.",
           "verification": "INTERPRETATION"
         },
@@ -1026,6 +4408,95 @@
       "kind": "audio_observations",
       "links": {
         "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "카트리지·포노 설정과 실물 상태를 함께 기록하세요. 표면 잡음과 테이프 히스를 청취만으로 확정 구분하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "vinyl",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-20a546cb1482d11d",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
       }
     },
     {
@@ -1317,6 +4788,95 @@
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",
           "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "클릭과 지속적인 잡음을 구분해 기록하고 음반 상태·세척 여부도 함께 적으세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "vinyl",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-2dd1e42c1598ee27",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
             "source-4e07408562bedb8b",
             "source-d4735e3a265e16ee"
           ],
@@ -1406,6 +4966,95 @@
       "kind": "audio_observations",
       "links": {
         "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "짧게 시작되는 음과 맑은 여운에 집중해 보세요. 실제 곡별 악기 구분은 검증된 참여 기록과 함께 확인하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Celesta",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-2fca8ec0a36b145f",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
       }
     },
     {
@@ -1592,6 +5241,95 @@
       "kind": "audio_observations",
       "links": {
         "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "작은 표현 차이는 음량과 설정에 영향을 받습니다. 가능하면 조건을 맞추고, 장비 가격을 음질의 근거로 삼지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "system",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-3b1b15ea8de72234",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
       }
     },
     {
@@ -2247,6 +5985,95 @@
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",
           "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "베이스는 낮게 내려가는 느낌뿐 아니라 음정을, 심벌은 밝기뿐 아니라 여운을 들어보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "frequency",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-5cb2407556da52f5",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
             "source-4e07408562bedb8b",
             "source-d4735e3a265e16ee"
           ],
@@ -2884,6 +6711,184 @@
       "fields": {
         "body": {
           "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "잔향이 녹음 공간·인공 처리·재생실 중 어디서 온 것인지 단정하지 말고 근거와 함께 가설로 남기세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "ambience",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-852ec60447b7c64e",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "복잡한 구간에서 어느 악기의 윤곽이 흐려지는지 기록하되, 이를 곧바로 마스터링의 결함으로 단정하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "separation",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-8699b629423764ee",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
           "content_kind": "interpretation",
           "source_keys": [
             "source-4e07408562bedb8b",
@@ -2991,6 +6996,95 @@
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",
           "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "소리가 멎은 직후의 여운에 집중해 보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "ambience",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-88e41ce8c883827c",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
             "source-4e07408562bedb8b",
             "source-d4735e3a265e16ee"
           ],
@@ -3080,6 +7174,184 @@
       "kind": "audio_observations",
       "links": {
         "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "현의 어택, 음정의 윤곽과 감쇠를 각각 관찰하세요. 저역의 크기만으로 자연스러움이나 판본의 우열을 판단하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-91e3c328f0ca15e0",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "타건의 시작, 현의 울림과 여운을 나누어 들어보세요. 피아노가 흐리게 들리는 원인은 연주·녹음·마스터링·재생 조건을 함께 확인해야 합니다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-97c0a3121b990fe5",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
       }
     },
     {
@@ -3565,6 +7837,95 @@
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",
           "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "사용한 턴테이블·카트리지·스피커 또는 헤드폰과 청취 위치를 적어 두세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "system",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-c2784e06ffce135e",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
             "source-4e07408562bedb8b",
             "source-d4735e3a265e16ee"
           ],
@@ -3654,6 +8015,184 @@
       "kind": "audio_observations",
       "links": {
         "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "같은 구간을 반복하며 주선율과 반주를 번갈아 추적하고, 구별이 어려운 지점을 기록하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "focus",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-cc2ebd8efe1338cd",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "심벌의 여운, 스네어의 어택, 킥의 낮은 울림을 구분해 들어보세요. 아직 해당 녹음의 특성을 평가한 내용은 아닙니다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-d2fe81fe53149951",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
       }
     },
     {
@@ -4026,6 +8565,184 @@
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",
           "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "같은 자리에서 중심 이미지와 깊이의 인상을 적고, 녹음 정보·판본·스피커 배치의 영향을 분리해 비교하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "space",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-ef782d615a658a51",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "한 악기를 정해 한 곡 동안 따라가 보세요. 동시에 모든 소리를 평가할 필요는 없습니다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "focus",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-f1d5d184fe59a2c0",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
             "source-4e07408562bedb8b",
             "source-d4735e3a265e16ee"
           ],
@@ -4115,6 +8832,95 @@
       "kind": "audio_observations",
       "links": {
         "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "두 악기가 함께 나올 때 한 선율을 끝까지 따라갈 수 있는지 들어보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "separation",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-f8ee7598d23e5afa",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1600"
       }
     },
     {
@@ -4266,6 +9072,43 @@
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "day",
+          "verification": "VERIFIED"
+        },
+        "location": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Van Gelder Studio, Hackensack, New Jersey",
+          "verification": "VERIFIED"
+        },
+        "recording_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "1958-09-16",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "recording-sessions-79856f581c6982e1",
+      "kind": "recording_sessions",
+      "links": {}
+    },
+    {
+      "fields": {
+        "date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
             "source-4e07408562bedb8b"
           ],
           "unknown_reason": null,
@@ -4294,6 +9137,43 @@
         }
       },
       "key": "recording-sessions-81e01bc78b251123",
+      "kind": "recording_sessions",
+      "links": {}
+    },
+    {
+      "fields": {
+        "date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "month",
+          "verification": "VERIFIED"
+        },
+        "location": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Van Gelder Studio, Hackensack, New Jersey",
+          "verification": "VERIFIED"
+        },
+        "recording_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "1958-09",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "recording-sessions-92c3d974567a9dd7",
       "kind": "recording_sessions",
       "links": {}
     }

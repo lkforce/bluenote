@@ -1,0 +1,356 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6",
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6",
+            "source-ef2d127de37b942b"
+          ],
+          "unknown_reason": null,
+          "value": "Bill Dowdy",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-0164c119dc3f7bda",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-3f2d3322aaf80b75",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda"
+      }
+    },
+    {
+      "fields": {
+        "death_year": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        }
+      },
+      "key": "musician-profiles-e693301027d37333",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "자료에 기록된 세션 참여자입니다. 곡별 실제 참여는 각 트랙의 크레딧과 별도로 확인합니다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-21a5c5cad80ee109",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1600",
+        "musician_key": "musicians-0164c119dc3f7bda"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "라이너노트는 Roy Haynes, Max Roach 등 여러 드러머에 대한 선호를 기록한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-5e78212acd5cc785",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Bill Dowdy의 참여 악기를 먼저 확인한 뒤, 이 앨범에서 해당 악기의 짧은 프레이즈 하나를 골라 따라 불러 보세요. 다음에는 다른 악기가 응답하는 순간을 찾아보세요. 이것은 직접 청취할 과제이며 특정 솔로 순서를 확정한 설명은 아닙니다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-609091bd93c4f799",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "Gene Harris와 초기 소규모 그룹에서 활동했고, 군 복무 뒤 시카고에서 드럼을 공부했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e7f6c011776e8db7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-f5cd7eb3920963ba",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-4211d970b14a02fe",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda",
+        "session_key": "recording-sessions-92c3d974567a9dd7"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4b227777d4dd1fc6"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-64e18c2985a48fa2",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-0164c119dc3f7bda",
+        "session_key": "recording-sessions-79856f581c6982e1"
+      }
+    }
+  ],
+  "root_key": "musicians-0164c119dc3f7bda",
+  "schema_version": 1
+}

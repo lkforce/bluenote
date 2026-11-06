@@ -365,6 +365,13 @@
       "url": "/bluenote/data/albums/blp-1552.json"
     },
     {
+      "artist": "Art Blakey",
+      "key": "blp-1555",
+      "number": 1555,
+      "title": "Orgy in Rhythm, Volume Two",
+      "url": "/bluenote/data/albums/blp-1555.json"
+    },
+    {
       "artist": "Jimmy Smith",
       "key": "blp-1556",
       "number": 1556,
@@ -482,6 +489,13 @@
       "number": 1572,
       "title": "Bone & Bari",
       "url": "/bluenote/data/albums/blp-1572.json"
+    },
+    {
+      "artist": "John Jenkins with Kenny Burrell",
+      "key": "blp-1573",
+      "number": 1573,
+      "title": "John Jenkins with Kenny Burrell",
+      "url": "/bluenote/data/albums/blp-1573.json"
     },
     {
       "artist": "Hank Mobley",
@@ -617,6 +631,20 @@
       "url": "/bluenote/data/albums/blp-1595.json"
     },
     {
+      "artist": "Kenny Burrell",
+      "key": "blp-1596",
+      "number": 1596,
+      "title": "Blue Lights, Volume 1",
+      "url": "/bluenote/data/albums/blp-1596.json"
+    },
+    {
+      "artist": "Kenny Burrell",
+      "key": "blp-1597",
+      "number": 1597,
+      "title": "Blue Lights, Volume 2",
+      "url": "/bluenote/data/albums/blp-1597.json"
+    },
+    {
       "artist": "Bud Powell",
       "key": "blp-1598",
       "number": 1598,
@@ -629,6 +657,13 @@
       "number": 1599,
       "title": "Soul Stirrin’",
       "url": "/bluenote/data/albums/blp-1599.json"
+    },
+    {
+      "artist": "The Three Sounds",
+      "key": "blp-1600",
+      "number": 1600,
+      "title": "The 3 Sounds",
+      "url": "/bluenote/data/albums/blp-1600.json"
     }
   ],
   "schema_version": 1
