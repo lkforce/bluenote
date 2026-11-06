@@ -1,0 +1,275 @@
+{
+  "records": [
+    {
+      "fields": {
+        "duration_seconds": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "take_description": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": "Donna",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "tracks-92e6981002bacc4a",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": "A",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": 6,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-tracks-32a873a42ad780d8",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1502",
+        "track_key": "tracks-92e6981002bacc4a"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Alto Saxophone",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-0d8cf92375ec3e1b",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863",
+        "track_key": "tracks-92e6981002bacc4a"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-2d66d6fdd69fe191",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f",
+        "track_key": "tracks-92e6981002bacc4a"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Trombone",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-53e5664c9073f4be",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396",
+        "track_key": "tracks-92e6981002bacc4a"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-794594de7fbdf840",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-7cab671081588242",
+        "track_key": "tracks-92e6981002bacc4a"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-d582588632ba1e57",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-180f6a06d8453f2b",
+        "track_key": "tracks-92e6981002bacc4a"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Trumpet",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-fabf78f80bd2bf72",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399",
+        "track_key": "tracks-92e6981002bacc4a"
+      }
+    },
+    {
+      "fields": {},
+      "key": "track-sessions-9e17e22ed9c25250",
+      "kind": "track_sessions",
+      "links": {
+        "session_key": "recording-sessions-4717565537a6df99",
+        "track_key": "tracks-92e6981002bacc4a"
+      }
+    }
+  ],
+  "root_key": "tracks-92e6981002bacc4a",
+  "schema_version": 1
+}

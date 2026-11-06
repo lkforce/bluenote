@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": null,
+          "value": "Afro-Cuban",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1535",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-67e29ad7878c8c11"
+      }
+    }
+  ],
+  "root_key": "blp-1535",
+  "schema_version": 1
+}

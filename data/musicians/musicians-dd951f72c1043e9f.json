@@ -1,0 +1,728 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "Gil Coggins",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-dd951f72c1043e9f",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-06df04af9119f057",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "birth_year": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        }
+      },
+      "key": "musician-profiles-b487f79d9ac0fe17",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "전 트랙의 피아노 연주자다. 재발매 해설은 A5·B3의 도입에서 그의 역할을 지적한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-1081eb231fa2127f",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1501",
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "유명 리더의 협연자이면서 뉴욕 현장의 후배들과 교류한 음악가라는 위치로 소개한다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "significance",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-2c28f1aaa81d2240",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "A5와 B3의 피아노 도입을 먼저 듣고 트럼펫 등장 후 반주의 위치가 달라지는지 살펴보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-56e4f87d2bc6279d",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "뉴욕에서 활동한 피아니스트로 Lester Young·Miles Davis 등과 협연했다. 출생연도는 기념 사이트 1924와 Miles 공식 사이트 1928이 달라 확정하지 않았다.",
+          "verification": "CONFLICTING"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "CONFLICTING"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "CONFLICTING"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "CONFLICTING"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "conflicting",
+          "verification": "CONFLICTING"
+        }
+      },
+      "key": "musician-stories-635ee95c6b507b15",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "이 음반에서는 피아노의 도입과 반주를 구분해 살피는 것이 유용하다. 개인 음색·보이싱의 구체적 분석은 미확인이다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "style",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-714b82175dfe2e04",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "기념 사이트는 어린 시절 어머니의 찬송가 연주와 피아노 교육, Minton’s Playhouse에서의 활동을 성장 배경으로 소개한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "growth",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-9d15f238f95d1cbb",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "기념 사이트는 여러 후배 음악가와의 교류를 설명하지만 특정 인물을 단일한 스승으로 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-a7a340462e4b4833",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "기념 사이트가 소개하는 리더 작품은 Gil's Mood와 Better Late Than Never다. 이번 세션에서는 작곡가 Bud Powell과 혼동하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "works",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-5f9c4ab08cac7457",
+            "source-670671cd97404156",
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-f98060c53be5f8c0",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-651aa51c0949a9cc",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f",
+        "session_key": "recording-sessions-67ab5a1b69e44ce1"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-e2a0ec672701af43",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f",
+        "session_key": "recording-sessions-4717565537a6df99"
+      }
+    }
+  ],
+  "root_key": "musicians-dd951f72c1043e9f",
+  "schema_version": 1
+}

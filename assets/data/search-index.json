@@ -1,0 +1,3002 @@
+{
+  "catalog": [
+    {
+      "album_key": "blp-1501",
+      "artist": "Miles Davis",
+      "key": "blp-1501",
+      "number": 1501,
+      "release_status": "released",
+      "title": "Volume 1"
+    },
+    {
+      "album_key": "blp-1502",
+      "artist": "Miles Davis",
+      "key": "blp-1502",
+      "number": 1502,
+      "release_status": "released",
+      "title": "Volume 2"
+    },
+    {
+      "album_key": "blp-1503",
+      "artist": "Bud Powell",
+      "key": "blp-1503",
+      "number": 1503,
+      "release_status": "released",
+      "title": "The Amazing Bud Powell, Volume 1"
+    },
+    {
+      "album_key": "blp-1504",
+      "artist": "Bud Powell",
+      "key": "blp-1504",
+      "number": 1504,
+      "release_status": "released",
+      "title": "The Amazing Bud Powell, Volume 2"
+    },
+    {
+      "album_key": "blp-1505",
+      "artist": "J.J. Johnson",
+      "key": "blp-1505",
+      "number": 1505,
+      "release_status": "released",
+      "title": "The Eminent Jay Jay Johnson, Volume 1"
+    },
+    {
+      "album_key": "blp-1506",
+      "artist": "J.J. Johnson",
+      "key": "blp-1506",
+      "number": 1506,
+      "release_status": "released",
+      "title": "The Eminent Jay Jay Johnson, Volume 2"
+    },
+    {
+      "album_key": "blp-1507",
+      "artist": "The Jazz Messengers",
+      "key": "blp-1507",
+      "number": 1507,
+      "release_status": "released",
+      "title": "At the Cafe Bohemia, Volume 1"
+    },
+    {
+      "album_key": "blp-1508",
+      "artist": "The Jazz Messengers",
+      "key": "blp-1508",
+      "number": 1508,
+      "release_status": "released",
+      "title": "At the Cafe Bohemia, Volume 2"
+    },
+    {
+      "album_key": "blp-1509",
+      "artist": "Milt Jackson",
+      "key": "blp-1509",
+      "number": 1509,
+      "release_status": "released",
+      "title": "Milt Jackson and the Thelonious Monk Quintet"
+    },
+    {
+      "album_key": "blp-1510",
+      "artist": "Thelonious Monk",
+      "key": "blp-1510",
+      "number": 1510,
+      "release_status": "released",
+      "title": "Genius of Modern Music, Volume One"
+    },
+    {
+      "album_key": "blp-1511",
+      "artist": "Thelonious Monk",
+      "key": "blp-1511",
+      "number": 1511,
+      "release_status": "released",
+      "title": "Genius of Modern Music, Volume Two"
+    },
+    {
+      "album_key": "blp-1512",
+      "artist": "Jimmy Smith",
+      "key": "blp-1512",
+      "number": 1512,
+      "release_status": "released",
+      "title": "A New Sound… A New Star…, Volume 1"
+    },
+    {
+      "album_key": "blp-1513",
+      "artist": "Thad Jones",
+      "key": "blp-1513",
+      "number": 1513,
+      "release_status": "released",
+      "title": "Detroit–New York Junction"
+    },
+    {
+      "album_key": "blp-1514",
+      "artist": "Jimmy Smith",
+      "key": "blp-1514",
+      "number": 1514,
+      "release_status": "released",
+      "title": "A New Sound–A New Star, Volume 2"
+    },
+    {
+      "album_key": "blp-1515",
+      "artist": "Jutta Hipp",
+      "key": "blp-1515",
+      "number": 1515,
+      "release_status": "released",
+      "title": "At the Hickory House, Volume 1"
+    },
+    {
+      "album_key": "blp-1516",
+      "artist": "Jutta Hipp",
+      "key": "blp-1516",
+      "number": 1516,
+      "release_status": "released",
+      "title": "At the Hickory House, Volume 2"
+    },
+    {
+      "album_key": "blp-1517",
+      "artist": "Gil Mellé",
+      "key": "blp-1517",
+      "number": 1517,
+      "release_status": "released",
+      "title": "Patterns in Jazz"
+    },
+    {
+      "album_key": "blp-1518",
+      "artist": null,
+      "key": "blp-1518",
+      "number": 1518,
+      "release_status": "released",
+      "title": "Horace Silver and the Jazz Messengers"
+    },
+    {
+      "album_key": "blp-1519",
+      "artist": "Herbie Nichols",
+      "key": "blp-1519",
+      "number": 1519,
+      "release_status": "released",
+      "title": "Herbie Nichols Trio"
+    },
+    {
+      "album_key": "blp-1520",
+      "artist": null,
+      "key": "blp-1520",
+      "number": 1520,
+      "release_status": "released",
+      "title": "Horace Silver Trio and Art Blakey–Sabu"
+    },
+    {
+      "album_key": "blp-1521",
+      "artist": "Art Blakey",
+      "key": "blp-1521",
+      "number": 1521,
+      "release_status": "released",
+      "title": "A Night at Birdland, Vol. 1"
+    },
+    {
+      "album_key": "blp-1522",
+      "artist": "Art Blakey",
+      "key": "blp-1522",
+      "number": 1522,
+      "release_status": "released",
+      "title": "A Night at Birdland, Vol. 2"
+    },
+    {
+      "album_key": "blp-1523",
+      "artist": "Kenny Burrell",
+      "key": "blp-1523",
+      "number": 1523,
+      "release_status": "released",
+      "title": "Introducing Kenny Burrell"
+    },
+    {
+      "album_key": "blp-1524",
+      "artist": "Kenny Dorham",
+      "key": "blp-1524",
+      "number": 1524,
+      "release_status": "released",
+      "title": "‘Round About Midnight At The Cafe Bohemia"
+    },
+    {
+      "album_key": "blp-1525",
+      "artist": "Jimmy Smith",
+      "key": "blp-1525",
+      "number": 1525,
+      "release_status": "released",
+      "title": "Jimmy Smith at the Organ, Vol. 3"
+    },
+    {
+      "album_key": "blp-1526",
+      "artist": "Clifford Brown",
+      "key": "blp-1526",
+      "number": 1526,
+      "release_status": "released",
+      "title": "Memorial Album"
+    },
+    {
+      "album_key": "blp-1527",
+      "artist": "Thad Jones",
+      "key": "blp-1527",
+      "number": 1527,
+      "release_status": "released",
+      "title": "The Magnificent Thad Jones"
+    },
+    {
+      "album_key": "blp-1528",
+      "artist": "Jimmy Smith",
+      "key": "blp-1528",
+      "number": 1528,
+      "release_status": "released",
+      "title": "The Incredible Jimmy Smith at Club Baby Grand, Vol. 1"
+    },
+    {
+      "album_key": "blp-1529",
+      "artist": "Jimmy Smith",
+      "key": "blp-1529",
+      "number": 1529,
+      "release_status": "released",
+      "title": "The Incredible Jimmy Smith at Club Baby Grand, Vol. 2"
+    },
+    {
+      "album_key": "blp-1530",
+      "artist": "Jutta Hipp",
+      "key": "blp-1530",
+      "number": 1530,
+      "release_status": "released",
+      "title": "Jutta Hipp With Zoot Sims"
+    },
+    {
+      "album_key": "blp-1531",
+      "artist": "Fats Navarro",
+      "key": "blp-1531",
+      "number": 1531,
+      "release_status": "released",
+      "title": "The Fabulous Fats Navarro, Vol. 1"
+    },
+    {
+      "album_key": "blp-1532",
+      "artist": "Fats Navarro",
+      "key": "blp-1532",
+      "number": 1532,
+      "release_status": "released",
+      "title": "The Fabulous Fats Navarro, Vol. 2"
+    },
+    {
+      "album_key": "blp-1533",
+      "artist": "Johnny Griffin",
+      "key": "blp-1533",
+      "number": 1533,
+      "release_status": "released",
+      "title": "Introducing Johnny Griffin"
+    },
+    {
+      "album_key": "blp-1534",
+      "artist": "Paul Chambers",
+      "key": "blp-1534",
+      "number": 1534,
+      "release_status": "released",
+      "title": "Whims Of Chambers"
+    },
+    {
+      "album_key": "blp-1535",
+      "artist": "Kenny Dorham",
+      "key": "blp-1535",
+      "number": 1535,
+      "release_status": "released",
+      "title": "Afro-Cuban"
+    },
+    {
+      "album_key": "blp-1536",
+      "artist": "J.R. Monterose",
+      "key": "blp-1536",
+      "number": 1536,
+      "release_status": "released",
+      "title": "J. R. Monterose"
+    },
+    {
+      "album_key": "blp-1537",
+      "artist": "Lou Donaldson",
+      "key": "blp-1537",
+      "number": 1537,
+      "release_status": "released",
+      "title": "Quartet / Quintet / Sextet"
+    },
+    {
+      "album_key": "blp-1538",
+      "artist": "Lee Morgan",
+      "key": "blp-1538",
+      "number": 1538,
+      "release_status": "released",
+      "title": "Indeed!"
+    },
+    {
+      "album_key": "blp-1539",
+      "artist": "Horace Silver",
+      "key": "blp-1539",
+      "number": 1539,
+      "release_status": "released",
+      "title": "Six Pieces Of Silver"
+    },
+    {
+      "album_key": "blp-1540",
+      "artist": "Hank Mobley",
+      "key": "blp-1540",
+      "number": 1540,
+      "release_status": "released",
+      "title": "Hank Mobley with Donald Byrd and Lee Morgan"
+    },
+    {
+      "album_key": "blp-1541",
+      "artist": "Lee Morgan",
+      "key": "blp-1541",
+      "number": 1541,
+      "release_status": "released",
+      "title": "Lee Morgan Sextet, Vol. 2"
+    },
+    {
+      "album_key": "blp-1542",
+      "artist": "Sonny Rollins",
+      "key": "blp-1542",
+      "number": 1542,
+      "release_status": "released",
+      "title": "Volume 1"
+    },
+    {
+      "album_key": "blp-1543",
+      "artist": "Kenny Burrell",
+      "key": "blp-1543",
+      "number": 1543,
+      "release_status": "released",
+      "title": "Kenny Burrell"
+    },
+    {
+      "album_key": "blp-1544",
+      "artist": "Hank Mobley",
+      "key": "blp-1544",
+      "number": 1544,
+      "release_status": "released",
+      "title": "Hank Mobley And His All Stars"
+    },
+    {
+      "album_key": "blp-1545",
+      "artist": "Lou Donaldson",
+      "key": "blp-1545",
+      "number": 1545,
+      "release_status": "released",
+      "title": "Wailing With Lou"
+    },
+    {
+      "album_key": "blp-1546",
+      "artist": "Thad Jones",
+      "key": "blp-1546",
+      "number": 1546,
+      "release_status": "released",
+      "title": "The Magnificent Thad Jones, Vol. 3"
+    },
+    {
+      "album_key": "blp-1547",
+      "artist": "Jimmy Smith",
+      "key": "blp-1547",
+      "number": 1547,
+      "release_status": "released",
+      "title": "A Date with Jimmy Smith, Volume One"
+    },
+    {
+      "album_key": "blp-1548",
+      "artist": "Jimmy Smith",
+      "key": "blp-1548",
+      "number": 1548,
+      "release_status": "released",
+      "title": "A Date with Jimmy Smith, Volume Two"
+    },
+    {
+      "album_key": "blp-1549",
+      "artist": "Clifford Jordan",
+      "key": "blp-1549",
+      "number": 1549,
+      "release_status": "released",
+      "title": "Blowing in from Chicago"
+    },
+    {
+      "album_key": "blp-1550",
+      "artist": "Hank Mobley",
+      "key": "blp-1550",
+      "number": 1550,
+      "release_status": "released",
+      "title": "Hank Mobley Quintet"
+    },
+    {
+      "album_key": "blp-1551",
+      "artist": "Jimmy Smith",
+      "key": "blp-1551",
+      "number": 1551,
+      "release_status": "released",
+      "title": "Jimmy Smith at the Organ, Volume 1"
+    },
+    {
+      "album_key": "blp-1552",
+      "artist": "Jimmy Smith",
+      "key": "blp-1552",
+      "number": 1552,
+      "release_status": "released",
+      "title": "Jimmy Smith at the Organ, Volume 2"
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1553",
+      "number": 1553,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1554",
+      "number": 1554,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1555",
+      "number": 1555,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": "blp-1556",
+      "artist": "Jimmy Smith",
+      "key": "blp-1556",
+      "number": 1556,
+      "release_status": "released",
+      "title": "The Sounds Of Jimmy Smith"
+    },
+    {
+      "album_key": "blp-1557",
+      "artist": "Lee Morgan",
+      "key": "blp-1557",
+      "number": 1557,
+      "release_status": "released",
+      "title": "Vol. 3"
+    },
+    {
+      "album_key": "blp-1558",
+      "artist": "Sonny Rollins",
+      "key": "blp-1558",
+      "number": 1558,
+      "release_status": "released",
+      "title": "Volume 2"
+    },
+    {
+      "album_key": "blp-1559",
+      "artist": "Johnny Griffin",
+      "key": "blp-1559",
+      "number": 1559,
+      "release_status": "released",
+      "title": "A Blowing Session"
+    },
+    {
+      "album_key": "blp-1560",
+      "artist": "Hank Mobley",
+      "key": "blp-1560",
+      "number": 1560,
+      "release_status": "released",
+      "title": "Hank"
+    },
+    {
+      "album_key": "blp-1561",
+      "artist": "Sabu Martinez",
+      "key": "blp-1561",
+      "number": 1561,
+      "release_status": "released",
+      "title": "Palo Congo"
+    },
+    {
+      "album_key": "blp-1562",
+      "artist": "Horace Silver",
+      "key": "blp-1562",
+      "number": 1562,
+      "release_status": "released",
+      "title": "The Stylings Of Silver"
+    },
+    {
+      "album_key": "blp-1563",
+      "artist": "Jimmy Smith",
+      "key": "blp-1563",
+      "number": 1563,
+      "release_status": "released",
+      "title": "Plays Pretty Just For You"
+    },
+    {
+      "album_key": "blp-1564",
+      "artist": "Paul Chambers",
+      "key": "blp-1564",
+      "number": 1564,
+      "release_status": "released",
+      "title": "Paul Chambers Quintet"
+    },
+    {
+      "album_key": "blp-1565",
+      "artist": "Clifford Jordan",
+      "key": "blp-1565",
+      "number": 1565,
+      "release_status": "released",
+      "title": "Cliff Jordan"
+    },
+    {
+      "album_key": "blp-1566",
+      "artist": "Lou Donaldson",
+      "key": "blp-1566",
+      "number": 1566,
+      "release_status": "released",
+      "title": "Swing and Soul"
+    },
+    {
+      "album_key": "blp-1567",
+      "artist": "Curtis Fuller",
+      "key": "blp-1567",
+      "number": 1567,
+      "release_status": "released",
+      "title": "The Opener"
+    },
+    {
+      "album_key": "blp-1568",
+      "artist": "Hank Mobley",
+      "key": "blp-1568",
+      "number": 1568,
+      "release_status": "released",
+      "title": "Hank Mobley"
+    },
+    {
+      "album_key": "blp-1569",
+      "artist": "Paul Chambers",
+      "key": "blp-1569",
+      "number": 1569,
+      "release_status": "released",
+      "title": "Bass On Top"
+    },
+    {
+      "album_key": "blp-1570",
+      "artist": "Sonny Clark",
+      "key": "blp-1570",
+      "number": 1570,
+      "release_status": "released",
+      "title": "Dial “S” For Sonny"
+    },
+    {
+      "album_key": "blp-1571",
+      "artist": "Bud Powell",
+      "key": "blp-1571",
+      "number": 1571,
+      "release_status": "released",
+      "title": "The Amazing Bud Powell, Vol. 3 – Bud!"
+    },
+    {
+      "album_key": "blp-1572",
+      "artist": "Curtis Fuller",
+      "key": "blp-1572",
+      "number": 1572,
+      "release_status": "released",
+      "title": "Bone & Bari"
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1573",
+      "number": 1573,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": "blp-1574",
+      "artist": "Hank Mobley",
+      "key": "blp-1574",
+      "number": 1574,
+      "release_status": "released",
+      "title": "Peckin’ Time"
+    },
+    {
+      "album_key": "blp-1575",
+      "artist": "Lee Morgan",
+      "key": "blp-1575",
+      "number": 1575,
+      "release_status": "released",
+      "title": "City Lights"
+    },
+    {
+      "album_key": "blp-1576",
+      "artist": "Sonny Clark",
+      "key": "blp-1576",
+      "number": 1576,
+      "release_status": "released",
+      "title": "Sonny’s Crib"
+    },
+    {
+      "album_key": "blp-1577",
+      "artist": "John Coltrane",
+      "key": "blp-1577",
+      "number": 1577,
+      "release_status": "released",
+      "title": "Blue Train"
+    },
+    {
+      "album_key": "blp-1578",
+      "artist": "Lee Morgan",
+      "key": "blp-1578",
+      "number": 1578,
+      "release_status": "released",
+      "title": "The Cooker"
+    },
+    {
+      "album_key": "blp-1579",
+      "artist": "Sonny Clark",
+      "key": "blp-1579",
+      "number": 1579,
+      "release_status": "released",
+      "title": "Sonny Clark Trio"
+    },
+    {
+      "album_key": "blp-1580",
+      "artist": "Johnny Griffin",
+      "key": "blp-1580",
+      "number": 1580,
+      "release_status": "released",
+      "title": "The Congregation"
+    },
+    {
+      "album_key": "blp-1581",
+      "artist": "Sonny Rollins",
+      "key": "blp-1581",
+      "number": 1581,
+      "release_status": "released",
+      "title": "A Night at the Village Vanguard"
+    },
+    {
+      "album_key": "blp-1582",
+      "artist": "Clifford Jordan",
+      "key": "blp-1582",
+      "number": 1582,
+      "release_status": "released",
+      "title": "Cliff Craft"
+    },
+    {
+      "album_key": "blp-1583",
+      "artist": "Curtis Fuller",
+      "key": "blp-1583",
+      "number": 1583,
+      "release_status": "released",
+      "title": "Volume 3"
+    },
+    {
+      "album_key": "blp-1584",
+      "artist": "Louis Smith",
+      "key": "blp-1584",
+      "number": 1584,
+      "release_status": "released",
+      "title": "Here Comes Louis Smith"
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1585",
+      "number": 1585,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1586",
+      "number": 1586,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": "blp-1587",
+      "artist": "Bennie Green",
+      "key": "blp-1587",
+      "number": 1587,
+      "release_status": "released",
+      "title": "Back On The Scene"
+    },
+    {
+      "album_key": "blp-1588",
+      "artist": "Sonny Clark",
+      "key": "blp-1588",
+      "number": 1588,
+      "release_status": "released",
+      "title": "Cool Struttin’"
+    },
+    {
+      "album_key": "blp-1589",
+      "artist": "Horace Silver",
+      "key": "blp-1589",
+      "number": 1589,
+      "release_status": "released",
+      "title": "Further Explorations"
+    },
+    {
+      "album_key": "blp-1590",
+      "artist": "Lee Morgan",
+      "key": "blp-1590",
+      "number": 1590,
+      "release_status": "released",
+      "title": "Candy"
+    },
+    {
+      "album_key": "blp-1591",
+      "artist": "Lou Donaldson",
+      "key": "blp-1591",
+      "number": 1591,
+      "release_status": "released",
+      "title": "Lou Takes Off"
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1592",
+      "number": 1592,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": "blp-1593",
+      "artist": "Lou Donaldson",
+      "key": "blp-1593",
+      "number": 1593,
+      "release_status": "released",
+      "title": "Blues Walk"
+    },
+    {
+      "album_key": "blp-1594",
+      "artist": "Louis Smith",
+      "key": "blp-1594",
+      "number": 1594,
+      "release_status": "released",
+      "title": "Smithville"
+    },
+    {
+      "album_key": "blp-1595",
+      "artist": "Cannonball Adderley",
+      "key": "blp-1595",
+      "number": 1595,
+      "release_status": "released",
+      "title": "Somethin’ Else"
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1596",
+      "number": 1596,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1597",
+      "number": 1597,
+      "release_status": null,
+      "title": null
+    },
+    {
+      "album_key": "blp-1598",
+      "artist": "Bud Powell",
+      "key": "blp-1598",
+      "number": 1598,
+      "release_status": "released",
+      "title": "Time Waits: The Amazing Bud Powell, Vol. 4"
+    },
+    {
+      "album_key": "blp-1599",
+      "artist": "Bennie Green",
+      "key": "blp-1599",
+      "number": 1599,
+      "release_status": "released",
+      "title": "Soul Stirrin’"
+    },
+    {
+      "album_key": null,
+      "artist": null,
+      "key": "blp-1600",
+      "number": 1600,
+      "release_status": null,
+      "title": null
+    }
+  ],
+  "data_version": "v1-d903b1b36fd0e47da7345dc5",
+  "records": [
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "blp-1501",
+      "kind": "album",
+      "title": "Volume 1",
+      "url": "/bluenote/albums/blp-1501/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "blp-1502",
+      "kind": "album",
+      "title": "Volume 2",
+      "url": "/bluenote/albums/blp-1502/"
+    },
+    {
+      "album_titles": [
+        "The Amazing Bud Powell, Volume 1"
+      ],
+      "artist": "Bud Powell",
+      "catalog_numbers": [
+        1503
+      ],
+      "key": "blp-1503",
+      "kind": "album",
+      "title": "The Amazing Bud Powell, Volume 1",
+      "url": "/bluenote/albums/blp-1503/"
+    },
+    {
+      "album_titles": [
+        "The Amazing Bud Powell, Volume 2"
+      ],
+      "artist": "Bud Powell",
+      "catalog_numbers": [
+        1504
+      ],
+      "key": "blp-1504",
+      "kind": "album",
+      "title": "The Amazing Bud Powell, Volume 2",
+      "url": "/bluenote/albums/blp-1504/"
+    },
+    {
+      "album_titles": [
+        "The Eminent Jay Jay Johnson, Volume 1"
+      ],
+      "artist": "J.J. Johnson",
+      "catalog_numbers": [
+        1505
+      ],
+      "key": "blp-1505",
+      "kind": "album",
+      "title": "The Eminent Jay Jay Johnson, Volume 1",
+      "url": "/bluenote/albums/blp-1505/"
+    },
+    {
+      "album_titles": [
+        "The Eminent Jay Jay Johnson, Volume 2"
+      ],
+      "artist": "J.J. Johnson",
+      "catalog_numbers": [
+        1506
+      ],
+      "key": "blp-1506",
+      "kind": "album",
+      "title": "The Eminent Jay Jay Johnson, Volume 2",
+      "url": "/bluenote/albums/blp-1506/"
+    },
+    {
+      "album_titles": [
+        "At the Cafe Bohemia, Volume 1"
+      ],
+      "artist": "The Jazz Messengers",
+      "catalog_numbers": [
+        1507
+      ],
+      "key": "blp-1507",
+      "kind": "album",
+      "title": "At the Cafe Bohemia, Volume 1",
+      "url": "/bluenote/albums/blp-1507/"
+    },
+    {
+      "album_titles": [
+        "At the Cafe Bohemia, Volume 2"
+      ],
+      "artist": "The Jazz Messengers",
+      "catalog_numbers": [
+        1508
+      ],
+      "key": "blp-1508",
+      "kind": "album",
+      "title": "At the Cafe Bohemia, Volume 2",
+      "url": "/bluenote/albums/blp-1508/"
+    },
+    {
+      "album_titles": [
+        "Milt Jackson and the Thelonious Monk Quintet"
+      ],
+      "artist": "Milt Jackson",
+      "catalog_numbers": [
+        1509
+      ],
+      "key": "blp-1509",
+      "kind": "album",
+      "title": "Milt Jackson and the Thelonious Monk Quintet",
+      "url": "/bluenote/albums/blp-1509/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume One"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1510
+      ],
+      "key": "blp-1510",
+      "kind": "album",
+      "title": "Genius of Modern Music, Volume One",
+      "url": "/bluenote/albums/blp-1510/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "blp-1511",
+      "kind": "album",
+      "title": "Genius of Modern Music, Volume Two",
+      "url": "/bluenote/albums/blp-1511/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "blp-1512",
+      "kind": "album",
+      "title": "A New Sound… A New Star…, Volume 1",
+      "url": "/bluenote/albums/blp-1512/"
+    },
+    {
+      "album_titles": [
+        "Detroit–New York Junction"
+      ],
+      "artist": "Thad Jones",
+      "catalog_numbers": [
+        1513
+      ],
+      "key": "blp-1513",
+      "kind": "album",
+      "title": "Detroit–New York Junction",
+      "url": "/bluenote/albums/blp-1513/"
+    },
+    {
+      "album_titles": [
+        "A New Sound–A New Star, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1514
+      ],
+      "key": "blp-1514",
+      "kind": "album",
+      "title": "A New Sound–A New Star, Volume 2",
+      "url": "/bluenote/albums/blp-1514/"
+    },
+    {
+      "album_titles": [
+        "At the Hickory House, Volume 1"
+      ],
+      "artist": "Jutta Hipp",
+      "catalog_numbers": [
+        1515
+      ],
+      "key": "blp-1515",
+      "kind": "album",
+      "title": "At the Hickory House, Volume 1",
+      "url": "/bluenote/albums/blp-1515/"
+    },
+    {
+      "album_titles": [
+        "At the Hickory House, Volume 2"
+      ],
+      "artist": "Jutta Hipp",
+      "catalog_numbers": [
+        1516
+      ],
+      "key": "blp-1516",
+      "kind": "album",
+      "title": "At the Hickory House, Volume 2",
+      "url": "/bluenote/albums/blp-1516/"
+    },
+    {
+      "album_titles": [
+        "Patterns in Jazz"
+      ],
+      "artist": "Gil Mellé",
+      "catalog_numbers": [
+        1517
+      ],
+      "key": "blp-1517",
+      "kind": "album",
+      "title": "Patterns in Jazz",
+      "url": "/bluenote/albums/blp-1517/"
+    },
+    {
+      "album_titles": [
+        "Horace Silver and the Jazz Messengers"
+      ],
+      "artist": "",
+      "catalog_numbers": [
+        1518
+      ],
+      "key": "blp-1518",
+      "kind": "album",
+      "title": "Horace Silver and the Jazz Messengers",
+      "url": "/bluenote/albums/blp-1518/"
+    },
+    {
+      "album_titles": [
+        "Herbie Nichols Trio"
+      ],
+      "artist": "Herbie Nichols",
+      "catalog_numbers": [
+        1519
+      ],
+      "key": "blp-1519",
+      "kind": "album",
+      "title": "Herbie Nichols Trio",
+      "url": "/bluenote/albums/blp-1519/"
+    },
+    {
+      "album_titles": [
+        "Horace Silver Trio and Art Blakey–Sabu"
+      ],
+      "artist": "",
+      "catalog_numbers": [
+        1520
+      ],
+      "key": "blp-1520",
+      "kind": "album",
+      "title": "Horace Silver Trio and Art Blakey–Sabu",
+      "url": "/bluenote/albums/blp-1520/"
+    },
+    {
+      "album_titles": [
+        "A Night at Birdland, Vol. 1"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1521
+      ],
+      "key": "blp-1521",
+      "kind": "album",
+      "title": "A Night at Birdland, Vol. 1",
+      "url": "/bluenote/albums/blp-1521/"
+    },
+    {
+      "album_titles": [
+        "A Night at Birdland, Vol. 2"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1522
+      ],
+      "key": "blp-1522",
+      "kind": "album",
+      "title": "A Night at Birdland, Vol. 2",
+      "url": "/bluenote/albums/blp-1522/"
+    },
+    {
+      "album_titles": [
+        "Introducing Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523
+      ],
+      "key": "blp-1523",
+      "kind": "album",
+      "title": "Introducing Kenny Burrell",
+      "url": "/bluenote/albums/blp-1523/"
+    },
+    {
+      "album_titles": [
+        "‘Round About Midnight At The Cafe Bohemia"
+      ],
+      "artist": "Kenny Dorham",
+      "catalog_numbers": [
+        1524
+      ],
+      "key": "blp-1524",
+      "kind": "album",
+      "title": "‘Round About Midnight At The Cafe Bohemia",
+      "url": "/bluenote/albums/blp-1524/"
+    },
+    {
+      "album_titles": [
+        "Jimmy Smith at the Organ, Vol. 3"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1525
+      ],
+      "key": "blp-1525",
+      "kind": "album",
+      "title": "Jimmy Smith at the Organ, Vol. 3",
+      "url": "/bluenote/albums/blp-1525/"
+    },
+    {
+      "album_titles": [
+        "Memorial Album"
+      ],
+      "artist": "Clifford Brown",
+      "catalog_numbers": [
+        1526
+      ],
+      "key": "blp-1526",
+      "kind": "album",
+      "title": "Memorial Album",
+      "url": "/bluenote/albums/blp-1526/"
+    },
+    {
+      "album_titles": [
+        "The Magnificent Thad Jones"
+      ],
+      "artist": "Thad Jones",
+      "catalog_numbers": [
+        1527
+      ],
+      "key": "blp-1527",
+      "kind": "album",
+      "title": "The Magnificent Thad Jones",
+      "url": "/bluenote/albums/blp-1527/"
+    },
+    {
+      "album_titles": [
+        "The Incredible Jimmy Smith at Club Baby Grand, Vol. 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1528
+      ],
+      "key": "blp-1528",
+      "kind": "album",
+      "title": "The Incredible Jimmy Smith at Club Baby Grand, Vol. 1",
+      "url": "/bluenote/albums/blp-1528/"
+    },
+    {
+      "album_titles": [
+        "The Incredible Jimmy Smith at Club Baby Grand, Vol. 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1529
+      ],
+      "key": "blp-1529",
+      "kind": "album",
+      "title": "The Incredible Jimmy Smith at Club Baby Grand, Vol. 2",
+      "url": "/bluenote/albums/blp-1529/"
+    },
+    {
+      "album_titles": [
+        "Jutta Hipp With Zoot Sims"
+      ],
+      "artist": "Jutta Hipp",
+      "catalog_numbers": [
+        1530
+      ],
+      "key": "blp-1530",
+      "kind": "album",
+      "title": "Jutta Hipp With Zoot Sims",
+      "url": "/bluenote/albums/blp-1530/"
+    },
+    {
+      "album_titles": [
+        "The Fabulous Fats Navarro, Vol. 1"
+      ],
+      "artist": "Fats Navarro",
+      "catalog_numbers": [
+        1531
+      ],
+      "key": "blp-1531",
+      "kind": "album",
+      "title": "The Fabulous Fats Navarro, Vol. 1",
+      "url": "/bluenote/albums/blp-1531/"
+    },
+    {
+      "album_titles": [
+        "The Fabulous Fats Navarro, Vol. 2"
+      ],
+      "artist": "Fats Navarro",
+      "catalog_numbers": [
+        1532
+      ],
+      "key": "blp-1532",
+      "kind": "album",
+      "title": "The Fabulous Fats Navarro, Vol. 2",
+      "url": "/bluenote/albums/blp-1532/"
+    },
+    {
+      "album_titles": [
+        "Introducing Johnny Griffin"
+      ],
+      "artist": "Johnny Griffin",
+      "catalog_numbers": [
+        1533
+      ],
+      "key": "blp-1533",
+      "kind": "album",
+      "title": "Introducing Johnny Griffin",
+      "url": "/bluenote/albums/blp-1533/"
+    },
+    {
+      "album_titles": [
+        "Whims Of Chambers"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534
+      ],
+      "key": "blp-1534",
+      "kind": "album",
+      "title": "Whims Of Chambers",
+      "url": "/bluenote/albums/blp-1534/"
+    },
+    {
+      "album_titles": [
+        "Afro-Cuban"
+      ],
+      "artist": "Kenny Dorham",
+      "catalog_numbers": [
+        1535
+      ],
+      "key": "blp-1535",
+      "kind": "album",
+      "title": "Afro-Cuban",
+      "url": "/bluenote/albums/blp-1535/"
+    },
+    {
+      "album_titles": [
+        "J. R. Monterose"
+      ],
+      "artist": "J.R. Monterose",
+      "catalog_numbers": [
+        1536
+      ],
+      "key": "blp-1536",
+      "kind": "album",
+      "title": "J. R. Monterose",
+      "url": "/bluenote/albums/blp-1536/"
+    },
+    {
+      "album_titles": [
+        "Quartet / Quintet / Sextet"
+      ],
+      "artist": "Lou Donaldson",
+      "catalog_numbers": [
+        1537
+      ],
+      "key": "blp-1537",
+      "kind": "album",
+      "title": "Quartet / Quintet / Sextet",
+      "url": "/bluenote/albums/blp-1537/"
+    },
+    {
+      "album_titles": [
+        "Indeed!"
+      ],
+      "artist": "Lee Morgan",
+      "catalog_numbers": [
+        1538
+      ],
+      "key": "blp-1538",
+      "kind": "album",
+      "title": "Indeed!",
+      "url": "/bluenote/albums/blp-1538/"
+    },
+    {
+      "album_titles": [
+        "Six Pieces Of Silver"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1539
+      ],
+      "key": "blp-1539",
+      "kind": "album",
+      "title": "Six Pieces Of Silver",
+      "url": "/bluenote/albums/blp-1539/"
+    },
+    {
+      "album_titles": [
+        "Hank Mobley with Donald Byrd and Lee Morgan"
+      ],
+      "artist": "Hank Mobley",
+      "catalog_numbers": [
+        1540
+      ],
+      "key": "blp-1540",
+      "kind": "album",
+      "title": "Hank Mobley with Donald Byrd and Lee Morgan",
+      "url": "/bluenote/albums/blp-1540/"
+    },
+    {
+      "album_titles": [
+        "Lee Morgan Sextet, Vol. 2"
+      ],
+      "artist": "Lee Morgan",
+      "catalog_numbers": [
+        1541
+      ],
+      "key": "blp-1541",
+      "kind": "album",
+      "title": "Lee Morgan Sextet, Vol. 2",
+      "url": "/bluenote/albums/blp-1541/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1542
+      ],
+      "key": "blp-1542",
+      "kind": "album",
+      "title": "Volume 1",
+      "url": "/bluenote/albums/blp-1542/"
+    },
+    {
+      "album_titles": [
+        "Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1543
+      ],
+      "key": "blp-1543",
+      "kind": "album",
+      "title": "Kenny Burrell",
+      "url": "/bluenote/albums/blp-1543/"
+    },
+    {
+      "album_titles": [
+        "Hank Mobley And His All Stars"
+      ],
+      "artist": "Hank Mobley",
+      "catalog_numbers": [
+        1544
+      ],
+      "key": "blp-1544",
+      "kind": "album",
+      "title": "Hank Mobley And His All Stars",
+      "url": "/bluenote/albums/blp-1544/"
+    },
+    {
+      "album_titles": [
+        "Wailing With Lou"
+      ],
+      "artist": "Lou Donaldson",
+      "catalog_numbers": [
+        1545
+      ],
+      "key": "blp-1545",
+      "kind": "album",
+      "title": "Wailing With Lou",
+      "url": "/bluenote/albums/blp-1545/"
+    },
+    {
+      "album_titles": [
+        "The Magnificent Thad Jones, Vol. 3"
+      ],
+      "artist": "Thad Jones",
+      "catalog_numbers": [
+        1546
+      ],
+      "key": "blp-1546",
+      "kind": "album",
+      "title": "The Magnificent Thad Jones, Vol. 3",
+      "url": "/bluenote/albums/blp-1546/"
+    },
+    {
+      "album_titles": [
+        "A Date with Jimmy Smith, Volume One"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1547
+      ],
+      "key": "blp-1547",
+      "kind": "album",
+      "title": "A Date with Jimmy Smith, Volume One",
+      "url": "/bluenote/albums/blp-1547/"
+    },
+    {
+      "album_titles": [
+        "A Date with Jimmy Smith, Volume Two"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1548
+      ],
+      "key": "blp-1548",
+      "kind": "album",
+      "title": "A Date with Jimmy Smith, Volume Two",
+      "url": "/bluenote/albums/blp-1548/"
+    },
+    {
+      "album_titles": [
+        "Blowing in from Chicago"
+      ],
+      "artist": "Clifford Jordan",
+      "catalog_numbers": [
+        1549
+      ],
+      "key": "blp-1549",
+      "kind": "album",
+      "title": "Blowing in from Chicago",
+      "url": "/bluenote/albums/blp-1549/"
+    },
+    {
+      "album_titles": [
+        "Hank Mobley Quintet"
+      ],
+      "artist": "Hank Mobley",
+      "catalog_numbers": [
+        1550
+      ],
+      "key": "blp-1550",
+      "kind": "album",
+      "title": "Hank Mobley Quintet",
+      "url": "/bluenote/albums/blp-1550/"
+    },
+    {
+      "album_titles": [
+        "Jimmy Smith at the Organ, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1551
+      ],
+      "key": "blp-1551",
+      "kind": "album",
+      "title": "Jimmy Smith at the Organ, Volume 1",
+      "url": "/bluenote/albums/blp-1551/"
+    },
+    {
+      "album_titles": [
+        "Jimmy Smith at the Organ, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1552
+      ],
+      "key": "blp-1552",
+      "kind": "album",
+      "title": "Jimmy Smith at the Organ, Volume 2",
+      "url": "/bluenote/albums/blp-1552/"
+    },
+    {
+      "album_titles": [
+        "The Sounds Of Jimmy Smith"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1556
+      ],
+      "key": "blp-1556",
+      "kind": "album",
+      "title": "The Sounds Of Jimmy Smith",
+      "url": "/bluenote/albums/blp-1556/"
+    },
+    {
+      "album_titles": [
+        "Vol. 3"
+      ],
+      "artist": "Lee Morgan",
+      "catalog_numbers": [
+        1557
+      ],
+      "key": "blp-1557",
+      "kind": "album",
+      "title": "Vol. 3",
+      "url": "/bluenote/albums/blp-1557/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1558
+      ],
+      "key": "blp-1558",
+      "kind": "album",
+      "title": "Volume 2",
+      "url": "/bluenote/albums/blp-1558/"
+    },
+    {
+      "album_titles": [
+        "A Blowing Session"
+      ],
+      "artist": "Johnny Griffin",
+      "catalog_numbers": [
+        1559
+      ],
+      "key": "blp-1559",
+      "kind": "album",
+      "title": "A Blowing Session",
+      "url": "/bluenote/albums/blp-1559/"
+    },
+    {
+      "album_titles": [
+        "Hank"
+      ],
+      "artist": "Hank Mobley",
+      "catalog_numbers": [
+        1560
+      ],
+      "key": "blp-1560",
+      "kind": "album",
+      "title": "Hank",
+      "url": "/bluenote/albums/blp-1560/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "blp-1561",
+      "kind": "album",
+      "title": "Palo Congo",
+      "url": "/bluenote/albums/blp-1561/"
+    },
+    {
+      "album_titles": [
+        "The Stylings Of Silver"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1562
+      ],
+      "key": "blp-1562",
+      "kind": "album",
+      "title": "The Stylings Of Silver",
+      "url": "/bluenote/albums/blp-1562/"
+    },
+    {
+      "album_titles": [
+        "Plays Pretty Just For You"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1563
+      ],
+      "key": "blp-1563",
+      "kind": "album",
+      "title": "Plays Pretty Just For You",
+      "url": "/bluenote/albums/blp-1563/"
+    },
+    {
+      "album_titles": [
+        "Paul Chambers Quintet"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1564
+      ],
+      "key": "blp-1564",
+      "kind": "album",
+      "title": "Paul Chambers Quintet",
+      "url": "/bluenote/albums/blp-1564/"
+    },
+    {
+      "album_titles": [
+        "Cliff Jordan"
+      ],
+      "artist": "Clifford Jordan",
+      "catalog_numbers": [
+        1565
+      ],
+      "key": "blp-1565",
+      "kind": "album",
+      "title": "Cliff Jordan",
+      "url": "/bluenote/albums/blp-1565/"
+    },
+    {
+      "album_titles": [
+        "Swing and Soul"
+      ],
+      "artist": "Lou Donaldson",
+      "catalog_numbers": [
+        1566
+      ],
+      "key": "blp-1566",
+      "kind": "album",
+      "title": "Swing and Soul",
+      "url": "/bluenote/albums/blp-1566/"
+    },
+    {
+      "album_titles": [
+        "The Opener"
+      ],
+      "artist": "Curtis Fuller",
+      "catalog_numbers": [
+        1567
+      ],
+      "key": "blp-1567",
+      "kind": "album",
+      "title": "The Opener",
+      "url": "/bluenote/albums/blp-1567/"
+    },
+    {
+      "album_titles": [
+        "Hank Mobley"
+      ],
+      "artist": "Hank Mobley",
+      "catalog_numbers": [
+        1568
+      ],
+      "key": "blp-1568",
+      "kind": "album",
+      "title": "Hank Mobley",
+      "url": "/bluenote/albums/blp-1568/"
+    },
+    {
+      "album_titles": [
+        "Bass On Top"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1569
+      ],
+      "key": "blp-1569",
+      "kind": "album",
+      "title": "Bass On Top",
+      "url": "/bluenote/albums/blp-1569/"
+    },
+    {
+      "album_titles": [
+        "Dial “S” For Sonny"
+      ],
+      "artist": "Sonny Clark",
+      "catalog_numbers": [
+        1570
+      ],
+      "key": "blp-1570",
+      "kind": "album",
+      "title": "Dial “S” For Sonny",
+      "url": "/bluenote/albums/blp-1570/"
+    },
+    {
+      "album_titles": [
+        "The Amazing Bud Powell, Vol. 3 – Bud!"
+      ],
+      "artist": "Bud Powell",
+      "catalog_numbers": [
+        1571
+      ],
+      "key": "blp-1571",
+      "kind": "album",
+      "title": "The Amazing Bud Powell, Vol. 3 – Bud!",
+      "url": "/bluenote/albums/blp-1571/"
+    },
+    {
+      "album_titles": [
+        "Bone & Bari"
+      ],
+      "artist": "Curtis Fuller",
+      "catalog_numbers": [
+        1572
+      ],
+      "key": "blp-1572",
+      "kind": "album",
+      "title": "Bone & Bari",
+      "url": "/bluenote/albums/blp-1572/"
+    },
+    {
+      "album_titles": [
+        "Peckin’ Time"
+      ],
+      "artist": "Hank Mobley",
+      "catalog_numbers": [
+        1574
+      ],
+      "key": "blp-1574",
+      "kind": "album",
+      "title": "Peckin’ Time",
+      "url": "/bluenote/albums/blp-1574/"
+    },
+    {
+      "album_titles": [
+        "City Lights"
+      ],
+      "artist": "Lee Morgan",
+      "catalog_numbers": [
+        1575
+      ],
+      "key": "blp-1575",
+      "kind": "album",
+      "title": "City Lights",
+      "url": "/bluenote/albums/blp-1575/"
+    },
+    {
+      "album_titles": [
+        "Sonny’s Crib"
+      ],
+      "artist": "Sonny Clark",
+      "catalog_numbers": [
+        1576
+      ],
+      "key": "blp-1576",
+      "kind": "album",
+      "title": "Sonny’s Crib",
+      "url": "/bluenote/albums/blp-1576/"
+    },
+    {
+      "album_titles": [
+        "Blue Train"
+      ],
+      "artist": "John Coltrane",
+      "catalog_numbers": [
+        1577
+      ],
+      "key": "blp-1577",
+      "kind": "album",
+      "title": "Blue Train",
+      "url": "/bluenote/albums/blp-1577/"
+    },
+    {
+      "album_titles": [
+        "The Cooker"
+      ],
+      "artist": "Lee Morgan",
+      "catalog_numbers": [
+        1578
+      ],
+      "key": "blp-1578",
+      "kind": "album",
+      "title": "The Cooker",
+      "url": "/bluenote/albums/blp-1578/"
+    },
+    {
+      "album_titles": [
+        "Sonny Clark Trio"
+      ],
+      "artist": "Sonny Clark",
+      "catalog_numbers": [
+        1579
+      ],
+      "key": "blp-1579",
+      "kind": "album",
+      "title": "Sonny Clark Trio",
+      "url": "/bluenote/albums/blp-1579/"
+    },
+    {
+      "album_titles": [
+        "The Congregation"
+      ],
+      "artist": "Johnny Griffin",
+      "catalog_numbers": [
+        1580
+      ],
+      "key": "blp-1580",
+      "kind": "album",
+      "title": "The Congregation",
+      "url": "/bluenote/albums/blp-1580/"
+    },
+    {
+      "album_titles": [
+        "A Night at the Village Vanguard"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1581
+      ],
+      "key": "blp-1581",
+      "kind": "album",
+      "title": "A Night at the Village Vanguard",
+      "url": "/bluenote/albums/blp-1581/"
+    },
+    {
+      "album_titles": [
+        "Cliff Craft"
+      ],
+      "artist": "Clifford Jordan",
+      "catalog_numbers": [
+        1582
+      ],
+      "key": "blp-1582",
+      "kind": "album",
+      "title": "Cliff Craft",
+      "url": "/bluenote/albums/blp-1582/"
+    },
+    {
+      "album_titles": [
+        "Volume 3"
+      ],
+      "artist": "Curtis Fuller",
+      "catalog_numbers": [
+        1583
+      ],
+      "key": "blp-1583",
+      "kind": "album",
+      "title": "Volume 3",
+      "url": "/bluenote/albums/blp-1583/"
+    },
+    {
+      "album_titles": [
+        "Here Comes Louis Smith"
+      ],
+      "artist": "Louis Smith",
+      "catalog_numbers": [
+        1584
+      ],
+      "key": "blp-1584",
+      "kind": "album",
+      "title": "Here Comes Louis Smith",
+      "url": "/bluenote/albums/blp-1584/"
+    },
+    {
+      "album_titles": [
+        "Back On The Scene"
+      ],
+      "artist": "Bennie Green",
+      "catalog_numbers": [
+        1587
+      ],
+      "key": "blp-1587",
+      "kind": "album",
+      "title": "Back On The Scene",
+      "url": "/bluenote/albums/blp-1587/"
+    },
+    {
+      "album_titles": [
+        "Cool Struttin’"
+      ],
+      "artist": "Sonny Clark",
+      "catalog_numbers": [
+        1588
+      ],
+      "key": "blp-1588",
+      "kind": "album",
+      "title": "Cool Struttin’",
+      "url": "/bluenote/albums/blp-1588/"
+    },
+    {
+      "album_titles": [
+        "Further Explorations"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1589
+      ],
+      "key": "blp-1589",
+      "kind": "album",
+      "title": "Further Explorations",
+      "url": "/bluenote/albums/blp-1589/"
+    },
+    {
+      "album_titles": [
+        "Candy"
+      ],
+      "artist": "Lee Morgan",
+      "catalog_numbers": [
+        1590
+      ],
+      "key": "blp-1590",
+      "kind": "album",
+      "title": "Candy",
+      "url": "/bluenote/albums/blp-1590/"
+    },
+    {
+      "album_titles": [
+        "Lou Takes Off"
+      ],
+      "artist": "Lou Donaldson",
+      "catalog_numbers": [
+        1591
+      ],
+      "key": "blp-1591",
+      "kind": "album",
+      "title": "Lou Takes Off",
+      "url": "/bluenote/albums/blp-1591/"
+    },
+    {
+      "album_titles": [
+        "Blues Walk"
+      ],
+      "artist": "Lou Donaldson",
+      "catalog_numbers": [
+        1593
+      ],
+      "key": "blp-1593",
+      "kind": "album",
+      "title": "Blues Walk",
+      "url": "/bluenote/albums/blp-1593/"
+    },
+    {
+      "album_titles": [
+        "Smithville"
+      ],
+      "artist": "Louis Smith",
+      "catalog_numbers": [
+        1594
+      ],
+      "key": "blp-1594",
+      "kind": "album",
+      "title": "Smithville",
+      "url": "/bluenote/albums/blp-1594/"
+    },
+    {
+      "album_titles": [
+        "Somethin’ Else"
+      ],
+      "artist": "Cannonball Adderley",
+      "catalog_numbers": [
+        1595
+      ],
+      "key": "blp-1595",
+      "kind": "album",
+      "title": "Somethin’ Else",
+      "url": "/bluenote/albums/blp-1595/"
+    },
+    {
+      "album_titles": [
+        "Time Waits: The Amazing Bud Powell, Vol. 4"
+      ],
+      "artist": "Bud Powell",
+      "catalog_numbers": [
+        1598
+      ],
+      "key": "blp-1598",
+      "kind": "album",
+      "title": "Time Waits: The Amazing Bud Powell, Vol. 4",
+      "url": "/bluenote/albums/blp-1598/"
+    },
+    {
+      "album_titles": [
+        "Soul Stirrin’"
+      ],
+      "artist": "Bennie Green",
+      "catalog_numbers": [
+        1599
+      ],
+      "key": "blp-1599",
+      "kind": "album",
+      "title": "Soul Stirrin’",
+      "url": "/bluenote/albums/blp-1599/"
+    },
+    {
+      "album_titles": [
+        "Memorial Album"
+      ],
+      "artist": "Clifford Brown",
+      "catalog_numbers": [
+        1526
+      ],
+      "key": "musicians-0f04889d8fd043f3",
+      "kind": "musician",
+      "title": "Clifford Brown",
+      "url": "/bluenote/musicians/musicians-0f04889d8fd043f3/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "musicians-10e8ad0b9d8f3cdf",
+      "kind": "musician",
+      "title": "Ray Brown",
+      "url": "/bluenote/musicians/musicians-10e8ad0b9d8f3cdf/"
+    },
+    {
+      "album_titles": [
+        "Volume 2",
+        "Six Pieces Of Silver",
+        "The Stylings Of Silver",
+        "Further Explorations"
+      ],
+      "artist": "Horace Silver · Miles Davis",
+      "catalog_numbers": [
+        1502,
+        1539,
+        1562,
+        1589
+      ],
+      "key": "musicians-123099052a6eac17",
+      "kind": "musician",
+      "title": "Horace Silver",
+      "url": "/bluenote/musicians/musicians-123099052a6eac17/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-14047df0d9987268",
+      "kind": "musician",
+      "title": "Doug Hawkins",
+      "url": "/bluenote/musicians/musicians-14047df0d9987268/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-14ea58eee7447bfc",
+      "kind": "musician",
+      "title": "Jimmy Heath",
+      "url": "/bluenote/musicians/musicians-14ea58eee7447bfc/"
+    },
+    {
+      "album_titles": [
+        "The Fabulous Fats Navarro, Vol. 1",
+        "The Fabulous Fats Navarro, Vol. 2"
+      ],
+      "artist": "Fats Navarro",
+      "catalog_numbers": [
+        1531,
+        1532
+      ],
+      "key": "musicians-161cff17745c12b0",
+      "kind": "musician",
+      "title": "Fats Navarro",
+      "url": "/bluenote/musicians/musicians-161cff17745c12b0/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-180f6a06d8453f2b",
+      "kind": "musician",
+      "title": "Oscar Pettiford",
+      "url": "/bluenote/musicians/musicians-180f6a06d8453f2b/"
+    },
+    {
+      "album_titles": [
+        "Whims Of Chambers",
+        "Paul Chambers Quintet",
+        "Bass On Top"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534,
+        1564,
+        1569
+      ],
+      "key": "musicians-1d2387dc1e8bb24c",
+      "kind": "musician",
+      "title": "Paul Chambers",
+      "url": "/bluenote/musicians/musicians-1d2387dc1e8bb24c/"
+    },
+    {
+      "album_titles": [
+        "Quartet / Quintet / Sextet",
+        "Wailing With Lou",
+        "Swing and Soul",
+        "Lou Takes Off",
+        "Blues Walk"
+      ],
+      "artist": "Lou Donaldson",
+      "catalog_numbers": [
+        1537,
+        1545,
+        1566,
+        1591,
+        1593
+      ],
+      "key": "musicians-202c33e69f853617",
+      "kind": "musician",
+      "title": "Lou Donaldson",
+      "url": "/bluenote/musicians/musicians-202c33e69f853617/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "musicians-242312ab6bfa1b21",
+      "kind": "musician",
+      "title": "Sabu Martinez",
+      "url": "/bluenote/musicians/musicians-242312ab6bfa1b21/"
+    },
+    {
+      "album_titles": [
+        "Dial “S” For Sonny",
+        "Sonny’s Crib",
+        "Sonny Clark Trio",
+        "Cool Struttin’"
+      ],
+      "artist": "Sonny Clark",
+      "catalog_numbers": [
+        1570,
+        1576,
+        1579,
+        1588
+      ],
+      "key": "musicians-343ed90e4ed131ca",
+      "kind": "musician",
+      "title": "Sonny Clark",
+      "url": "/bluenote/musicians/musicians-343ed90e4ed131ca/"
+    },
+    {
+      "album_titles": [
+        "Blue Train"
+      ],
+      "artist": "John Coltrane",
+      "catalog_numbers": [
+        1577
+      ],
+      "key": "musicians-36b41ccc89dc0373",
+      "kind": "musician",
+      "title": "John Coltrane",
+      "url": "/bluenote/musicians/musicians-36b41ccc89dc0373/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "musicians-40155d540b1a77a2",
+      "kind": "musician",
+      "title": "Dizzy Gillespie",
+      "url": "/bluenote/musicians/musicians-40155d540b1a77a2/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "musicians-5de0440ec2ca21e0",
+      "kind": "musician",
+      "title": "Jerome Kern",
+      "url": "/bluenote/musicians/musicians-5de0440ec2ca21e0/"
+    },
+    {
+      "album_titles": [
+        "Introducing Kenny Burrell",
+        "Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523,
+        1543
+      ],
+      "key": "musicians-614455c32617043b",
+      "kind": "musician",
+      "title": "Kenny Burrell",
+      "url": "/bluenote/musicians/musicians-614455c32617043b/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1",
+        "A New Sound–A New Star, Volume 2",
+        "Jimmy Smith at the Organ, Vol. 3",
+        "The Incredible Jimmy Smith at Club Baby Grand, Vol. 1",
+        "The Incredible Jimmy Smith at Club Baby Grand, Vol. 2",
+        "A Date with Jimmy Smith, Volume One",
+        "A Date with Jimmy Smith, Volume Two",
+        "Jimmy Smith at the Organ, Volume 1",
+        "Jimmy Smith at the Organ, Volume 2",
+        "The Sounds Of Jimmy Smith",
+        "Plays Pretty Just For You"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512,
+        1514,
+        1525,
+        1528,
+        1529,
+        1547,
+        1548,
+        1551,
+        1552,
+        1556,
+        1563
+      ],
+      "key": "musicians-64e77f47f1b2c613",
+      "kind": "musician",
+      "title": "Jimmy Smith",
+      "url": "/bluenote/musicians/musicians-64e77f47f1b2c613/"
+    },
+    {
+      "album_titles": [
+        "Detroit–New York Junction",
+        "The Magnificent Thad Jones",
+        "The Magnificent Thad Jones, Vol. 3"
+      ],
+      "artist": "Thad Jones",
+      "catalog_numbers": [
+        1513,
+        1527,
+        1546
+      ],
+      "key": "musicians-679753b30c202157",
+      "kind": "musician",
+      "title": "Thad Jones",
+      "url": "/bluenote/musicians/musicians-679753b30c202157/"
+    },
+    {
+      "album_titles": [
+        "‘Round About Midnight At The Cafe Bohemia",
+        "Afro-Cuban"
+      ],
+      "artist": "Kenny Dorham",
+      "catalog_numbers": [
+        1524,
+        1535
+      ],
+      "key": "musicians-67e29ad7878c8c11",
+      "kind": "musician",
+      "title": "Kenny Dorham",
+      "url": "/bluenote/musicians/musicians-67e29ad7878c8c11/"
+    },
+    {
+      "album_titles": [
+        "Somethin’ Else"
+      ],
+      "artist": "Cannonball Adderley",
+      "catalog_numbers": [
+        1595
+      ],
+      "key": "musicians-686ef23fb711ea48",
+      "kind": "musician",
+      "title": "Cannonball Adderley",
+      "url": "/bluenote/musicians/musicians-686ef23fb711ea48/"
+    },
+    {
+      "album_titles": [
+        "Herbie Nichols Trio"
+      ],
+      "artist": "Herbie Nichols",
+      "catalog_numbers": [
+        1519
+      ],
+      "key": "musicians-69c3a513cb929a8a",
+      "kind": "musician",
+      "title": "Herbie Nichols",
+      "url": "/bluenote/musicians/musicians-69c3a513cb929a8a/"
+    },
+    {
+      "album_titles": [
+        "Indeed!",
+        "Lee Morgan Sextet, Vol. 2",
+        "Vol. 3",
+        "City Lights",
+        "The Cooker",
+        "Candy"
+      ],
+      "artist": "Lee Morgan",
+      "catalog_numbers": [
+        1538,
+        1541,
+        1557,
+        1575,
+        1578,
+        1590
+      ],
+      "key": "musicians-784e45cff5da54c9",
+      "kind": "musician",
+      "title": "Lee Morgan",
+      "url": "/bluenote/musicians/musicians-784e45cff5da54c9/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-7cab671081588242",
+      "kind": "musician",
+      "title": "Kenny Clarke",
+      "url": "/bluenote/musicians/musicians-7cab671081588242/"
+    },
+    {
+      "album_titles": [
+        "The Opener",
+        "Bone & Bari",
+        "Volume 3"
+      ],
+      "artist": "Curtis Fuller",
+      "catalog_numbers": [
+        1567,
+        1572,
+        1583
+      ],
+      "key": "musicians-7f12d8266acecac4",
+      "kind": "musician",
+      "title": "Curtis Fuller",
+      "url": "/bluenote/musicians/musicians-7f12d8266acecac4/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2",
+        "A Night at Birdland, Vol. 1",
+        "A Night at Birdland, Vol. 2"
+      ],
+      "artist": "Art Blakey · Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502,
+        1521,
+        1522
+      ],
+      "key": "musicians-7f6d2da87fc7519e",
+      "kind": "musician",
+      "title": "Art Blakey",
+      "url": "/bluenote/musicians/musicians-7f6d2da87fc7519e/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-886362238c781e67",
+      "kind": "musician",
+      "title": "Percy Heath",
+      "url": "/bluenote/musicians/musicians-886362238c781e67/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "musicians-8cac70666b4a0a82",
+      "kind": "musician",
+      "title": "Gil Fuller",
+      "url": "/bluenote/musicians/musicians-8cac70666b4a0a82/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "The Amazing Bud Powell, Volume 1",
+        "The Amazing Bud Powell, Volume 2",
+        "The Amazing Bud Powell, Vol. 3 – Bud!",
+        "Time Waits: The Amazing Bud Powell, Vol. 4"
+      ],
+      "artist": "Bud Powell · Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1503,
+        1504,
+        1571,
+        1598
+      ],
+      "key": "musicians-90a44958a009129b",
+      "kind": "musician",
+      "title": "Bud Powell",
+      "url": "/bluenote/musicians/musicians-90a44958a009129b/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2",
+        "The Eminent Jay Jay Johnson, Volume 1",
+        "The Eminent Jay Jay Johnson, Volume 2"
+      ],
+      "artist": "J.J. Johnson · Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502,
+        1505,
+        1506
+      ],
+      "key": "musicians-a1f112a71c979396",
+      "kind": "musician",
+      "title": "J.J. Johnson",
+      "url": "/bluenote/musicians/musicians-a1f112a71c979396/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-a4a8a71f413f764f",
+      "kind": "musician",
+      "title": "Alfred Lion",
+      "url": "/bluenote/musicians/musicians-a4a8a71f413f764f/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2",
+        "A Night at the Village Vanguard"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1542,
+        1558,
+        1581
+      ],
+      "key": "musicians-a6306da44c30cbc6",
+      "kind": "musician",
+      "title": "Sonny Rollins",
+      "url": "/bluenote/musicians/musicians-a6306da44c30cbc6/"
+    },
+    {
+      "album_titles": [
+        "At the Cafe Bohemia, Volume 1",
+        "At the Cafe Bohemia, Volume 2"
+      ],
+      "artist": "The Jazz Messengers",
+      "catalog_numbers": [
+        1507,
+        1508
+      ],
+      "key": "musicians-b3b9d7313fdc3121",
+      "kind": "musician",
+      "title": "The Jazz Messengers",
+      "url": "/bluenote/musicians/musicians-b3b9d7313fdc3121/"
+    },
+    {
+      "album_titles": [
+        "At the Hickory House, Volume 1",
+        "At the Hickory House, Volume 2",
+        "Jutta Hipp With Zoot Sims"
+      ],
+      "artist": "Jutta Hipp",
+      "catalog_numbers": [
+        1515,
+        1516,
+        1530
+      ],
+      "key": "musicians-c30d18a7bcf4ca6e",
+      "kind": "musician",
+      "title": "Jutta Hipp",
+      "url": "/bluenote/musicians/musicians-c30d18a7bcf4ca6e/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "musicians-c878a5b88ec35b44",
+      "kind": "musician",
+      "title": "Irving Berlin",
+      "url": "/bluenote/musicians/musicians-c878a5b88ec35b44/"
+    },
+    {
+      "album_titles": [
+        "J. R. Monterose"
+      ],
+      "artist": "J.R. Monterose",
+      "catalog_numbers": [
+        1536
+      ],
+      "key": "musicians-ca30b77a23f09fa0",
+      "kind": "musician",
+      "title": "J.R. Monterose",
+      "url": "/bluenote/musicians/musicians-ca30b77a23f09fa0/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-caad94f4ccb42863",
+      "kind": "musician",
+      "title": "Jackie McLean",
+      "url": "/bluenote/musicians/musicians-caad94f4ccb42863/"
+    },
+    {
+      "album_titles": [
+        "Introducing Johnny Griffin",
+        "A Blowing Session",
+        "The Congregation"
+      ],
+      "artist": "Johnny Griffin",
+      "catalog_numbers": [
+        1533,
+        1559,
+        1580
+      ],
+      "key": "musicians-cc330d3b5bfab729",
+      "kind": "musician",
+      "title": "Johnny Griffin",
+      "url": "/bluenote/musicians/musicians-cc330d3b5bfab729/"
+    },
+    {
+      "album_titles": [
+        "Blowing in from Chicago",
+        "Cliff Jordan",
+        "Cliff Craft"
+      ],
+      "artist": "Clifford Jordan",
+      "catalog_numbers": [
+        1549,
+        1565,
+        1582
+      ],
+      "key": "musicians-d3d9850d80ad9b98",
+      "kind": "musician",
+      "title": "Clifford Jordan",
+      "url": "/bluenote/musicians/musicians-d3d9850d80ad9b98/"
+    },
+    {
+      "album_titles": [
+        "Milt Jackson and the Thelonious Monk Quintet"
+      ],
+      "artist": "Milt Jackson",
+      "catalog_numbers": [
+        1509
+      ],
+      "key": "musicians-d874ce04fc6a512b",
+      "kind": "musician",
+      "title": "Milt Jackson",
+      "url": "/bluenote/musicians/musicians-d874ce04fc6a512b/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-dd951f72c1043e9f",
+      "kind": "musician",
+      "title": "Gil Coggins",
+      "url": "/bluenote/musicians/musicians-dd951f72c1043e9f/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume One",
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1510,
+        1511
+      ],
+      "key": "musicians-df4f1143c92bd703",
+      "kind": "musician",
+      "title": "Thelonious Monk",
+      "url": "/bluenote/musicians/musicians-df4f1143c92bd703/"
+    },
+    {
+      "album_titles": [
+        "Here Comes Louis Smith",
+        "Smithville"
+      ],
+      "artist": "Louis Smith",
+      "catalog_numbers": [
+        1584,
+        1594
+      ],
+      "key": "musicians-ed63136fa662fc53",
+      "kind": "musician",
+      "title": "Louis Smith",
+      "url": "/bluenote/musicians/musicians-ed63136fa662fc53/"
+    },
+    {
+      "album_titles": [
+        "Back On The Scene",
+        "Soul Stirrin’"
+      ],
+      "artist": "Bennie Green",
+      "catalog_numbers": [
+        1587,
+        1599
+      ],
+      "key": "musicians-ee3d401ac7b4ac2c",
+      "kind": "musician",
+      "title": "Bennie Green",
+      "url": "/bluenote/musicians/musicians-ee3d401ac7b4ac2c/"
+    },
+    {
+      "album_titles": [
+        "Volume 1",
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501,
+        1502
+      ],
+      "key": "musicians-f3264679b57e6399",
+      "kind": "musician",
+      "title": "Miles Davis",
+      "url": "/bluenote/musicians/musicians-f3264679b57e6399/"
+    },
+    {
+      "album_titles": [
+        "Hank Mobley with Donald Byrd and Lee Morgan",
+        "Hank Mobley And His All Stars",
+        "Hank Mobley Quintet",
+        "Hank",
+        "Hank Mobley",
+        "Peckin’ Time"
+      ],
+      "artist": "Hank Mobley",
+      "catalog_numbers": [
+        1540,
+        1544,
+        1550,
+        1560,
+        1568,
+        1574
+      ],
+      "key": "musicians-f33f492fc8174f45",
+      "kind": "musician",
+      "title": "Hank Mobley",
+      "url": "/bluenote/musicians/musicians-f33f492fc8174f45/"
+    },
+    {
+      "album_titles": [
+        "Patterns in Jazz"
+      ],
+      "artist": "Gil Mellé",
+      "catalog_numbers": [
+        1517
+      ],
+      "key": "musicians-fa0d468a126cd413",
+      "kind": "musician",
+      "title": "Gil Mellé",
+      "url": "/bluenote/musicians/musicians-fa0d468a126cd413/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-0553008bc93c6aff",
+      "kind": "track",
+      "title": "Chance It",
+      "url": "/bluenote/tracks/tracks-0553008bc93c6aff/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-170c33f71442de03",
+      "kind": "track",
+      "title": "How Deep Is The Ocean",
+      "url": "/bluenote/tracks/tracks-170c33f71442de03/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-46120a92239fcee5",
+      "kind": "track",
+      "title": "Yesterdays",
+      "url": "/bluenote/tracks/tracks-46120a92239fcee5/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-4d1481c4a54c728f",
+      "kind": "track",
+      "title": "Ray's Idea",
+      "url": "/bluenote/tracks/tracks-4d1481c4a54c728f/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-59775bda7996a8f7",
+      "kind": "track",
+      "title": "Would’n You",
+      "url": "/bluenote/tracks/tracks-59775bda7996a8f7/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-5ab25e37aee8cb2e",
+      "kind": "track",
+      "title": "Tempus Fugit",
+      "url": "/bluenote/tracks/tracks-5ab25e37aee8cb2e/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-66abdbf5fe916774",
+      "kind": "track",
+      "title": "Well You Needn’t",
+      "url": "/bluenote/tracks/tracks-66abdbf5fe916774/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-692b425b5e774ef8",
+      "kind": "track",
+      "title": "Dear Old Stockholm",
+      "url": "/bluenote/tracks/tracks-692b425b5e774ef8/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-6b53915d44471b45",
+      "kind": "track",
+      "title": "Weirdo",
+      "url": "/bluenote/tracks/tracks-6b53915d44471b45/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-6cb62fe46203f580",
+      "kind": "track",
+      "title": "Take Off",
+      "url": "/bluenote/tracks/tracks-6cb62fe46203f580/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-78a5e0d4100925c2",
+      "kind": "track",
+      "title": "Would’n You",
+      "url": "/bluenote/tracks/tracks-78a5e0d4100925c2/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-92e6981002bacc4a",
+      "kind": "track",
+      "title": "Donna",
+      "url": "/bluenote/tracks/tracks-92e6981002bacc4a/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-9ec13e16b353c9ac",
+      "kind": "track",
+      "title": "Kelo",
+      "url": "/bluenote/tracks/tracks-9ec13e16b353c9ac/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-a019895754c68dfb",
+      "kind": "track",
+      "title": "C.T.A.",
+      "url": "/bluenote/tracks/tracks-a019895754c68dfb/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-a548d115c273dea9",
+      "kind": "track",
+      "title": "C.T.A.",
+      "url": "/bluenote/tracks/tracks-a548d115c273dea9/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-ab81807a83c9bddc",
+      "kind": "track",
+      "title": "Enigma",
+      "url": "/bluenote/tracks/tracks-ab81807a83c9bddc/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-b20eecd74816c2e0",
+      "kind": "track",
+      "title": "Ray’s Idea",
+      "url": "/bluenote/tracks/tracks-b20eecd74816c2e0/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-bee13d9f084a5c2e",
+      "kind": "track",
+      "title": "Lazy Susan",
+      "url": "/bluenote/tracks/tracks-bee13d9f084a5c2e/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-ccb5101913c0bbdb",
+      "kind": "track",
+      "title": "I Waited For You",
+      "url": "/bluenote/tracks/tracks-ccb5101913c0bbdb/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-d7fe66fce44cdc18",
+      "kind": "track",
+      "title": "Tempus Fugit",
+      "url": "/bluenote/tracks/tracks-d7fe66fce44cdc18/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-e255a7cbd62b1b02",
+      "kind": "track",
+      "title": "The Leap",
+      "url": "/bluenote/tracks/tracks-e255a7cbd62b1b02/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1502
+      ],
+      "key": "tracks-f5f8e7c9ecd6900e",
+      "kind": "track",
+      "title": "It Never Entered My Mind",
+      "url": "/bluenote/tracks/tracks-f5f8e7c9ecd6900e/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Miles Davis",
+      "catalog_numbers": [
+        1501
+      ],
+      "key": "tracks-f699acf707387ae6",
+      "kind": "track",
+      "title": "Donna",
+      "url": "/bluenote/tracks/tracks-f699acf707387ae6/"
+    }
+  ],
+  "schema_version": 1
+}

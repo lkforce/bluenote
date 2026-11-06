@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "Hank Mobley Quintet",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1550",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-f33f492fc8174f45"
+      }
+    }
+  ],
+  "root_key": "blp-1550",
+  "schema_version": 1
+}

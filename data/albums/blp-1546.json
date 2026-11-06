@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "The Magnificent Thad Jones, Vol. 3",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1546",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-679753b30c202157"
+      }
+    }
+  ],
+  "root_key": "blp-1546",
+  "schema_version": 1
+}

@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "A Night at Birdland, Vol. 2",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1522",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-7f6d2da87fc7519e"
+      }
+    }
+  ],
+  "root_key": "blp-1522",
+  "schema_version": 1
+}

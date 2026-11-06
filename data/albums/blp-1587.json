@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "Back On The Scene",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1587",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-ee3d401ac7b4ac2c"
+      }
+    }
+  ],
+  "root_key": "blp-1587",
+  "schema_version": 1
+}

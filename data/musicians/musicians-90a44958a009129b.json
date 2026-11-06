@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-6208ef0f7750c111",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-6208ef0f7750c111",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "Bud Powell",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-90a44958a009129b",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-90a44958a009129b",
+  "schema_version": 1
+}

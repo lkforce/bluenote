@@ -1,0 +1,623 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Percy Heath",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-886362238c781e67",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-2de12fedf876f13d",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {},
+      "key": "musician-profiles-80310e33926460ef",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "오랜 실내악적 앙상블과 비밥 세션을 연결한 베이시스트다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "significance",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-0c5c4cd75bdf29e6",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "NEA가 강조하는 앙상블의 중심 역할과 John Lewis 편곡에서 커진 베이스 비중을 감상의 관점으로 삼는다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "style",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-39a8f78b907bb920",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "1953년 여섯 트랙의 베이스를 맡는다. 1952년의 Oscar Pettiford와 구분한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-5151a628ef447e6c",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1501",
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "형제 및 McGhee·Gillespie 밴드의 경험은 확인된다. 특정 연주자를 유일한 베이스 스승으로 지목할 근거는 이번 자료에 없다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-540e62dc20f78422",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Modern Jazz Quartet의 오랜 베이시스트이자 다양한 세션에서 활동한 음악가다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-7908fa39e086afe7",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "MJQ 활동과 Heath Brothers가 주요 이력이다. 작곡자 Ray Brown과 실제 이 세션의 베이시스트를 구별한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "works",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-c948c7d976f9030b",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "학교에서 바이올린을 접했고 군 복무 후 Granoff School에서 음악을 공부했다. Howard McGhee와 Dizzy Gillespie의 그룹을 거쳤다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "growth",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-cd8cb8df545a7cd8",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "C.T.A.의 두 테이크에서 베이스의 박과 관악기 프레이즈 사이의 관계를 비교하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4a44dc15364204a8",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-dba0e10802bdedda",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-886362238c781e67"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-5e8a4962e0d0b983",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-886362238c781e67",
+        "session_key": "recording-sessions-67ab5a1b69e44ce1"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "session-credits-ef5a579077479a82",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-886362238c781e67",
+        "session_key": "recording-sessions-81e01bc78b251123"
+      }
+    }
+  ],
+  "root_key": "musicians-886362238c781e67",
+  "schema_version": 1
+}

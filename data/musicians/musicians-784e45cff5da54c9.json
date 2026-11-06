@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "Lee Morgan",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-784e45cff5da54c9",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-784e45cff5da54c9",
+  "schema_version": 1
+}

@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Thad Jones",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-679753b30c202157",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-679753b30c202157",
+  "schema_version": 1
+}

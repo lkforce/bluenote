@@ -1,0 +1,697 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "Miles Davis",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-f3264679b57e6399",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Trumpet",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-3224e6c2eee44ea3",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {},
+      "key": "musician-profiles-4c044a0e9b86abaa",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "NEA는 Parker와의 활동, Gil Evans와의 협업, 뒤의 George Russell 이론 수용을 소개한다. 후대의 모달 개념을 1952년 모든 연주에 소급하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-10a2a74481e5798a",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "40년 이상 새로운 편성과 작곡·즉흥연주의 방향을 탐색한 리더라는 점이 중요하다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "significance",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-12b1b2e47f6d981f",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "선율 사이의 쉼과 음의 길이를 비교하는 것이 이 앨범의 감상 관점이다. Feather의 서정성 평가는 평론가의 해석이며 음향 측정값이 아니다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "style",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-307350e648fda05a",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "미국에서 활동한 트럼펫 연주자·리더로, 비밥에서 쿨 재즈·모달 재즈·전기 재즈에 이르는 여러 변화에 참여했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-6f3995ce04596b57",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "Birth of the Cool, Kind of Blue, Bitches Brew는 서로 다른 시기의 음악을 보여 주는 대표작이다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "works",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-7d1f59041b728ba0",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "두 세션의 리더이자 전 트랙의 트럼펫 연주자다. A5·B3는 다른 관악기가 없는 4인조다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-d23f91f30bee53c8",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1501",
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "13세에 트럼펫을 시작했고 1944년 뉴욕으로 옮겨 Juilliard와 현장 연주를 접했다. 이후 Charlie Parker 등과 활동했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "growth",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-dda9a0a0b0060fd4",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "A5와 B3에서는 트럼펫의 긴 음과 쉼을 피아노 반주와 비교하고, C.T.A.에서는 두 테이크의 프레이즈를 비교하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-2c624232cdd22177",
+            "source-4e07408562bedb8b",
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-ed6b6efccd4f116b",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Trumpet",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-1aef138dd65f5440",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399",
+        "session_key": "recording-sessions-4717565537a6df99"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Trumpet",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-9adae74ca5536a69",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399",
+        "session_key": "recording-sessions-67ab5a1b69e44ce1"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Trumpet",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "session-credits-ebfc3d64916014f5",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399",
+        "session_key": "recording-sessions-81e01bc78b251123"
+      }
+    }
+  ],
+  "root_key": "musicians-f3264679b57e6399",
+  "schema_version": 1
+}

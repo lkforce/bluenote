@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-41cfc0d1f2d127b0"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-41cfc0d1f2d127b0"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-41cfc0d1f2d127b0"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Burrell",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1543",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-614455c32617043b"
+      }
+    }
+  ],
+  "root_key": "blp-1543",
+  "schema_version": 1
+}

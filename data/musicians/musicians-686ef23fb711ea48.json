@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "Cannonball Adderley",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-686ef23fb711ea48",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-686ef23fb711ea48",
+  "schema_version": 1
+}

@@ -1,0 +1,1290 @@
+{
+  "entries": [
+    {
+      "album_key": "blp-1501",
+      "checked_on": "2026-11-06",
+      "key": "blp-1501",
+      "number": 1501,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b",
+        "source-d4735e3a265e16ee"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1502",
+      "checked_on": "2026-11-06",
+      "key": "blp-1502",
+      "number": 1502,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1503",
+      "checked_on": "2026-11-06",
+      "key": "blp-1503",
+      "number": 1503,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1504",
+      "checked_on": "2026-11-06",
+      "key": "blp-1504",
+      "number": 1504,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1505",
+      "checked_on": "2026-11-06",
+      "key": "blp-1505",
+      "number": 1505,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1506",
+      "checked_on": "2026-11-06",
+      "key": "blp-1506",
+      "number": 1506,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1507",
+      "checked_on": "2026-11-06",
+      "key": "blp-1507",
+      "number": 1507,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1508",
+      "checked_on": "2026-11-06",
+      "key": "blp-1508",
+      "number": 1508,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1509",
+      "checked_on": "2026-11-06",
+      "key": "blp-1509",
+      "number": 1509,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1510",
+      "checked_on": "2026-11-06",
+      "key": "blp-1510",
+      "number": 1510,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1511",
+      "checked_on": "2026-11-06",
+      "key": "blp-1511",
+      "number": 1511,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1512",
+      "checked_on": "2026-11-06",
+      "key": "blp-1512",
+      "number": 1512,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1513",
+      "checked_on": "2026-11-06",
+      "key": "blp-1513",
+      "number": 1513,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1514",
+      "checked_on": "2026-11-06",
+      "key": "blp-1514",
+      "number": 1514,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1515",
+      "checked_on": "2026-11-06",
+      "key": "blp-1515",
+      "number": 1515,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1516",
+      "checked_on": "2026-11-06",
+      "key": "blp-1516",
+      "number": 1516,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1517",
+      "checked_on": "2026-11-06",
+      "key": "blp-1517",
+      "number": 1517,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1518",
+      "checked_on": "2026-11-06",
+      "key": "blp-1518",
+      "number": 1518,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1519",
+      "checked_on": "2026-11-06",
+      "key": "blp-1519",
+      "number": 1519,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1520",
+      "checked_on": "2026-11-06",
+      "key": "blp-1520",
+      "number": 1520,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-4e07408562bedb8b"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1521",
+      "checked_on": "2026-11-06",
+      "key": "blp-1521",
+      "number": 1521,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-8527a891e2241369"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1522",
+      "checked_on": "2026-11-06",
+      "key": "blp-1522",
+      "number": 1522,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-8527a891e2241369"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1523",
+      "checked_on": "2026-11-06",
+      "key": "blp-1523",
+      "number": 1523,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-7a61b53701befdae"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1524",
+      "checked_on": "2026-11-06",
+      "key": "blp-1524",
+      "number": 1524,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-aea92132c4cbeb26"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1525",
+      "checked_on": "2026-11-06",
+      "key": "blp-1525",
+      "number": 1525,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-0b918943df0962bc"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1526",
+      "checked_on": "2026-11-06",
+      "key": "blp-1526",
+      "number": 1526,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-d59eced1ded07f84"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1527",
+      "checked_on": "2026-11-06",
+      "key": "blp-1527",
+      "number": 1527,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-3d914f9348c9cc0f"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1528",
+      "checked_on": "2026-11-06",
+      "key": "blp-1528",
+      "number": 1528,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-0b918943df0962bc"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1529",
+      "checked_on": "2026-11-06",
+      "key": "blp-1529",
+      "number": 1529,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-0b918943df0962bc"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1530",
+      "checked_on": "2026-11-06",
+      "key": "blp-1530",
+      "number": 1530,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-73475cb40a568e8d"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1531",
+      "checked_on": "2026-11-06",
+      "key": "blp-1531",
+      "number": 1531,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-44cb730c420480a0"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1532",
+      "checked_on": "2026-11-06",
+      "key": "blp-1532",
+      "number": 1532,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-44cb730c420480a0"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1533",
+      "checked_on": "2026-11-06",
+      "key": "blp-1533",
+      "number": 1533,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-71ee45a3c0db9a98"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1534",
+      "checked_on": "2026-11-06",
+      "key": "blp-1534",
+      "number": 1534,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-811786ad1ae74adf"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1535",
+      "checked_on": "2026-11-06",
+      "key": "blp-1535",
+      "number": 1535,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-aea92132c4cbeb26"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1536",
+      "checked_on": "2026-11-06",
+      "key": "blp-1536",
+      "number": 1536,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-25fc0e7096fc6537"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1537",
+      "checked_on": "2026-11-06",
+      "key": "blp-1537",
+      "number": 1537,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-31489056e0916d59"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1538",
+      "checked_on": "2026-11-06",
+      "key": "blp-1538",
+      "number": 1538,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-98010bd9270f9b10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1539",
+      "checked_on": "2026-11-06",
+      "key": "blp-1539",
+      "number": 1539,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-0e17daca5f3e175f"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1540",
+      "checked_on": "2026-11-06",
+      "key": "blp-1540",
+      "number": 1540,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-1a6562590ef19d10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1541",
+      "checked_on": "2026-11-06",
+      "key": "blp-1541",
+      "number": 1541,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-98010bd9270f9b10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1542",
+      "checked_on": "2026-11-06",
+      "key": "blp-1542",
+      "number": 1542,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-031b4af5197ec30a"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1543",
+      "checked_on": "2026-11-06",
+      "key": "blp-1543",
+      "number": 1543,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-41cfc0d1f2d127b0"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1544",
+      "checked_on": "2026-11-06",
+      "key": "blp-1544",
+      "number": 1544,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-1a6562590ef19d10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1545",
+      "checked_on": "2026-11-06",
+      "key": "blp-1545",
+      "number": 1545,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-31489056e0916d59"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1546",
+      "checked_on": "2026-11-06",
+      "key": "blp-1546",
+      "number": 1546,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-3d914f9348c9cc0f"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1547",
+      "checked_on": "2026-11-06",
+      "key": "blp-1547",
+      "number": 1547,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-2858dcd1057d3eae"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1548",
+      "checked_on": "2026-11-06",
+      "key": "blp-1548",
+      "number": 1548,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-2858dcd1057d3eae"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1549",
+      "checked_on": "2026-11-06",
+      "key": "blp-1549",
+      "number": 1549,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-2fca346db6561871"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1550",
+      "checked_on": "2026-11-06",
+      "key": "blp-1550",
+      "number": 1550,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-1a6562590ef19d10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1551",
+      "checked_on": "2026-11-06",
+      "key": "blp-1551",
+      "number": 1551,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-2858dcd1057d3eae"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1552",
+      "checked_on": "2026-11-06",
+      "key": "blp-1552",
+      "number": 1552,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-2858dcd1057d3eae"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1553",
+      "number": 1553,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1554",
+      "number": 1554,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1555",
+      "number": 1555,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": "blp-1556",
+      "checked_on": "2026-11-06",
+      "key": "blp-1556",
+      "number": 1556,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-0b918943df0962bc"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1557",
+      "checked_on": "2026-11-06",
+      "key": "blp-1557",
+      "number": 1557,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-98010bd9270f9b10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1558",
+      "checked_on": "2026-11-06",
+      "key": "blp-1558",
+      "number": 1558,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-031b4af5197ec30a"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1559",
+      "checked_on": "2026-11-06",
+      "key": "blp-1559",
+      "number": 1559,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-71ee45a3c0db9a98"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1560",
+      "checked_on": "2026-11-06",
+      "key": "blp-1560",
+      "number": 1560,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-1a6562590ef19d10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1561",
+      "checked_on": "2026-11-06",
+      "key": "blp-1561",
+      "number": 1561,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-02d20bbd7e394ad5"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1562",
+      "checked_on": "2026-11-06",
+      "key": "blp-1562",
+      "number": 1562,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-0e17daca5f3e175f"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1563",
+      "checked_on": "2026-11-06",
+      "key": "blp-1563",
+      "number": 1563,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-0b918943df0962bc"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1564",
+      "checked_on": "2026-11-06",
+      "key": "blp-1564",
+      "number": 1564,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-811786ad1ae74adf"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1565",
+      "checked_on": "2026-11-06",
+      "key": "blp-1565",
+      "number": 1565,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-2fca346db6561871"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1566",
+      "checked_on": "2026-11-06",
+      "key": "blp-1566",
+      "number": 1566,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-31489056e0916d59"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1567",
+      "checked_on": "2026-11-06",
+      "key": "blp-1567",
+      "number": 1567,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-7688b6ef52555962"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1568",
+      "checked_on": "2026-11-06",
+      "key": "blp-1568",
+      "number": 1568,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-1a6562590ef19d10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1569",
+      "checked_on": "2026-11-06",
+      "key": "blp-1569",
+      "number": 1569,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-811786ad1ae74adf"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1570",
+      "checked_on": "2026-11-06",
+      "key": "blp-1570",
+      "number": 1570,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-c837649cce43f272"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1571",
+      "checked_on": "2026-11-06",
+      "key": "blp-1571",
+      "number": 1571,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-6208ef0f7750c111"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1572",
+      "checked_on": "2026-11-06",
+      "key": "blp-1572",
+      "number": 1572,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-7688b6ef52555962"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1573",
+      "number": 1573,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": "blp-1574",
+      "checked_on": "2026-11-06",
+      "key": "blp-1574",
+      "number": 1574,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-1a6562590ef19d10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1575",
+      "checked_on": "2026-11-06",
+      "key": "blp-1575",
+      "number": 1575,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-98010bd9270f9b10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1576",
+      "checked_on": "2026-11-06",
+      "key": "blp-1576",
+      "number": 1576,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-c837649cce43f272"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1577",
+      "checked_on": "2026-11-06",
+      "key": "blp-1577",
+      "number": 1577,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-3e1e967e9b793e90"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1578",
+      "checked_on": "2026-11-06",
+      "key": "blp-1578",
+      "number": 1578,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-98010bd9270f9b10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1579",
+      "checked_on": "2026-11-06",
+      "key": "blp-1579",
+      "number": 1579,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-c837649cce43f272"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1580",
+      "checked_on": "2026-11-06",
+      "key": "blp-1580",
+      "number": 1580,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-71ee45a3c0db9a98"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1581",
+      "checked_on": "2026-11-06",
+      "key": "blp-1581",
+      "number": 1581,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-031b4af5197ec30a"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1582",
+      "checked_on": "2026-11-06",
+      "key": "blp-1582",
+      "number": 1582,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-2fca346db6561871"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1583",
+      "checked_on": "2026-11-06",
+      "key": "blp-1583",
+      "number": 1583,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-7688b6ef52555962"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1584",
+      "checked_on": "2026-11-06",
+      "key": "blp-1584",
+      "number": 1584,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-39fa9ec190eee7b6"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1585",
+      "number": 1585,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1586",
+      "number": 1586,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": "blp-1587",
+      "checked_on": "2026-11-06",
+      "key": "blp-1587",
+      "number": 1587,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-d029fa3a95e174a1"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1588",
+      "checked_on": "2026-11-06",
+      "key": "blp-1588",
+      "number": 1588,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-c837649cce43f272"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1589",
+      "checked_on": "2026-11-06",
+      "key": "blp-1589",
+      "number": 1589,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-0e17daca5f3e175f"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1590",
+      "checked_on": "2026-11-06",
+      "key": "blp-1590",
+      "number": 1590,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-98010bd9270f9b10"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1591",
+      "checked_on": "2026-11-06",
+      "key": "blp-1591",
+      "number": 1591,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-31489056e0916d59"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1592",
+      "number": 1592,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": "blp-1593",
+      "checked_on": "2026-11-06",
+      "key": "blp-1593",
+      "number": 1593,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-31489056e0916d59"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1594",
+      "checked_on": "2026-11-06",
+      "key": "blp-1594",
+      "number": 1594,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-39fa9ec190eee7b6"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1595",
+      "checked_on": "2026-11-06",
+      "key": "blp-1595",
+      "number": 1595,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-81b8a03f97e8787c"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1596",
+      "number": 1596,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1597",
+      "number": 1597,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "album_key": "blp-1598",
+      "checked_on": "2026-11-06",
+      "key": "blp-1598",
+      "number": 1598,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-6208ef0f7750c111"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": "blp-1599",
+      "checked_on": "2026-11-06",
+      "key": "blp-1599",
+      "number": 1599,
+      "release_status": "released",
+      "research_status": "release_confirmed",
+      "source_keys": [
+        "source-d029fa3a95e174a1"
+      ],
+      "unknown_reason": null,
+      "verification": "VERIFIED"
+    },
+    {
+      "album_key": null,
+      "checked_on": null,
+      "key": "blp-1600",
+      "number": 1600,
+      "release_status": null,
+      "research_status": "pending",
+      "source_keys": [],
+      "unknown_reason": "공개 검수 대기",
+      "verification": "UNVERIFIED"
+    }
+  ],
+  "range": {
+    "end": 1600,
+    "start": 1501
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,93 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "Doug Hawkins",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-14047df0d9987268",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "recording_engineer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-35487a6b33d6fea4",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-14047df0d9987268",
+        "session_key": "recording-sessions-67ab5a1b69e44ce1"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "recording_engineer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-9364df03474f435c",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-14047df0d9987268",
+        "session_key": "recording-sessions-4717565537a6df99"
+      }
+    }
+  ],
+  "root_key": "musicians-14047df0d9987268",
+  "schema_version": 1
+}

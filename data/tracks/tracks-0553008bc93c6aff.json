@@ -1,0 +1,1224 @@
+{
+  "records": [
+    {
+      "fields": {
+        "duration_seconds": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "take_description": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Chance It",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "tracks-0553008bc93c6aff",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "B",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-tracks-1e19bf8e21fa1f10",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1501",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-0e364c878cffaa02",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-dd951f72c1043e9f",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Trombone",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-37647c5fc12722f5",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Trumpet",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-53165cb3f77e467b",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Alto Saxophone",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-8b305487fd7672c3",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-a83ce7e52ff26cbf",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-180f6a06d8453f2b",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-d2e1832ae424b80d",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-7cab671081588242",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "composer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-credits-f3e127a7c539652e",
+      "kind": "track_credits",
+      "links": {
+        "musician_key": "musicians-180f6a06d8453f2b",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-genres-59ce9476bbf2e41f",
+      "kind": "track_genres",
+      "links": {
+        "genre_key": "genres-7f3cc7e7a75c9027",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "이번 곡의 실제 참여 악기는 곡별 크레딧에 표시했습니다. 피아노·베이스·드럼 중 하나를 골라 선율과 반주의 관계를 기록하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-02fc41d48e9e66fe",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "빨리 움직이는 주제를 한 번 듣고, 두 번째에는 Pettiford의 베이스 박에 집중하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-25e8ae633e380e54",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "이번 곡의 실제 참여 악기는 곡별 크레딧에 표시했습니다. 피아노·베이스·드럼 중 하나를 골라 선율과 반주의 관계를 기록하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-52bb38ec519de54c",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "주제에서 독주로 이어지는 연결부를 표시하세요. 다른 테이크의 리드 잡음 이야기를 이 트랙의 소리로 단정하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "step_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-listening-guides-d35f4bdbac95522c",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {},
+      "key": "track-sessions-d560d72097ad083d",
+      "kind": "track_sessions",
+      "links": {
+        "session_key": "recording-sessions-4717565537a6df99",
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "자료는 주제와 솔로 사이의 연결부를 지적한다. 전체 코러스 수를 자료 없이 확정하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "form",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-stories-2052e3b43959894a",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "공식 Miles 곡 페이지는 Pettiford를 저작자로 명시한다. 세션 해설은 Max Is Making Wax라는 다른 제목과의 관계를 설명한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "context",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-stories-3237f57cd69b2eed",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "합주 선율과 Miles의 짧게 끊는 프레이징을 대조하는 것이 감상 과제다. 특정 음형의 실제 채보는 없다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "melody",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-stories-684b04915ce394c0",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "세션 해설은 빠른 비밥 선율로 설명한다. 구체적 BPM은 미확인이다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "rhythm",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-stories-8196918de39c77dc",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "확인된 편성: Miles Davis(Trumpet), J.J. Johnson(Trombone), Jackie McLean(Alto Saxophone), Gil Coggins(Piano), Oscar Pettiford(Bass), Kenny Clarke(Drums). 관악기는 선율·합주, 피아노는 화성·연결, 베이스와 드럼은 박과 반응을 관찰할 대상이다. 이는 편성에 맞춘 감상 관점이며 실제 솔로 여부를 자동 확정하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "instrument_roles",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-stories-83b5e5790bd5eaef",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "동명 다른 녹음이나 대체 테이크의 실수·소리를 이 마스터의 특징으로 옮기지 않는 것이 중요하다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "distinctiveness",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-stories-8a9e63bcd5624d80",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "마스터 테이크 해설은 Miles 다음 McLean·Johnson의 코러스 분담을 설명한다. 다른 Alternate Take에서 Johnson이 솔로하지 않는다는 설명을 이 트랙에 적용하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "solos",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-stories-dec09f654d02389e",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "동일 작품의 다른 제목이라는 설명과 원곡의 화성 구조는 별도 문제다. 이 녹음의 코드 진행은 미확인이다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "harmony",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-35135aaa6cc23891",
+            "source-4e07408562bedb8b",
+            "source-6f4b6612125fb3a0",
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "track-stories-e64e21efd64be0a2",
+      "kind": "track_stories",
+      "links": {
+        "track_key": "tracks-0553008bc93c6aff"
+      }
+    }
+  ],
+  "root_key": "tracks-0553008bc93c6aff",
+  "schema_version": 1
+}

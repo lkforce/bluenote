@@ -1,0 +1,635 @@
+{
+  "items": [
+    {
+      "artist": "Miles Davis",
+      "key": "blp-1501",
+      "number": 1501,
+      "title": "Volume 1",
+      "url": "/bluenote/data/albums/blp-1501.json"
+    },
+    {
+      "artist": "Miles Davis",
+      "key": "blp-1502",
+      "number": 1502,
+      "title": "Volume 2",
+      "url": "/bluenote/data/albums/blp-1502.json"
+    },
+    {
+      "artist": "Bud Powell",
+      "key": "blp-1503",
+      "number": 1503,
+      "title": "The Amazing Bud Powell, Volume 1",
+      "url": "/bluenote/data/albums/blp-1503.json"
+    },
+    {
+      "artist": "Bud Powell",
+      "key": "blp-1504",
+      "number": 1504,
+      "title": "The Amazing Bud Powell, Volume 2",
+      "url": "/bluenote/data/albums/blp-1504.json"
+    },
+    {
+      "artist": "J.J. Johnson",
+      "key": "blp-1505",
+      "number": 1505,
+      "title": "The Eminent Jay Jay Johnson, Volume 1",
+      "url": "/bluenote/data/albums/blp-1505.json"
+    },
+    {
+      "artist": "J.J. Johnson",
+      "key": "blp-1506",
+      "number": 1506,
+      "title": "The Eminent Jay Jay Johnson, Volume 2",
+      "url": "/bluenote/data/albums/blp-1506.json"
+    },
+    {
+      "artist": "The Jazz Messengers",
+      "key": "blp-1507",
+      "number": 1507,
+      "title": "At the Cafe Bohemia, Volume 1",
+      "url": "/bluenote/data/albums/blp-1507.json"
+    },
+    {
+      "artist": "The Jazz Messengers",
+      "key": "blp-1508",
+      "number": 1508,
+      "title": "At the Cafe Bohemia, Volume 2",
+      "url": "/bluenote/data/albums/blp-1508.json"
+    },
+    {
+      "artist": "Milt Jackson",
+      "key": "blp-1509",
+      "number": 1509,
+      "title": "Milt Jackson and the Thelonious Monk Quintet",
+      "url": "/bluenote/data/albums/blp-1509.json"
+    },
+    {
+      "artist": "Thelonious Monk",
+      "key": "blp-1510",
+      "number": 1510,
+      "title": "Genius of Modern Music, Volume One",
+      "url": "/bluenote/data/albums/blp-1510.json"
+    },
+    {
+      "artist": "Thelonious Monk",
+      "key": "blp-1511",
+      "number": 1511,
+      "title": "Genius of Modern Music, Volume Two",
+      "url": "/bluenote/data/albums/blp-1511.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1512",
+      "number": 1512,
+      "title": "A New Sound… A New Star…, Volume 1",
+      "url": "/bluenote/data/albums/blp-1512.json"
+    },
+    {
+      "artist": "Thad Jones",
+      "key": "blp-1513",
+      "number": 1513,
+      "title": "Detroit–New York Junction",
+      "url": "/bluenote/data/albums/blp-1513.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1514",
+      "number": 1514,
+      "title": "A New Sound–A New Star, Volume 2",
+      "url": "/bluenote/data/albums/blp-1514.json"
+    },
+    {
+      "artist": "Jutta Hipp",
+      "key": "blp-1515",
+      "number": 1515,
+      "title": "At the Hickory House, Volume 1",
+      "url": "/bluenote/data/albums/blp-1515.json"
+    },
+    {
+      "artist": "Jutta Hipp",
+      "key": "blp-1516",
+      "number": 1516,
+      "title": "At the Hickory House, Volume 2",
+      "url": "/bluenote/data/albums/blp-1516.json"
+    },
+    {
+      "artist": "Gil Mellé",
+      "key": "blp-1517",
+      "number": 1517,
+      "title": "Patterns in Jazz",
+      "url": "/bluenote/data/albums/blp-1517.json"
+    },
+    {
+      "artist": null,
+      "key": "blp-1518",
+      "number": 1518,
+      "title": "Horace Silver and the Jazz Messengers",
+      "url": "/bluenote/data/albums/blp-1518.json"
+    },
+    {
+      "artist": "Herbie Nichols",
+      "key": "blp-1519",
+      "number": 1519,
+      "title": "Herbie Nichols Trio",
+      "url": "/bluenote/data/albums/blp-1519.json"
+    },
+    {
+      "artist": null,
+      "key": "blp-1520",
+      "number": 1520,
+      "title": "Horace Silver Trio and Art Blakey–Sabu",
+      "url": "/bluenote/data/albums/blp-1520.json"
+    },
+    {
+      "artist": "Art Blakey",
+      "key": "blp-1521",
+      "number": 1521,
+      "title": "A Night at Birdland, Vol. 1",
+      "url": "/bluenote/data/albums/blp-1521.json"
+    },
+    {
+      "artist": "Art Blakey",
+      "key": "blp-1522",
+      "number": 1522,
+      "title": "A Night at Birdland, Vol. 2",
+      "url": "/bluenote/data/albums/blp-1522.json"
+    },
+    {
+      "artist": "Kenny Burrell",
+      "key": "blp-1523",
+      "number": 1523,
+      "title": "Introducing Kenny Burrell",
+      "url": "/bluenote/data/albums/blp-1523.json"
+    },
+    {
+      "artist": "Kenny Dorham",
+      "key": "blp-1524",
+      "number": 1524,
+      "title": "‘Round About Midnight At The Cafe Bohemia",
+      "url": "/bluenote/data/albums/blp-1524.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1525",
+      "number": 1525,
+      "title": "Jimmy Smith at the Organ, Vol. 3",
+      "url": "/bluenote/data/albums/blp-1525.json"
+    },
+    {
+      "artist": "Clifford Brown",
+      "key": "blp-1526",
+      "number": 1526,
+      "title": "Memorial Album",
+      "url": "/bluenote/data/albums/blp-1526.json"
+    },
+    {
+      "artist": "Thad Jones",
+      "key": "blp-1527",
+      "number": 1527,
+      "title": "The Magnificent Thad Jones",
+      "url": "/bluenote/data/albums/blp-1527.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1528",
+      "number": 1528,
+      "title": "The Incredible Jimmy Smith at Club Baby Grand, Vol. 1",
+      "url": "/bluenote/data/albums/blp-1528.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1529",
+      "number": 1529,
+      "title": "The Incredible Jimmy Smith at Club Baby Grand, Vol. 2",
+      "url": "/bluenote/data/albums/blp-1529.json"
+    },
+    {
+      "artist": "Jutta Hipp",
+      "key": "blp-1530",
+      "number": 1530,
+      "title": "Jutta Hipp With Zoot Sims",
+      "url": "/bluenote/data/albums/blp-1530.json"
+    },
+    {
+      "artist": "Fats Navarro",
+      "key": "blp-1531",
+      "number": 1531,
+      "title": "The Fabulous Fats Navarro, Vol. 1",
+      "url": "/bluenote/data/albums/blp-1531.json"
+    },
+    {
+      "artist": "Fats Navarro",
+      "key": "blp-1532",
+      "number": 1532,
+      "title": "The Fabulous Fats Navarro, Vol. 2",
+      "url": "/bluenote/data/albums/blp-1532.json"
+    },
+    {
+      "artist": "Johnny Griffin",
+      "key": "blp-1533",
+      "number": 1533,
+      "title": "Introducing Johnny Griffin",
+      "url": "/bluenote/data/albums/blp-1533.json"
+    },
+    {
+      "artist": "Paul Chambers",
+      "key": "blp-1534",
+      "number": 1534,
+      "title": "Whims Of Chambers",
+      "url": "/bluenote/data/albums/blp-1534.json"
+    },
+    {
+      "artist": "Kenny Dorham",
+      "key": "blp-1535",
+      "number": 1535,
+      "title": "Afro-Cuban",
+      "url": "/bluenote/data/albums/blp-1535.json"
+    },
+    {
+      "artist": "J.R. Monterose",
+      "key": "blp-1536",
+      "number": 1536,
+      "title": "J. R. Monterose",
+      "url": "/bluenote/data/albums/blp-1536.json"
+    },
+    {
+      "artist": "Lou Donaldson",
+      "key": "blp-1537",
+      "number": 1537,
+      "title": "Quartet / Quintet / Sextet",
+      "url": "/bluenote/data/albums/blp-1537.json"
+    },
+    {
+      "artist": "Lee Morgan",
+      "key": "blp-1538",
+      "number": 1538,
+      "title": "Indeed!",
+      "url": "/bluenote/data/albums/blp-1538.json"
+    },
+    {
+      "artist": "Horace Silver",
+      "key": "blp-1539",
+      "number": 1539,
+      "title": "Six Pieces Of Silver",
+      "url": "/bluenote/data/albums/blp-1539.json"
+    },
+    {
+      "artist": "Hank Mobley",
+      "key": "blp-1540",
+      "number": 1540,
+      "title": "Hank Mobley with Donald Byrd and Lee Morgan",
+      "url": "/bluenote/data/albums/blp-1540.json"
+    },
+    {
+      "artist": "Lee Morgan",
+      "key": "blp-1541",
+      "number": 1541,
+      "title": "Lee Morgan Sextet, Vol. 2",
+      "url": "/bluenote/data/albums/blp-1541.json"
+    },
+    {
+      "artist": "Sonny Rollins",
+      "key": "blp-1542",
+      "number": 1542,
+      "title": "Volume 1",
+      "url": "/bluenote/data/albums/blp-1542.json"
+    },
+    {
+      "artist": "Kenny Burrell",
+      "key": "blp-1543",
+      "number": 1543,
+      "title": "Kenny Burrell",
+      "url": "/bluenote/data/albums/blp-1543.json"
+    },
+    {
+      "artist": "Hank Mobley",
+      "key": "blp-1544",
+      "number": 1544,
+      "title": "Hank Mobley And His All Stars",
+      "url": "/bluenote/data/albums/blp-1544.json"
+    },
+    {
+      "artist": "Lou Donaldson",
+      "key": "blp-1545",
+      "number": 1545,
+      "title": "Wailing With Lou",
+      "url": "/bluenote/data/albums/blp-1545.json"
+    },
+    {
+      "artist": "Thad Jones",
+      "key": "blp-1546",
+      "number": 1546,
+      "title": "The Magnificent Thad Jones, Vol. 3",
+      "url": "/bluenote/data/albums/blp-1546.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1547",
+      "number": 1547,
+      "title": "A Date with Jimmy Smith, Volume One",
+      "url": "/bluenote/data/albums/blp-1547.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1548",
+      "number": 1548,
+      "title": "A Date with Jimmy Smith, Volume Two",
+      "url": "/bluenote/data/albums/blp-1548.json"
+    },
+    {
+      "artist": "Clifford Jordan",
+      "key": "blp-1549",
+      "number": 1549,
+      "title": "Blowing in from Chicago",
+      "url": "/bluenote/data/albums/blp-1549.json"
+    },
+    {
+      "artist": "Hank Mobley",
+      "key": "blp-1550",
+      "number": 1550,
+      "title": "Hank Mobley Quintet",
+      "url": "/bluenote/data/albums/blp-1550.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1551",
+      "number": 1551,
+      "title": "Jimmy Smith at the Organ, Volume 1",
+      "url": "/bluenote/data/albums/blp-1551.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1552",
+      "number": 1552,
+      "title": "Jimmy Smith at the Organ, Volume 2",
+      "url": "/bluenote/data/albums/blp-1552.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1556",
+      "number": 1556,
+      "title": "The Sounds Of Jimmy Smith",
+      "url": "/bluenote/data/albums/blp-1556.json"
+    },
+    {
+      "artist": "Lee Morgan",
+      "key": "blp-1557",
+      "number": 1557,
+      "title": "Vol. 3",
+      "url": "/bluenote/data/albums/blp-1557.json"
+    },
+    {
+      "artist": "Sonny Rollins",
+      "key": "blp-1558",
+      "number": 1558,
+      "title": "Volume 2",
+      "url": "/bluenote/data/albums/blp-1558.json"
+    },
+    {
+      "artist": "Johnny Griffin",
+      "key": "blp-1559",
+      "number": 1559,
+      "title": "A Blowing Session",
+      "url": "/bluenote/data/albums/blp-1559.json"
+    },
+    {
+      "artist": "Hank Mobley",
+      "key": "blp-1560",
+      "number": 1560,
+      "title": "Hank",
+      "url": "/bluenote/data/albums/blp-1560.json"
+    },
+    {
+      "artist": "Sabu Martinez",
+      "key": "blp-1561",
+      "number": 1561,
+      "title": "Palo Congo",
+      "url": "/bluenote/data/albums/blp-1561.json"
+    },
+    {
+      "artist": "Horace Silver",
+      "key": "blp-1562",
+      "number": 1562,
+      "title": "The Stylings Of Silver",
+      "url": "/bluenote/data/albums/blp-1562.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1563",
+      "number": 1563,
+      "title": "Plays Pretty Just For You",
+      "url": "/bluenote/data/albums/blp-1563.json"
+    },
+    {
+      "artist": "Paul Chambers",
+      "key": "blp-1564",
+      "number": 1564,
+      "title": "Paul Chambers Quintet",
+      "url": "/bluenote/data/albums/blp-1564.json"
+    },
+    {
+      "artist": "Clifford Jordan",
+      "key": "blp-1565",
+      "number": 1565,
+      "title": "Cliff Jordan",
+      "url": "/bluenote/data/albums/blp-1565.json"
+    },
+    {
+      "artist": "Lou Donaldson",
+      "key": "blp-1566",
+      "number": 1566,
+      "title": "Swing and Soul",
+      "url": "/bluenote/data/albums/blp-1566.json"
+    },
+    {
+      "artist": "Curtis Fuller",
+      "key": "blp-1567",
+      "number": 1567,
+      "title": "The Opener",
+      "url": "/bluenote/data/albums/blp-1567.json"
+    },
+    {
+      "artist": "Hank Mobley",
+      "key": "blp-1568",
+      "number": 1568,
+      "title": "Hank Mobley",
+      "url": "/bluenote/data/albums/blp-1568.json"
+    },
+    {
+      "artist": "Paul Chambers",
+      "key": "blp-1569",
+      "number": 1569,
+      "title": "Bass On Top",
+      "url": "/bluenote/data/albums/blp-1569.json"
+    },
+    {
+      "artist": "Sonny Clark",
+      "key": "blp-1570",
+      "number": 1570,
+      "title": "Dial “S” For Sonny",
+      "url": "/bluenote/data/albums/blp-1570.json"
+    },
+    {
+      "artist": "Bud Powell",
+      "key": "blp-1571",
+      "number": 1571,
+      "title": "The Amazing Bud Powell, Vol. 3 – Bud!",
+      "url": "/bluenote/data/albums/blp-1571.json"
+    },
+    {
+      "artist": "Curtis Fuller",
+      "key": "blp-1572",
+      "number": 1572,
+      "title": "Bone & Bari",
+      "url": "/bluenote/data/albums/blp-1572.json"
+    },
+    {
+      "artist": "Hank Mobley",
+      "key": "blp-1574",
+      "number": 1574,
+      "title": "Peckin’ Time",
+      "url": "/bluenote/data/albums/blp-1574.json"
+    },
+    {
+      "artist": "Lee Morgan",
+      "key": "blp-1575",
+      "number": 1575,
+      "title": "City Lights",
+      "url": "/bluenote/data/albums/blp-1575.json"
+    },
+    {
+      "artist": "Sonny Clark",
+      "key": "blp-1576",
+      "number": 1576,
+      "title": "Sonny’s Crib",
+      "url": "/bluenote/data/albums/blp-1576.json"
+    },
+    {
+      "artist": "John Coltrane",
+      "key": "blp-1577",
+      "number": 1577,
+      "title": "Blue Train",
+      "url": "/bluenote/data/albums/blp-1577.json"
+    },
+    {
+      "artist": "Lee Morgan",
+      "key": "blp-1578",
+      "number": 1578,
+      "title": "The Cooker",
+      "url": "/bluenote/data/albums/blp-1578.json"
+    },
+    {
+      "artist": "Sonny Clark",
+      "key": "blp-1579",
+      "number": 1579,
+      "title": "Sonny Clark Trio",
+      "url": "/bluenote/data/albums/blp-1579.json"
+    },
+    {
+      "artist": "Johnny Griffin",
+      "key": "blp-1580",
+      "number": 1580,
+      "title": "The Congregation",
+      "url": "/bluenote/data/albums/blp-1580.json"
+    },
+    {
+      "artist": "Sonny Rollins",
+      "key": "blp-1581",
+      "number": 1581,
+      "title": "A Night at the Village Vanguard",
+      "url": "/bluenote/data/albums/blp-1581.json"
+    },
+    {
+      "artist": "Clifford Jordan",
+      "key": "blp-1582",
+      "number": 1582,
+      "title": "Cliff Craft",
+      "url": "/bluenote/data/albums/blp-1582.json"
+    },
+    {
+      "artist": "Curtis Fuller",
+      "key": "blp-1583",
+      "number": 1583,
+      "title": "Volume 3",
+      "url": "/bluenote/data/albums/blp-1583.json"
+    },
+    {
+      "artist": "Louis Smith",
+      "key": "blp-1584",
+      "number": 1584,
+      "title": "Here Comes Louis Smith",
+      "url": "/bluenote/data/albums/blp-1584.json"
+    },
+    {
+      "artist": "Bennie Green",
+      "key": "blp-1587",
+      "number": 1587,
+      "title": "Back On The Scene",
+      "url": "/bluenote/data/albums/blp-1587.json"
+    },
+    {
+      "artist": "Sonny Clark",
+      "key": "blp-1588",
+      "number": 1588,
+      "title": "Cool Struttin’",
+      "url": "/bluenote/data/albums/blp-1588.json"
+    },
+    {
+      "artist": "Horace Silver",
+      "key": "blp-1589",
+      "number": 1589,
+      "title": "Further Explorations",
+      "url": "/bluenote/data/albums/blp-1589.json"
+    },
+    {
+      "artist": "Lee Morgan",
+      "key": "blp-1590",
+      "number": 1590,
+      "title": "Candy",
+      "url": "/bluenote/data/albums/blp-1590.json"
+    },
+    {
+      "artist": "Lou Donaldson",
+      "key": "blp-1591",
+      "number": 1591,
+      "title": "Lou Takes Off",
+      "url": "/bluenote/data/albums/blp-1591.json"
+    },
+    {
+      "artist": "Lou Donaldson",
+      "key": "blp-1593",
+      "number": 1593,
+      "title": "Blues Walk",
+      "url": "/bluenote/data/albums/blp-1593.json"
+    },
+    {
+      "artist": "Louis Smith",
+      "key": "blp-1594",
+      "number": 1594,
+      "title": "Smithville",
+      "url": "/bluenote/data/albums/blp-1594.json"
+    },
+    {
+      "artist": "Cannonball Adderley",
+      "key": "blp-1595",
+      "number": 1595,
+      "title": "Somethin’ Else",
+      "url": "/bluenote/data/albums/blp-1595.json"
+    },
+    {
+      "artist": "Bud Powell",
+      "key": "blp-1598",
+      "number": 1598,
+      "title": "Time Waits: The Amazing Bud Powell, Vol. 4",
+      "url": "/bluenote/data/albums/blp-1598.json"
+    },
+    {
+      "artist": "Bennie Green",
+      "key": "blp-1599",
+      "number": 1599,
+      "title": "Soul Stirrin’",
+      "url": "/bluenote/data/albums/blp-1599.json"
+    }
+  ],
+  "schema_version": 1
+}

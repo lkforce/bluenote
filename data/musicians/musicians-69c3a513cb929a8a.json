@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Herbie Nichols",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-69c3a513cb929a8a",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-69c3a513cb929a8a",
+  "schema_version": 1
+}

@@ -1,0 +1,2969 @@
+{
+  "items": [
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/sabu-martinez/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-02d20bbd7e394ad5",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-031b4af5197ec30a"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-031b4af5197ec30a"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-031b4af5197ec30a"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-031b4af5197ec30a"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-031b4af5197ec30a"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/sonny-rollins/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-031b4af5197ec30a",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/jimmy-smith/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-0b918943df0962bc",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/horace-silver/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-0e17daca5f3e175f",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00"
+          ],
+          "unknown_reason": null,
+          "value": "National Endowment for the Arts",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00"
+          ],
+          "unknown_reason": null,
+          "value": "NEA Jazz Masters — J.J. Johnson",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.arts.gov/honors/jazz/jj-johnson",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-19581e27de7ced00",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/hank-mobley/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-1a6562590ef19d10",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/j-r-monterose/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-25fc0e7096fc6537",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2858dcd1057d3eae"
+          ],
+          "unknown_reason": null,
+          "value": "Lou Donaldson 공식 사이트",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2858dcd1057d3eae"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2858dcd1057d3eae"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2858dcd1057d3eae"
+          ],
+          "unknown_reason": null,
+          "value": "Lou Donaldson — abbreviated discography",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2858dcd1057d3eae"
+          ],
+          "unknown_reason": null,
+          "value": "https://loudonaldson.com/discography/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-2858dcd1057d3eae",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177"
+          ],
+          "unknown_reason": null,
+          "value": "National Endowment for the Arts",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177"
+          ],
+          "unknown_reason": null,
+          "value": "NEA Jazz Masters — Miles Davis",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2c624232cdd22177"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.arts.gov/honors/jazz/miles-davis",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-2c624232cdd22177",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2fca346db6561871"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2fca346db6561871"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2fca346db6561871"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2fca346db6561871"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2fca346db6561871"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/clifford-jordan/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-2fca346db6561871",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/lou-donaldson/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-31489056e0916d59",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891"
+          ],
+          "unknown_reason": null,
+          "value": "Miles Davis Estate / Sony Music",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891"
+          ],
+          "unknown_reason": null,
+          "value": "Chance It — Miles Davis 공식 곡 정보",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-35135aaa6cc23891"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.milesdavis.com/track/chance-it/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-35135aaa6cc23891",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/louis-smith/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-39fa9ec190eee7b6",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/thad-jones/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-3d914f9348c9cc0f",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3e1e967e9b793e90"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3e1e967e9b793e90"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3e1e967e9b793e90"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3e1e967e9b793e90"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3e1e967e9b793e90"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/john-coltrane/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-3e1e967e9b793e90",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-41cfc0d1f2d127b0"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-41cfc0d1f2d127b0"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-41cfc0d1f2d127b0"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-41cfc0d1f2d127b0"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Burrell — Tone Poet 제품 설명",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-41cfc0d1f2d127b0"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/collections/music/products/kenny-burrell-kenny-burrell-lp-blue-note-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-41cfc0d1f2d127b0",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/fats-navarro/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-44cb730c420480a0",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8"
+          ],
+          "unknown_reason": null,
+          "value": "National Endowment for the Arts",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8"
+          ],
+          "unknown_reason": null,
+          "value": "NEA Jazz Masters — Percy Heath",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4a44dc15364204a8"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.arts.gov/honors/jazz/percy-heath",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-4a44dc15364204a8",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Jazz Discography Project",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Jazz Discography Project — BLP 1501 세션",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.jazzdisco.org/blue-note-records/catalog-1500-series/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-4e07408562bedb8b",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note / Scott Yanow",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note — Kenny Clarke 약력",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/kenny-clarke/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-4fc82b26aecb47d2",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-535fa30d7e25dd8a"
+          ],
+          "unknown_reason": null,
+          "value": "Leo Ravera / Italian Piano",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-535fa30d7e25dd8a"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-535fa30d7e25dd8a"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-535fa30d7e25dd8a"
+          ],
+          "unknown_reason": null,
+          "value": "Tempus Fugit — 작품 형식 분석",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-535fa30d7e25dd8a"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.italianpiano.com/monday-notes/bud-powell-tempus-fugit/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-535fa30d7e25dd8a",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-5f9c4ab08cac7457"
+          ],
+          "unknown_reason": null,
+          "value": "Gil Coggins 기념 사이트",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-5f9c4ab08cac7457"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-5f9c4ab08cac7457"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-5f9c4ab08cac7457"
+          ],
+          "unknown_reason": null,
+          "value": "Gil Coggins — 가족·기념 사이트 약력",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-5f9c4ab08cac7457"
+          ],
+          "unknown_reason": null,
+          "value": "https://gilcoggins.com/gilly-bio/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-5f9c4ab08cac7457",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/bud-powell/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-6208ef0f7750c111",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "National Endowment for the Arts",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "NEA Jazz Masters — jackie-mclean",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.arts.gov/honors/jazz/jackie-mclean",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-624b60c58c9d8bfb",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-670671cd97404156"
+          ],
+          "unknown_reason": null,
+          "value": "Miles Davis Estate / Sony Music",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-670671cd97404156"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-670671cd97404156"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-670671cd97404156"
+          ],
+          "unknown_reason": null,
+          "value": "Gil Coggins — Miles Davis 공식 협연자 소개",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-670671cd97404156"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.milesdavis.com/person/gil-coggins/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-670671cd97404156",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note / Scott Yanow",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note — Jimmy Heath 약력",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/jimmy-heath/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-6b51d431df5d7f14",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "Bob Blumenthal / Peter Losin, A History of Blue Note Records 전사",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "1952-05-09 세션: 재발매 라이너와 세션 해설 전사",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6f4b6612125fb3a0"
+          ],
+          "unknown_reason": null,
+          "value": "https://bluenotehistory.blogspot.com/2023/06/1952-may-9.html",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-6f4b6612125fb3a0",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/johnny-griffin/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-71ee45a3c0db9a98",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-73475cb40a568e8d"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-73475cb40a568e8d"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-73475cb40a568e8d"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-73475cb40a568e8d"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-73475cb40a568e8d"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/jutta-hipp/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-73475cb40a568e8d",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/curtis-fuller/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-7688b6ef52555962",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records / Universal Music",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": "Volume 2 (Classic Vinyl Series): Vinyl LP",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": "https://shop.bluenote.com/products/volume-2-classic-vinyl-series-vinyl-lp",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-76a50887d8f1c2e9",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b"
+          ],
+          "unknown_reason": null,
+          "value": "Second Floor Music / jazzleadsheets.com",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b"
+          ],
+          "unknown_reason": null,
+          "value": "Enigma — 작곡자 원고와 Miles 편곡 해설",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b"
+          ],
+          "unknown_reason": null,
+          "value": "https://jazzleadsheets.com/enigma.html",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-785f3ec7eb32f30b",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "Leonard Feather / The Jazz Tome",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "liner_notes",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "Leonard Feather — BLP 1501 라이너노트 전사",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "https://thejazztome.info/miles-davis-volume-one/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-7902699be42c8a8e",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/kenny-burrell/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-7a61b53701befdae",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/paul-chambers/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-811786ad1ae74adf",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/cannonball-adderley/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-81b8a03f97e8787c",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note / Chris Kelsey",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note — Art Blakey 약력",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/art-blakey/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-8527a891e2241369",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-86e5014965866131"
+          ],
+          "unknown_reason": null,
+          "value": "Second Floor Music / Hal Leonard",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-86e5014965866131"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-86e5014965866131"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-86e5014965866131"
+          ],
+          "unknown_reason": null,
+          "value": "Kelo — 작곡가·편성 출판 정보",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-86e5014965866131"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.halleonard.com/product/520/kelo",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-86e5014965866131",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note / Capitol, Qobuz 유통 메타데이터",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1501 대응 12트랙 재발매 크레딧",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9400f1b21cb527d7"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.qobuz.com/us-en/album/miles-davis-volume-1-miles-davis/0060253749828",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-9400f1b21cb527d7",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/lee-morgan/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-98010bd9270f9b10",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9f14025af0065b30"
+          ],
+          "unknown_reason": null,
+          "value": "Jeremy Wilson / K. J. McElrath, JazzStandards.com",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9f14025af0065b30"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9f14025af0065b30"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9f14025af0065b30"
+          ],
+          "unknown_reason": null,
+          "value": "How Deep Is The Ocean — 작품 형식·화성 분석",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-9f14025af0065b30"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.jazzstandards.com/compositions-0/howdeepistheocean.htm",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-9f14025af0065b30",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/kenny-dorham/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-aea92132c4cbeb26",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c2356069e9d1e79c"
+          ],
+          "unknown_reason": null,
+          "value": "JazzStandards.com",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c2356069e9d1e79c"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c2356069e9d1e79c"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c2356069e9d1e79c"
+          ],
+          "unknown_reason": null,
+          "value": "Yesterdays — 작품 기원과 저작자",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c2356069e9d1e79c"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.jazzstandards.com/compositions-0/yesterdays.htm",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-c2356069e9d1e79c",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c6f3ac57944a5314"
+          ],
+          "unknown_reason": null,
+          "value": "National Endowment for the Arts",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c6f3ac57944a5314"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c6f3ac57944a5314"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c6f3ac57944a5314"
+          ],
+          "unknown_reason": null,
+          "value": "NEA Jazz Masters — art-blakey",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c6f3ac57944a5314"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.arts.gov/honors/jazz/art-blakey",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-c6f3ac57944a5314",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/sonny-clark/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-c837649cce43f272",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/bennie-green/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-d029fa3a95e174a1",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note — Miles Davis Volume 1: LP 곡순과 해설",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/collections/tps-tier-1-members-cyber-week-2025/products/miles-davis-volume-1-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-d4735e3a265e16ee",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/clifford-brown/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-d59eced1ded07f84",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "National Endowment for the Arts",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "NEA Jazz Masters — kenny-clarke",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.arts.gov/honors/jazz/kenny-clarke",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-e29c9c180c6279b0",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note / Scott Yanow",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note — Oscar Pettiford 약력",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/artist/oscar-pettiford/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-e629fa6598d73276",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-eb1e33e8a81b697b"
+          ],
+          "unknown_reason": null,
+          "value": "National Endowment for the Arts",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-eb1e33e8a81b697b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-eb1e33e8a81b697b"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-eb1e33e8a81b697b"
+          ],
+          "unknown_reason": null,
+          "value": "NEA Jazz Masters — jimmy-heath",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-eb1e33e8a81b697b"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.arts.gov/honors/jazz/jimmy-heath",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-eb1e33e8a81b697b",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "Shuga Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "Classic Vinyl BLP 1501 트랙별 저작자 표기",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.shugarecords.com/products/miles-davis-volume-1-1956-new-lp-record-2023-blue-note-classic-180-gram-vinyl-jazz-bop",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-f5ca38f748a1d6ea",
+      "kind": "sources",
+      "links": {}
+    }
+  ],
+  "schema_version": 1
+}

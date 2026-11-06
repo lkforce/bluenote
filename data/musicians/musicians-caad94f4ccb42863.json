@@ -1,0 +1,609 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "Jackie McLean",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-caad94f4ccb42863",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Alto Saxophone",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-87b356fe6d0715d2",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {},
+      "key": "musician-profiles-49b2093e8ef946c1",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "B1·B2·B4·B6에 알토로 참여한다. A5·B3에는 참여하지 않는다. B4 Donna의 현대 재발매 저작 크레딧도 갖는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-4f02e3ddaa82c040",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1501",
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "NEA는 Powell과 Rollins와의 초기 관계를 소개한다. 구체적인 사제 관계의 범위는 자료가 말하는 수준으로 한정한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-8122bf3c2bdd0921",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "하드밥과 전위적 접근을 오가고 교육 활동으로 다음 세대에 기여했다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "significance",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-85081c9acb5868fd",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "Donna에서 트럼펫 다음 알토의 음색을 구별하세요. 다른 곡의 리드 잡음 이야기를 이 대체 테이크의 사실로 옮기지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-9109cd88333b48d6",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "음악과 가까운 가정에서 자랐으며 청소년기에 알토를 선택했다. Bud Powell의 비공식 가르침과 Sonny Rollins의 동네 밴드를 경험했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "growth",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-9398757506ff76c3",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "초기 Miles 협연, George Wallington·Jazz Messengers·Charles Mingus와의 활동 및 1955년 리더 녹음이 주요 이력이다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "works",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-c984d78832af23d6",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "NEA는 식별하기 쉬운 알토 음색과 강렬한 연주를 강조한다. 이 앨범의 음정·배음 수치를 측정한 결과는 아니다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "style",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-cd2603f55d2e6f6c",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "뉴욕 출신 알토 색소폰 연주자·작곡가·교육자로 하드밥과 이후의 실험적 재즈에 참여했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-624b60c58c9d8bfb"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-f5aa93738b71a9fa",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Alto Saxophone",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-dc5d8082dcb75865",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-caad94f4ccb42863",
+        "session_key": "recording-sessions-4717565537a6df99"
+      }
+    }
+  ],
+  "root_key": "musicians-caad94f4ccb42863",
+  "schema_version": 1
+}

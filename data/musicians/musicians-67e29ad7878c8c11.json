@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-aea92132c4cbeb26"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Dorham",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-67e29ad7878c8c11",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-67e29ad7878c8c11",
+  "schema_version": 1
+}

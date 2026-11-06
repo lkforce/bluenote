@@ -1,0 +1,4303 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Volume 1",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1501",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {},
+      "key": "album-sessions-0699ac40d4910c12",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1501",
+        "session_key": "recording-sessions-67ab5a1b69e44ce1"
+      }
+    },
+    {
+      "fields": {},
+      "key": "album-sessions-748df70740180ada",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1502",
+        "session_key": "recording-sessions-4717565537a6df99"
+      }
+    },
+    {
+      "fields": {},
+      "key": "album-sessions-7991e91cdbb37a6c",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1501",
+        "session_key": "recording-sessions-4717565537a6df99"
+      }
+    },
+    {
+      "fields": {},
+      "key": "album-sessions-c0724d294c194b00",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1502",
+        "session_key": "recording-sessions-67ab5a1b69e44ce1"
+      }
+    },
+    {
+      "fields": {},
+      "key": "album-sessions-c44e42ef39889be9",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1502",
+        "session_key": "recording-sessions-81e01bc78b251123"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-785f3ec7eb32f30b",
+            "source-7902699be42c8a8e",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "공식 소개의 비밥과 발라드라는 관점에서 앨범을 읽을 수 있다. Powell·Johnson·Heath 등의 작품과 대중가요·전통 선율이 함께 놓여 있다. 곡마다 같은 하드밥 꼬리표를 붙이기보다 빠른 선율, 느린 노래형 표현, 6인조와 4인조의 차이를 비교하는 편이 유익하다. 이는 자료에 기초한 편집 해설이며 직접 청취 평가가 아니다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b",
+            "source-7902699be42c8a8e",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b",
+            "source-7902699be42c8a8e",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b",
+            "source-7902699be42c8a8e",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "비밥의 언어와 발라드의 여백",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-785f3ec7eb32f30b",
+            "source-7902699be42c8a8e",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-02fc8c0a439992f2",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Miles Davis의 Volume 1은 1952년 5월 9일과 1953년 4월 20일 뉴욕 WOR 녹음에서 고른 12개 트랙으로 구성된다. 앞서 10인치와 싱글로 소개된 녹음이 12인치 시대에 재편집되었다. C.T.A.의 두 테이크는 하나의 작품을 다르게 실현한 사례다. 1954년 세션을 이 LP의 트랙으로 자동 추가하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": 0,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "편집 앨범으로 읽는 BLP 1501",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "album-stories-2c3da0344908b006",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note의 공식 해설은 1955년의 12인치 전환을 설명하고 JDP와 Miles 공식 Chance It 페이지는 1955년을 표기한다. The Jazz Tome은 1956년으로 분류하며 1956년 2월 Billboard 리뷰를 전사한다. 유통 음원의 저작권 연도도 1956이다. 전환 연도·리뷰 날짜·저작권 연도를 최초 발매일과 동일시하지 않아 확정 날짜는 미확인으로 유지한다.",
+          "verification": "CONFLICTING"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "CONFLICTING"
+        },
+        "display_order": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": 0,
+          "verification": "CONFLICTING"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "최초 발매 시점 — 자료 차이 보존",
+          "verification": "CONFLICTING"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "conflicting",
+          "verification": "CONFLICTING"
+        }
+      },
+      "key": "album-stories-48805541877b6125",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "사용한 턴테이블·카트리지·스피커 또는 헤드폰과 청취 위치를 적어 두세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "system",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-05d93dbe1f115645",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "녹음기·콘솔·마이크 모델과 신호 경로는 미확인이다. 시대의 일반적인 장비를 이 세션의 실제 장비로 등록하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "equipment",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-0784984d19c69fcd",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "복잡한 구간에서 어느 악기의 윤곽이 흐려지는지 기록하되, 이를 곧바로 마스터링의 결함으로 단정하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "separation",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-0cd54f53d6392bf4",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "같은 구간을 반복하며 주선율과 반주를 번갈아 추적하고, 구별이 어려운 지점을 기록하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "focus",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-0f2518dae86db47d",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "심벌의 여운, 스네어의 어택, 킥의 낮은 울림을 구분해 들어보세요. 아직 해당 녹음의 특성을 평가한 내용은 아닙니다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-10a2e22672b87341",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "히스·클릭·왜곡은 원인이 다를 수 있다. 테이프, 마스터링, 표면 상태, 바늘과 설정을 나누어 기록한다. 소장품 미등록 상태에서 이 LP에 잡음이 있다고 단정하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "noise",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-13de3b4bbae26ef1",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "음악적 편성은 확인되지만 원본 테이프의 주파수 응답·다이내믹스·히스 수준은 미확인이다. 실제 청취 없는 원본 음향 평가를 작성하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "character",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-1415b517343fda16",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "음장은 소리가 펼쳐진 폭과 깊이다. A5·B3의 4인조와 6인조를 구분하고, 모노 판본이라면 좌우 악기 배치를 스테레오처럼 기대하지 않는다. 이 앨범의 실제 폭·깊이는 미평가다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "soundstage",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-1edd29848093f1aa",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "트랜지언트는 음의 시작과 사라짐이다. 피아노 도입이 있는 A5·B3를 관찰 대상으로 삼되 타건 선명도를 이미 들은 결과처럼 쓰지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "transients",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-21ab4f459fe30db7",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "금관의 음이 시작되는 어택과 뒤따르는 배음, 금속성 울림을 나누어 들어보세요. 거칠게 느껴지는 원인을 연주·녹음·판본 중 하나로 바로 단정하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Trumpet",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-297d98e349ca7c39",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "잔향이 녹음 공간·인공 처리·재생실 중 어디서 온 것인지 단정하지 말고 근거와 함께 가설로 남기세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "ambience",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-2adb14d8967b2ce1",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "두 악기가 함께 나올 때 한 선율을 끝까지 따라갈 수 있는지 들어보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "separation",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-2e88a9af74b56056",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "음색은 악기 고유의 색채다. A5·B3에서는 트럼펫과 피아노, 다른 트랙에서는 관악기끼리 비교한다. 밝음·거침을 마이크 모델이나 주파수 응답으로 단정하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "timbre",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-32ba2057c67aee35",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "현의 어택, 음정의 윤곽과 감쇠를 각각 관찰하세요. 저역의 크기만으로 자연스러움이나 판본의 우열을 판단하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Bass",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-39f23402786c9674",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "질감은 음의 결·밀도를 표현하는 말이다. McLean의 알토와 Heath의 테너는 다른 세션·트랙이므로 판본 차이처럼 비교하지 않는다. 이 녹음의 실제 질감 평가는 미확인이다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "texture",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-41335da0baa736dd",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "호흡에서 음으로 이어지는 시작과 배음의 변화를 따라가 보세요. 악기의 일반 설명과 이 판본의 실제 평가를 구분하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Tenor Saxophone",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-42c7040523e293aa",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "저역은 음의 깊이와 현의 시작·끝, 음정 구분을 함께 살핀다. 1952년 Pettiford와 1953년 Percy Heath의 차이를 원판과 재발매의 저역 차이로 오해하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "bass",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-458a1db3607cd321",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "두 녹음 세션의 장소는 WOR Studios, New York City다. Van Gelder의 Hackensack 녹음으로 바꾸지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "VERIFIED"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "studio",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "audio-observations-53303874d161636e",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "판본이 모노인지 스테레오인지 먼저 확인하세요. 모노 음반에서 좌우 악기 배치를 단정하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "space",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-541ecb3a3b93a375",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "분리도는 합주 중 한 악기의 선율을 따로 따라갈 수 있는지의 문제다. C.T.A.에서 베이스와 관악기를 번갈아 집중하는 방법을 권한다. 분리도가 좋다는 실제 평가는 아직 없다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "separation",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-5455fe07b57ef931",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "리드와 호흡의 질감, 중역의 밀도를 관찰하는 감상 과제입니다. 특정 곡의 마이크나 녹음 특성을 확인한 설명은 아닙니다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Alto Saxophone",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-57d1431dffb4ff95",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "같은 자리에서 중심 이미지와 깊이의 인상을 적고, 녹음 정보·판본·스피커 배치의 영향을 분리해 비교하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "space",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-645ff4d7af8cfcf9",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "WOR 녹음실의 이 세션 당시 구조·흡음·잔향 시간은 미확인이다. 청취 인상과 스튜디오의 실측 조건을 구분한다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "acoustics",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-69b6842f39e1d86a",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "중역은 관악기와 피아노의 몸통을 이해하는 범위다. Enigma의 긴 선율을 따라가는 감상 방법을 제시하지만 중역이 풍부하다는 판본 평가는 하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "midrange",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-6d3eaa9bc13ee963",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "클릭과 지속적인 잡음을 구분해 기록하고 음반 상태·세척 여부도 함께 적으세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "vinyl",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-76117fe791959fa2",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "원본 테이프의 규격·속도·트랙 구성은 미확인이다. Classic Vinyl의 올 아날로그라는 제작 설명은 그 재발매판의 공정이며 원본 녹음 장비 목록을 입증하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "medium",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-787a21c82ad0e8fa",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "마이크 개수·거리·배치 및 악기별 수음 방식은 미확인이다. 사진이나 음색만으로 확정하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "microphones",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-803d3231a7773036",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "다이내믹스는 큰 강약과 작은 프레이즈 차이를 포함한다. Enigma의 더블타임 느낌은 음량 증가와 별개다. 측정한 DR이나 압축률은 없으며 임의 수치를 제공하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "dynamics",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-81b2e983f046a04d",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "원본 녹음의 채널을 직접 명시한 세션 문서는 이번에 확보하지 못했다. 공식 Classic Vinyl 상품은 모노이고 JDP는 후대 BST 판을 pseudo stereo로 구분한다. 디지털 유통의 Stereo 표기를 원본의 진짜 스테레오 녹음으로 해석하지 않는다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "format",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-88a1c57567508c1d",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "타건의 시작, 현의 울림과 여운을 나누어 들어보세요. 피아노가 흐리게 들리는 원인은 연주·녹음·마스터링·재생 조건을 함께 확인해야 합니다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-8a58c91bed36ef95",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "카트리지·포노 설정과 실물 상태를 함께 기록하세요. 표면 잡음과 테이프 히스를 청취만으로 확정 구분하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "vinyl",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-9b91fbb1292e29ab",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "작은 표현 차이는 음량과 설정에 영향을 받습니다. 가능하면 조건을 맞추고, 장비 가격을 음질의 근거로 삼지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "system",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-b1b57c770e0d4514",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "음의 시작과 길게 이어지는 울림을 나누어 들어보세요. 악기의 재생 인상을 원본 녹음의 특성으로 곧바로 확정하지 마세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "Trombone",
+          "verification": "INTERPRETATION"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "instrument",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-b3c9327976dfa3fc",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "베이스는 낮게 내려가는 느낌뿐 아니라 음정을, 심벌은 밝기뿐 아니라 여운을 들어보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "frequency",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-bb055977d819a149",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "published_review",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "Kennedy Brown의 1961년 리뷰 전사는 Miles의 표현을 서정적이고 섬세한 것으로 평가한다. 이는 과거 평론의 견해이며 사용자의 LP를 직접 청취한 평가가 아니다. 판본별 마스터링·음색 우열의 근거로 사용할 수 없다.",
+          "verification": "VERIFIED"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "published_review",
+          "verification": "VERIFIED"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "VERIFIED"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "timbre",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "audio-observations-bbcd398aacc1cc03",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "한 악기를 정해 한 곡 동안 따라가 보세요. 동시에 모든 소리를 평가할 필요는 없습니다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "focus",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-c9cc3d03941b7a9d",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "고역에서는 심벌의 시작과 여운, 관악기의 날카로움을 나누어 관찰한다. Clarke와 Blakey가 다른 트랙에 참여한다는 사실을 먼저 확인한다. 확장 대역 수치는 없다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "treble",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-da7360f019fca7b1",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "음량·청취 위치를 일정하게 유지하고 저역의 어택과 감쇠, 고역의 거칠기와 지속음을 따로 기록하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "advanced",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "frequency",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-dbd114fab70643dc",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "이미징은 각 소리의 위치를 알아듣는 정도다. 트럼펫·트롬본·색소폰을 음색으로 구분하는 것과 좌우 좌표가 분리되는 것은 다르다. 특정 판본의 위치 정보는 미확인이다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "imaging",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-e271599df807c451",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "잔향은 소리가 멎은 뒤의 여운이다. WOR라는 장소는 확인했지만 방의 크기·반사·마이크 거리를 추정할 수는 없다. 판본과 재생실의 영향도 구분해야 한다.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "sound",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "ambience",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-e6b5fd888d3853b9",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "소리가 멎은 직후의 여운에 집중해 보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "general_guide",
+          "verification": "INTERPRETATION"
+        },
+        "guide_level": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "INTERPRETATION"
+        },
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "guide",
+          "verification": "INTERPRETATION"
+        },
+        "topic": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "ambience",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-d4735e3a265e16ee"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "audio-observations-f2973abf33d50b50",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "description": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Folk-derived Jazz",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "genres-61d55ca5d00aee90",
+      "kind": "genres",
+      "links": {}
+    },
+    {
+      "fields": {
+        "description": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Bebop",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "genres-7f3cc7e7a75c9027",
+      "kind": "genres",
+      "links": {}
+    },
+    {
+      "fields": {
+        "description": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Jazz Ballad",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "genres-a45d1696e8e0d40c",
+      "kind": "genres",
+      "links": {}
+    },
+    {
+      "fields": {
+        "date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "day",
+          "verification": "VERIFIED"
+        },
+        "location": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "WOR Studios, New York City",
+          "verification": "VERIFIED"
+        },
+        "recording_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "1952-05-09",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "recording-sessions-4717565537a6df99",
+      "kind": "recording_sessions",
+      "links": {}
+    },
+    {
+      "fields": {
+        "date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "day",
+          "verification": "VERIFIED"
+        },
+        "location": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "WOR Studios, New York City",
+          "verification": "VERIFIED"
+        },
+        "recording_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "1953-04-20",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "recording-sessions-67ab5a1b69e44ce1",
+      "kind": "recording_sessions",
+      "links": {}
+    },
+    {
+      "fields": {
+        "date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "day",
+          "verification": "VERIFIED"
+        },
+        "location": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Van Gelder Studio, Hackensack, New Jersey",
+          "verification": "VERIFIED"
+        },
+        "recording_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "1954-03-06",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "recording-sessions-81e01bc78b251123",
+      "kind": "recording_sessions",
+      "links": {}
+    }
+  ],
+  "root_key": "blp-1501",
+  "schema_version": 1
+}

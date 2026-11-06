@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "Louis Smith",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-ed63136fa662fc53",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-ed63136fa662fc53",
+  "schema_version": 1
+}

@@ -1,0 +1,639 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "J.J. Johnson",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-a1f112a71c979396",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Trombone",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-7541a4cc256cdb73",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {},
+      "key": "musician-profiles-36b802b60adf4fe8",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "어린 시절 피아노를 배우고 14세에 트롬본을 시작했다. Benny Carter·Count Basie 등의 밴드를 거쳤다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "growth",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-11bc0cf39df7c05a",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Enigma에서는 작곡가의 편곡과 실제 트롬본 역할을 구분하고, Kelo에서는 같은 작곡자의 다른 선율 접근을 비교하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-19f8ca898e4d7c1a",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "트롬본으로 복잡한 현대 재즈 선율과 대규모 작곡을 함께 추구한 인물이다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "significance",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-1fee2b4c8cc8d757",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "NEA가 강조하는 유창함과 기민함은 트롬본의 슬라이드 이동을 넘어 선율을 연결하는 능력에 관한 평가다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "style",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-352c7ff1e3a03fea",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Jay and Kai 활동, Perceptions, El Camino Real은 독주·앙상블·작곡의 범위를 보여 준다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "works",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-3750e478c0d4c7bd",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "NEA는 초기 영향으로 Fats Navarro를 명시한다. 트럼펫의 비밥 언어를 트롬본에 적용하는 계보를 이해할 단서다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-6e05c0ade21da394",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "트롬본을 현대 재즈의 주요 독주 악기로 확장한 연주자이자 작곡·편곡가다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-a989b598196ae60b",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "1953년 여섯 트랙과 1952년 B1·B2·B4·B6에 트롬본으로 참여한다. Kelo와 Enigma의 작곡자다. A5·B3에는 참여하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-19581e27de7ced00",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-ffa649b05b9e568c",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1501",
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Trombone",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-951bd2e2f346594e",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396",
+        "session_key": "recording-sessions-67ab5a1b69e44ce1"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Trombone",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-e8424e6671e649f3",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396",
+        "session_key": "recording-sessions-4717565537a6df99"
+      }
+    }
+  ],
+  "root_key": "musicians-a1f112a71c979396",
+  "schema_version": 1
+}

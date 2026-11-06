@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "Clifford Brown",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-0f04889d8fd043f3",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-0f04889d8fd043f3",
+  "schema_version": 1
+}

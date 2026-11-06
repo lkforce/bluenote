@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6208ef0f7750c111"
+          ],
+          "unknown_reason": null,
+          "value": "The Amazing Bud Powell, Vol. 3 – Bud!",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1571",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-90a44958a009129b"
+      }
+    }
+  ],
+  "root_key": "blp-1571",
+  "schema_version": 1
+}

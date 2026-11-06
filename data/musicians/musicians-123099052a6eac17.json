@@ -1,0 +1,55 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f",
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f",
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9"
+          ],
+          "unknown_reason": null,
+          "value": "Horace Silver",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-123099052a6eac17",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Piano",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "session-credits-da13aed8f7e3001a",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-123099052a6eac17",
+        "session_key": "recording-sessions-81e01bc78b251123"
+      }
+    }
+  ],
+  "root_key": "musicians-123099052a6eac17",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "Hank Mobley",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-f33f492fc8174f45",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-f33f492fc8174f45",
+  "schema_version": 1
+}

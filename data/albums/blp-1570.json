@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "Dial “S” For Sonny",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1570",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-343ed90e4ed131ca"
+      }
+    }
+  ],
+  "root_key": "blp-1570",
+  "schema_version": 1
+}

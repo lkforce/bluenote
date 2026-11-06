@@ -1,0 +1,123 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "Dizzy Gillespie",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-40155d540b1a77a2",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "birth_year": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "death_year": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        }
+      },
+      "key": "musician-profiles-d2d17bcc1ee69657",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-40155d540b1a77a2"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "BLP 1501의 라이너노트는 Woody’n You를 Gillespie의 작품으로 언급한다. 이 인물의 작곡 크레딧은 앨범 연주 참여를 뜻하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "works",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7902699be42c8a8e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-31bcfc8842d5f955",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-40155d540b1a77a2"
+      }
+    }
+  ],
+  "root_key": "musicians-40155d540b1a77a2",
+  "schema_version": 1
+}

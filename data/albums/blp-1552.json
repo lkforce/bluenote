@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2858dcd1057d3eae"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2858dcd1057d3eae"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-2858dcd1057d3eae"
+          ],
+          "unknown_reason": null,
+          "value": "Jimmy Smith at the Organ, Volume 2",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1552",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-64e77f47f1b2c613"
+      }
+    }
+  ],
+  "root_key": "blp-1552",
+  "schema_version": 1
+}

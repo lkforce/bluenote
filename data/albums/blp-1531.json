@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "The Fabulous Fats Navarro, Vol. 1",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1531",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-161cff17745c12b0"
+      }
+    }
+  ],
+  "root_key": "blp-1531",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "Paul Chambers",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-1d2387dc1e8bb24c",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-1d2387dc1e8bb24c",
+  "schema_version": 1
+}

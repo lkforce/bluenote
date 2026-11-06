@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc",
+            "source-2858dcd1057d3eae",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc",
+            "source-2858dcd1057d3eae",
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Jimmy Smith",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-64e77f47f1b2c613",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-64e77f47f1b2c613",
+  "schema_version": 1
+}

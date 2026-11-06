@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": "미확인",
+          "value": null,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "Memorial Album",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1526",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-0f04889d8fd043f3"
+      }
+    }
+  ],
+  "root_key": "blp-1526",
+  "schema_version": 1
+}

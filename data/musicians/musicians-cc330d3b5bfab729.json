@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "Johnny Griffin",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-cc330d3b5bfab729",
+      "kind": "musicians",
+      "links": {}
+    }
+  ],
+  "root_key": "musicians-cc330d3b5bfab729",
+  "schema_version": 1
+}

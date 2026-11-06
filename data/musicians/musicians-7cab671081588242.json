@@ -1,0 +1,649 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-76a50887d8f1c2e9",
+            "source-9400f1b21cb527d7",
+            "source-d4735e3a265e16ee",
+            "source-f5ca38f748a1d6ea"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Clarke",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musicians-7cab671081588242",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-instruments-39ad04724c10e17e",
+      "kind": "musician_instruments",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {},
+      "key": "musician-profiles-27692e4ef7f582a3",
+      "kind": "musician_profiles",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "박의 중심을 라이드 심벌에 두고 베이스드럼·스네어로 불규칙한 악센트를 넣는 접근이 주요 특징으로 설명된다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "style",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-0084b40f14355f77",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "여러 빅밴드와 Minton’s의 현장 경험, 군 복무 이후의 비밥 활동을 거쳐 프랑스에 정착했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "growth",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-2aa2a6372a0aac79",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "1952년 여섯 트랙에 드럼으로 참여한다. 1953년 Art Blakey의 연주를 그의 것으로 설명하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "album_role",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-91161636c0a9b363",
+      "kind": "musician_stories",
+      "links": {
+        "album_key": "blp-1501",
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note 소개는 Minton’s에서 Monk 등과 함께 형성한 언어를 설명한다. 특정 한 사람의 영향만으로 환원하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "influences",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-9afa0c671d9a2cc5",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "Monk와의 Epistrophy, Gillespie와의 Salt Peanuts, Clarke–Boland 밴드가 대표적인 작업이다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "works",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-9b643eda2da33cf9",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "드럼이 박자 유지와 독립적 응답을 함께 수행하는 현대 재즈 언어의 기반을 마련했다.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "interpretation",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "significance",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-aa8c15986c909686",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "비밥 드럼의 형성에 핵심적인 역할을 한 연주자로 미국과 유럽에서 활동했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "musician-stories-cd2a077c5b7b6ed1",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-06",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "Chance It에서 심벌의 박과 다른 드럼 악센트를 나누어 듣고 발라드에서는 소리의 밀도가 어떻게 달라지는지 관찰하세요.",
+          "verification": "INTERPRETATION"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-10-31",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "INTERPRETATION"
+        },
+        "section": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "listening",
+          "verification": "INTERPRETATION"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-06",
+          "content_kind": "general_guide",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-4fc82b26aecb47d2",
+            "source-e29c9c180c6279b0"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "INTERPRETATION"
+        }
+      },
+      "key": "musician-stories-e60cf9f777892d84",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-06",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "session-credits-e5033144372d8828",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-7cab671081588242",
+        "session_key": "recording-sessions-4717565537a6df99"
+      }
+    }
+  ],
+  "root_key": "musicians-7cab671081588242",
+  "schema_version": 1
+}
