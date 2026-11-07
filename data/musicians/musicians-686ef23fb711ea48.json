@@ -26,6 +26,65 @@
       "key": "musicians-686ef23fb711ea48",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "Cannonball Adderley는 Florida에서 학교 밴드를 지도한 뒤 1955년 뉴욕 Cafe Bohemia에서 Oscar Pettiford의 그룹과 연주하며 주목받았다. 동생 Nat Adderley와 그룹을 이끌었고 Miles Davis의 밴드에서는 John Coltrane과 함께 활동했다. 이후 다시 자신의 퀸텟을 조직했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-81b8a03f97e8787c"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-49",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-686ef23fb711ea48"
+      }
     }
   ],
   "root_key": "musicians-686ef23fb711ea48",

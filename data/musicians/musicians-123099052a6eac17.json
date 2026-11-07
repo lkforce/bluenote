@@ -33,6 +33,65 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "Horace Silver는 청소년기에 피아노와 색소폰을 연주했으며 부친을 통해 접한 카보베르데 음악과 블루스, 부기우기, 비밥의 영향을 받았다. 1950년 Stan Getz에게 발탁되었고 이후 뉴욕에서 활동했다. 1952년 Lou Donaldson과 Blue Note 녹음을 시작했고 Art Blakey와 Jazz Messengers를 함께 이끌었다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-22",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-123099052a6eac17"
+      }
+    },
+    {
+      "fields": {
         "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",

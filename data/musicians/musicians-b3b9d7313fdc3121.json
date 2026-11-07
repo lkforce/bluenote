@@ -26,6 +26,65 @@
       "key": "musicians-b3b9d7313fdc3121",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "The Jazz Messengers는 Art Blakey가 이끈 하드밥 밴드로 여러 세대의 연주자들이 활동한 무대였다. Blue Note 공식 약력은 이 밴드에서 Lee Morgan, Wayne Shorter, Freddie Hubbard 등 젊은 연주자들이 경험을 쌓았다고 설명한다. 단체의 장기 경력과 특정 음반의 녹음 편성은 구분한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-23",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-b3b9d7313fdc3121"
+      }
     }
   ],
   "root_key": "musicians-b3b9d7313fdc3121",

@@ -26,6 +26,65 @@
       "key": "musicians-7f12d8266acecac4",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "Curtis Fuller는 트롬본 연주자로 군악대에서 Cannonball Adderley와 함께 연주했다. 디트로이트에서 Kenny Burrell, Yusef Lateef와 활동한 뒤 뉴욕으로 옮겼고, Benny Golson과 Art Farmer의 Jazztet 및 1961~1965년 Art Blakey의 Jazz Messengers에서 활동했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7688b6ef52555962"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-44",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7f12d8266acecac4"
+      }
     }
   ],
   "root_key": "musicians-7f12d8266acecac4",

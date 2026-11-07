@@ -26,6 +26,65 @@
       "key": "musicians-07334a0bc021f834",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "The Three Sounds는 피아니스트 Gene Harris, 베이시스트 Andrew Simpkins, 드러머 Bill Dowdy가 중심이 된 트리오다. 1958년 Blue Note 데뷔 후 다수의 녹음을 남겼으며, 그룹의 장기 활동 중에는 구성원 변화도 있었다. 원래 트리오의 구성과 후대의 동명 그룹 편성은 구분해야 한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4523540f1504cd17"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-2",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-07334a0bc021f834"
+      }
     }
   ],
   "root_key": "musicians-07334a0bc021f834",

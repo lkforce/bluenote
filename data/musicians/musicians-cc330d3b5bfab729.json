@@ -26,6 +26,65 @@
       "key": "musicians-cc330d3b5bfab729",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "Johnny Griffin은 시카고의 DuSable High School에서 Walter Dyett의 지도를 받았다. Lionel Hampton 악단에 들어간 뒤 테너 색소폰으로 전환했으며 R&B 밴드와 군악대 등에서도 활동했다. 공식 약력의 특정 앨범 녹음 연도에는 다른 문헌과 차이가 있어 그 연도는 이 소개에서 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-71ee45a3c0db9a98"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-35",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-cc330d3b5bfab729"
+      }
     }
   ],
   "root_key": "musicians-cc330d3b5bfab729",

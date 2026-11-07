@@ -26,6 +26,65 @@
       "key": "musicians-202c33e69f853617",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "Lou Donaldson은 클라리넷을 배우다 알토 색소폰으로 옮겼고 군 복무 중 해군 밴드에서 활동했다. 1952년 Blue Note에서 녹음을 시작했으며 1954년 Art Blakey와 Clifford Brown 등이 함께한 Birdland 공연에 참여했다. 공식 약력은 그가 정규 Jazz Messengers의 멤버였던 것은 아니라고 구분한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-31489056e0916d59"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-38",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-202c33e69f853617"
+      }
     }
   ],
   "root_key": "musicians-202c33e69f853617",

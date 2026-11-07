@@ -26,6 +26,65 @@
       "key": "musicians-ca30b77a23f09fa0",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "J.R. Monterose는 뉴욕주 Utica에서 성장한 테너 색소폰 연주자로, 이름이 비슷한 Jack Montrose와는 다른 인물이다. 1956년 Charles Mingus의 Pithecanthropus Erectus에 참여했고 이후 Kenny Dorham의 Jazz Prophets에서 활동했다. Blue Note 리더 세션 외에도 여러 레이블에서 녹음을 남겼다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-25fc0e7096fc6537"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-37",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-ca30b77a23f09fa0"
+      }
     }
   ],
   "root_key": "musicians-ca30b77a23f09fa0",

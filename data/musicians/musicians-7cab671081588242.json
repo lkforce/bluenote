@@ -37,6 +37,65 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Clarke는 Minton’s Playhouse의 하우스 밴드에서 활동했고, 비밥의 형성기에 Thelonious Monk 등과 연주했다. Blue Note 공식 약력은 시간 유지의 중심을 라이드 심벌로 옮긴 그의 드럼 연주가 후대에 큰 영향을 주었다고 설명한다. 이는 문헌의 역사 설명이며 특정 수록곡에서의 연주법을 직접 확인한 평가는 아니다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4fc82b26aecb47d2"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-9",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7cab671081588242"
+      }
+    },
+    {
+      "fields": {
         "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",

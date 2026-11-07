@@ -26,6 +26,65 @@
       "key": "musicians-1d2387dc1e8bb24c",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "Paul Chambers는 디트로이트 재즈 현장에서 성장했고 뉴욕에서는 J.J. Johnson과 Kai Winding의 그룹 등에서 연주했다. Miles Davis Quintet의 베이시스트로 활동한 뒤 Wynton Kelly Trio에도 참여했다. Blue Note의 리더 음반에는 Whims of Chambers, Bass on Top, Paul Chambers Quintet이 있다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-811786ad1ae74adf"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-36",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-1d2387dc1e8bb24c"
+      }
     }
   ],
   "root_key": "musicians-1d2387dc1e8bb24c",

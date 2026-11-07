@@ -39,6 +39,65 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "Jimmy Heath는 처음 알토 색소폰을 연주했으며 Howard McGhee와 Dizzy Gillespie의 밴드를 거쳤다. 1950년대 초 테너로 전환했고 작곡·편곡과 교육 활동을 병행했다. 공식 약력은 그의 작품으로 C.T.A.와 Gingerbread Boy를 든다. 작품 목록과 이 앨범의 개별 작곡 크레딧은 구분한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-6b51d431df5d7f14"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-5",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-14ea58eee7447bfc"
+      }
+    },
+    {
+      "fields": {
         "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",

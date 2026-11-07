@@ -28,6 +28,65 @@
       "key": "musicians-679753b30c202157",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "Thad Jones는 트럼펫·코넷 연주와 작곡·편곡을 병행했다. 1954~1963년 Count Basie 악단에서 활동했고, 이후 Mel Lewis와 빅밴드를 조직해 1966년부터 Village Vanguard에서 정기적으로 연주했다. 대표 작곡으로 A Child Is Born이 있다. 빅밴드 경력을 이 음반의 소편성 크레딧과 혼합하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-3d914f9348c9cc0f"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-27",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-679753b30c202157"
+      }
     }
   ],
   "root_key": "musicians-679753b30c202157",

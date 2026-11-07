@@ -26,6 +26,65 @@
       "key": "musicians-161cff17745c12b0",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "Fats Navarro는 피아노와 테너 색소폰을 거쳐 트럼펫에 집중했다. Andy Kirk와 Billy Eckstine의 악단에서 활동했고 Tadd Dameron, Bud Powell, Charlie Parker 등과 녹음을 남겼다. 공식 약력은 Navarro가 Clifford Brown에게 중요한 영향을 주었다고 설명한다. 이 영향 관계와 개별 곡의 저자 표기는 구분한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-44cb730c420480a0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-34",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-161cff17745c12b0"
+      }
     }
   ],
   "root_key": "musicians-161cff17745c12b0",

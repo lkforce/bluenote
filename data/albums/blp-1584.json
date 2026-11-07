@@ -451,6 +451,252 @@
       "links": {
         "album_key": "blp-1594"
       }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-277",
+            "discogs-source-ref-278"
+          ],
+          "unknown_reason": null,
+          "value": "{\"schema\":\"discogs-public-v1\",\"master_id\":303057,\"release_id\":2648928,\"master_url\":\"https://www.discogs.com/master/303057\",\"release_url\":\"https://www.discogs.com/release/2648928\",\"retrieved_at\":\"2026-11-07T09:44:02+00:00\",\"expires_at\":\"2026-11-07T15:44:02+00:00\",\"title\":\"Here Comes Louis Smith\",\"artists\":[\"Louis Smith (2)\"],\"genres\":[\"Jazz\"],\"styles\":[\"Hard Bop\"],\"year\":1958,\"release_year\":1958,\"release_country\":\"US\",\"tracklist\":[{\"position\":\"A1\",\"title\":\"Tribute To Brownie\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"A2\",\"title\":\"Brill's Blues\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"A3\",\"title\":\"Ande\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"B1\",\"title\":\"Star Dust\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"B2\",\"title\":\"South Side\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"B3\",\"title\":\"Val's Blues\",\"duration\":\"\",\"type_\":\"track\"}],\"tracklist_source\":\"MASTER\",\"credits\":[{\"name\":\"Buckshot La Funke\",\"instrument\":\"Alto Saxophone\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"},{\"name\":\"Doug Watkins\",\"instrument\":\"Bass\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"},{\"name\":\"Art Taylor\",\"instrument\":\"Drums\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"},{\"name\":\"Duke Jordan\",\"instrument\":\"Piano\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"},{\"name\":\"Tommy Flanagan\",\"instrument\":\"Piano\",\"tracks\":\"A3, B1, B3\",\"scope\":\"explicit_track_positions\",\"source_type\":\"RELEASE\"},{\"name\":\"Louis Smith (2)\",\"instrument\":\"Trumpet\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"}],\"credits_source\":\"RELEASE\",\"notes\":\"\",\"notes_source\":\"RELEASE\"}",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-277",
+            "discogs-source-ref-278"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-277",
+            "discogs-source-ref-278"
+          ],
+          "unknown_reason": null,
+          "value": 1000,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-277",
+            "discogs-source-ref-278"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs metadata · 공개 기본 정보",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-277",
+            "discogs-source-ref-278"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-metadata-blp-1584",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1584"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-291",
+            "discogs-source-ref-292"
+          ],
+          "unknown_reason": null,
+          "value": "{\"schema\":\"discogs-public-v1\",\"master_id\":406398,\"release_id\":3382508,\"master_url\":\"https://www.discogs.com/master/406398\",\"release_url\":\"https://www.discogs.com/release/3382508\",\"retrieved_at\":\"2026-11-07T09:44:45+00:00\",\"expires_at\":\"2026-11-07T15:44:45+00:00\",\"title\":\"Smithville\",\"artists\":[\"Louis Smith (2)\"],\"genres\":[\"Jazz\"],\"styles\":[\"Hard Bop\"],\"year\":1958,\"release_year\":1958,\"release_country\":\"US\",\"tracklist\":[{\"position\":\"A1\",\"title\":\"Smithville\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"A2\",\"title\":\"Wetu\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"B1\",\"title\":\"Embraceable You\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"B2\",\"title\":\"There Will Never Be Another You\",\"duration\":\"\",\"type_\":\"track\"},{\"position\":\"B3\",\"title\":\"Later\",\"duration\":\"\",\"type_\":\"track\"}],\"tracklist_source\":\"MASTER\",\"credits\":[{\"name\":\"Paul Chambers (3)\",\"instrument\":\"Bass\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"},{\"name\":\"Art Taylor\",\"instrument\":\"Drums\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"},{\"name\":\"Sonny Clark\",\"instrument\":\"Piano\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"},{\"name\":\"Charlie Rouse\",\"instrument\":\"Tenor Saxophone\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"},{\"name\":\"Louis Smith (2)\",\"instrument\":\"Trumpet\",\"tracks\":\"\",\"scope\":\"release_credit_not_all_tracks\",\"source_type\":\"RELEASE\"}],\"credits_source\":\"RELEASE\",\"notes\":\"Recorded on March 30, 1958.\\r\\n\\r\\nCharlie Rouse performs by courtesy of Atlantic Recording Corp.\",\"notes_source\":\"RELEASE\"}",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-291",
+            "discogs-source-ref-292"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-291",
+            "discogs-source-ref-292"
+          ],
+          "unknown_reason": null,
+          "value": 1000,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-291",
+            "discogs-source-ref-292"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs metadata · 공개 기본 정보",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-source-ref-291",
+            "discogs-source-ref-292"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-metadata-blp-1594",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1594"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "Here Comes Louis Smith의 세션은 원래 Tom Wilson의 Transition을 위해 녹음되었다. Blue Note 공식 약력에 따르면 Transition이 발매 전에 문을 닫자 Alfred Lion이 마스터를 인수해 Blue Note에서 음반으로 내놓았다. 녹음 레이블과 실제 발매 레이블이 달라진 배경이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": 150,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "Transition의 미발매 녹음이 Blue Note 음반으로",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "history-context-blp-1584",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1584"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note 공식 약력은 Smithville을 Louis Smith가 1958년 남긴 리더 녹음으로 소개한다. Smith는 전문 연주와 교육을 병행했고 이후 Michigan의 대학과 공립학교에서 가르쳤다. 녹음 연도1958을 정확한 최초 발매일로 대신하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": 150,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "교육과 연주를 병행한 Louis Smith의 리더 기록",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-39fa9ec190eee7b6"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "history-context-blp-1594",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1594"
+      }
     }
   ],
   "root_key": "blp-1584",

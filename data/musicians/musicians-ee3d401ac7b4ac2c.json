@@ -26,6 +26,65 @@
       "key": "musicians-ee3d401ac7b4ac2c",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "Bennie Green은 시카고에서 활동을 시작한 트롬본 연주자로 Earl Hines와 Charlie Ventura의 밴드를 거쳤다. 이후 자신의 그룹을 이끌었으며 Blue Note에 Back on the Scene, Soul Stirrin’, Walkin’ and Talkin’ 등을 남겼다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d029fa3a95e174a1"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-48",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-ee3d401ac7b4ac2c"
+      }
     }
   ],
   "root_key": "musicians-ee3d401ac7b4ac2c",

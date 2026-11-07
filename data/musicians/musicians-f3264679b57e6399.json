@@ -37,6 +37,65 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "Miles Davis는 어린 시절 트럼펫을 배웠으며 St. Louis 지역 밴드에서 연주 경험을 쌓았다. 1940년대 이후 비밥, 쿨 재즈, 모달 재즈와 전자 악기를 활용한 음악 등 여러 흐름에서 활동했다. 공식 약력에 서술된 긴 경력 전체를 1950년대 Blue Note 녹음의 음악적 특성으로 한꺼번에 적용하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-49d180ecf5613281"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-1",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f3264679b57e6399"
+      }
+    },
+    {
+      "fields": {
         "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",

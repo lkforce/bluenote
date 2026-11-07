@@ -26,6 +26,65 @@
       "key": "musicians-f33f492fc8174f45",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "Hank Mobley는 어릴 때 피아노를 배웠으며 16세에 색소폰으로 옮겼다. Lester Young, Charlie Parker, Dexter Gordon 등의 음악을 참고했고 Max Roach와 Dizzy Gillespie의 밴드를 거쳐 Horace Silver와 초기 Jazz Messengers에서 활동했다. 대표 리더 음반에는 Soul Station과 No Room for Squares가 있다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-1a6562590ef19d10"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-40",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-f33f492fc8174f45"
+      }
     }
   ],
   "root_key": "musicians-f33f492fc8174f45",

@@ -31,6 +31,65 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "피아니스트 Gene Harris는 군악대 활동 후 베이시스트 Andrew Simpkins, 드러머 Bill Dowdy와 트리오를 구성했다. 이 그룹은 The Three Sounds로 알려졌으며 Blue Note와 Verve에서 녹음을 남겼다. Harris는 이후 Ray Brown의 트리오와 자신의 그룹에서도 활동했다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-b17ef6d19c7a5b1e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-11",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-665f181e60375afc"
+      }
+    },
+    {
+      "fields": {
         "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",

@@ -32,6 +32,65 @@
       "key": "musicians-614455c32617043b",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Burrell은 디트로이트에서 성장해 12세에 기타를 시작했다. Charlie Christian, Django Reinhardt, T-Bone Walker 등의 음악에서 영향을 받았으며 Wayne State University에서 작곡과 이론을 공부했다. 공식 약력은 1955년 졸업 후 전문 연주 활동을 이어간 경력을 설명한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7a61b53701befdae"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-31",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-614455c32617043b"
+      }
     }
   ],
   "root_key": "musicians-614455c32617043b",

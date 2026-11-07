@@ -26,6 +26,65 @@
       "key": "musicians-784e45cff5da54c9",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "Lee Morgan은 청소년기에 두각을 나타낸 트럼펫 연주자로 Clifford Brown의 영향을 받았다. Art Blakey의 Jazz Messengers에서 활동하며 자신의 음악을 발전시켰고 Blue Note의 주요 리더가 되었다. 그의 경력 중 블루스·R&B·모달 음악으로 관심이 확장되었다는 공식 설명을 모든 시기의 수록곡에 동일하게 적용하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-98010bd9270f9b10"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-39",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-784e45cff5da54c9"
+      }
     }
   ],
   "root_key": "musicians-784e45cff5da54c9",

@@ -26,6 +26,65 @@
       "key": "musicians-0f04889d8fd043f3",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "Clifford Brown은 15세에 트럼펫을 시작했으며 Fats Navarro의 영향을 받았다. 1953년 Lionel Hampton 악단에서 유럽을 순회했고, 1954년 Art Blakey와 Birdland에서 녹음했다. 같은 해 Max Roach와 퀸텟을 조직했다. 이 경력상의 밴드와 각 Blue Note 세션의 실제 편성은 별도로 대조한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-d59eced1ded07f84"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-33",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-0f04889d8fd043f3"
+      }
     }
   ],
   "root_key": "musicians-0f04889d8fd043f3",

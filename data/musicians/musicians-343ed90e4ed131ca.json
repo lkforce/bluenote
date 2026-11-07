@@ -26,6 +26,65 @@
       "key": "musicians-343ed90e4ed131ca",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "Sonny Clark는 Bud Powell의 영향을 받은 피아니스트다. Teddy Charles와 Wardell Gray, 클라리넷 연주자 Buddy DeFranco 등과 활동한 뒤 1957년부터 리더로 두각을 나타냈다. Blue Note에서는 리더와 사이드맨으로 녹음을 남겼다. 공식 약력의 마지막 리더 세션에 관한 서술은 문헌 대조가 끝나지 않아 확정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-c837649cce43f272"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-45",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-343ed90e4ed131ca"
+      }
     }
   ],
   "root_key": "musicians-343ed90e4ed131ca",

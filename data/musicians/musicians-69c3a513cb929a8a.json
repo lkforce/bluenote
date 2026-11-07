@@ -26,6 +26,65 @@
       "key": "musicians-69c3a513cb929a8a",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "Herbie Nichols는 뉴욕 출신 피아니스트이자 작곡자로 어린 시절부터 피아노를 배웠다. 1955~1956년 Blue Note에서 피아노 트리오 녹음을 남겼고 1957년에는 Bethlehem에서도 녹음했다. Mary Lou Williams가 그의 작품을 먼저 녹음했으며 Lady Sings the Blues도 Nichols의 작곡으로 알려져 있다. 개별 곡의 작사와 작곡은 별도 크레딧으로 구분한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8722616204217edd"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-30",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-69c3a513cb929a8a"
+      }
     }
   ],
   "root_key": "musicians-69c3a513cb929a8a",

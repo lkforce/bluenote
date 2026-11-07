@@ -30,6 +30,65 @@
       "key": "musicians-64e77f47f1b2c613",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "Jimmy Smith는 피아노를 배운 뒤 Hammond 오르간으로 활동 영역을 넓혔다. 1956~1963년 Blue Note에서 트리오와 여러 편성의 녹음을 남겼고, 기타리스트 Kenny Burrell과 색소폰 연주자 Lou Donaldson 등과 협업했다. 오르간 연주자라는 사실만으로 곡별 베이스·페달 운용이나 음질을 단정하지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0b918943df0962bc"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-26",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-64e77f47f1b2c613"
+      }
     }
   ],
   "root_key": "musicians-64e77f47f1b2c613",

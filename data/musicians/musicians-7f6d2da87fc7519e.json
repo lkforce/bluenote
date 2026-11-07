@@ -37,6 +37,65 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "드러머 Art Blakey가 이끈 Jazz Messengers는 Lee Morgan, Wayne Shorter, Freddie Hubbard, Johnny Griffin, Jackie McLean 등 젊은 연주자들이 활동한 밴드였다. Blue Note 공식 약력은 이 단체를 하드밥의 중요한 활동 무대로 설명한다. 여기의 경력상 구성원 목록을 개별 앨범이나 트랙의 실제 편성으로 옮기지 않는다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-8527a891e2241369"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-10",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-7f6d2da87fc7519e"
+      }
+    },
+    {
+      "fields": {
         "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",

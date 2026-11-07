@@ -26,6 +26,65 @@
       "key": "musicians-242312ab6bfa1b21",
       "kind": "musicians",
       "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "Louis Sabu Martinez는 뉴욕 Spanish Harlem 출신의 콩가 연주자다. 라틴 밴드에서 경력을 쌓았고 Dizzy Gillespie, Horace Silver, Art Blakey 등과 협업했다. 1967년 스웨덴으로 이주한 뒤에도 녹음 활동을 이어갔다. 일부 음반의 연도에 관한 공식 약력과 세션 문헌의 차이는 별도 조사 대상으로 유지한다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-02d20bbd7e394ad5"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-43",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-242312ab6bfa1b21"
+      }
     }
   ],
   "root_key": "musicians-242312ab6bfa1b21",

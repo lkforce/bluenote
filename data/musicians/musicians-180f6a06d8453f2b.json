@@ -37,6 +37,65 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "Oscar Pettiford는 베이스와 첼로를 연주했으며, 1944년 Dizzy Gillespie와 초기 비밥 그룹을 공동으로 이끌었다. Duke Ellington 악단을 거친 뒤 리더와 사이드맨으로 활동했고 1958년 유럽으로 건너가 코펜하겐에 정착했다. 첼로 경력이 있다는 사실과 이 음반에서 첼로를 연주했다는 주장은 별개다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-e629fa6598d73276"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-7",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-180f6a06d8453f2b"
+      }
+    },
+    {
+      "fields": {
         "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",

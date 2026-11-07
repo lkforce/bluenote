@@ -37,6 +37,65 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "J.J. Johnson은 Benny Carter와 Count Basie의 악단을 거쳐 비밥 연주자들과 활동한 트롬본 연주자다. 1953~1955년 Blue Note의 세 차례 리더 세션은 먼저 10인치 LP로 나왔고 나중에 The Eminent Jay Jay Johnson 두 권의 12인치 LP로 편집되었다. Kai Winding과는 Jay and Kai라는 두 트롬본 그룹도 이끌었다.",
+          "verification": "VERIFIED"
+        },
+        "checked_on": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "2026-11-07",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "life",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "bio-career-person-3",
+      "kind": "musician_stories",
+      "links": {
+        "musician_key": "musicians-a1f112a71c979396"
+      }
+    },
+    {
+      "fields": {
         "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",
