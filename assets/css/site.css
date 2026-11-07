@@ -84,4 +84,7 @@
 .related-links { padding-left:20px; line-height:1.9; }
 .related-links a { display:inline-block; padding-block:8px; overflow-wrap:anywhere; }
 .detail-pending { margin-top:36px; padding:24px; border-left:3px solid #aa864b; line-height:1.9; }
+.listing-card .collection-mark { display:flex; gap:8px; margin:16px 0 10px; font-size:13px; line-height:1.7; }
+.listing-card .small-note { display:block; margin-top:10px; }
+.listing-card .text-link { display:inline-block; margin-top:12px; }
 @media (max-width:600px) { .detail-card { padding:18px; } .detail-heading { padding-top:28px; } .detail-section h2 { font-size:22px; } }
