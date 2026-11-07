@@ -36,6 +36,27 @@
 @media(max-width:760px){.collection-mark{gap:4px;font-size:9px}.collection-box{flex-basis:14px;width:14px;height:14px;font-size:11px}.collection-legend{font-size:11px;line-height:1.9}.catalog-heading-row h3{font-size:28px}}
 
 .collection-legend-item{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;margin-right:10px}.collection-legend-note{flex-basis:100%;font-size:11px}.collection-legend .collection-legend-item .collection-box{margin-left:0}
+/* 권리 확인 커버와 번호별 대체 화면. 대체 화면은 실제 앨범 커버가 아닙니다. */
+.catalog-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.catalog-entry{padding:16px;display:flex;flex-direction:column;min-width:0}
+.album-cover-frame{margin:0 0 18px;min-width:0}
+.album-cover-link{display:block;aspect-ratio:1;background:#e9e2d6;border:1px solid var(--line)}
+.album-cover-image{display:block;width:100%;height:100%;object-fit:contain}
+.album-cover-credit{font-size:10px;line-height:1.7;color:var(--muted);margin-top:9px;overflow-wrap:anywhere}
+.album-cover-credit a{text-decoration:underline}.album-cover-credit span{display:block}
+.album-cover-placeholder{aspect-ratio:1;background:var(--navy);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;margin-bottom:18px;border:1px solid #29445b;position:relative;overflow:hidden}
+.album-cover-placeholder:before{content:"";position:absolute;inset:13px;border:1px solid #a88a5559;pointer-events:none}
+.cover-archive-label{font-size:9px;letter-spacing:2.2px;color:#c9b27f;z-index:1}
+.cover-catalog-number{font-family:Georgia,serif;font-size:clamp(42px,5vw,70px);letter-spacing:-2px;line-height:1;z-index:1}
+.cover-pending-label{font-size:11px;letter-spacing:.3px;color:#c2ccd3;z-index:1}
+.album-cover-placeholder.is-unresolved{background:#e8e2d7;color:#66737b;border-color:var(--line)}
+.is-unresolved .cover-archive-label,.is-unresolved .cover-pending-label{color:#6f726c}
+.catalog-entry .catalog-title{font-size:15px;font-weight:600;line-height:1.6;margin-top:14px}
+.catalog-entry .catalog-artist{font-size:12px;line-height:1.6}
+.catalog-entry .catalog-link{font-size:12px;margin-top:auto;padding-top:10px}
+@media(max-width:1100px){.catalog-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}}
+@media(max-width:760px){.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.catalog-entry{padding:12px}.album-cover-placeholder{gap:11px}.cover-archive-label{font-size:7px;letter-spacing:1.2px}.cover-catalog-number{font-size:45px}.cover-pending-label{font-size:9px}.catalog-entry .catalog-title{font-size:13px}.catalog-entry .catalog-artist{font-size:11px}.album-cover-placeholder:before{inset:9px}}
+@media(max-width:430px){.catalog-grid{grid-template-columns:1fr;gap:22px}.catalog-entry{padding:18px}.album-cover-placeholder{gap:18px}.cover-archive-label{font-size:10px;letter-spacing:2px}.cover-catalog-number{font-size:76px}.cover-pending-label{font-size:12px}.catalog-entry .catalog-title{font-size:17px}.catalog-entry .catalog-artist{font-size:13px}}
 @media(max-width:760px){.collection-mark{font-size:10px}}
 
 /* PHASE 5: 공개 명칭 검색. 소장 표시는 검색 조건으로 사용하지 않습니다. */
