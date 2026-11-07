@@ -1,0 +1,63 @@
+{
+  "records": [
+    {
+      "fields": {
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": "De-Dah",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1526-b2",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": "B",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "position-blp-1526-b2",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1526",
+        "track_key": "track-blp-1526-b2"
+      }
+    }
+  ],
+  "root_key": "track-blp-1526-b2",
+  "schema_version": 1
+}

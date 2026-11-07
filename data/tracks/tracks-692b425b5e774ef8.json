@@ -46,9 +46,10 @@
     {
       "fields": {
         "disc_number": {
-          "checked_on": "2026-11-06",
+          "checked_on": "2026-11-07",
           "content_kind": "fact",
           "source_keys": [
+            "discogs-release-2733330",
             "source-d4735e3a265e16ee"
           ],
           "unknown_reason": null,
@@ -56,9 +57,10 @@
           "verification": "VERIFIED"
         },
         "side": {
-          "checked_on": "2026-11-06",
+          "checked_on": "2026-11-07",
           "content_kind": "fact",
           "source_keys": [
+            "discogs-release-2733330",
             "source-d4735e3a265e16ee"
           ],
           "unknown_reason": null,
@@ -66,9 +68,10 @@
           "verification": "VERIFIED"
         },
         "track_position": {
-          "checked_on": "2026-11-06",
+          "checked_on": "2026-11-07",
           "content_kind": "fact",
           "source_keys": [
+            "discogs-release-2733330",
             "source-d4735e3a265e16ee"
           ],
           "unknown_reason": null,

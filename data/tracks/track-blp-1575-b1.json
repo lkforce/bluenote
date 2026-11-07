@@ -1,0 +1,63 @@
+{
+  "records": [
+    {
+      "fields": {
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": "Just By Myself",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1575-b1",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": "B",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "position-blp-1575-b1",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1575",
+        "track_key": "track-blp-1575-b1"
+      }
+    }
+  ],
+  "root_key": "track-blp-1575-b1",
+  "schema_version": 1
+}

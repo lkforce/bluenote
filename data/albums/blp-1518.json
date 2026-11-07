@@ -272,6 +272,43 @@
       "links": {
         "album_key": "blp-1518"
       }
+    },
+    {
+      "fields": {
+        "notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note 공식 약력은 Horace Silver and the Jazz Messengers를 하드밥 발전의 이정표로 분류한다. 이는 해당 앨범을 명시한 문헌상 장르 분류이며, 모든 수록곡이 동일한 세부 양식이라는 판정은 아니다.",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-album-genres-1",
+      "kind": "album_genres",
+      "links": {
+        "album_key": "blp-1518",
+        "genre_key": "phase14-genres-4"
+      }
+    },
+    {
+      "fields": {
+        "name": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-0e17daca5f3e175f"
+          ],
+          "unknown_reason": null,
+          "value": "Hard Bop",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-genres-4",
+      "kind": "genres",
+      "links": {}
     }
   ],
   "root_key": "blp-1518",

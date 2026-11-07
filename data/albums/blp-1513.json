@@ -746,6 +746,75 @@
       "links": {
         "album_key": "blp-1513"
       }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note의 해당 앨범 설명은 1956년 뉴욕 Audio Video Studios 녹음과 프로듀서 Alfred Lion을 명시한다. 이 정보는 원 녹음에 관한 것이며, 2023년 Third Man 재발매의 리마스터링 담당자와 구분한다.",
+          "verification": "VERIFIED"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "VERIFIED"
+        },
+        "topic": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "studio",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-audio-observations-60",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1513"
+      }
     }
   ],
   "root_key": "blp-1513",

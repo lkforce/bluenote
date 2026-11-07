@@ -274,6 +274,65 @@
       "links": {
         "album_key": "blp-1517"
       }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note 공식 약력은 Gil Mellé가 다섯 장의 10인치 음반을 낸 뒤 1956년 Patterns in Jazz를 첫 정규 12인치 LP로 녹음했다고 설명한다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": "Gil Mellé의 첫 12인치 앨범",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-7f2253d7e228b22a"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-album-stories-377",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1517"
+      }
     }
   ],
   "root_key": "blp-1517",

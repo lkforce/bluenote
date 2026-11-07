@@ -33,8 +33,11 @@
     const visible = new Set(result.catalog.map(row => row.number));
     for (const [number, card] of cards) card.hidden = !visible.has(number);
     for (const row of result.catalog) grid.append(cards.get(row.number));
-    count.textContent = '카탈로그 ' + result.catalog.length + ' / 100개 번호 · 공개 콘텐츠 ' + result.records.length + '건';
+    count.textContent = '카탈로그 ' + result.catalog.length + ' / 100개 번호';
     empty.hidden = result.catalog.length !== 0;
+    // COMPLETE CATALOG has no content-results panel. Other search consumers
+    // retain their index and engine; catalogue filtering still uses that index.
+    if (content) {
     content.replaceChildren();
     if (!result.records.length) {
       content.append(element('p', state.q ? '검색어에 맞는 공개 앨범·뮤지션·트랙 자료가 없습니다.' : '공개 검수를 마친 앨범·뮤지션·트랙 자료를 준비하고 있습니다.', 'search-empty-note'));
@@ -52,6 +55,7 @@
       }
       if (!row.url) card.append(element('p', '상세 페이지는 준비 중입니다.', 'small-note'));
       content.append(card);
+    }
     }
     region.setAttribute('aria-busy', 'false');
     form.dataset.ready = 'true';

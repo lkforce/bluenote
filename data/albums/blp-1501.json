@@ -8994,6 +8994,124 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "1953~1955년 J.J. Johnson이 Blue Note에서 이끈 세 차례 녹음은 먼저 10인치 LP로 발매되었고, 이후 The Eminent Jay Jay Johnson이라는 두 권의 12인치 LP로 편집되었다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "10인치 세션에서 12인치 두 권으로",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-album-stories-375",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1505"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "1953~1955년 J.J. Johnson이 Blue Note에서 이끈 세 차례 녹음은 먼저 10인치 LP로 발매되었고, 이후 The Eminent Jay Jay Johnson이라는 두 권의 12인치 LP로 편집되었다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "10인치 세션에서 12인치 두 권으로",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-a21855da08cb102d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-album-stories-376",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1506"
+      }
+    },
+    {
+      "fields": {
         "date_precision": {
           "checked_on": "2026-11-06",
           "content_kind": "fact",

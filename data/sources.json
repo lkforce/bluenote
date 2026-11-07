@@ -3,6 +3,2286 @@
     {
       "fields": {
         "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1106770"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1106770"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1106770"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1106770"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1530 초반 특정판본 곡순 자료 (release 1106770)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1106770"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/1106770",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-1106770",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1597073"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1597073"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1597073"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1597073"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1549 초반 특정판본 곡순 자료 (release 1597073)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1597073"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/1597073",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-1597073",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1878703"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1878703"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1878703"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1878703"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1581 초반 특정판본 곡순 자료 (release 1878703)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1878703"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/1878703",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-1878703",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1995260"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1995260"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1995260"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1995260"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1506 초반 특정판본 곡순 자료 (release 1995260)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-1995260"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/1995260",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-1995260",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2064249"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2064249"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2064249"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2064249"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1519 초반 특정판본 곡순 자료 (release 2064249)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2064249"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2064249",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2064249",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108054"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108054"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108054"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108054"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1502 초반 특정판본 곡순 자료 (release 2108054)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108054"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2108054",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2108054",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108341"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108341"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108341"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108341"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1521 초반 특정판본 곡순 자료 (release 2108341)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2108341"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2108341",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2108341",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2132346"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2132346"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2132346"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2132346"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1589 초반 특정판본 곡순 자료 (release 2132346)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2132346"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2132346",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2132346",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2301336"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2301336"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2301336"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2301336"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1518 초반 특정판본 곡순 자료 (release 2301336)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2301336"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2301336",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2301336",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2392804"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2392804"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2392804"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2392804"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1508 초반 특정판본 곡순 자료 (release 2392804)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2392804"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2392804",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2392804",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2587385"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2587385"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2587385"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2587385"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1510 초반 특정판본 곡순 자료 (release 2587385)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2587385"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2587385",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2587385",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2733330"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2733330"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2733330"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2733330"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1501 초반 특정판본 곡순 자료 (release 2733330)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2733330"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2733330",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2733330",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2777685"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2777685"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2777685"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2777685"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1529 초반 특정판본 곡순 자료 (release 2777685)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2777685"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2777685",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2777685",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2838555"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2838555"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2838555"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2838555"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1525 초반 특정판본 곡순 자료 (release 2838555)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2838555"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2838555",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2838555",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2885130"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2885130"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2885130"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2885130"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1563 초반 특정판본 곡순 자료 (release 2885130)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2885130"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2885130",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2885130",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2971926"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2971926"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2971926"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2971926"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1539 초반 특정판본 곡순 자료 (release 2971926)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-2971926"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/2971926",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-2971926",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3137235"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3137235"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3137235"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3137235"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1504 초반 특정판본 곡순 자료 (release 3137235)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3137235"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3137235",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3137235",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3149273"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3149273"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3149273"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3149273"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1505 초반 특정판본 곡순 자료 (release 3149273)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3149273"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3149273",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3149273",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363947"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363947"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363947"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363947"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1565 초반 특정판본 곡순 자료 (release 3363947)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363947"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3363947",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3363947",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1526 초반 특정판본 곡순 자료 (release 3363982)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3363982"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3363982",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3363982",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3366212"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3366212"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3366212"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3366212"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1572 초반 특정판본 곡순 자료 (release 3366212)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3366212"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3366212",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3366212",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3367767"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3367767"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3367767"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3367767"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1536 초반 특정판본 곡순 자료 (release 3367767)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3367767"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3367767",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3367767",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3377796"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3377796"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3377796"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3377796"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1543 초반 특정판본 곡순 자료 (release 3377796)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3377796"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3377796",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3377796",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382301"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382301"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382301"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382301"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1533 초반 특정판본 곡순 자료 (release 3382301)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382301"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3382301",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3382301",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382315"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382315"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382315"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382315"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1559 초반 특정판본 곡순 자료 (release 3382315)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382315"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3382315",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3382315",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382409"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382409"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382409"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382409"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1509 초반 특정판본 곡순 자료 (release 3382409)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3382409"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3382409",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3382409",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384780"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384780"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384780"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384780"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1515 초반 특정판본 곡순 자료 (release 3384780)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384780"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3384780",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3384780",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384785"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384785"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384785"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384785"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1516 초반 특정판본 곡순 자료 (release 3384785)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3384785"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3384785",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3384785",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3386905"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3386905"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3386905"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3386905"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1524 초반 특정판본 곡순 자료 (release 3386905)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3386905"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3386905",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3386905",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3707557"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3707557"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3707557"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3707557"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1528 초반 특정판본 곡순 자료 (release 3707557)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3707557"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3707557",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3707557",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3957365"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3957365"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3957365"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3957365"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1545 초반 특정판본 곡순 자료 (release 3957365)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3957365"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3957365",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3957365",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1575 초반 특정판본 곡순 자료 (release 3973427)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-3973427"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3973427",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-3973427",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4002447"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4002447"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4002447"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4002447"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1591 초반 특정판본 곡순 자료 (release 4002447)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4002447"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/4002447",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-4002447",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005101"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005101"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005101"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005101"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1541 초반 특정판본 곡순 자료 (release 4005101)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005101"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/4005101",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-4005101",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005237"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005237"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005237"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005237"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1578 초반 특정판본 곡순 자료 (release 4005237)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005237"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/4005237",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-4005237",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005265"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005265"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005265"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005265"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1574 초반 특정판본 곡순 자료 (release 4005265)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-4005265"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/4005265",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-4005265",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-5184760"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-5184760"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-5184760"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-5184760"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1522 초반 특정판본 곡순 자료 (release 5184760)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-5184760"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/5184760",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-5184760",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-7694307"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-7694307"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-7694307"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-7694307"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1520 초반 특정판본 곡순 자료 (release 7694307)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-7694307"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/7694307",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-7694307",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-879191"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-879191"
+          ],
+          "unknown_reason": null,
+          "value": "API notes에서 초반 판본으로 특정한 발매의 tracklist. 실물 라벨 직접 판독 아님. 발매일·녹음일·연주/작곡 크레딧 자동 승인 안 함.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-879191"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-879191"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1535 초반 특정판본 곡순 자료 (release 879191)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "discogs-release-879191"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/879191",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "discogs-release-879191",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "2023-06-26",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "ANNOUNCING THE THIRD MAN-BLUE NOTE 313 SERIES",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-sources-73"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/announcing-the-third-man-blue-note-313-series/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-sources-73",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [
