@@ -1,0 +1,63 @@
+{
+  "records": [
+    {
+      "fields": {
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": "El Cumbanchero",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1561-a1",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": "A",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "position-blp-1561-a1",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1561",
+        "track_key": "track-blp-1561-a1"
+      }
+    }
+  ],
+  "root_key": "track-blp-1561-a1",
+  "schema_version": 1
+}

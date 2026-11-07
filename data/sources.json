@@ -2229,6 +2229,918 @@
           "checked_on": "2026-11-07",
           "content_kind": "fact",
           "source_keys": [
+            "phase14-round2-source-113"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-113"
+          ],
+          "unknown_reason": null,
+          "value": "2022-12-01",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-113"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-113"
+          ],
+          "unknown_reason": null,
+          "value": "CLASSIC VINYL REISSUE SERIES 2023 TITLES ANNOUNCED",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-113"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/classic-vinyl-reissue-series-2023/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-113",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-114"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-114"
+          ],
+          "unknown_reason": null,
+          "value": "2022-03-24",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-114"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-114"
+          ],
+          "unknown_reason": null,
+          "value": "NEW CLASSIC VINYL REISSUE SERIES TITLES ANNOUNCED",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-114"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/classic-vinyl-reissue-series-2022/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-114",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-115"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-115"
+          ],
+          "unknown_reason": null,
+          "value": "2025-11-24",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-115"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-115"
+          ],
+          "unknown_reason": null,
+          "value": "2026 CLASSIC VINYL REISSUE SERIES LINE-UP",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-115"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/classic-vinyl-reissue-series-2026-line-up/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-115",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "publication_date": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "2022-07-27",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "JOHN COLTRANE BLUE TRAIN TONE POET VINYL EDITIONS",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.bluenote.com/john-coltrane-blue-train-tone-poet-vinyl/",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-116",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-117"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-117"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-117"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-117"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1511 초반 특정판본 곡순 자료 (release 5824970)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-117"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/5824970",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-117",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-118"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-118"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-118"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-118"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1512 초반 특정판본 곡순 자료 (release 658934)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-118"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/658934",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-118",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-119"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-119"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-119"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-119"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1513 초반 특정판본 곡순 자료 (release 3366337)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-119"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3366337",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-119",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-120"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-120"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-120"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-120"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1514 초반 특정판본 곡순 자료 (release 10112432)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-120"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/10112432",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-120",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-121"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-121"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-121"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-121"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1523 초반 특정판본 곡순 자료 (release 3386944)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-121"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3386944",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-121",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-122"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-122"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-122"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-122"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1534 초반 특정판본 곡순 자료 (release 3384826)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-122"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/3384826",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-122",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-123"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-123"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-123"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-123"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1542 초반 특정판본 곡순 자료 (release 9156139)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-123"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/9156139",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-123",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-124"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-124"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-124"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-124"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1551 초반 특정판본 곡순 자료 (release 12495745)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-124"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/12495745",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-124",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-125"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-125"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-125"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-125"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1558 초반 특정판본 곡순 자료 (release 13299793)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-125"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/13299793",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-125",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1561 초반 특정판본 곡순 자료 (release 11651318)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-126"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/11651318",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-126",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-127"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-127"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-127"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-127"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1562 초반 특정판본 곡순 자료 (release 8476532)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-127"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/8476532",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-127",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-128"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs 공개 판본 디스코그래피 — API 원문",
+          "verification": "VERIFIED"
+        },
+        "bibliographic_notes": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-128"
+          ],
+          "unknown_reason": null,
+          "value": "초반 특정 notes/format 설명과 tracklist의 곡명/면 위치만. 원본 이미지·작곡·연주·날짜·장비 직접 검증 아님.",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-128"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-128"
+          ],
+          "unknown_reason": null,
+          "value": "Discogs — BLP 1577 초반 특정판본 곡순 자료 (release 11786823)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-128"
+          ],
+          "unknown_reason": null,
+          "value": "https://api.discogs.com/releases/11786823",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-source-128",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
             "phase14-sources-73"
           ],
           "unknown_reason": null,

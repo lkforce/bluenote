@@ -801,7 +801,7 @@
       "title": "The 3 Sounds"
     }
   ],
-  "data_version": "v1-2489a1e089b49bdb0109f5e1",
+  "data_version": "v1-1e733213c8cb8914e69faf4f",
   "records": [
     {
       "album_titles": [
@@ -3488,6 +3488,409 @@
     },
     {
       "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-a1",
+      "kind": "track",
+      "title": "Carolina Moon",
+      "url": "/bluenote/tracks/track-blp-1511-a1/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-a2",
+      "kind": "track",
+      "title": "Hornin' In",
+      "url": "/bluenote/tracks/track-blp-1511-a2/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-a3",
+      "kind": "track",
+      "title": "Skippy",
+      "url": "/bluenote/tracks/track-blp-1511-a3/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-a4",
+      "kind": "track",
+      "title": "Let's Cool One",
+      "url": "/bluenote/tracks/track-blp-1511-a4/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-a5",
+      "kind": "track",
+      "title": "Suburban Eyes",
+      "url": "/bluenote/tracks/track-blp-1511-a5/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-a6",
+      "kind": "track",
+      "title": "Evonce",
+      "url": "/bluenote/tracks/track-blp-1511-a6/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-b1",
+      "kind": "track",
+      "title": "Straight No Chaser",
+      "url": "/bluenote/tracks/track-blp-1511-b1/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-b2",
+      "kind": "track",
+      "title": "Four In One",
+      "url": "/bluenote/tracks/track-blp-1511-b2/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-b3",
+      "kind": "track",
+      "title": "Nice Work",
+      "url": "/bluenote/tracks/track-blp-1511-b3/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-b4",
+      "kind": "track",
+      "title": "Monk's Mood",
+      "url": "/bluenote/tracks/track-blp-1511-b4/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-b5",
+      "kind": "track",
+      "title": "Who Knows",
+      "url": "/bluenote/tracks/track-blp-1511-b5/"
+    },
+    {
+      "album_titles": [
+        "Genius of Modern Music, Volume Two"
+      ],
+      "artist": "Thelonious Monk",
+      "catalog_numbers": [
+        1511
+      ],
+      "key": "track-blp-1511-b6",
+      "kind": "track",
+      "title": "Ask Me Now",
+      "url": "/bluenote/tracks/track-blp-1511-b6/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "track-blp-1512-a1",
+      "kind": "track",
+      "title": "The Way You Look Tonight",
+      "url": "/bluenote/tracks/track-blp-1512-a1/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "track-blp-1512-a2",
+      "kind": "track",
+      "title": "You Get 'Cha",
+      "url": "/bluenote/tracks/track-blp-1512-a2/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "track-blp-1512-a3",
+      "kind": "track",
+      "title": "Midnight Sun",
+      "url": "/bluenote/tracks/track-blp-1512-a3/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "track-blp-1512-a4",
+      "kind": "track",
+      "title": "Lady Be Good",
+      "url": "/bluenote/tracks/track-blp-1512-a4/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "track-blp-1512-b2",
+      "kind": "track",
+      "title": "But Not For Me",
+      "url": "/bluenote/tracks/track-blp-1512-b2/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "track-blp-1512-b3",
+      "kind": "track",
+      "title": "The Preacher",
+      "url": "/bluenote/tracks/track-blp-1512-b3/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "track-blp-1512-b4",
+      "kind": "track",
+      "title": "Tenderly",
+      "url": "/bluenote/tracks/track-blp-1512-b4/"
+    },
+    {
+      "album_titles": [
+        "A New Sound… A New Star…, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1512
+      ],
+      "key": "track-blp-1512-b5",
+      "kind": "track",
+      "title": "Joy",
+      "url": "/bluenote/tracks/track-blp-1512-b5/"
+    },
+    {
+      "album_titles": [
+        "Detroit–New York Junction"
+      ],
+      "artist": "Thad Jones",
+      "catalog_numbers": [
+        1513
+      ],
+      "key": "track-blp-1513-a1",
+      "kind": "track",
+      "title": "Blue Room",
+      "url": "/bluenote/tracks/track-blp-1513-a1/"
+    },
+    {
+      "album_titles": [
+        "Detroit–New York Junction"
+      ],
+      "artist": "Thad Jones",
+      "catalog_numbers": [
+        1513
+      ],
+      "key": "track-blp-1513-a3",
+      "kind": "track",
+      "title": "Little Girl Blue",
+      "url": "/bluenote/tracks/track-blp-1513-a3/"
+    },
+    {
+      "album_titles": [
+        "Detroit–New York Junction"
+      ],
+      "artist": "Thad Jones",
+      "catalog_numbers": [
+        1513
+      ],
+      "key": "track-blp-1513-b1",
+      "kind": "track",
+      "title": "Scratch",
+      "url": "/bluenote/tracks/track-blp-1513-b1/"
+    },
+    {
+      "album_titles": [
+        "Detroit–New York Junction"
+      ],
+      "artist": "Thad Jones",
+      "catalog_numbers": [
+        1513
+      ],
+      "key": "track-blp-1513-b2",
+      "kind": "track",
+      "title": "Zec",
+      "url": "/bluenote/tracks/track-blp-1513-b2/"
+    },
+    {
+      "album_titles": [
+        "A New Sound–A New Star, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1514
+      ],
+      "key": "track-blp-1514-a1",
+      "kind": "track",
+      "title": "The Champ",
+      "url": "/bluenote/tracks/track-blp-1514-a1/"
+    },
+    {
+      "album_titles": [
+        "A New Sound–A New Star, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1514
+      ],
+      "key": "track-blp-1514-a2",
+      "kind": "track",
+      "title": "Bayou",
+      "url": "/bluenote/tracks/track-blp-1514-a2/"
+    },
+    {
+      "album_titles": [
+        "A New Sound–A New Star, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1514
+      ],
+      "key": "track-blp-1514-a3",
+      "kind": "track",
+      "title": "Deep Purple",
+      "url": "/bluenote/tracks/track-blp-1514-a3/"
+    },
+    {
+      "album_titles": [
+        "A New Sound–A New Star, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1514
+      ],
+      "key": "track-blp-1514-b1",
+      "kind": "track",
+      "title": "Moonlight In Vermont",
+      "url": "/bluenote/tracks/track-blp-1514-b1/"
+    },
+    {
+      "album_titles": [
+        "A New Sound–A New Star, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1514
+      ],
+      "key": "track-blp-1514-b2",
+      "kind": "track",
+      "title": "Ready 'N Able",
+      "url": "/bluenote/tracks/track-blp-1514-b2/"
+    },
+    {
+      "album_titles": [
+        "A New Sound–A New Star, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1514
+      ],
+      "key": "track-blp-1514-b3",
+      "kind": "track",
+      "title": "Turquoise",
+      "url": "/bluenote/tracks/track-blp-1514-b3/"
+    },
+    {
+      "album_titles": [
+        "A New Sound–A New Star, Volume 2"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1514
+      ],
+      "key": "track-blp-1514-b4",
+      "kind": "track",
+      "title": "Bubbis",
+      "url": "/bluenote/tracks/track-blp-1514-b4/"
+    },
+    {
+      "album_titles": [
         "At the Hickory House, Volume 1"
       ],
       "artist": "Jutta Hipp",
@@ -4229,6 +4632,97 @@
     },
     {
       "album_titles": [
+        "Introducing Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523
+      ],
+      "key": "track-blp-1523-a1",
+      "kind": "track",
+      "title": "This Time The Dream's On Me",
+      "url": "/bluenote/tracks/track-blp-1523-a1/"
+    },
+    {
+      "album_titles": [
+        "Introducing Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523
+      ],
+      "key": "track-blp-1523-a2",
+      "kind": "track",
+      "title": "Fugue'n Blues",
+      "url": "/bluenote/tracks/track-blp-1523-a2/"
+    },
+    {
+      "album_titles": [
+        "Introducing Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523
+      ],
+      "key": "track-blp-1523-a3",
+      "kind": "track",
+      "title": "Takeela",
+      "url": "/bluenote/tracks/track-blp-1523-a3/"
+    },
+    {
+      "album_titles": [
+        "Introducing Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523
+      ],
+      "key": "track-blp-1523-a4",
+      "kind": "track",
+      "title": "Weaver Of Dreams",
+      "url": "/bluenote/tracks/track-blp-1523-a4/"
+    },
+    {
+      "album_titles": [
+        "Introducing Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523
+      ],
+      "key": "track-blp-1523-b1",
+      "kind": "track",
+      "title": "Delilah",
+      "url": "/bluenote/tracks/track-blp-1523-b1/"
+    },
+    {
+      "album_titles": [
+        "Introducing Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523
+      ],
+      "key": "track-blp-1523-b2",
+      "kind": "track",
+      "title": "Rhythmorama",
+      "url": "/bluenote/tracks/track-blp-1523-b2/"
+    },
+    {
+      "album_titles": [
+        "Introducing Kenny Burrell"
+      ],
+      "artist": "Kenny Burrell",
+      "catalog_numbers": [
+        1523
+      ],
+      "key": "track-blp-1523-b3",
+      "kind": "track",
+      "title": "Blues For Skeeter",
+      "url": "/bluenote/tracks/track-blp-1523-b3/"
+    },
+    {
+      "album_titles": [
         "‘Round About Midnight At The Cafe Bohemia"
       ],
       "artist": "Kenny Dorham",
@@ -4775,6 +5269,97 @@
     },
     {
       "album_titles": [
+        "Whims Of Chambers"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534
+      ],
+      "key": "track-blp-1534-a1",
+      "kind": "track",
+      "title": "Omicron",
+      "url": "/bluenote/tracks/track-blp-1534-a1/"
+    },
+    {
+      "album_titles": [
+        "Whims Of Chambers"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534
+      ],
+      "key": "track-blp-1534-a2",
+      "kind": "track",
+      "title": "Whims Of Chambers",
+      "url": "/bluenote/tracks/track-blp-1534-a2/"
+    },
+    {
+      "album_titles": [
+        "Whims Of Chambers"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534
+      ],
+      "key": "track-blp-1534-a3",
+      "kind": "track",
+      "title": "Nita",
+      "url": "/bluenote/tracks/track-blp-1534-a3/"
+    },
+    {
+      "album_titles": [
+        "Whims Of Chambers"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534
+      ],
+      "key": "track-blp-1534-b1",
+      "kind": "track",
+      "title": "We Six",
+      "url": "/bluenote/tracks/track-blp-1534-b1/"
+    },
+    {
+      "album_titles": [
+        "Whims Of Chambers"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534
+      ],
+      "key": "track-blp-1534-b2",
+      "kind": "track",
+      "title": "Dear Ann",
+      "url": "/bluenote/tracks/track-blp-1534-b2/"
+    },
+    {
+      "album_titles": [
+        "Whims Of Chambers"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534
+      ],
+      "key": "track-blp-1534-b3",
+      "kind": "track",
+      "title": "Tale Of The Fingers",
+      "url": "/bluenote/tracks/track-blp-1534-b3/"
+    },
+    {
+      "album_titles": [
+        "Whims Of Chambers"
+      ],
+      "artist": "Paul Chambers",
+      "catalog_numbers": [
+        1534
+      ],
+      "key": "track-blp-1534-b4",
+      "kind": "track",
+      "title": "Just For The Love",
+      "url": "/bluenote/tracks/track-blp-1534-b4/"
+    },
+    {
+      "album_titles": [
         "Afro-Cuban"
       ],
       "artist": "Kenny Dorham",
@@ -5100,6 +5685,71 @@
     },
     {
       "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1542
+      ],
+      "key": "track-blp-1542-a1",
+      "kind": "track",
+      "title": "Decision",
+      "url": "/bluenote/tracks/track-blp-1542-a1/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1542
+      ],
+      "key": "track-blp-1542-a2",
+      "kind": "track",
+      "title": "Bluesnote",
+      "url": "/bluenote/tracks/track-blp-1542-a2/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1542
+      ],
+      "key": "track-blp-1542-a3",
+      "kind": "track",
+      "title": "How Are Things In Glocca Morra",
+      "url": "/bluenote/tracks/track-blp-1542-a3/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1542
+      ],
+      "key": "track-blp-1542-b1",
+      "kind": "track",
+      "title": "Plain Jane",
+      "url": "/bluenote/tracks/track-blp-1542-b1/"
+    },
+    {
+      "album_titles": [
+        "Volume 1"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1542
+      ],
+      "key": "track-blp-1542-b2",
+      "kind": "track",
+      "title": "Sonnysphere",
+      "url": "/bluenote/tracks/track-blp-1542-b2/"
+    },
+    {
+      "album_titles": [
         "Kenny Burrell"
       ],
       "artist": "Kenny Burrell",
@@ -5347,6 +5997,136 @@
     },
     {
       "album_titles": [
+        "Jimmy Smith at the Organ, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1551
+      ],
+      "key": "track-blp-1551-a1",
+      "kind": "track",
+      "title": "Summertime",
+      "url": "/bluenote/tracks/track-blp-1551-a1/"
+    },
+    {
+      "album_titles": [
+        "Jimmy Smith at the Organ, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1551
+      ],
+      "key": "track-blp-1551-a2",
+      "kind": "track",
+      "title": "There's A Small Hotel",
+      "url": "/bluenote/tracks/track-blp-1551-a2/"
+    },
+    {
+      "album_titles": [
+        "Jimmy Smith at the Organ, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1551
+      ],
+      "key": "track-blp-1551-b1",
+      "kind": "track",
+      "title": "All Day Long",
+      "url": "/bluenote/tracks/track-blp-1551-b1/"
+    },
+    {
+      "album_titles": [
+        "Jimmy Smith at the Organ, Volume 1"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1551
+      ],
+      "key": "track-blp-1551-b2",
+      "kind": "track",
+      "title": "Yardbird Suite",
+      "url": "/bluenote/tracks/track-blp-1551-b2/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1558
+      ],
+      "key": "track-blp-1558-a1",
+      "kind": "track",
+      "title": "Why Don't I",
+      "url": "/bluenote/tracks/track-blp-1558-a1/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1558
+      ],
+      "key": "track-blp-1558-a2",
+      "kind": "track",
+      "title": "Wail March",
+      "url": "/bluenote/tracks/track-blp-1558-a2/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1558
+      ],
+      "key": "track-blp-1558-a3",
+      "kind": "track",
+      "title": "Misterioso",
+      "url": "/bluenote/tracks/track-blp-1558-a3/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1558
+      ],
+      "key": "track-blp-1558-b1",
+      "kind": "track",
+      "title": "Reflections",
+      "url": "/bluenote/tracks/track-blp-1558-b1/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1558
+      ],
+      "key": "track-blp-1558-b2",
+      "kind": "track",
+      "title": "You Stepped Out Of A Dream",
+      "url": "/bluenote/tracks/track-blp-1558-b2/"
+    },
+    {
+      "album_titles": [
+        "Volume 2"
+      ],
+      "artist": "Sonny Rollins",
+      "catalog_numbers": [
+        1558
+      ],
+      "key": "track-blp-1558-b3",
+      "kind": "track",
+      "title": "Poor Butterfly",
+      "url": "/bluenote/tracks/track-blp-1558-b3/"
+    },
+    {
+      "album_titles": [
         "A Blowing Session"
       ],
       "artist": "Johnny Griffin",
@@ -5396,6 +6176,188 @@
       "kind": "track",
       "title": "Smoke Stack",
       "url": "/bluenote/tracks/track-blp-1559-b2/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "track-blp-1561-a1",
+      "kind": "track",
+      "title": "El Cumbanchero",
+      "url": "/bluenote/tracks/track-blp-1561-a1/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "track-blp-1561-a2",
+      "kind": "track",
+      "title": "Billumba-Palo Congo",
+      "url": "/bluenote/tracks/track-blp-1561-a2/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "track-blp-1561-a3",
+      "kind": "track",
+      "title": "Choferito-Plena",
+      "url": "/bluenote/tracks/track-blp-1561-a3/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "track-blp-1561-a4",
+      "kind": "track",
+      "title": "Asabache",
+      "url": "/bluenote/tracks/track-blp-1561-a4/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "track-blp-1561-b1",
+      "kind": "track",
+      "title": "Simba",
+      "url": "/bluenote/tracks/track-blp-1561-b1/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "track-blp-1561-b2",
+      "kind": "track",
+      "title": "Rhapsodia Del Maravilloso",
+      "url": "/bluenote/tracks/track-blp-1561-b2/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "track-blp-1561-b3",
+      "kind": "track",
+      "title": "Aggo Elegua",
+      "url": "/bluenote/tracks/track-blp-1561-b3/"
+    },
+    {
+      "album_titles": [
+        "Palo Congo"
+      ],
+      "artist": "Sabu Martinez",
+      "catalog_numbers": [
+        1561
+      ],
+      "key": "track-blp-1561-b4",
+      "kind": "track",
+      "title": "Tribilin Cantore",
+      "url": "/bluenote/tracks/track-blp-1561-b4/"
+    },
+    {
+      "album_titles": [
+        "The Stylings Of Silver"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1562
+      ],
+      "key": "track-blp-1562-a1",
+      "kind": "track",
+      "title": "No Smokin'",
+      "url": "/bluenote/tracks/track-blp-1562-a1/"
+    },
+    {
+      "album_titles": [
+        "The Stylings Of Silver"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1562
+      ],
+      "key": "track-blp-1562-a2",
+      "kind": "track",
+      "title": "The Back Beat",
+      "url": "/bluenote/tracks/track-blp-1562-a2/"
+    },
+    {
+      "album_titles": [
+        "The Stylings Of Silver"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1562
+      ],
+      "key": "track-blp-1562-a3",
+      "kind": "track",
+      "title": "Soulville",
+      "url": "/bluenote/tracks/track-blp-1562-a3/"
+    },
+    {
+      "album_titles": [
+        "The Stylings Of Silver"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1562
+      ],
+      "key": "track-blp-1562-b1",
+      "kind": "track",
+      "title": "Home Cookin'",
+      "url": "/bluenote/tracks/track-blp-1562-b1/"
+    },
+    {
+      "album_titles": [
+        "The Stylings Of Silver"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1562
+      ],
+      "key": "track-blp-1562-b2",
+      "kind": "track",
+      "title": "Metamorphosis",
+      "url": "/bluenote/tracks/track-blp-1562-b2/"
+    },
+    {
+      "album_titles": [
+        "The Stylings Of Silver"
+      ],
+      "artist": "Horace Silver",
+      "catalog_numbers": [
+        1562
+      ],
+      "key": "track-blp-1562-b3",
+      "kind": "track",
+      "title": "My One And Only Love",
+      "url": "/bluenote/tracks/track-blp-1562-b3/"
     },
     {
       "album_titles": [
@@ -5760,6 +6722,71 @@
       "kind": "track",
       "title": "Kin Folks",
       "url": "/bluenote/tracks/track-blp-1575-b2/"
+    },
+    {
+      "album_titles": [
+        "Blue Train"
+      ],
+      "artist": "John Coltrane",
+      "catalog_numbers": [
+        1577
+      ],
+      "key": "track-blp-1577-a1",
+      "kind": "track",
+      "title": "Blue Train",
+      "url": "/bluenote/tracks/track-blp-1577-a1/"
+    },
+    {
+      "album_titles": [
+        "Blue Train"
+      ],
+      "artist": "John Coltrane",
+      "catalog_numbers": [
+        1577
+      ],
+      "key": "track-blp-1577-a2",
+      "kind": "track",
+      "title": "Moment's Notice",
+      "url": "/bluenote/tracks/track-blp-1577-a2/"
+    },
+    {
+      "album_titles": [
+        "Blue Train"
+      ],
+      "artist": "John Coltrane",
+      "catalog_numbers": [
+        1577
+      ],
+      "key": "track-blp-1577-b1",
+      "kind": "track",
+      "title": "Locomotion",
+      "url": "/bluenote/tracks/track-blp-1577-b1/"
+    },
+    {
+      "album_titles": [
+        "Blue Train"
+      ],
+      "artist": "John Coltrane",
+      "catalog_numbers": [
+        1577
+      ],
+      "key": "track-blp-1577-b2",
+      "kind": "track",
+      "title": "I'm Old Fashioned",
+      "url": "/bluenote/tracks/track-blp-1577-b2/"
+    },
+    {
+      "album_titles": [
+        "Blue Train"
+      ],
+      "artist": "John Coltrane",
+      "catalog_numbers": [
+        1577
+      ],
+      "key": "track-blp-1577-b3",
+      "kind": "track",
+      "title": "Lazy Bird",
+      "url": "/bluenote/tracks/track-blp-1577-b3/"
     },
     {
       "album_titles": [

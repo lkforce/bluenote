@@ -274,6 +274,134 @@
       "links": {
         "album_key": "blp-1577"
       }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note 공식 설명에 따르면 Blue Train은 John Coltrane이 이 레이블에서 리더로 남긴 유일한 녹음 세션의 앨범이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": 140,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note에서 남긴 유일한 리더 세션",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-album-stories-1577",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1577"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note 공식 설명은 Blue Train이 1957년 9월 15일 뉴저지 Hackensack에 있던 Rudy Van Gelder의 거실 스튜디오에서 녹음되었다고 밝힌다. 2022년 재발매의 마스터링 정보와는 별개다.",
+          "verification": "VERIFIED"
+        },
+        "evidence_type": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "fact",
+          "verification": "VERIFIED"
+        },
+        "scope": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "album",
+          "verification": "VERIFIED"
+        },
+        "section": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "recording",
+          "verification": "VERIFIED"
+        },
+        "topic": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "studio",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-07",
+          "content_kind": "fact",
+          "source_keys": [
+            "phase14-round2-source-116"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "phase14-round2-audio-observations-1577",
+      "kind": "audio_observations",
+      "links": {
+        "album_key": "blp-1577"
+      }
     }
   ],
   "root_key": "blp-1577",
