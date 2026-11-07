@@ -14,7 +14,7 @@ def fetch(kind,ident):
 
 def check(data):
     body=json.dumps(data,ensure_ascii=False)
-    if re.search(r'<\s*(script|iframe)|[A-Z]:[\\/]|gh[pousr]_[A-Za-z0-9]{20,}|github_pat_|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\b(?:password|api[_-]?key|access[_-]?token)\s*[=:]',body,re.I):raise ValueError('public metadata security check failed')
+    if re.search(r'<\s*(script|iframe)|\b[A-Z]:[\\/]|gh[pousr]_[A-Za-z0-9]{20,}|github_pat_|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\b(?:password|api[_-]?key|access[_-]?token)\s*[=:]',body,re.I):raise ValueError('public metadata security check failed')
     if any(key in data for key in ['images','community','lowest_price','num_for_sale','user_data']):raise ValueError('restricted data')
 
 def run(root):
