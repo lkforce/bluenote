@@ -124,3 +124,11 @@
 .listing-card .small-note { display:block; margin-top:10px; }
 .listing-card .text-link { display:inline-block; margin-top:12px; }
 @media (max-width:600px) { .detail-card { padding:18px; } .detail-heading { padding-top:28px; } .detail-section h2 { font-size:22px; } }
+/* Owner-authored card overviews; empty slots contain no invented text. */
+.album-card-summary { margin:20px 0 12px; padding:18px; border:1px solid #c9bea9; background:#faf7ef; color:#243348; min-height:220px; text-align:left; overflow-wrap:anywhere; }
+.album-card-summary h3 { margin:0 0 12px; font-size:14px; font-weight:600; letter-spacing:.04em; }
+.album-card-summary .summary-author { margin:0 0 10px; font-size:11px; color:#796440; }
+.album-card-summary .summary-body { margin:0; line-height:1.95; font-size:14px; white-space:pre-wrap; }
+.album-card-summary .summary-space { min-height:155px; }
+.listing-grid { align-items:start; }
+@media(max-width:600px) { .album-card-summary { padding:15px; } }

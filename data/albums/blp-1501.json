@@ -11159,6 +11159,55 @@
     {
       "fields": {
         "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "재즈 역사상 가장 뛰어난 레이블인 Bluenote의 첫 번째 12인치 음반인 이 앨범은 몇 가지 중요한 의미를 지니고 있다. 첫째는 블루노트의 본격적인 출발이라고 보는 점이고 둘째는 마일스 데이비스의 본격적인 성공이 바로 이 앨범에서 시작된 것이다. 이 앨범은 52년부터 54년까지 3년에 걸쳐 녹음된 5013, 5022, 5040 등 세 장의 10인치 녹음들을 모아 놓았다. 특히 수록된 곡들이 녹음되던 시기는 웨스트 코스트 스타일의 재즈가 유행하던 시기였지만 마일스는 그러한 시대적인 상황에 굴하지 않고 새로운 스타일을 고집했다. Dear Old Stockholm은 52년 녹음된 곡으로 짜임새 있는 편곡과 연주자들의 뛰어난 연주가 멋지게 결합된 곡이다. 마일스의 따스하면서도 정확하게 펼쳐지는 연주에서 그의 깊은 음악성이 드러난다. Would,n you에서 들려주는 마일스의 연주는 여유로움이 강하게 느껴지는 곡으로 특히 연주자들의 인터플레이가 뛰어난 곡이다. 53년 녹음에서는 테너 연주자인 지미 히스를 음악 감독으로 참여시켜 한층 다이나믹한 연주를 선보이는데 특히 버드 파월의 Tempus Fugit에서 들려주는 강렬한 연주는 당시 웨스트코스트 스타일의 재즈에서는 느낄 수 없었던 색다른 느낌이 담겨져 있다. 특히 드러머 아트 블레이키의 정력적인 연주는 압권이다 54년 녹음에는 아트 블레이키와 그의 친우인 호레이스 실버를 참여시켜 한층 꽉 찬 연주를 들려준다 스윙감과 멋지게 어우러지는 마일스의 자연스러운 연주가 돋보이는 Take Off 후에 마일스의 대표적인 연주곡으로 사랑받는 It Never Entered My Mind는 마일스의 매력적인 뮤트 연주와 실버의 차분한 아름다움이 담겨진 곡이다. 재즈 사상 가장 위대한 연주자인 마일스 데이비스가 가장 중요한 레이블인 블루노트의 시작을 알리는 이 앨범 여기서부터 블루노트의 역사는 본격적으로 시작되었던 것이다.",
+          "verification": "UNVERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "inference",
+          "verification": "UNVERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": 2000,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "앨범 카드 개요 · 사용자 작성",
+          "verification": "UNVERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "UNVERIFIED"
+        }
+      },
+      "key": "owner-card-summary-blp-1501",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
           "checked_on": "2026-11-07",
           "content_kind": "fact",
           "source_keys": [
