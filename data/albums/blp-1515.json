@@ -1115,6 +1115,360 @@
       "links": {
         "album_key": "blp-1530"
       }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "미국으로 옮긴 Jutta Hipp가 1956년 뉴욕 Hickory House에서 남긴 두 권의 라이브 기록 가운데 첫 번째다. Peter Ind와 Ed Thigpen이 함께한 트리오다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1515",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1515"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "1956년 Hickory House에서 남긴 Jutta Hipp 트리오의 두 번째 라이브 모음이다. 같은 공연 기록의 첫 번째 권과 이어서 살펴볼 수 있다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1516",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1516"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "Jutta Hipp가 뉴욕에서 Zoot Sims와 남긴 스튜디오 음반이다. 공식 소개는 이 녹음을 그녀의 마지막 녹음으로 설명한다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1530",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1530"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "스탠더드와 비밥 주제를 가볍게 스윙하는 연주다. 익숙한 선율을 피아노가 어떻게 변형하는지 따라가면 좋다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1515",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1515"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "공식 소개가 설명하는 트리오의 가벼운 스윙을 중심으로 피아노와 리듬 파트의 호흡을 들어 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1516",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1516"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "빠른 「Just Blues」와 발라드 「Violets For Your Furs」를 비교하며 피아노와 테너 색소폰의 흐름을 따라가 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1530",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1530"
+      }
     }
   ],
   "root_key": "blp-1515",

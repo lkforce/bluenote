@@ -638,6 +638,124 @@
       "links": {
         "album_key": "blp-1535"
       }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "1956년 5월 Kenny Dorham이 Cafe Bohemia에서 자신의 섹스텟으로 남긴 첫 리더 라이브 녹음에서 구성됐다. 이후 확장판과 원래 LP의 곡목은 구분한다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1524",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1524"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "트럼펫·테너 색소폰·기타가 만드는 소편성의 대화를 중심으로 자작곡과 스탠더드의 차이를 들어 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1524",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1524"
+      }
     }
   ],
   "root_key": "blp-1524",

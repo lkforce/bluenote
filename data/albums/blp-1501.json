@@ -11396,6 +11396,1540 @@
     },
     {
       "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "1952·1953년 세션을 모아 만든 마일스 데이비스의 초기 Blue Note 기록이다. 먼저 나온 10인치 음반의 녹음이 12인치 시리즈로 재편됐다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1501",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "1952~1954년 세 차례 세션에서 고른 초기 마일스의 연주를 묶었다. Volume 1과 함께 10인치 시대의 녹음을 이어 주는 편집 음반이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1502",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1502"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "1949년 퀸텟과 1951년 트리오 녹음을 중심으로 버드 파월의 초기 작품을 모았다. Blue Note가 현대 재즈로 넓혀 가던 시기의 피아노 기록이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1503",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1503"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "J.J. Johnson의 1953·1954년 리더 세션을 12인치 음반으로 묶었다. 비밥의 언어를 트롬본으로 확장한 초기 활동을 보여 준다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1505",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1505"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "1953~1955년 J.J. Johnson의 초기 Blue Note 세션에서 구성한 두 번째 모음이다. 서로 다른 시기의 연주와 편성을 함께 살펴볼 수 있다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1506",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1506"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note가 리더로 처음 기록한 몽크의 1947·1948년 연주를 모은 음반이다. 초기 작곡 세계와 다양한 소편성을 담고 있다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1510",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1510"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "몽크의 초기 Blue Note 녹음을 확장해 묶은 두 번째 권이다. 「Straight No Chaser」와 「Monk’s Mood」 등 대표적인 작품이 포함된다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1511",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1511"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "1950년에 세상을 떠난 Fats Navarro의 1947~1949년 연주를 모은 기록이다. 10인치 추모 음반을 확장한 두 권 가운데 첫 번째다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1531",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1531"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "Fats Navarro의 초기 연주를 모은 두 권의 12인치 모음 가운데 두 번째다. 공식 소개는 두 권을 비밥 시대 그의 활동을 정리한 확장판으로 설명한다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1532",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1532"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "1956년 Horace Silver 퀸텟의 하드밥 기록으로, 대표작 「Señor Blues」를 소개한 음반이다. Donald Byrd와 Hank Mobley가 전면을 이룬다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1539",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1539"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "1957년 Horace Silver가 Six Pieces Of Silver에 이어 선보인 퀸텟 음반이다. Art Farmer와 Hank Mobley가 함께한 편성을 기록했다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1562",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1562"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "1958년 1월 Horace Silver가 Art Farmer·Clifford Jordan·Teddy Kotick·Louis Hayes와 남긴 퀸텟 기록이다. 한 곡을 제외하고 실버가 작곡했다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1589",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1589"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "1958년 Bud Powell이 Sam Jones·Philly Joe Jones와 녹음한 The Amazing Bud Powell 시리즈의 네 번째 권이다. 자작곡을 중심에 놓았다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1598",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1598"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "빠른 비밥과 발라드를 나란히 놓아 초기 마일스의 선명한 선율 감각을 살펴볼 수 있다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1501",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1501"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "공식 소개는 비밥과 발라드의 대비를 강조한다. 서로 다른 세션을 한 가지 편성으로 생각하지 않고 듣는 것이 좋다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1502",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1502"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "비밥 선율의 빠른 전개와 트리오의 밀도 높은 상호작용이 핵심이다. 「Un Poco Loco」의 여러 테이크는 서로 구분해 듣는다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1503",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1503"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "「Turnpike」의 빠른 전개와 「Lover Man」의 발라드 표현을 대비해 들으면 트롬본의 유연성이 잘 드러난다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1505",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1505"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "빠른 비밥과 노래하듯 풀어내는 선율을 비교해 보자. 곡마다 참여자가 달라 세션 전체 명단을 전곡 편성으로 보아서는 안 된다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1506",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1506"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "「’Round Midnight」와 「Well You Needn’t」처럼 개성이 뚜렷한 주제를 중심으로 몽크의 리듬과 선율을 따라가 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1510",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1510"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "곡마다 다른 주제의 윤곽과 쉼표에 집중하면 몽크 특유의 리듬 감각을 이해하기 쉽다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1511",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1511"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "비밥의 선율과 즉흥연주를 살펴보는 모음이다. 대체 테이크는 같은 곡을 다른 방식으로 전개한 기록으로 구분해 듣는다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1531",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1531"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "여러 세션의 연주를 한 편성으로 묶어 생각하지 말고, 곡의 주제와 트럼펫 선율의 전개를 중심으로 들어 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1532",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1532"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "「Camouflage」의 멈춤과 재출발, 「Enchantment」의 라틴 리듬처럼 곡마다 다른 리듬 설계에 주목해 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1539",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1539"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "다섯 자작곡과 스탠더드 「My One And Only Love」를 통해 작곡뿐 아니라 실버의 편곡 감각을 살펴볼 수 있다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1562",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1562"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "「The Outlaw」의 활기와 실버가 ‘walking ballad’라 부른 「Moon Rays」의 여유를 비교해 들어 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1589",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1589"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "「Buster Rides Again」·「Monopoly」·「John’s Abbey」에서 피아노의 선율과 드럼의 활발한 응답을 비교해 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1598",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1598"
+      }
+    },
+    {
+      "fields": {
         "date_precision": {
           "checked_on": "2026-11-06",
           "content_kind": "fact",

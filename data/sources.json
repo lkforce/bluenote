@@ -12125,6 +12125,2168 @@
     {
       "fields": {
         "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-01e5e13f69bf4f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-01e5e13f69bf4f"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-01e5e13f69bf4f"
+          ],
+          "unknown_reason": null,
+          "value": "Bennie Green – Back On The Scene LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-01e5e13f69bf4f"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/bennie-green-back-on-the-scene-lp-tone-poet-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-01e5e13f69bf4f",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "Miles Davis - Volume 2 LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-032c394b9c743b"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/miles-davis-volume-2-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-032c394b9c743b",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "J.J. Johnson - The Eminent Jay Jay Johnson, Vol. 1 LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-059e4713103ef7"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/j-j-johnson-the-eminent-jay-jay-johnson-volume-1-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-059e4713103ef7",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0d3ebe37e6e345"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0d3ebe37e6e345"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0d3ebe37e6e345"
+          ],
+          "unknown_reason": null,
+          "value": "Johnny Griffin – A Blowing Session LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0d3ebe37e6e345"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/johnny-griffin-a-blowing-session-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-0d3ebe37e6e345",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "Sonny Clark – Sonny’s Crib LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/sonny-clark-sonny-s-crib-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-0fb6413dcd7b74",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-1eb36427fcdb30"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-1eb36427fcdb30"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-1eb36427fcdb30"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Burrell - Blue Lights, Vol. 1 LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-1eb36427fcdb30"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/kenny-burrell-blue-lights-vol-1-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-1eb36427fcdb30",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "Lou Donaldson - Wailing With Lou LP (Tone Poet Society Exclusive)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/lou-donaldson-wailing-with-lou-lp-tone-poet-society-exclusive",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-26b4764a3f327a",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "Jutta Hipp - Jutta Hipp with Zoot Sims LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-274e4553f89357"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/jutta-hipp-jutta-hipp-with-zoot-sims-lp-blue-note-classic-vinyl-edition",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-274e4553f89357",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-287affaf1eaccd"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-287affaf1eaccd"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-287affaf1eaccd"
+          ],
+          "unknown_reason": null,
+          "value": "Clifford Jordan - Cliff Craft LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-287affaf1eaccd"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/clifford-jordan-cliff-craft-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-287affaf1eaccd",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-33de350f05a3ec"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-33de350f05a3ec"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-33de350f05a3ec"
+          ],
+          "unknown_reason": null,
+          "value": "Paul Chambers - Bass On Top LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-33de350f05a3ec"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/paul-chambers-bass-on-top-lp-blue-note-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-33de350f05a3ec",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Dorham - The Complete ‘Round About Midnight At The Cafe Bohemia (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-3fe83cca126e3f"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/kenny-dorham-the-complete-round-about-midnight-at-the-cafe-bohemia-tone-poet-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-3fe83cca126e3f",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "Fats Navarro - The Fabulous Fats Navarro Vol 1 LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-417c7ccc3ef37e"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/fats-navarro-the-fabulous-fats-navarro-vol-1-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-417c7ccc3ef37e",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-43890b5a7a206c"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-43890b5a7a206c"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-43890b5a7a206c"
+          ],
+          "unknown_reason": null,
+          "value": "Herbie Nichols Trio – Herbie Nichols Trio LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-43890b5a7a206c"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/herbie-nichols-trio-herbie-nichols-trio-lp-blue-note-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-43890b5a7a206c",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cd21af3f597d5"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cd21af3f597d5"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cd21af3f597d5"
+          ],
+          "unknown_reason": null,
+          "value": "Johnny Griffin - Introducing Johnny Griffin LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cd21af3f597d5"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/johnny-griffin-introducing-johnny-griffin-lp-blue-note-classic-vinyl-edition",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-4cd21af3f597d5",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "Horace Silver - 6 Pieces Of Silver LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-4cfc33ce0445a0"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/horace-silver-6-pieces-of-silver-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-4cfc33ce0445a0",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-511949ed8b5e21"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-511949ed8b5e21"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-511949ed8b5e21"
+          ],
+          "unknown_reason": null,
+          "value": "Sonny Rollins - A Night At The Village Vanguard (UHQ-CD)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-511949ed8b5e21"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/sonny-rollins-a-night-at-the-village-vanguard-uhq-cd",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-511949ed8b5e21",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "Sonny Clark - Cool Struttin' LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/sonny-clark-cool-struttin-lp-blue-note-classic-vinyl-edition",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-531c8a5ce4a10a",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "Bud Powell - The Amazing Bud Powell Vol 1 (UHQCD)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-56a40309e95ae3"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/bud-powell-the-amazing-bud-powell-vol-1-uhqcd",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-56a40309e95ae3",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "Thelonious Monk - Genius of Modern Music, Vol. 2 LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-5ee5fdd1f594c2"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/thelonious-monk-genius-of-modern-music-vol-2-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-5ee5fdd1f594c2",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "Thelonious Monk - Genius Of Modern Music, Vol. 1 LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-6eb221faed1618"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/thelonious-monk-genius-of-modern-music-volume-1-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-6eb221faed1618",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-778acb0b462b18"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-778acb0b462b18"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-778acb0b462b18"
+          ],
+          "unknown_reason": null,
+          "value": "Cannonball Adderley - Somethin' Else LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-778acb0b462b18"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/cannonball-adderley-somethin-else-lp-blue-note-classic-vinyl-edition",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-778acb0b462b18",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "Sonny Clark - Dial \"S\" for Sonny LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/sonny-clark-dial-s-for-sonny-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-787dc804e56959",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "Curtis Fuller – Volume 3 (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/curtis-fuller-volume-3-tone-poet-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-79f76f30939414",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "Horace Silver - Further Explorations LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-802fd452db8d71"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/horace-silver-further-explorations-lp-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-802fd452db8d71",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-818c570826c94f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-818c570826c94f"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-818c570826c94f"
+          ],
+          "unknown_reason": null,
+          "value": "Thad Jones - Detroit - New York Junction (Third Man 313 Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-818c570826c94f"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/thad-jones-detroit-new-york-junction-third-man-313-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-818c570826c94f",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-84e4c62d64a1eb"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-84e4c62d64a1eb"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-84e4c62d64a1eb"
+          ],
+          "unknown_reason": null,
+          "value": "Clifford Brown - Memorial Album LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-84e4c62d64a1eb"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/clifford-brown-memorial-album-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-84e4c62d64a1eb",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "Horace Silver – The Stylings of Silver (Blue Note Classic Vinyl Edition)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-85a7564baaba6d"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/horace-silver-the-stylings-of-silver-blue-note-classic-vinyl-edition",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-85a7564baaba6d",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-881b4611e96791"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-881b4611e96791"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-881b4611e96791"
+          ],
+          "unknown_reason": null,
+          "value": "Thad Jones - The Magnificent Thad Jones LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-881b4611e96791"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/thad-jones-the-magnificent-thad-jones-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-881b4611e96791",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-8d62510fa57114"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-8d62510fa57114"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-8d62510fa57114"
+          ],
+          "unknown_reason": null,
+          "value": "Hank Mobley - Hank Mobley LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-8d62510fa57114"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/hank-mobley-hank-mobley-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-8d62510fa57114",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-9252aca483576c"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-9252aca483576c"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-9252aca483576c"
+          ],
+          "unknown_reason": null,
+          "value": "Clifford Jordan - Cliff Jordan LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-9252aca483576c"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/clifford-jordan-cliff-jordan-lp-blue-note-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-9252aca483576c",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-9bd9ffbdcf0737"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-9bd9ffbdcf0737"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-9bd9ffbdcf0737"
+          ],
+          "unknown_reason": null,
+          "value": "Milt Jackson - Milt Jackson and The Thelonious Monk Quintet LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-9bd9ffbdcf0737"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/milt-jackson-milt-jackson-and-the-thelonious-monk-quintet-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-9bd9ffbdcf0737",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "Bud Powell - Time Waits: The Amazing Bud Powell, Vol. 4 (UHQ-CD)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-a3ff41da559b8a"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/bud-powell-time-waits-the-amazing-bud-powell-vol-4-cd-uhq-cd",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-a3ff41da559b8a",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "Miles Davis - Volume 1 LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-c568f6f94fd48d"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/miles-davis-volume-1-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-c568f6f94fd48d",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-cf91affbde40a7"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-cf91affbde40a7"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-cf91affbde40a7"
+          ],
+          "unknown_reason": null,
+          "value": "Lee Morgan - The Cooker LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-cf91affbde40a7"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/lee-morgan-the-cooker-lp-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-cf91affbde40a7",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-d45826160bd4e2"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-d45826160bd4e2"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-d45826160bd4e2"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Burrell - Kenny Burrell LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-d45826160bd4e2"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/kenny-burrell-kenny-burrell-lp-blue-note-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-d45826160bd4e2",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-d5809baaf1630b"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-d5809baaf1630b"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-d5809baaf1630b"
+          ],
+          "unknown_reason": null,
+          "value": "Louis Smith - Here Comes Louis Smith LP (Tone Poet Society Exclusive)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-d5809baaf1630b"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/louis-smith-here-comes-louis-smith-lp-tone-poet-society-exclusive",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-d5809baaf1630b",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-dfe53845faf13f"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-dfe53845faf13f"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-dfe53845faf13f"
+          ],
+          "unknown_reason": null,
+          "value": "John Coltrane - Blue Train (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-dfe53845faf13f"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/john-coltrane-blue-train-blue-note-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-dfe53845faf13f",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e74a8b3f5829e3"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e74a8b3f5829e3"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e74a8b3f5829e3"
+          ],
+          "unknown_reason": null,
+          "value": "Kenny Burrell - Introducing Kenny Burrell LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e74a8b3f5829e3"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/introducing-kenny-burrell-lp-blue-note-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-e74a8b3f5829e3",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e861003b0fdf74"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e861003b0fdf74"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e861003b0fdf74"
+          ],
+          "unknown_reason": null,
+          "value": "Sonny Rollins – Vol. 2 (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e861003b0fdf74"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/sonny-rollins-vol-2-tone-poet-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-e861003b0fdf74",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "Jutta Hipp - At The Hickory House, Volume 1 (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-e877ad7d0680b5"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/jutta-hipp-at-the-hickory-house-volume-1-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-e877ad7d0680b5",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-eb9f723685e2c8"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-eb9f723685e2c8"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-eb9f723685e2c8"
+          ],
+          "unknown_reason": null,
+          "value": "Sonny Rollins – Volume 1 LP (Blue Note Classic Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-eb9f723685e2c8"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/sonny-rollins-volume-1-lp-blue-note-classic-vinyl",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-eb9f723685e2c8",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-efaf44200c8546"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-efaf44200c8546"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-efaf44200c8546"
+          ],
+          "unknown_reason": null,
+          "value": "Hank Mobley – Hank LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-efaf44200c8546"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/hank-mobley-hank-lp-tone-poet-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-efaf44200c8546",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f38d7d6d742d43"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f38d7d6d742d43"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f38d7d6d742d43"
+          ],
+          "unknown_reason": null,
+          "value": "Lee Morgan – City Lights LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f38d7d6d742d43"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/lee-morgan-city-lights-lp-tone-poet-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-f38d7d6d742d43",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "Lou Donaldson - Blues Walk LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/lou-donaldson-blues-walk-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-f3c37c002bc443",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "J.J. Johnson - The Eminent Jay Jay Johnson, Vol. 2 LP (Blue Note Classic Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f8be13ba265f79"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/j-j-johnson-the-eminent-jay-jay-johnson-vol-2-lp-blue-note-classic-vinyl-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-f8be13ba265f79",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note Records",
+          "verification": "VERIFIED"
+        },
+        "source_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "Sonny Clark Trio - Sonny Clark Trio LP (Tone Poet Vinyl Series)",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/sonny-clark-trio-sonny-clark-trio-lp-blue-note-tone-poet-series",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-source-fb08f80c0026fe",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "author_publisher": {
           "checked_on": "2026-11-06",
           "content_kind": "fact",
           "source_keys": [

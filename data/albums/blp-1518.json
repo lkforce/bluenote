@@ -3114,6 +3114,714 @@
         "album_key": "blp-1593",
         "genre_key": "phase14-genres-4"
       }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "1957년 Lou Donaldson이 Donald Byrd·Herman Foster·Peck Morrison·Art Taylor와 남긴 퀸텟 기록이다. 자작곡과 스탠더드를 함께 연주했다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1545",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1545"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "1957년 Sonny Clark의 Blue Note 리더 데뷔작이다. Art Farmer·Curtis Fuller·Hank Mobley 등과 함께한 섹스텟으로 출발했다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1570",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1570"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "1957년 Sonny Clark가 리더 데뷔에 이어 녹음한 섹스텟 음반이다. John Coltrane·Donald Byrd·Curtis Fuller가 관악 전면을 이뤘다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1576",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1576"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "1957년 Sonny Clark가 Paul Chambers·Philly Joe Jones와 남긴 피아노 트리오 기록이다. 관악기 없이 그의 피아노를 전면에 놓았다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1579",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1579"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "1958년 1월 Sonny Clark가 Art Farmer·Jackie McLean·Paul Chambers·Philly Joe Jones와 녹음한 하드밥 퀸텟 기록이다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1588",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1588"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "Lou Donaldson이 Swing And Soul의 리듬 파트를 다시 모아 1958년 남긴 음반이다. Ray Barretto의 콩가가 편성에 포함된다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1593",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1593"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "알토 색소폰과 트럼펫의 호흡을 중심으로, 「Caravan」과 「L.D. Blues」에서 달라지는 분위기를 비교해 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-26b4764a3f327a"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1545",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1545"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "단조의 타이틀곡과 밝은 「Bootin’ It」를 비교해 보자. 「Love Walked In」에서는 피아노가 중심을 이루는 구성이 드러난다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-787dc804e56959"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1570",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1570"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "「Speak Low」의 테너와 「Come Rain Or Come Shine」의 트롬본처럼 곡마다 앞에 나서는 악기를 구분해 듣기 좋다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-0fb6413dcd7b74"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1576",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1576"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "빠른 「Be-Bop」와 중간 템포의 「I Didn’t Know What Time It Was」가 대비된다. 「I’ll Remember April」은 피아노 독주로 구분해 듣는다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-fb08f80c0026fe"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1579",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1579"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "공식 소개는 블루스 감각과 또렷한 선율 전개를 강조한다. 피아노의 선율과 두 관악기의 응답을 나눠 들어 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-531c8a5ce4a10a"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1588",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1588"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "느긋한 단조 블루스인 타이틀곡과 빠른 「Move」를 비교하면 블루스와 비밥을 오가는 표현이 드러난다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-f3c37c002bc443"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1593",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1593"
+      }
     }
   ],
   "root_key": "blp-1518",

@@ -39,6 +39,10 @@ def run(root):
     output={name:encode(doc) for name,doc in documents.items()}
     index=root/'assets/data/search-index.json';search=json.loads(index.read_text('utf-8'));search['data_version']=version
     output['assets/data/search-index.json']=encode(search)
+    metadata_index=root/'assets/data/discogs-index.json'
+    if metadata_index.exists():
+        index_data=json.loads(metadata_index.read_text('utf-8'));index_data['data_version']=version
+        output['assets/data/discogs-index.json']=encode(index_data)
     for page in root.rglob('*.html'):output[page.relative_to(root).as_posix()]=page.read_bytes().replace(previous.encode(),version.encode())
     # 모든 API 응답과 보안 검사가 끝난 뒤에만 공개 파일 변경. 실패하면 게시하지 않는다.
     for name,body in output.items():(root/name).write_bytes(body)

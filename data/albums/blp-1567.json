@@ -938,6 +938,124 @@
       "links": {
         "album_key": "blp-1583"
       }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "1957년 뉴욕으로 옮긴 Curtis Fuller가 그해 12월 남긴 리더 음반이다. Art Farmer·Sonny Clark·George Tucker·Louis Hayes가 참여했다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": 1100,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-history-blp-1583",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1583"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-08",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "「Quantrale」의 아프로쿠반 리듬과 「It’s Too Late Now」의 발라드가 대비된다. 트롬본이 이끄는 선율을 따라가 보자.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": 1101,
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-08",
+          "content_kind": "fact",
+          "source_keys": [
+            "polish-source-79f76f30939414"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "polish-music-blp-1583",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1583"
+      }
     }
   ],
   "root_key": "blp-1567",
