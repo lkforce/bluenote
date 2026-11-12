@@ -11159,7 +11159,7 @@
     {
       "fields": {
         "body": {
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-12",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11167,7 +11167,7 @@
           "verification": "UNVERIFIED"
         },
         "content_type": {
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-12",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11175,7 +11175,7 @@
           "verification": "UNVERIFIED"
         },
         "display_order": {
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-12",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11183,15 +11183,15 @@
           "verification": "UNVERIFIED"
         },
         "title": {
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-12",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
-          "value": "앨범 카드 개요 · 사용자 작성",
+          "value": "간추린 앨범 배경 · 사용자 작성",
           "verification": "UNVERIFIED"
         },
         "verification_status": {
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-12",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,

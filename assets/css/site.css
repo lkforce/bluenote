@@ -132,3 +132,10 @@
 .album-card-summary .summary-space { min-height:155px; }
 .listing-grid { align-items:start; }
 @media(max-width:600px) { .album-card-summary { padding:15px; } }
+
+.album-link-group { margin:24px 0; padding:16px 22px; border:1px solid #d8cfbd; background:#faf7f0; scroll-margin-top:24px; }
+.album-link-group h2 { margin:0; font-size:20px; }
+.album-link-group ul { padding-left:0; list-style:none; }
+.album-link-group li { padding:6px 0; overflow-wrap:anywhere; }
+.album-link-group a { text-decoration:underline; text-underline-offset:3px; }
+.owner-overview-space { min-height:72px; }
