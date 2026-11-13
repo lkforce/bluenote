@@ -11159,7 +11159,7 @@
     {
       "fields": {
         "body": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11167,7 +11167,7 @@
           "verification": "UNVERIFIED"
         },
         "content_type": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11175,7 +11175,7 @@
           "verification": "UNVERIFIED"
         },
         "display_order": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11183,7 +11183,7 @@
           "verification": "UNVERIFIED"
         },
         "title": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11191,7 +11191,7 @@
           "verification": "UNVERIFIED"
         },
         "verification_status": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11208,7 +11208,7 @@
     {
       "fields": {
         "body": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11216,7 +11216,7 @@
           "verification": "UNVERIFIED"
         },
         "content_type": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11224,7 +11224,7 @@
           "verification": "UNVERIFIED"
         },
         "display_order": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11232,7 +11232,7 @@
           "verification": "UNVERIFIED"
         },
         "title": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11240,7 +11240,7 @@
           "verification": "UNVERIFIED"
         },
         "verification_status": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11257,7 +11257,7 @@
     {
       "fields": {
         "body": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11265,7 +11265,7 @@
           "verification": "UNVERIFIED"
         },
         "content_type": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11273,7 +11273,7 @@
           "verification": "UNVERIFIED"
         },
         "display_order": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11281,7 +11281,7 @@
           "verification": "UNVERIFIED"
         },
         "title": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11289,7 +11289,7 @@
           "verification": "UNVERIFIED"
         },
         "verification_status": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11306,7 +11306,7 @@
     {
       "fields": {
         "body": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11314,7 +11314,7 @@
           "verification": "UNVERIFIED"
         },
         "content_type": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11322,7 +11322,7 @@
           "verification": "UNVERIFIED"
         },
         "display_order": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11330,7 +11330,7 @@
           "verification": "UNVERIFIED"
         },
         "title": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11338,7 +11338,7 @@
           "verification": "UNVERIFIED"
         },
         "verification_status": {
-          "checked_on": "2026-11-12",
+          "checked_on": "2026-11-13",
           "content_kind": "interpretation",
           "source_keys": [],
           "unknown_reason": null,
@@ -11350,6 +11350,104 @@
       "kind": "album_stories",
       "links": {
         "album_key": "blp-1504"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "초기 재즈에 사용된 트럼본은 멜로디의 가장 낮은 음을 담당하던 악기였다. 연주하기가 어 려운 악기여서 그다지 복잡한 연주를 편치지는 못했다. 그러나 Be Bop 시대 등장한 제이 계 이 존슨이라는 탁월한 연주자로 인해 트럼본은 재즈에서 중요한 악기 가운데 하나로 인정받 게 된다. 1924년 출생한 존슨은 어린 시절 교회에서 오르간을 연주했었고 14세에 트럼본 연주쿨 시작했다. 데뷔 당시 :존슨의 트럼본을 당한 수 없다\" 라는 문구가 부가적으로 쓰일 정도로 비범한 테크닉을 지닌 제이 제이 존슨의 유일한 Blue Note 에서의 연주가 이 앨범에 담겨져 있다. 53년도 녹음된 V0. 1 에서는 특히 당시 최고의 트럼켓 연주자로 떠오르던 클 리포드 브라운이 참여해 존슨의 멋진 연주\n트럼본과 대결을 펼치고 있다. 인트로에서의 혼 색션이 펼치는 웅장한 어울림과 트럼본, 색소폰, 트럼펫의 불꽃 뛰는 연주경쟁이 압권인 Capri, 중후함과 생동감 넘치는 트럼본 음식에 도취되어 버리고마는 아름다운 발라드 Lover Mlan. 결성 이전 Modem Jazz Quartet의 리듬섹션이 펼치는 신나는 스윙감이 돋보이\n는 Tumpike 등 Vol. 1은 Sextet에 의한 생동감 넘치는 곡들이 가득하다. VoL 1에서 존슨과 더불어 브라운이 환약했다면 54년, 55년에 녹음된 두 개의 세션 연주가 담겨져 있는 VoL 2 는 찰스 밍거스와 행크 모블리의 환약을 들을 수 있다. 0ld Devil Mloon에서는 완벽한 스윙 감이 돋보이는 밍거스의 베이스 라인이 가장 돋보인다. 윈튼 켈리의 산뜻한 건반터치로 시 작되는 Jay에서는 사부의 홍겨운 콩가 리듬이 존슨의 화리한 트림본과 멋지게 어우러진다. 트럼본과 테너의 앙상블이 일품인 Pennies [rom Hleaven에서는 당시 주목받던 행크 모블 리의 진지하고 풍부한 느낌의 연주를 접할 수 있다. 5, 60년대 모민 재즈에 있어서 커다란 존재였던 존슨의 발자취가 느껴지는 앨범이다.\n(참고:Bluenote1500, EMI Music KOREA)",
+          "verification": "UNVERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "inference",
+          "verification": "UNVERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": 2000,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경 · 사용자 작성",
+          "verification": "UNVERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "UNVERIFIED"
+        }
+      },
+      "key": "owner-card-summary-blp-1505",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1505"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "초기 재즈에 사용된 트럼본은 멜로디의 가장 낮은 음을 담당하던 악기였다. 연주하기가 어 려운 악기여서 그다지 복잡한 연주를 편치지는 못했다. 그러나 Be Bop 시대 등장한 제이 계 이 존슨이라는 탁월한 연주자로 인해 트럼본은 재즈에서 중요한 악기 가운데 하나로 인정받 게 된다. 1924년 출생한 존슨은 어린 시절 교회에서 오르간을 연주했었고 14세에 트럼본 연주쿨 시작했다. 데뷔 당시 :존슨의 트럼본을 당한 수 없다\" 라는 문구가 부가적으로 쓰일 정도로 비범한 테크닉을 지닌 제이 제이 존슨의 유일한 Blue Note 에서의 연주가 이 앨범에 담겨져 있다. 53년도 녹음된 V0. 1 에서는 특히 당시 최고의 트럼켓 연주자로 떠오르던 클 리포드 브라운이 참여해 존슨의 멋진 연주\n트럼본과 대결을 펼치고 있다. 인트로에서의 혼 색션이 펼치는 웅장한 어울림과 트럼본, 색소폰, 트럼펫의 불꽃 뛰는 연주경쟁이 압권인 Capri, 중후함과 생동감 넘치는 트럼본 음식에 도취되어 버리고마는 아름다운 발라드 Lover Mlan. 결성 이전 Modem Jazz Quartet의 리듬섹션이 펼치는 신나는 스윙감이 돋보이\n는 Tumpike 등 Vol. 1은 Sextet에 의한 생동감 넘치는 곡들이 가득하다. VoL 1에서 존슨과 더불어 브라운이 환약했다면 54년, 55년에 녹음된 두 개의 세션 연주가 담겨져 있는 VoL 2 는 찰스 밍거스와 행크 모블리의 환약을 들을 수 있다. 0ld Devil Mloon에서는 완벽한 스윙 감이 돋보이는 밍거스의 베이스 라인이 가장 돋보인다. 윈튼 켈리의 산뜻한 건반터치로 시 작되는 Jay에서는 사부의 홍겨운 콩가 리듬이 존슨의 화리한 트림본과 멋지게 어우러진다. 트럼본과 테너의 앙상블이 일품인 Pennies [rom Hleaven에서는 당시 주목받던 행크 모블 리의 진지하고 풍부한 느낌의 연주를 접할 수 있다. 5, 60년대 모민 재즈에 있어서 커다란 존재였던 존슨의 발자취가 느껴지는 앨범이다.\n(참고:Bluenote1500, EMI Music KOREA)",
+          "verification": "UNVERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "inference",
+          "verification": "UNVERIFIED"
+        },
+        "display_order": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": 2000,
+          "verification": "UNVERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경 · 사용자 작성",
+          "verification": "UNVERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "UNVERIFIED"
+        }
+      },
+      "key": "owner-card-summary-blp-1506",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1506"
       }
     },
     {
