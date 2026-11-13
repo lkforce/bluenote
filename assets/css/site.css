@@ -139,3 +139,9 @@
 .album-link-group li { padding:6px 0; overflow-wrap:anywhere; }
 .album-link-group a { text-decoration:underline; text-underline-offset:3px; }
 .owner-overview-space { min-height:72px; }
+
+.visual-guide-heading.has-cover { display:grid; grid-template-columns:minmax(0,1fr) minmax(96px,28%); align-items:start; gap:16px; }
+.visual-guide-heading .album-cover-frame { margin:0; }
+.visual-guide-heading .album-cover-image { width:100%; height:auto; object-fit:contain; }
+.visual-guide-heading .album-cover-credit { color:inherit; }
+.visual-guide-heading .album-cover-credit a { color:inherit; }
