@@ -140,8 +140,23 @@
 .album-link-group a { text-decoration:underline; text-underline-offset:3px; }
 .owner-overview-space { min-height:72px; }
 
-.visual-guide-heading.has-cover { display:grid; grid-template-columns:minmax(0,1fr) minmax(96px,28%); align-items:start; gap:16px; }
+/* Both views use the catalog card's square image area. */
+:root { --album-cover-size: calc((min(1160px, 100vw - 80px) - 66px) / 4 - 34px); }
+.catalog-entry > .album-cover-frame,
+.visual-guide-heading > .album-cover-frame { width:var(--album-cover-size); max-width:100%; }
+.visual-guide-heading.has-cover { display:grid; grid-template-columns:minmax(0,1fr) var(--album-cover-size); align-items:start; gap:16px; }
+@media(max-width:1100px) {
+  :root { --album-cover-size:calc((100vw - 116px) / 3 - 34px); }
+}
+@media(max-width:760px) {
+  :root { --album-cover-size:calc((100vw - 54px) / 2 - 26px); }
+}
+@media(max-width:430px) {
+  :root { --album-cover-size:calc(100vw - 80px); }
+  .visual-guide-heading.has-cover { grid-template-columns:minmax(0,1fr); }
+  .visual-guide-heading > .album-cover-frame { justify-self:end; }
+}
 .visual-guide-heading .album-cover-frame { margin:0; }
-.visual-guide-heading .album-cover-image { width:100%; height:auto; object-fit:contain; }
+
 .visual-guide-heading .album-cover-credit { color:inherit; }
 .visual-guide-heading .album-cover-credit a { color:inherit; }
