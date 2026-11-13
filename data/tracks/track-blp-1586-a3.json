@@ -1,0 +1,122 @@
+{
+  "records": [
+    {
+      "fields": {
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "Lover Man",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1586-a3",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-13",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "선율을 길게 끄는 부분과 짧게 끊는 부분을 비교해 보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "VERIFIED"
+        },
+        "level": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "VERIFIED"
+        },
+        "step_order": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1586-a3-guide",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "track-blp-1586-a3"
+      }
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "A",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": 3,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1586-a3-position",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1586",
+        "track_key": "track-blp-1586-a3"
+      }
+    }
+  ],
+  "root_key": "track-blp-1586-a3",
+  "schema_version": 1
+}

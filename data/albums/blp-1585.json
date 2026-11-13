@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "fields": {
+        "original_release_date": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "1958",
+          "verification": "VERIFIED"
+        },
+        "release_date_precision": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "year",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Groovin' At Smalls' Paradise (Volume 1)",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1585",
+      "kind": "albums",
+      "links": {
+        "primary_artist_key": "musicians-64e77f47f1b2c613"
+      }
+    }
+  ],
+  "root_key": "blp-1585",
+  "schema_version": 1
+}

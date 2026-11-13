@@ -1,0 +1,93 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Donald Bailey",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "person-missing-lp-63",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1585-performer-63",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "person-missing-lp-63",
+        "session_key": "blp-1585-session"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1586-performer-63",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "person-missing-lp-63",
+        "session_key": "blp-1586-session"
+      }
+    }
+  ],
+  "root_key": "person-missing-lp-63",
+  "schema_version": 1
+}

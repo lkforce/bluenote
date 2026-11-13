@@ -97,6 +97,36 @@
     {
       "fields": {
         "instrument": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "drums",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1554-performer-10",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "musicians-7f6d2da87fc7519e",
+        "session_key": "blp-1554-session"
+      }
+    },
+    {
+      "fields": {
+        "instrument": {
           "checked_on": "2026-11-06",
           "content_kind": "general_guide",
           "source_keys": [],

@@ -2641,6 +2641,294 @@
           "checked_on": "2026-11-13",
           "content_kind": "fact",
           "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-370",
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "지미 스미스가 에디 맥패든, 도널드 베일리와 함께 1957년 11월 15일 할렘의 스몰스 파라다이스에서 연주한 실황의 첫 번째 권이다. 1958년 Cash Box의 당시 리뷰는 세 연주자의 편성과 공연 장소를 확인해 준다. 이 LP에는 After Hours와 My Funny Valentine, Slightly Monkish, Laura가 담겼다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-370",
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-370",
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-370",
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1585-history",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1585"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "블루스와 스탠더드가 오르간, 기타, 드럼의 작은 편성 안에서 어떻게 다른 표정을 얻는지 비교해 보세요. After Hours의 반복되는 주제와 Laura의 선율을 나란히 들으면 오르간의 역할 변화가 잘 드러납니다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1585-music",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1585"
+      }
+    },
+    {
+      "fields": {
+        "location": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Smalls' Paradise, Harlem, New York City",
+          "verification": "VERIFIED"
+        },
+        "recording_date": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "1957-11-15",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1585-session",
+      "kind": "recording_sessions",
+      "links": {}
+    },
+    {
+      "fields": {},
+      "key": "blp-1585-session-link",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1585",
+        "session_key": "blp-1585-session"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "첫 번째 권과 같은 1957년 11월 15일 스몰스 파라다이스 공연에서 뽑은 두 번째 LP다. 지미 스미스의 오르간, 에디 맥패든의 기타, 도널드 베일리의 드럼으로 구성됐다. A면은 Imagination, Just Friends, Lover Man 순이며 B면에는 Body and Soul과 Indiana가 실렸다.",
+          "verification": "VERIFIED"
+        },
+        "content_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "historical_fact",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 앨범 배경",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1586-history",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1586"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-13",
+          "content_kind": "interpretation",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "Body and Soul의 선율 처리와 Indiana의 긴 즉흥 전개를 비교해 보세요. 오르간이 전면에 나올 때 기타와 드럼이 리듬을 유지하는 방법을 따라가면 세 사람의 호흡을 듣기 좋습니다.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "musical_interpretation",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "간추린 음악 해설",
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b",
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "source_checked",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1586-music",
+      "kind": "album_stories",
+      "links": {
+        "album_key": "blp-1586"
+      }
+    },
+    {
+      "fields": {
+        "location": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "Smalls' Paradise, Harlem, New York City",
+          "verification": "VERIFIED"
+        },
+        "recording_date": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "1957-11-15",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1586-session",
+      "kind": "recording_sessions",
+      "links": {}
+    },
+    {
+      "fields": {},
+      "key": "blp-1586-session-link",
+      "kind": "album_sessions",
+      "links": {
+        "album_key": "blp-1586",
+        "session_key": "blp-1586-session"
+      }
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
             "discogs-source-ref-151",
             "discogs-source-ref-152"
           ],

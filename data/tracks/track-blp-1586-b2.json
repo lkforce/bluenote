@@ -1,0 +1,122 @@
+{
+  "records": [
+    {
+      "fields": {
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "Indiana",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1586-b2",
+      "kind": "tracks",
+      "links": {}
+    },
+    {
+      "fields": {
+        "body": {
+          "checked_on": "2026-11-13",
+          "content_kind": "listening_prompt",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "긴 연주에서 반복되는 화성 위로 프레이즈가 어떻게 달라지는지 따라가 보세요.",
+          "verification": "INTERPRETATION"
+        },
+        "content_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "listening_prompt",
+          "verification": "VERIFIED"
+        },
+        "level": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "beginner",
+          "verification": "VERIFIED"
+        },
+        "step_order": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "verification_status": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "unverified",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1586-b2-guide",
+      "kind": "track_listening_guides",
+      "links": {
+        "track_key": "track-blp-1586-b2"
+      }
+    },
+    {
+      "fields": {
+        "disc_number": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": 1,
+          "verification": "VERIFIED"
+        },
+        "side": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "B",
+          "verification": "VERIFIED"
+        },
+        "track_position": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": 2,
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "track-blp-1586-b2-position",
+      "kind": "album_tracks",
+      "links": {
+        "album_key": "blp-1586",
+        "track_key": "track-blp-1586-b2"
+      }
+    }
+  ],
+  "root_key": "track-blp-1586-b2",
+  "schema_version": 1
+}

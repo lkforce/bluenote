@@ -1,7 +1,7 @@
 'use strict';
 (async function () {
   const root=document.querySelector('.visual-guide');if(!root)return;
-  const target=document.querySelector('#discogs-status');let data;
+  const target=document.querySelector('#discogs-status');if(!target)return;let data;
   const artist=document.querySelector('.visual-guide-artist');const initialArtist=artist.textContent;
   function add(parent,tag,text){const node=document.createElement(tag);node.textContent=text;parent.append(node);return node;}
   function clear(){for(const box of document.querySelectorAll('.discogs-live'))box.replaceChildren();artist.textContent=initialArtist;root.dataset.discogsReady='false';target.textContent='Discogs 정보 갱신 대기 또는 6시간 유효기간 만료. 원문에서 확인해 주세요.';}

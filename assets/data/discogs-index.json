@@ -58,7 +58,7 @@
     "blp-1558": "/bluenote/data/albums/blp-1542.json",
     "blp-1559": "/bluenote/data/albums/blp-1533.json",
     "blp-1560": "/bluenote/data/albums/blp-1540.json",
-    "blp-1561": "/bluenote/data/albums/blp-1561.json",
+    "blp-1561": "/bluenote/data/albums/blp-1501.json",
     "blp-1562": "/bluenote/data/albums/blp-1501.json",
     "blp-1563": "/bluenote/data/albums/blp-1512.json",
     "blp-1564": "/bluenote/data/albums/blp-1534.json",
@@ -96,6 +96,6 @@
     "blp-1599": "/bluenote/data/albums/blp-1587.json",
     "blp-1600": "/bluenote/data/albums/blp-1501.json"
   },
-  "data_version": "v1-600a0d75b6401a40b2577301",
+  "data_version": "v1-f84f7fa5ca11265aec1c777b",
   "schema_version": 1
 }

@@ -18095,6 +18095,191 @@
     },
     {
       "fields": {
+        "source_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-369"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-369"
+          ],
+          "unknown_reason": null,
+          "value": "Audio · August 1957 · Art Blakey: Orgy in Rhythm, Vol. 1",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-369"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/50s/Audio-1957-Aug.pdf",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-missing-lp-369",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "source_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-370"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-370"
+          ],
+          "unknown_reason": null,
+          "value": "Cash Box · May 31, 1958 · Groovin at Smalls Paradise Vol. 1",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-370"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.worldradiohistory.com/Archive-All-Music/Cash-Box/Cash-Box/50s/1958/CB-1958-05-31.pdf",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-missing-lp-370",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "source_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "official",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "Blue Note · Groovin at Smalls Paradise · Classic Vinyl",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-371"
+          ],
+          "unknown_reason": null,
+          "value": "https://store.bluenote.com/products/jimmy-smith-groovin-at-smalls-paradise-lp-blue-note-classic-vinyl-edition",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-missing-lp-371",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "source_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "Groovin at Smalls Paradise · Volume 2 LP track listing",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-372"
+          ],
+          "unknown_reason": null,
+          "value": "https://en.wikipedia.org/wiki/Groovin%27_at_Smalls%27_Paradise",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-missing-lp-372",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
+        "source_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-373"
+          ],
+          "unknown_reason": null,
+          "value": "website",
+          "verification": "VERIFIED"
+        },
+        "title": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-373"
+          ],
+          "unknown_reason": null,
+          "value": "Orgy In Rhythm Volume One · LP track listing",
+          "verification": "VERIFIED"
+        },
+        "url": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-missing-lp-373"
+          ],
+          "unknown_reason": null,
+          "value": "https://www.soundohm.com/product/orgy-in-rhythm-volume-one",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "source-missing-lp-373",
+      "kind": "sources",
+      "links": {}
+    },
+    {
+      "fields": {
         "author_publisher": {
           "checked_on": "2026-11-07",
           "content_kind": "fact",

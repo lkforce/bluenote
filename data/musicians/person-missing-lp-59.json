@@ -1,0 +1,63 @@
+{
+  "records": [
+    {
+      "fields": {
+        "entity_type": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "person",
+          "verification": "VERIFIED"
+        },
+        "name": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "José Valiente",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "person-missing-lp-59",
+      "kind": "musicians",
+      "links": {}
+    },
+    {
+      "fields": {
+        "instrument": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "congas",
+          "verification": "VERIFIED"
+        },
+        "role": {
+          "checked_on": "2026-11-13",
+          "content_kind": "fact",
+          "source_keys": [
+            "source-4e07408562bedb8b"
+          ],
+          "unknown_reason": null,
+          "value": "performer",
+          "verification": "VERIFIED"
+        }
+      },
+      "key": "blp-1554-performer-59",
+      "kind": "session_credits",
+      "links": {
+        "musician_key": "person-missing-lp-59",
+        "session_key": "blp-1554-session"
+      }
+    }
+  ],
+  "root_key": "person-missing-lp-59",
+  "schema_version": 1
+}

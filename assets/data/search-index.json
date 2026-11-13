@@ -425,12 +425,12 @@
       "title": null
     },
     {
-      "album_key": null,
-      "artist": null,
+      "album_key": "blp-1554",
+      "artist": "Art Blakey",
       "key": "blp-1554",
       "number": 1554,
-      "release_status": null,
-      "title": null
+      "release_status": "released",
+      "title": "Orgy in Rhythm, Volume One"
     },
     {
       "album_key": "blp-1555",
@@ -673,20 +673,20 @@
       "title": "Here Comes Louis Smith"
     },
     {
-      "album_key": null,
-      "artist": null,
+      "album_key": "blp-1585",
+      "artist": "Jimmy Smith",
       "key": "blp-1585",
       "number": 1585,
-      "release_status": null,
-      "title": null
+      "release_status": "released",
+      "title": "Groovin' At Smalls' Paradise (Volume 1)"
     },
     {
-      "album_key": null,
-      "artist": null,
+      "album_key": "blp-1586",
+      "artist": "Jimmy Smith",
       "key": "blp-1586",
       "number": 1586,
-      "release_status": null,
-      "title": null
+      "release_status": "released",
+      "title": "Groovin' At Smalls' Paradise (Volume 2)"
     },
     {
       "album_key": "blp-1587",
@@ -801,7 +801,7 @@
       "title": "The 3 Sounds"
     }
   ],
-  "data_version": "v1-600a0d75b6401a40b2577301",
+  "data_version": "v1-f84f7fa5ca11265aec1c777b",
   "records": [
     {
       "album_titles": [
@@ -1481,6 +1481,19 @@
     },
     {
       "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "blp-1554",
+      "kind": "album",
+      "title": "Orgy in Rhythm, Volume One",
+      "url": "/bluenote/albums/blp-1554/"
+    },
+    {
+      "album_titles": [
         "Orgy in Rhythm, Volume Two"
       ],
       "artist": "Art Blakey",
@@ -1871,6 +1884,32 @@
     },
     {
       "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 1)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1585
+      ],
+      "key": "blp-1585",
+      "kind": "album",
+      "title": "Groovin' At Smalls' Paradise (Volume 1)",
+      "url": "/bluenote/albums/blp-1585/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 2)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1586
+      ],
+      "key": "blp-1586",
+      "kind": "album",
+      "title": "Groovin' At Smalls' Paradise (Volume 2)",
+      "url": "/bluenote/albums/blp-1586/"
+    },
+    {
+      "album_titles": [
         "Back On The Scene"
       ],
       "artist": "Bennie Green",
@@ -2222,10 +2261,12 @@
     },
     {
       "album_titles": [
+        "Orgy in Rhythm, Volume One",
         "Palo Congo"
       ],
-      "artist": "Sabu Martinez",
+      "artist": "Art Blakey · Sabu Martinez",
       "catalog_numbers": [
+        1554,
         1561
       ],
       "key": "musicians-242312ab6bfa1b21",
@@ -2337,7 +2378,9 @@
         "Jimmy Smith at the Organ, Volume 1",
         "Jimmy Smith at the Organ, Volume 2",
         "The Sounds Of Jimmy Smith",
-        "Plays Pretty Just For You"
+        "Plays Pretty Just For You",
+        "Groovin' At Smalls' Paradise (Volume 1)",
+        "Groovin' At Smalls' Paradise (Volume 2)"
       ],
       "artist": "Jimmy Smith",
       "catalog_numbers": [
@@ -2351,7 +2394,9 @@
         1551,
         1552,
         1556,
-        1563
+        1563,
+        1585,
+        1586
       ],
       "key": "musicians-64e77f47f1b2c613",
       "kind": "musician",
@@ -2490,6 +2535,7 @@
         "Volume 2",
         "A Night at Birdland, Vol. 1",
         "A Night at Birdland, Vol. 2",
+        "Orgy in Rhythm, Volume One",
         "Orgy in Rhythm, Volume Two"
       ],
       "artist": "Art Blakey · Miles Davis",
@@ -2498,6 +2544,7 @@
         1502,
         1521,
         1522,
+        1554,
         1555
       ],
       "key": "musicians-7f6d2da87fc7519e",
@@ -2835,6 +2882,166 @@
       "kind": "musician",
       "title": "Gil Mellé",
       "url": "/bluenote/musicians/musicians-fa0d468a126cd413/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-52",
+      "kind": "musician",
+      "title": "Jo Jones",
+      "url": "/bluenote/musicians/person-missing-lp-52/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-53",
+      "kind": "musician",
+      "title": "Art Taylor",
+      "url": "/bluenote/musicians/person-missing-lp-53/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-54",
+      "kind": "musician",
+      "title": "Charles “Specs” Wright",
+      "url": "/bluenote/musicians/person-missing-lp-54/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-55",
+      "kind": "musician",
+      "title": "Herbie Mann",
+      "url": "/bluenote/musicians/person-missing-lp-55/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-56",
+      "kind": "musician",
+      "title": "Ray Bryant",
+      "url": "/bluenote/musicians/person-missing-lp-56/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-57",
+      "kind": "musician",
+      "title": "Wendell Marshall",
+      "url": "/bluenote/musicians/person-missing-lp-57/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-58",
+      "kind": "musician",
+      "title": "Carlos “Patato” Valdés",
+      "url": "/bluenote/musicians/person-missing-lp-58/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-59",
+      "kind": "musician",
+      "title": "José Valiente",
+      "url": "/bluenote/musicians/person-missing-lp-59/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-60",
+      "kind": "musician",
+      "title": "Ubaldo Nieto",
+      "url": "/bluenote/musicians/person-missing-lp-60/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "person-missing-lp-61",
+      "kind": "musician",
+      "title": "Evilio Quintero",
+      "url": "/bluenote/musicians/person-missing-lp-61/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 1)",
+        "Groovin' At Smalls' Paradise (Volume 2)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1585,
+        1586
+      ],
+      "key": "person-missing-lp-62",
+      "kind": "musician",
+      "title": "Eddie McFadden",
+      "url": "/bluenote/musicians/person-missing-lp-62/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 1)",
+        "Groovin' At Smalls' Paradise (Volume 2)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1585,
+        1586
+      ],
+      "key": "person-missing-lp-63",
+      "kind": "musician",
+      "title": "Donald Bailey",
+      "url": "/bluenote/musicians/person-missing-lp-63/"
     },
     {
       "album_titles": [
@@ -6049,6 +6256,58 @@
     },
     {
       "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "track-blp-1554-a1",
+      "kind": "track",
+      "title": "Buhaina Chant",
+      "url": "/bluenote/tracks/track-blp-1554-a1/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "track-blp-1554-a2",
+      "kind": "track",
+      "title": "Ya Ya",
+      "url": "/bluenote/tracks/track-blp-1554-a2/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "track-blp-1554-b1",
+      "kind": "track",
+      "title": "Toffi",
+      "url": "/bluenote/tracks/track-blp-1554-b1/"
+    },
+    {
+      "album_titles": [
+        "Orgy in Rhythm, Volume One"
+      ],
+      "artist": "Art Blakey",
+      "catalog_numbers": [
+        1554
+      ],
+      "key": "track-blp-1554-b2",
+      "kind": "track",
+      "title": "Split Skins",
+      "url": "/bluenote/tracks/track-blp-1554-b2/"
+    },
+    {
+      "album_titles": [
         "Volume 2"
       ],
       "artist": "Sonny Rollins",
@@ -6917,6 +7176,123 @@
       "kind": "track",
       "title": "I Can't Get Started",
       "url": "/bluenote/tracks/track-blp-1581-b3/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 1)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1585
+      ],
+      "key": "track-blp-1585-a1",
+      "kind": "track",
+      "title": "After Hours",
+      "url": "/bluenote/tracks/track-blp-1585-a1/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 1)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1585
+      ],
+      "key": "track-blp-1585-a2",
+      "kind": "track",
+      "title": "My Funny Valentine",
+      "url": "/bluenote/tracks/track-blp-1585-a2/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 1)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1585
+      ],
+      "key": "track-blp-1585-b1",
+      "kind": "track",
+      "title": "Slightly Monkish",
+      "url": "/bluenote/tracks/track-blp-1585-b1/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 1)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1585
+      ],
+      "key": "track-blp-1585-b2",
+      "kind": "track",
+      "title": "Laura",
+      "url": "/bluenote/tracks/track-blp-1585-b2/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 2)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1586
+      ],
+      "key": "track-blp-1586-a1",
+      "kind": "track",
+      "title": "Imagination",
+      "url": "/bluenote/tracks/track-blp-1586-a1/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 2)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1586
+      ],
+      "key": "track-blp-1586-a2",
+      "kind": "track",
+      "title": "Just Friends",
+      "url": "/bluenote/tracks/track-blp-1586-a2/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 2)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1586
+      ],
+      "key": "track-blp-1586-a3",
+      "kind": "track",
+      "title": "Lover Man",
+      "url": "/bluenote/tracks/track-blp-1586-a3/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 2)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1586
+      ],
+      "key": "track-blp-1586-b1",
+      "kind": "track",
+      "title": "Body and Soul",
+      "url": "/bluenote/tracks/track-blp-1586-b1/"
+    },
+    {
+      "album_titles": [
+        "Groovin' At Smalls' Paradise (Volume 2)"
+      ],
+      "artist": "Jimmy Smith",
+      "catalog_numbers": [
+        1586
+      ],
+      "key": "track-blp-1586-b2",
+      "kind": "track",
+      "title": "Indiana",
+      "url": "/bluenote/tracks/track-blp-1586-b2/"
     },
     {
       "album_titles": [

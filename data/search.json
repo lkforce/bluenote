@@ -366,6 +366,13 @@
     },
     {
       "artist": "Art Blakey",
+      "key": "blp-1554",
+      "number": 1554,
+      "title": "Orgy in Rhythm, Volume One",
+      "url": "/bluenote/data/albums/blp-1554.json"
+    },
+    {
+      "artist": "Art Blakey",
       "key": "blp-1555",
       "number": 1555,
       "title": "Orgy in Rhythm, Volume Two",
@@ -573,6 +580,20 @@
       "number": 1584,
       "title": "Here Comes Louis Smith",
       "url": "/bluenote/data/albums/blp-1584.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1585",
+      "number": 1585,
+      "title": "Groovin' At Smalls' Paradise (Volume 1)",
+      "url": "/bluenote/data/albums/blp-1585.json"
+    },
+    {
+      "artist": "Jimmy Smith",
+      "key": "blp-1586",
+      "number": 1586,
+      "title": "Groovin' At Smalls' Paradise (Volume 2)",
+      "url": "/bluenote/data/albums/blp-1586.json"
     },
     {
       "artist": "Bennie Green",
